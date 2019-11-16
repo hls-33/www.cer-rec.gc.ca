@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* French CSS */
+.neb-apr span.text-french {
+  width: 100%;
+  float: left;
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.neb-apr .quote blockquote:before {
+  content: "«" !important;
+}
+
+.neb-apr .quote blockquote:after {
+  content: "»" !important;
+}
+
+.neb-apr .v7 span.text-french {
+  width: inherit;
+  font-size: 16px;
+  float: none;
+}
+
+.neb-apr .home-content.col-md-10 h1 {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 8% !important;
+}
+
+.neb-apr .home-content.col-md-10 h1 span {
+  margin-top: 20px;
+}
+
+.neb-apr .v5 span.text-french {
+  font-size: 20px;
+  text-transform: none;
+}

@@ -1,0 +1,291 @@
+@charset "utf-8";
+/*!
+ * Data Vizualization Landing Page
+ * author: Angelsea
+ * 
+ */
+
+/* foundation * * * * * * * * * * * * * * * * * * */
+
+body {
+}
+
+@font-face {
+  font-family: "firaextra";
+  src: url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.eot");
+  src: url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.woff2") format("woff2"),
+    url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.woff") format("woff"),
+    url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.ttf") format("truetype"),
+    url("/dv/ncld/FiraSansCondensed-ExtraBold-webfont.svg#fira_sans_condensedextrabold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.explorebuttons .btn {
+  margin: 0 10px 10px 0;
+}
+
+.explorebuttons .btn:active,
+.btn.is-checked {
+  background-color: #b3e0ff;
+}
+
+/* ---- explore buttons area ---- */
+
+.explorebuttons {
+  background: #2572b4;
+  padding: 25px 15px 15px;
+  margin: 35px 15px 0;
+  display: flex;
+}
+
+.explorebuttons p {
+  color: #fff;
+  font-weight: 300;
+  padding-right: 25px;
+  padding-left: 10px;
+}
+
+.explorebuttons p em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.explorebuttons .button-group {
+  margin: 5px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.explorebuttons .button-group button {
+  border: 0;
+  padding: 6px 20px;
+}
+
+/* On screens that are 990px or less, set the background color to olive */
+@media screen and (max-width: 990px) {
+  .explorebuttons .button-group {
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+/* On screens that are 500px or less, set the background color to olive */
+@media screen and (max-width: 500px) {
+  .explorebuttons .button-group {
+    display: block;
+  }
+  .explorebuttons .button-group .btn {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    padding: 3px 10px;
+  }
+}
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.filterable div {
+  border: 1px solid #dce5ee;
+  background-color: darkgray;
+}
+
+.filterable div a {
+  padding-right: 300px;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 270px;
+  height: 130px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+
+.element-item h2 {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding-left: 15px;
+
+  text-decoration: none;
+  color: #2572b4;
+  font-weight: bold;
+}
+
+.element-item a h2 {
+  text-decoration: none;
+  color: #2572b4;
+  font-weight: bold;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .description {
+  position: absolute;
+  left: 10px;
+  top: 55px;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.element-item.wide {
+  width: 550px;
+  height: 130px;
+}
+
+.element-item.wide h2 a {
+  font-size: 1em;
+  line-height: 1.4em;
+  text-decoration: none;
+  color: #2572b4;
+  font-weight: bold;
+}
+/* **/
+.element-item.explore.futures {
+  background: url(/dv/mg/nrgftr-btn.png) no-repeat top left;
+}
+.element-item.explore.incidents {
+  background: url(/dv/mg/pplnncdnt-btn.png) no-repeat top left;
+}
+.element-item.explore.projects {
+  background: url(/dv/mg/cndtn-btn.png) no-repeat top left;
+}
+.element-item.explore.importexport {
+  background: url(/dv/mg/mprtxprt-btn.png) no-repeat top left;
+}
+
+.element-item.research a,
+.element-item.learn a {
+  align-items: center !important;
+  text-align: left;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #2572b4;
+  font-weight: bold;
+}
+.element-item.learn {
+  background: url(/dv/mg/grn-btn.png) repeat-y top left;
+}
+.element-item.learn.teach {
+  background: url(/dv/mg/grn-btn.png) repeat-y top left;
+}
+.element-item.research {
+  background: url(/dv/mg/rng-btn.png) repeat-y top left;
+}
+
+/* end */
+/* ---- hero banner with html5 video background ---- */
+
+.heroviz {
+  position: relative;
+  min-height: 250px;
+  height: auto !important;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.heroviz video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+  /* bugfix for random border; estimated fix for Edge >44 which has CSS masking  */
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  mask-image: none;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.heroviz .text {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #5fbee6;
+  float: left;
+  width: 500px;
+  height: 160px;
+  padding-left: 15px;
+}
+
+.heroviz .text p {
+  font-size: 1.2em;
+  margin: 0 auto 15px;
+}
+
+.heroviz .text em {
+  font-style: normal;
+  font-weight: lighter;
+  display: block;
+}
+
+.heroviz .text h1 {
+  font-size: 2.3em;
+  margin-bottom: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.heroviz .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.2;
+  z-index: 1;
+}
+/* On screens that are 500px or less, set the background color to olive */
+@media screen and (max-width: 500px) {
+  .heroviz .text h1 {
+    font-size: 2em;
+    margin-bottom: 12px;
+  }
+
+  .element-item.wide {
+    width: 270px;
+    height: 130px;
+  }
+
+  .heroviz .text {
+    width: 250px;
+    height: inherit;
+  }
+}
