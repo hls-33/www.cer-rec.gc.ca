@@ -1,0 +1,1045 @@
+@charset "utf-8";
+/* IMPORTS for sub and area specific styles */
+@import "rpp.css";
+@import "clr.css";
+@import "prnt.css";
+
+.regulatory-snapshot-header-image {
+  background: url("/rsrccntr/rgltr/mg/rgltrsnpsht-hdr-eng.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dashboard-chart {
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.dashboard-thumbnail-chart {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+.dashboard-Preview-chart {
+  max-width: 265px;
+  max-height: 200px;
+}
+
+.margin-left-5 {
+  margin-left: 5px !important;
+}
+
+.display-flex {
+  display: flex !important;
+}
+
+.breadcrumb-link-color {
+  text-decoration: none;
+  color: #295376 !important;
+}
+
+.padding-left-5 {
+  padding-left: 5px !important;
+}
+
+.minus-10-left-margin {
+  margin-left: -10px !important;
+}
+
+.blue-hr-bgc {
+  background-color: #1c3d58 !important;
+}
+
+.dark-blue-sortable-hr-bgc {
+  background-color: #62788a !important;
+}
+
+.dark-blue-notsortable-hr-bgc {
+  background-color: #788ca6 !important;
+}
+
+.cva-sortable-hr-bgc {
+  background-color: #7a97cd !important;
+}
+
+.color-regular-link {
+  color: #0000ff !important;
+}
+
+.table-no-border {
+  border-width: 0 !important;
+  background-color: transparent !important;
+}
+
+.table-no-border td {
+  border-width: 0 !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+}
+
+.table-cell-30percent-width {
+  width: 33% !important;
+}
+
+/*media query for devices */
+@media only screen and (min-width: 768px) {
+  .info-graph-width {
+    width: 400px !important;
+  }
+
+  .table-dynamic-margin {
+    margin-bottom: 0 !important;
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+/*media query for desktop lesser than 960 px*/
+/*margin change change for bts icons CE 2016-04-06*/
+@media only screen and (min-width: 960px) {
+  .span-2-image-width {
+    width: 210px !important;
+  }
+
+  .info-graph-width {
+    width: 500px !important;
+  }
+
+  .table-dynamic-margin {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .span-2-image-width {
+    width: 260px !important;
+  }
+
+  .info-graph-width {
+    width: 600px !important;
+  }
+}
+
+.other-sortable-hr-bgc {
+  background-color: #c9945f !important;
+}
+
+.other-notsortable-hr-bgc {
+  background-color: #b59c8c !important;
+}
+
+table.dataTable tr.odd {
+  background-color: #fafafa !important;
+}
+
+table.dataTable tr.odd td.sorting_1 {
+  background-color: #f0f0f0 !important;
+}
+
+table.dataTable tr.even td.sorting_1 {
+  background-color: #f5f5f5 !important;
+}
+
+.vertical-align-middle {
+  vertical-align: middle !important;
+}
+
+.slideoutToggle {
+  opacity: 0.6 !important;
+}
+
+.padding-left-50 {
+  padding-left: 50px !important;
+}
+
+.color-black {
+  color: #000000 !important;
+}
+
+.fixed {
+  background: #cccccc;
+  padding-left: 50px;
+  width: 100%;
+  z-index: 1000 !important;
+}
+
+.tab-layout {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  padding-top: 7px !important;
+  padding-bottom: 4px !important;
+}
+
+.cell-highlight {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.ef-2016pt-landing-page-image {
+  height: 300px !important;
+  width: 300px !important;
+  background: url("/nrg/ntgrtd/ftr/2016pt/mg/flags.png");
+}
+
+.padding-left-docked {
+  padding-left: 41px !important;
+}
+
+.margin-top-tab-height {
+  margin-top: 35px !important;
+}
+
+#wb-main-in a:link,
+#wb-main-in a.ui-link:link,
+#wb-main-in a:visited,
+#wb-main-in a.ui-link:visited {
+  text-decoration: none;
+  color: #0000ff;
+}
+#wb-main-in a:hover,
+#wb-main-in a.ui-link:hover {
+  text-decoration: underline;
+}
+
+#wb-main-in a:focus,
+#wb-main-in a.ui-link:focus {
+  color: #636;
+}
+
+/*media query for desktop lesser than 960 px*/
+@media only screen and (max-width: 959px) {
+  #wb-main-in div.wet-boew-tabbedinterface a:link,
+  #wb-main-in div.wet-boew-tabbedinterface a:visited,
+  #wb-main-in div.ui-controlgroup-controls a:link,
+  #wb-main-in div.ui-controlgroup-controls a:visited,
+  #wb-main-in div.ui-controlgroup-controls a {
+    color: #ffffff !important;
+  }
+}
+
+/*media query for devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 959px) {
+  #wb-main-in div.wet-boew-tabbedinterface a:link,
+  #wb-main-in div.wet-boew-tabbedinterface a:visited,
+  #wb-main-in div.ui-controlgroup-controls a:link,
+  #wb-main-in div.ui-controlgroup-controls a:visited,
+  #wb-main-in div.ui-controlgroup-controls a {
+    color: #ffffff !important;
+  }
+}
+
+#wb-main-in ul li,
+#wb-main-in ol li {
+  padding-top: 5px;
+}
+
+#wb-main-in div.module-menu-section ul li,
+#wb-main-in ul.tabs li {
+  padding-top: 0px;
+}
+
+h3 {
+  border-bottom: solid 1px #ccc;
+}
+
+#wb-main table caption {
+  text-align: left;
+  border-bottom: 0px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+#wb-main table caption.border-none {
+  border-width: 0px;
+}
+#gcwu-bc-in li {
+  white-space: normal;
+  display: inline !important;
+  float: none;
+}
+.background-red {
+  background: #c00;
+  color: white !important;
+  text-shadow: 0 1px 1px #222;
+}
+.background-gray-light {
+  background: #fcfcfc;
+}
+.background-alert {
+  background: #c00;
+  background-image: -webkit-linear-gradient(#ff0000, #cd0407);
+  background-image: -moz-linear-gradient(#ff0000, #cd0407);
+  background-image: -o-linear-gradient(#ff0000, #cd0407);
+  background-image: linear-gradient(#ff0000, #cd0407);
+  color: white !important;
+  text-shadow: 0 1px 1px #222;
+}
+.feaheads,
+caption {
+  font-weight: bold;
+  background-color: #efefef !important;
+  border: 1px solid #cccccc !important;
+  padding: 5px;
+}
+caption.wb-invisible {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+#wb-main-in .clear {
+}
+.border-none,
+table.border-none th,
+table.border-none td {
+  border-width: 0px;
+}
+
+.image-center {
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+}
+.font-xxlarge {
+  line-height: 1.5em;
+}
+.image-right {
+  float: right;
+  vertical-align: text-top;
+  margin-left: 10px;
+}
+.image-left {
+  float: left;
+  vertical-align: text-top;
+  margin-right: 10px;
+}
+.imgblackborder,
+.border-black {
+  border: 1px solid #000000 !important;
+}
+.border-grey {
+  border: 1px solid #cccccc;
+}
+.border-grey-a {
+  border: 1px solid #aaaaaa;
+}
+.border-blue {
+  border: 1px solid #176ca7 !important;
+}
+.imgcenterblackborder,
+.img-centerBlackBorder {
+  border: 1px solid #000000;
+  margin: auto !important;
+  text-align: center;
+  display: block;
+}
+
+.image-leftBlackBorder {
+  float: left;
+  vertical-align: text-top;
+  border: 1px solid #000000;
+  margin: 0px 10px 3px 0px;
+}
+
+.image-leftBlackBorder01 {
+  float: left;
+  vertical-align: text-top;
+  border: 1px solid #000000;
+  margin: 0px 10px 10px 15px;
+}
+
+.image-rightBlackBorder {
+  float: right;
+  vertical-align: text-top;
+  border: 1px solid #000000;
+  margin: 0px 0px 3px 10px;
+}
+.newsdate {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.tableCellUnderline {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+.tableCellDoubleUnderline {
+  border-bottom-width: 3px;
+  border-bottom-style: double;
+  border-bottom-color: #999999;
+}
+.indentleft5 {
+  margin-left: 5%;
+}
+
+.indentleft10 {
+  margin-left: 10%;
+}
+
+.indentleft15 {
+  margin-left: 15%;
+}
+
+ul.list-padded li {
+  padding-bottom: 10px;
+}
+
+/* Colors */
+.bgYellowFEC057 {
+  background-color: #fec057;
+}
+/* Temporary Old Styles - for global search and replace */
+.indent1 {
+  padding-left: 18px;
+}
+.indent2 {
+  padding-left: 36px;
+}
+.alignBottomRight {
+  /* replace with align-bottom and align-right */
+  text-align: right;
+  vertical-align: bottom;
+}
+.alignBottom {
+  /* replace with align-bottom*/
+  vertical-align: bottom;
+}
+.block-center {
+  /* used to align block elements to the center as align-center does not work for these */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* default link behaviour - consistent with our original site - imported from neb.css, institution.css */
+/*a:link{text-decoration:none; color:#00F;}
+a:hover{text-decoration:underline;}
+a:visited{text-decoration:none; color:#636;}
+a:focus{color:#636;}*/
+
+/********** Presentation styles **********/
+div.pres-basic {
+  display: block;
+  background: repeat-y; /*url(/clf-nsi/rpblctn/spchsndprsnttn/mg/backg.jpg);*/
+  color: #fff;
+  background-color: #036;
+}
+div.pres18 {
+  display: block;
+  background: repeat-y url(/bts/nws/spch/mg/backg.jpg);
+  color: #fff;
+  background-color: #009;
+}
+div.presfooter-eng {
+  background-image: url(/bts/nws/spch/mg/footer1-eng.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 60px;
+  clear: both;
+}
+div.presfooter-fra {
+  background-image: url(/bts/nws/spch/mg/footer1-fra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 60px;
+  clear: both;
+}
+div.presentation h2 {
+  padding: 8px 5px 0 15px;
+  border-bottom: 3px double #fff;
+  margin-bottom: 25px;
+  color: #fff !important;
+}
+div.presentation p {
+  padding: 0 20px 0 30px;
+  margin: 0 0 0 8px;
+}
+div.presentation img {
+  margin: 4px 10px 5px 12px;
+  border: 1px #fff solid;
+}
+div.presentation img.margin-none {
+  margin: 0;
+}
+div.presentation img.padding-none {
+  padding: 0;
+}
+div.presentation img.image-right {
+  margin-right: 20px;
+}
+div.presentation img.image-left {
+  margin-left: 20px;
+}
+div.presentation img.border-none {
+  border: none;
+}
+div.presentation td.padding-none {
+  padding: 0;
+}
+div.presentation td.padding-bottom-large {
+  padding-bottom: 20px;
+}
+div.presentation td.align-bottom {
+  vertical-align: bottom;
+}
+div.presentation ul {
+  padding: 0 20px 0 20px;
+  margin: 0 0px 2px 30px;
+}
+div.presentation ol {
+  padding: 0 20px 0 20px;
+  margin: 0 0px 2px 30px;
+}
+/*div.presentation ul li{margin:0 0px 2px 0px;padding:0 0px 2px 14px;}
+*/
+div.presentation a {
+  color: #ccc !important;
+  text-decoration: underline;
+}
+/********** End presentation styles **********/
+
+/*** suppress the icky focus border on the collapsible summary ***/
+summary:focus {
+  outline: none;
+}
+
+.inline {
+  display: inline-block;
+}
+/* styles for home page */
+div#tour h2,
+div#major-apps h2,
+div#priorities h2,
+div#connected h2,
+div#whats-new h2,
+div#quick-links h2,
+div#regulatory h2 {
+  /*background: url("/glbl/mg/heading-decor.gif") no-repeat scroll left top #555555;*/
+  background: url("/glbl/mg/heading-decor-blk.gif") no-repeat scroll left top
+    #006699;
+  color: #ffffff !important;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 0 0 !important;
+  padding: 3px 3px 3px 25px !important;
+}
+
+div#connected li {
+  padding-top: 0px;
+}
+
+/** imported from clr.css */
+.bgGreen002603 {
+  background-color: #002603;
+}
+.bgGreen339A65 {
+  background-color: #339a65;
+}
+.bgGreen629081 {
+  background-color: #629081;
+}
+.bgGreen669966 {
+  background-color: #669966;
+}
+.bgGreen7A8679 {
+  background-color: #7a8679;
+}
+.bgGreen99CC99 {
+  background-color: #99cc99;
+}
+.bgGreen99CC33 {
+  background-color: #99cc33;
+}
+.bgGreenA0B299 {
+  background-color: #a0b299;
+}
+.bgGreenC6E09B {
+  background-color: #c6e09b;
+}
+.bgGreenCCFFCC {
+  background-color: #ccffcc;
+}
+.bgGreenCCFF99 {
+  background-color: #ccff99;
+}
+.bgGreenEAF1DD {
+  background-color: #eaf1dd;
+}
+/* end - imported from clr.css **/
+.bgGrey91919D {
+  background-color: #91919d;
+}
+
+.white,
+.color-white {
+  color: #fff;
+}
+.fgGreen008000 {
+  color: #008000;
+}
+.strongtxt,
+.font-strong {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
+.font-xxxlarge {
+  font-size: 230% !important;
+  line-height: 1.5;
+}
+.standardfootnote {
+  font-size: 75%;
+}
+
+/********** Crossings Image **********/
+div.crossings {
+  background: url(/sftnvrnmnt/dmgprvntn/mg/crssngs/mnshknghndstrctr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#crossings-text {
+  padding-top: 5px;
+  padding-left: 140px;
+  padding-bottom: 205px;
+  font-weight: bold;
+}
+.table-align-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.div-table {
+  display: table;
+}
+/********** End Crossings Image **********/
+
+.width-95 {
+  width: 95% !important;
+}
+.width-15 {
+  width: 15% !important;
+}
+.padding-none {
+  padding: 0;
+}
+.padding-tiny {
+  padding: 3px;
+}
+.padding-small {
+  padding: 10px;
+}
+.padding-medium {
+  padding: 15px;
+}
+.padding-left-none {
+  padding-left: 0 !important;
+}
+.padding-bottom-none {
+  padding-bottom: 0 !important;
+}
+.padding-bottom-small {
+  padding-bottom: 3px !important;
+}
+
+.padding-bottom-medium {
+  padding-bottom: 10px !important;
+}
+
+.padding-top-none {
+  padding-top: 0 !important;
+}
+.margin-tiny {
+  margin: 3px;
+}
+.border-bottom-none {
+  border-bottom: none !important;
+}
+/* The following classes are used in Annual Report (http://dweb3/clf-nsi/rpblctn/rprt/nnlrprt/2013/nnlrprt2013-eng.html & French).
+	These are transfered here to keep same design of live website before migration.
+	These need to be removed and the applier pages need to be redesigned
+	
+	Start of Annual Report classes
+*/
+.h2size,
+.fontsize150 {
+  font-size: 150%;
+}
+.h3size {
+  font-size: 140%;
+}
+.h4size {
+  font-size: 130%;
+}
+/*	End of Annual Report classes */
+.margined {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+.footerline {
+  background-color: #336;
+  height: 15px;
+  min-height: 0.9375em;
+  margin-bottom: 7px;
+}
+
+/*Customizing Table of Contents Module from WET*/
+.module-table-contents ul li {
+  border-top: 1px dotted #d4d4d4;
+}
+.module-table-contents ul li:first-child {
+  border-top: 0;
+}
+.module-table-contents ul {
+  padding: 0px 0px 0px 0px;
+}
+
+/*whats new sections show and hide classes */
+div#whats-new li.whatsnewhide {
+  visibility: hidden;
+  display: none;
+}
+div#safety-environment li,
+div#energy-stats li,
+div#energy-reports li {
+  visibility: hidden;
+  display: none;
+}
+div#safety-environment li.safenvshow,
+div#energy-stats li.statshow,
+div#energy-reports li.reportshow {
+  visibility: visible;
+  display: list-item;
+  padding-top: 0px;
+}
+div#energy-stats ul,
+div#energy-reports ul {
+  margin-left: 15px;
+}
+div.energy-latest ul {
+  margin-left: 15px;
+}
+div#major-app h2 {
+  color: #145e91;
+  border-bottom: solid 1px #cccccc;
+}
+div#major-app h3 {
+  border-bottom: none 0px #ffffff;
+}
+/*ensure h4 in hover menu has pointer display for hyperlinks*/
+.mb-menu a {
+  cursor: pointer !important;
+}
+.mb-menu a span.sublink {
+  cursor: default;
+}
+
+.icon-main span {
+  font-weight: bold;
+  color: #555555;
+}
+
+.nav-link-large span {
+  font-weight: bold;
+  font-size: 14px !important;
+  color: #555555;
+}
+
+.nav-link-reg span {
+  font-weight: bold;
+  font-size: 11px !important;
+  color: #555555;
+}
+
+/*Color change for main banner CE 2016-04-06*/
+.tabs-style-2 .tabs-panel,
+.tabs-style-2 .ui-collapsible-content {
+  background: #586a77;
+}
+/*media query for devices */
+@media only screen and (min-device-width: 320px) {
+  .page-header-on-image-absolute-right {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    position: relative !important;
+    top: 10px;
+    right: 10px;
+    color: rgba(0, 0, 0, 1) !important;
+    line-height: normal;
+  }
+}
+
+/*media query for desktop lesser than 960 px*/
+/*margin change change for bts icons CE 2016-04-06*/
+
+@media only screen and (min-width: 500px) {
+  .page-header-on-image-absolute-right {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 40px;
+    right: 10px;
+    color: rgba(255, 255, 255, 1) !important;
+  }
+  .tabs-panel-height {
+    min-height: 150px !important;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .image-icon {
+    display: inline !important;
+    margin-bottom: 0 !important;
+    margin-right: 5px !important;
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  .image-icon-container {
+    padding-left: 0px !important;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .actsAndRegulations-image {
+    background: url("/glbl/mg/acts-main-24.png");
+  }
+
+  .resourceCentre-image {
+    background: url("/glbl/mg/resource-main-24.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .mediaMain-image {
+    background: url("/glbl/mg/media-main-24.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .reportsMain-image {
+    background: url("/glbl/mg/reports-main-24.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .careersMain-image {
+    background: url("/glbl/mg/careers-main-24.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .icon-main {
+    max-width: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-content: center;
+    text-align: left;
+    display: inline;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .icon-landing-page {
+    margin-right: 10px;
+    align-content: center;
+    vertical-align: central;
+    text-align: left;
+    display: inherit;
+  }
+  .icon-landing-page span {
+    align-content: center !important;
+    font-weight: bold;
+    color: #555555;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .align-home {
+    margin-left: 5px !important;
+    margin-right: auto !important;
+  }
+}
+
+/*margin change change for bts icons CE 2016-04-06*/
+@media only screen and (min-width: 768px) {
+  .page-header-on-image-absolute-right {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 50px;
+    right: 50px;
+  }
+  .tabs-panel-height {
+    min-height: 210px !important;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .icon-landing-page {
+    margin-right: 10px;
+    text-align: left;
+    display: inline-block;
+  }
+  .icon-landing-page span {
+    margin-top: 30px !important;
+    align-content: center !important;
+    font-weight: bold;
+    color: #555555;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .image-icon {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .image-icon-container {
+    padding-left: 10px !important;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .actsAndRegulations-image {
+    background: url("/glbl/mg/acts-main.png");
+  }
+
+  .resourceCentre-image {
+    background: url("/glbl/mg/resource-main.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .mediaMain-image {
+    background: url("/glbl/mg/media-main.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .reportsMain-image {
+    background: url("/glbl/mg/reports-main.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .careersMain-image {
+    background: url("/glbl/mg/careers-main.png");
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .icon-main {
+    max-width: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-content: center;
+    text-align: center;
+    display: block;
+  }
+
+  /*margin change change for bts icons CE 2016-04-06*/
+  .align-home {
+    text-align: center !important;
+  }
+
+  .vd-margin-bottom {
+    margin-bottom: 0px !important;
+  }
+}
+
+/*margin change change for bts icons CE 2016-04-06*/
+@media only screen and (min-width: 960px) {
+  .page-header-on-image-absolute-right {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 40px;
+    right: 20px;
+  }
+
+  .image-icon-container {
+    padding-left: 20px !important;
+  }
+
+  .vd-margin-bottom {
+    margin-bottom: 40px !important;
+  }
+}
+
+/*media query for desktop lesser than 1200 px*/
+/*margin change change for bts icons CE 2016-04-06*/
+@media only screen and (min-width: 1200px) {
+  .page-header-on-image-absolute-right {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 55px;
+    right: 50px;
+  }
+  .tabs-panel-height {
+    height: 270px !important;
+  }
+
+  /*margin change change for bts icons CE 2016-04-08*/
+  .image-icon-container {
+    padding-left: 30px !important;
+  }
+
+  .vd-margin-bottom {
+    margin-bottom: 20px !important;
+  }
+}
+
+div#whats-new.module-related {
+  background: #f8f8f8;
+}
+
+/*What's new layout change CE 2016-04-12*/
+.wnitem {
+  background: #ffffff;
+  vertical-align: top;
+  margin-right: 10px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-bottom: none !important;
+}
+
+/*What's new layout change CE 2016-04-12*/
+.wmnest {
+  margin-bottom: none !important;
+  margin-left: 0 !important;
+}
+
+.wmnest span {
+  vertical-align: top;
+  font-weight: bold;
+  color: #555555;
+}
+
+.wmitem hr,
+wmnest hr {
+  clear: both;
+  display: block;
+  visibility: hidden !important;
+}
+
+.wmnest ul {
+  border: none;
+  background-color: #fff;
+}
+
+/*hyperlink color change CE 2016-04-12*/
+.HyperlinkColor {
+  color: #555555 !important;
+  font-weight: normal !important;
+}
+
+.rmitem img {
+  vertical-align: middle;
+}
+
+.rmitem span {
+  font-weight: bold;
+  color: #555;
+  vertical-align: middle;
+}
+
+/* Grid column for Energy Futures 2016 - GM 2/2/2016 */
+.GridColumn {
+  background: #eee;
+  text-align: center;
+  font-weight: bold;
+}

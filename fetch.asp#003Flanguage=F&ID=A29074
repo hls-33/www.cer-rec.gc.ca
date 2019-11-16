@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+    <title>Canada Energy Regulator  - REGDOCS - Welcome to REGDOCS</title>
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+<meta name="description" content="CER Regulatory Document Index / Index des documents de réglementation">
+<meta name="dcterms.title" content="Canada Energy Regulator  - REGDOCS - Welcome to REGDOCS">
+<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu">
+<meta name="dcterms.issued" title="W3CDTF" content="Date published (2016-12-23) / Date de publication (2016-12-23)">
+<meta name="dcterms.modified" title="W3CDTF" content="Date modified (2017-03-23) / Date de modification (2017-03-23)">
+<meta name="dcterms.subject" title="scheme" content="French subject terms / Termes de sujet en français">
+<meta name="dcterms.language" title="ISO639-2" content="eng">
+<!-- Meta data-->
+<link href="/REGDOCS/Content/themes/base/jquery-ui.css" rel="stylesheet"/>
+<link href="/REGDOCS/Content/App/Site-1.0.min.css" rel="stylesheet"/>
+<link href="/REGDOCS/Content/css/select2.min.css" rel="stylesheet"/>
+
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<script src="/Templates/wet4-gcwu/js/jquery/1.11.1/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
+<script src="/Templates/wet4-gcwu/js/jquery/1.11.1/jquery.min.js"></script>
+<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript>
+    <link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" />
+</noscript>
+<script src="/REGDOCS/Scripts/jquery-ui-1.11.4.min.js"></script>
+
+
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-M96XHH');</script>
+    <!-- End Google Tag Manager -->
+
+    <section data-ajax-append="/Templates/wet4-gcwu/includes/page-sections/skip-to-menu-eng.html">
+    </section>
+    <header role="banner">
+        <div id="wb-bnr">
+            <input type="hidden" id="hiddenSwitchLanguage" value="/REGDOCS/Accueil/Index/"/>
+
+<section id="top-menu-lang" class="section-ajax" data-ajax-append="/Templates/wet4-gcwu/includes/page-sections/app-top-eng.html">
+
+</section>
+
+            <div class="container">
+                <div class="row">
+                    <div id="wb-sttl" class="col-md-5">
+                        <span><a href="/REGDOCS/">Canada Energy Regulator 
+                                      <br />
+                            REGDOCS
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section-ajax" data-ajax-append="/Templates/wet4-gcwu/includes/page-sections/app-navigation-eng.html">
+
+</section>
+        <nav role="navigation" id="wb-bc" property="breadcrumb">
+    <h2>Breadcrumb trail</h2>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                            <li><a class="link-wait" href="/REGDOCS/Home/Cer">CER Home</a></li>
+                        <li>REGDOCS Home</li>
+
+            </ol>
+        </div>
+    </div>
+</nav>
+
+    </header>
+    <main role="main" property="mainContentOfPage" class="container">
+            
+<input type="hidden" id="hiddenSearchText" value="Search"/>
+<input type="hidden" id="hiddenShowMoreText" value="Show All"/>
+<input type="hidden" id="hiddenFavouritesLink" value="/REGDOCS/Home/Favorites"/>
+<input type="hidden" id="hiddenRemoveAllFavourites" value="Remove All Favourites"/>
+<input type="hidden" id="hiddenMyFavourites" value="My Favourites"/>
+<input type="hidden" id="hiddenRemoveAllFavouritesConfirm" value="Are you sure that you want to remove all favourites?"/>
+<input type="hidden" id="hiddenRemoveFavouriteConfirm" value="Do you really want to delete this favourite item?"/>
+<input type="hidden" id="hiddenDocumentDownloadBody" value="Document &#39;[filename]&#39; is being prepared for download. This could take from few seconds to few minutes. Please be patient."/>
+<input type="hidden" id="hiddenSearchNodesUrl" value="/REGDOCS/Home/SearchNodes"/>
+<input type="hidden" id="hiddenViewUrl" value="/REGDOCS/Item/View"/>
+<input type="hidden" id="hiddenSearchProjectUrl" value="/REGDOCS/Search/Projects"/>
+<input type="hidden" id="hiddenSearchCompaniesUrl" value="/REGDOCS/Search/Companies"/>
+<input type="hidden" id="hiddenSearchIndexUrl" value="/REGDOCS/Search"/>
+<input type="hidden" id="add-to-favorites-success" value="Page successfully added to My Favorites."/>
+<input type="hidden" id="hiddenLinkCopiedText" value="URL has been copied to the clipboard."/>
+
+
+            <section id="favorite-name" class="wb-overlay modal-content overlay-def wb-popup-mid modal-smaller">
+    <header class="modal-header">
+        <h2 class="modal-title">Add To Favourites</h2>
+    </header>
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="text-favorite-name"  class="required"><span class="field-name">Name</span><strong class="required">(required)</strong></label>
+            <input id="text-favorite-name" type="text" class="form-control width-100" required="required"/>
+            <span class="hide error" id="favorite-name-required-message">Please enter the name for your favorite item.</span>
+            <span class="hide error" id="favorite-name-max-number-message">Maximum number of Favourites is 50.</span>
+            <span class="hide error" id="favorite-name-added-already-message">Favorite item already added.</span>
+        </div>
+        <div class="text-right">
+            <button class="btn btn-default btn-success" type="submit" onclick="SaveToFavorite()"><span class="fa fa-save"></span>Save</button>
+            <button class="btn btn-default" type="button" onclick='$("#favorite-name").trigger("close.wb-overlay"); return true;'>Cancel</button>
+        </div>
+    </div>
+    <input type="hidden" id="favorite-name-data-id"/>
+    <input type="hidden" id="favorite-name-url"/>
+</section>
+            
+<section id="centred-popup-modal-feedback" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header">
+        <h1 class="modal-title">Feedback</h1>
+    </header>
+    <div class="modal-body">
+        <form id="feedbackForm">
+            <div class="mrgn-lft-md mrgn-rght-md">
+                <div class="small text-muted mrgn-bttm-md">Before you go, will you tell us what you think of the new REGDOCS by completing a short feedback form?</div>
+                <div class="form-group">
+                    <label for="fieldRating">
+                        <span>How would you rate your experience using REGDOCS?</span>
+                    </label>
+                    <div>
+                        <fieldset class="rating" id="fieldRating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="5"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="4"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="3"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="2"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="1"></label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="selectedCategory">Which category of information were you looking for?</label>
+                    <select id="selectedCategory" name="selectedCategory" class="form-control">
+                        <option value="">Choose</option>
+                        <option>Specific Project Information</option>
+                        <option>Recent Filings / Inbox</option>
+                        <option>Active Hearings</option>
+                        <option>Recent Decisions and CER Reports</option>
+                        <option>CER Reports</option>
+                        <option>Applications submitted by regulated companies</option>
+                        <option>Specific Application Types (e.g. Section 52 Facilities)</option>
+                        <option>Documents submitted by Hearing Participants</option>
+                        <option>Environmental Studies</option>
+                        <option>Emergency Response Plans</option>
+                        <option>Conditions</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="field-name" for="topics">What topics were you looking for?</label>
+                    <textarea id="topics" name="topics" class="form-control width-100" data-rule-maxWords="200"></textarea>
+                    <span class="text-muted small">Please enter up to 200 words.</span>
+                </div>
+                <div class="form-group">
+                    <label for="foundInformation" class="required">Did you find the information you were looking for?</label><strong class="required">(required)</strong>
+                    <span class="hide" style="color: #d3080c;" id="evalPromptFindInformation">This field is required.</span>
+                    <div class="radio">
+                        <label for="informationYesEasy" title="Yes, easily"><input type="radio" id="informationYesEasy" name="foundInformation" value="Yes, easily" required="required" />Yes, easily</label>
+                    </div>
+                    <div class="radio">
+                        <label for="informationYesEventually" title="Yes, eventually"><input type="radio" id="informationYesEventually" name="foundInformation" value="Yes, eventually" required="required" />Yes, eventually</label></div>
+                    <div class="radio">
+                        <label for="informationNo" title="No"><input type="radio" id="informationNo" name="foundInformation" value="No" required="required" />No</label></div>
+                </div>
+                <div class="form-group">
+                    <label for="helpTools" class="required">Did you use any of the <a href="http://www.cer-rec.gc.ca/pplctnflng/rgltrdcmnt/rdhlp-eng.html" target="_blank">Help tools</a>?</label><strong class="required">(required)</strong>
+                    <span class="hide" style="color: #d3080c;" id="evalPromptHelpTools">This field is required.</span>
+                    <div class="radio">
+                        <label for="helpYes" title="Yes"><input type="radio" id="helpYes" name="helpTools" value="Yes" required="required" />Yes</label>
+                    </div>
+                    <div class="radio">
+                        <label for="helpNo" title="No"><input type="radio" id="helpNo" name="helpTools" value="No" required="required" />No</label></div>
+                </div>
+                <div class="form-group">
+                    <label class="field-name" for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" class="form-control width-100" data-rule-maxWords="200"></textarea>
+                    <span class="text-muted small">Please enter up to 200 words.</span>
+                </div>
+                <div class="form-group">
+                    <label class="field-name" for="submitterEmail">May we contact you if we have questions about your feedback? If so, please provide your email address below:</label>
+                    <span class="hide" style="color: #d3080c;" id="evalPromptEmail">Please enter a valid email address.</span>
+                    <input type="email" name="submitterEmail" id="submitterEmail" class="form-control width-100" />
+                </div>
+                <div class="small text-muted mrgn-bttm-md"><div class="small">Provision of the information requested on this form is voluntary. The information is being collected to provide additional information requested by you and assists us in improving our Internet suite of products and services. Personal information that you provide is protected under the provisions of the <a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/index.html " target="_blank">Privacy Act</a>. The Act provides you with a right of access to your information.</div></div>
+                <div class="text-center">
+                    <button id="btn-feedback-snd" class="btn btn-primary popup-modal-dismiss" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;Send Feedback</button>
+                    <button class="btn btn-default popup-modal-dismiss" type="button">Cancel</button>
+                </div>
+                <input id="centred-popup-modal-feedback-url" type="hidden" value="/REGDOCS/Help/Feedback"/>
+                <input id="centred-popup-modal-feedback-success" type="hidden" value="Your feedback is successfully submitted and will be reviewed."/>
+                <input id="centred-popup-modal-feedback-failed" type="hidden" value="There was an error while submitting your feedback. Please try again later."/>
+
+            </div>
+        </form>
+    </div>
+</section>
+            
+
+
+
+<h1 class="mrgn-tp-sm" id="page-title">Welcome to REGDOCS</h1>
+<div class="mrgn-tp-md">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="jumbotron padding-small brdr-lft brdr-rght brdr-tp brdr-bttm  mrgn-bttm-md ">
+                <form action="/REGDOCS/Home/GeneralSearch" method="post"><input name="__RequestVerificationToken" type="hidden" value="0EQXcjF71_craKCo31bn1_1Cbj4iX-rweAy1SRYTfTWZ1FwQLCqjKjHAbERIUhwb2ODk3jyaHpW1Nf0O-oTSiUxouaJxEVZwI5CjTIZKBes1" />    <div class="row mrgn-lft-sm mrgn-rght-sm">
+        <label for="Text">Search by Keyword(s):</label>
+        <div class="input-group">
+            <input autocomplete="off" class="form-control" data-val="true" data-val-maxlength="Maximum 250 characters allowed." data-val-maxlength-max="250" data-val-minlength="Please enter at least 3 characters." data-val-minlength-min="3" data-val-required="Please enter search text" id="Text" name="Text" placeholder="Type the keyword you are searching for here" type="text" value="" />
+            <span class="input-group-btn"><button class="btn btn-primary nowrap" type="submit" id="btnSearch"><i class="fa fa-search"></i>&nbsp;Search</button></span>
+        </div>
+    </div>
+<span class="field-validation-valid" data-valmsg-for="Text" data-valmsg-replace="true"></span>    <div class="text-right mrgn-tp-sm mrgn-rght-sm"  title="Check this box if you do not want to see Receipts in your search results">
+        <input data-val="true" data-val-required="The Exclude Receipts field is required." id="ExcludeReceipts" name="ExcludeReceipts" type="checkbox" value="true" /><input name="ExcludeReceipts" type="hidden" value="false" />
+        <label class="form-checkbox" for="ExcludeReceipts">Exclude Receipts</label>
+    </div>
+</form>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="jumbotron padding-small brdr-lft brdr-rght brdr-tp brdr-bttm mrgn-bttm-0">
+                <form action="/REGDOCS/Home/FilingSearch" method="post"><input name="__RequestVerificationToken" type="hidden" value="4W2T-FlXlyR7IKRJuIVJfEpKkp14CR3SaQ53h3snoMhbI_RQkaIR-OpkY0KQwB0uWObcRMkzj_OlRJfKQpMvpl3TDYtS55qvBt_2H2TbiM01" />    <div>
+        <label for="DocumentNumber">Search by Document Number</label>
+        <div class="input-group">
+            <input class="form-control" data-val="true" data-val-regex="Please enter Filing Id as A12345 or Document Number as A12345-1 or A1A1A1" data-val-regex-pattern="(^|, )(([A-Za-z]\d{5})|([A-Za-z]\d{5}[-][0-9]+)|([A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d))$" data-val-required="Please enter Document Number" id="DocumentNumber" name="DocumentNumber" type="text" value="" />
+            <span class="input-group-btn"><button class="btn btn-primary nowrap" type="submit" id="btnFilingID">Go</button></span>
+        </div>
+    </div>
+<span class="field-validation-valid" data-valmsg-for="DocumentNumber" data-valmsg-replace="true"></span>    <div class="small"><span class="small text-info">Examples: A12345, A12345-9, A1A1A1</span></div>
+</form>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="row mrgn-tp-sm">
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Search/RecentFilings?p=1" class="link-wait" title="Filings by Date with Project, Submitter and Role information."><img class="tile" src="/REGDOCS/Images/Recent Filings.png" /><br />Recent Filings / Inbox</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Search/RecentDecisions?p=4" class="link-wait" title="CER Decisions and Reports by Date"><img class="tile" src="/REGDOCS/Images/Recent Decisions.png" /><br />Recent Decisions and CER Reports</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Item/View/11417" class="link-wait" title="Links to Active Hearings and Other Projects"><img class="tile" src="/REGDOCS/Images/Active Hearings.png" /><br />Active Hearings</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Home/Favorites" class="link-wait" title="Access Your Saved Items"><img class="tile" src="/REGDOCS/Images/My Favourites.png" /><br />My Favourites</a></div>
+            <div class="col-md-2 text-center small"><a href="http://www.cer-rec.gc.ca/pplctnflng/rgltrdcmnt/rdhlp-eng.html" target="_blank" title="Links to Help Tools"><img class="tile" src="/REGDOCS/Images/Help Tools.png" /><br />Help Tools</a></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row mrgn-tp-sm">
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Search/Projects" class="link-wait" title="Search or Browse Projects by Project Name"><img class="tile" src="/REGDOCS/Images/Find a Project.png" /><br />Find a Project</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Search/Companies" class="link-wait" title="Search or Browse Companies by Company Name"><img class="tile" src="/REGDOCS/Images/Find a Company.png" /><br />Find a Company</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Search/Advanced" class="link-wait" title="Access Advanced Search Features and Common Searches"><img class="tile" src="/REGDOCS/Images/Advanced Search.png" /><br />Advanced Search</a></div>
+            <div class="col-md-2 text-center small"><a href="/REGDOCS/Home/BrowseByCategory?p=1" class="link-wait" title="Find Information by Categories"><img class="tile" src="/REGDOCS/Images/Browse by Category.png" /><br />Browse By Category</a></div>
+            <div class="col-md-4"></div>
+        </div>
+    </section>
+    <section class="section-ajax  mrgn-tp-md small" data-ajax-replace="/REGDOCS/Home/Legacy">
+        <i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
+    </section>
+</div>
+
+
+
+            <div class="small text-disclaimer text-info"><span class="small"><span class="small"><span class="small">Some of the material on this site originates with organizations not subject to the Official Languages Act and is available in the language in which it was written.<br/>Certains des textes sur ce site proviennent d'organismes qui ne sont pas assujettis à la Loi sur les langues officielles et ils sont disponibles dans la langue d'origine.</span></span></span></div>
+<div class="row footer-regdocs padding-small">
+    <div class="col-md-3 small text-center"><a href="/REGDOCS/Search/Advanced">Advanced Search</a></div>
+    <div class="col-md-3 small text-center"><a href="/REGDOCS/Home/Favorites">My Favourites</a></div>
+    <div class="col-md-3 small text-center"><a href="#centred-popup-modal-feedback" aria-controls="centred-popup-modal-feedback" class = "wb-lbx lbx-modal">Feedback</a></div>
+    <div class="col-md-3 small text-center"><a href="http://www.cer-rec.gc.ca/pplctnflng/rgltrdcmnt/rdhlp-eng.html" target="_blank">Help Tools</a></div>
+</div>
+            
+<div id="loading">
+    <div id="loadingcontent">
+        <p id="loadingspinner">
+            <i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+        </p>
+    </div>
+</div>
+        </main>
+    <section data-ajax-append="/Templates/wet4-gcwu/includes/page-sections/footer-eng.html">
+
+</section>
+
+    <!--[if gte IE 9 | !IE ]><!-->
+    <script src="/Templates/wet4-gcwu/js/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+            <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+
+        <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+
+    <script src="/REGDOCS/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.validate.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/jquery.inputmask.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.extensions.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.date.extensions.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.numeric.extensions.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.phone.extensions.min.js"></script>
+<script src="/REGDOCS/Scripts/jquery.inputmask/inputmask.regex.extensions.min.js"></script>
+<script src="/REGDOCS/Scripts/select2.min.js"></script>
+<script src="/REGDOCS/Scripts/Site-1.0.min.js"></script>
+
+
+        <!-- ERSScriptsStart -->
+
+    <script src="/REGDOCS/Scripts/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
+    <script src="/REGDOCS/Scripts/Home.Index.min.js" type="text/javascript"></script> 
+        <!-- ERSScriptsEnd -->
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(".validation-summary-errors li:visible").length === 0) {
+                $(".validation-summary-errors").hide();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head><meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.com/wet-boew/License-eng.txt / wet-boew.github.com/wet-boew/Licence-fra.txt -->
+<meta name="description" content="Travel and Hospitality / Frais de voyage et d&#39;accueil" /><meta name="dcterms.creator" content="Government of Canada, National Energy Board / Gouvernement du Canada, Office national de l&#39;énergie" /><meta name="dcterms.title" content="NEB - Transparency - Travel and Hospitality / ONÉ - Transparence - Frais de voyage et d&#39;accueil " /><meta name="dcterms.issued" title="W3CDTF" content="Date published (2007-03-22) / Date de publication (2007-03-22)" /><meta name="dcterms.modified" title="W3CDTF" content="Date modified (2013-04-01) / Date de modification (2013-04-01)" /><meta name="dcterms.subject" title="gccore" content="Accountability / Imputabilité" /><!--[if lte IE 8]>
+<link rel="shortcut icon" href="/Templates/wet/dist/theme-gcwu-fegc/images/favicon.ico" />
+<script src="/Templates/wet/dist/js/jquery-ie.min.js"></script>
+<script src="/Templates/wet/dist/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="/Templates/wet/dist/grids/css/util-ie-min.css" />
+<link rel="stylesheet" href="/Templates/wet/dist/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="/Templates/wet/dist/theme-gcwu-fegc/css/theme-ie-min.css" />
+<noscript><link rel="stylesheet" href="/Templates/wet/dist/theme-gcwu-fegc/css/theme-ns-ie-min.css" /></noscript>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="icon" type="image/x-icon" href="/Templates/wet/dist/theme-gcwu-fegc/images/favicon.ico" />
+<script src="/Templates/wet/dist/js/jquery.min.js"></script>
+<link rel="stylesheet" href="/Templates/wet/dist/grids/css/util-min.css" />
+<link rel="stylesheet" href="/Templates/wet/dist/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="/Templates/wet/dist/theme-gcwu-fegc/css/theme-min.css" />
+<noscript><link rel="stylesheet" href="/Templates/wet/dist/theme-gcwu-fegc/css/theme-ns-min.css" /></noscript>
+<!--<![endif]-->
+
+<link rel="stylesheet" href="/Templates/webincludes/css/neb-one.css" />
+<!--[if IE]>
+	<link rel="stylesheet" href="/Templates/webincludes/css/ie.css" />
+<![endif]-->
+    <!-- CustomScriptsCSSStart -->
+
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed --> <title>
+	NEB - Proactive Disclosure - Travel and Hospitality Expense Reports
+</title></head>
+<body>
+   
+   
+   <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M96XHH');</script>
+<!-- End Google Tag Manager -->
+
+<div id="wb-body-sec">
+   
+   <!-- Header -->
+   <div id="wb-skip">
+    <ul id="wb-tphp">
+        <li id="wb-skip1"><a href="#wb-cont">Skip to main content</a></li>
+        <li id="wb-skip2"><a href="#wb-nav">Skip to secondary menu</a></li>
+    </ul>
+</div>
+<div id="wb-head">
+    <div id="wb-head-in">
+        <header>
+            <!-- HeaderStart -->
+            <nav role="navigation">
+                <div id="gcwu-gcnb"><h2>Government of Canada navigation bar</h2>
+                    <div id="gcwu-gcnb-in">
+                        <div id="gcwu-gcnb-fip">
+                            <div id="gcwu-sig">
+                                <div id="gcwu-sig-in">
+                                  <object id="gcwu-sig" width="256px" height="24px" data="/Templates/wet/dist/theme-gcwu-fegc/images/sig-en.svg" role="img" tabindex="-1" aria-label="Government of Canada" type="image/svg+xml"><img src="/Templates/wet/dist/theme-gcwu-fegc/images/sig-en.png" alt="Government of Canada" />
+                                  </object>
+                                </div>
+                            </div>
+                            <ul>
+                                <li id="gcwu-gcnb1"><a rel="external" href="http://www.canada.ca/en/index.html">Canada.ca</a></li>
+                                <li id="gcwu-gcnb2"><a rel="external" href="http://www.canada.ca/en/services/index.html">Services</a></li>
+                                <li id="gcwu-gcnb3"><a rel="external" href="http://www.canada.ca/en/gov/dept/index.html">Departments</a></li>
+                                <li id="gcwu-gcnb-lang">
+      <a href="/Trnsprnc/THRprtng/rprtngmplys.aspx?lang=F" lang="fr" >Fran&ccedil;ais</a>
+   </li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div id="gcwu-bnr" role="banner">
+    <div id="gcwu-bnr-in">
+        <div id="gcwu-wmms">
+            <div id="gcwu-wmms-in"><object data="/Templates/wet/dist/theme-gcwu-fegc/images/wmms.svg" role="img" tabindex="-1" aria-label="Symbol of the Government of Canada" type="image/svg+xml"><img src="/Templates/wet/dist/theme-gcwu-fegc/images/wmms.png" alt="Symbol of the Government of Canada" /></object>
+            </div>
+        </div>
+        <div id="gcwu-title">
+            <p id="gcwu-title-in"><a href="/index-eng.html">Canada Energy Regulator</a></p>
+        </div>
+		<section role="search">
+			<div id="gcwu-srchbx"><h2>Search</h2>
+				<form id="searchform" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
+					<div id="gcwu-srchbx-in">
+						<input type="hidden" name="st" value="s" data-role="none">
+						<input type="hidden" name="num" value="10" data-role="none">
+						<input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
+						<input type="hidden" name="st1rt" value="0" data-role="none">
+						<input type="hidden" name="langs" value="eng" data-role="none">
+						<input type="hidden" name="cdn" value="reccer" data-role="none">
+						<label for="gcwu-srch">Search website</label>
+						<input id="gcwu-srch" name="q" type="search" value="" size="27" maxlength="150" data-role="none">
+						<input id="gcwu-srch-submit" name="gcwu-srch-submit" type="submit" value="Search" data-icon="search" data-role="none">
+					</div>
+				</form>
+			</div>
+		</section>
+    </div>
+</div>
+<nav role="navigation">
+    <div id="gcwu-psnb">
+        <h2>Site menu</h2>
+    <div id="gcwu-psnb-in">
+        <div class="wet-boew-menubar mb-mega">
+            <div>
+                <ul class="mb-menu" data-ajax-replace="/Templates/webincludes/menu/menu-eng.txt">
+                    <li><div><a href='/sftnvrnmnt/index-eng.html'>Safety &amp; Environment</a></div></li>
+                    <li><div><a href='/prtcptn/index-eng.html'>Participation &amp; Lands</a></div></li>                   
+                    <li><div><a href='/pplctnflng/index-eng.html'>Applications &amp; Filings</a></div></li>                    
+                    <li><div><a href='/nrg/index-eng.html'>Energy Information</a></div></li>
+                    <li><div><a href='/nrth/index-eng.html'>North/Offshore</a></div></li>                    
+                    <li><div><a href='/bts/index-eng.html'>About Us</a></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+   
+   <!-- Breadcrumbs -->
+   <div id="gcwu-bc">
+    <h2>Breadcrumb trail</h2>
+    <div id="gcwu-bc-in">
+        <ol>
+            <li><a href="/index-eng.html">Home</a></li>
+            <li><a href="/trnsprnc/index-eng.html">Transparency</a></li>
+
+   
+    
+   <li><span id="ctl00_cpBreadcrumbTitle_lblBreadcrumbTitle">Travel and Hospitality Expense Reports</span></li>
+
+   	</ol>
+  </div>
+</div>  
+
+   </nav> 
+<!-- HeaderEnd -->
+</header>
+</div>
+</div>
+<div id="wb-core">
+    <div id="wb-core-in" class="equalize">    
+        <div id="wb-main" role="main">
+            <div id="wb-main-in">
+                <!-- MainContentStart -->              
+   
+   <!-- Title -->
+   
+   <h1><span id="ctl00_bodyPageTitle_lblHeading">Travel and Hospitality Expense Reports</span></h1>
+
+      
+    <form name="aspnetForm" method="post" action="./rprtngmplys.aspx?lang=e" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzAwNTk2MzYwD2QWAmYPZBYCAgoPZBYCAgEPZBYKAgEPDxYCHgRUZXh0BRFDdXJyZW50IEVtcGxveWVlc2RkAgMPFgQeCkRhdGFNZW1iZXIFGVJlcG9ydGluZ0N1cnJlbnRFbXBsb3llZXMeC18hSXRlbUNvdW50AhsWNmYPZBYCZg8VASAqIEJlYXVjaGVtaW4sIENocmlzdGluZSwgQ291bnNlbGQCAQ9kFgJmDxUBGSogQnJvd24sIFJlYmVjY2EsIENvdW5zZWxkAgIPZBYCZg8VATcqIENoYXJsZWJvaXMsIEplYW4tRGVuaXMsIFByb2Zlc3Npb25hbCBMZWFkZXIgRWNvbm9taWNzZAIDD2QWAmYPFQEYKiBDb3JuZWEsIERhbmEsIERpcmVjdG9yZAIED2QWAmYPFQEaKiBDb3ptYSwgTWloYWVsYSwgRGlyZWN0b3JkAgUPZBYCZg8VAR4qIERhdmllcywgUGhpbGlwLCBDb21taXNzaW9uZXJkAgYPZBYCZg8VASoqIER1dGNoZXIsIEVyaW4sIEV4ZWN1dGl2ZSBTdXBwb3J0IEFkdmlzb3JkAgcPZBYCZg8VATQqIEVyaWNrc29uLCBBbm5lLU1hcmllLCBUZWNoIExlYWRlciwgU29jaW8tRWNvbm9taWNzZAIID2QWAmYPFQEbKiBGYXJyYW5kLCBBbGlzb24sIERpcmVjdG9yZAIJD2QWAmYPFQEiKiBGb3gsIEppbSwgVmljZSBQcmVzaWRlbnQsIElFSUFCVWQCCg9kFgJmDxUBWjxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMDkzOCc+RnV0b3JhbnNreSwgUGF1bGEsIFZQLCBFbmVyZ3kgQWRqdWRpY2F0aW9uPC9hPmQCCw9kFgJmDxUBGCogR2FnbsOpLCBDYXJvbCwgQ291bnNlbGQCDA9kFgJmDxUBLSogR2VvcmdlLCBMb3Vpc2UsIFNlY3JldGFyeSBvZiB0aGUgQ29tbWlzc2lvbmQCDQ9kFgJmDxUBGiogR2l0ZXJzb3MsIEhlbGVuLCBDb3Vuc2VsZAIOD2QWAmYPFQFSPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTExMTA2Jz5KYW5zZW4sIEVkLCBHcm91cCBMZWFkZXIsIFNlY3VyaXR5PC9hPmQCDw9kFgJmDxUBTjxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0yNzAnPkxhcG9pbnRlLCBTYW5keSwgRVZQLCBSZWd1bGF0b3J5PC9hPmQCEA9kFgJmDxUBFyogTGltLCBKZXNzaWNhLCBDb3Vuc2VsZAIRD2QWAmYPFQElKiBMb2V3ZW4sIENocmlzLCBWUCwgRmllbGQgT3BlcmF0aW9uc2QCEg9kFgJmDxUBGiogTWFyaW9uLCBTeWx2aWEsIERpcmVjdG9yZAITD2QWAmYPFQFVPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTExNjA0Jz5Qb3dlciwgTWFyaywgVlAgUGVyZm9ybWFuY2UgJiBSZXN1bHRzPC9hPmQCFA9kFgJmDxUBWDxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMDI5Nic+Um9zcywgQWxleCwgRVZQLCBMYXcgYW5kIEdlbmVyYWwgQ291bnNlbDwvYT5kAhUPZBYCZg8VARoqIFJ1aG9sbCwgTWVnaGFuLCBEaXJlY3RvcmQCFg9kFgJmDxUBWjxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMTA2OCc+U2xldHRvLCBUcmFjeSwgRVZQIFRyYW5zICYgU3RyYXRlZ2ljIEVuZ210PC9hPmQCFw9kFgJmDxUBVjxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMTMwNSc+V2F0c29uLCBQZXRlciwgQ2hpZWYgRXhlY3V0aXZlIE9mZmljZXI8L2E+ZAIYD2QWAmYPFQErKiBXaWViZSwgV2FuZGEsIEZpbmFuY2lhbCBSZXBvcnRpbmcgQW5hbHlzdGQCGQ9kFgJmDxUBLiogV29uZywgU2hhcm9uLCBBc3N0IFNlY3JldGFyeSBvZiB0aGUgQ29tbWlzc2lkAhoPZBYCZg8VAVQ8YSBocmVmPSdtcGx5eXJzLmFzcHg/bGFuZz1FJmFtcDtwaWQ9MTExMjAnPllvdW5nLCBTaGVyaSwgVlAsIFNwZWNpYWwgQXNzaWdubWVudDwvYT5kAgUPDxYCHwAFEEZvcm1lciBFbXBsb3llZXNkZAIHDxYEHwEFGFJlcG9ydGluZ0Zvcm1lckVtcGxveWVlcx8CAjQWaGYPZBYCZg8VAT0qIEFsbGVuLCBTdXNhbiwgQnVzaW5lc3MgTGVhZGVyLCBDb3Jwb3JhdGUgYW5kIEluZm8gU29sdXRpb25zZAIBD2QWAmYPFQEYKiBBdWRpbm8sIERpYW5hLCBDb3Vuc2VsZAICD2QWAmYPFQEaKiBCYXRlbWFuLCBLZW5uZXRoLCBNZW1iZXJkAgMPZBYCZg8VASIqIEJlYWxsLCBLYXRobGVlbiwgR2VuZXJhbCBDb3Vuc2VsZAIED2QWAmYPFQFdPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTExNDY3Jz5Cw6lkYXJkLCBTeWx2YWluLCBFVlAgVHJhbnMgJiBTdHJhdGVnaWMgRW5nbXQ8L2E+ZAIFD2QWAmYPFQFZPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTkxJz5Cb290aCwgR2xlbm4sIFZQIFBlb3BsZSAmIFdvcmtmb3JjZSBTdXBwb3J0czwvYT5kAgYPZBYCZg8VARkqIEJydWNlLCBTYW5kcmEsIERpcmVjdG9yZAIHD2QWAmYPFQEWKiBCdWxnZXIsIEpvaG4sIE1lbWJlcmQCCA9kFgJmDxUBVDxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0zMic+Q2Fyb24sIEdhw6l0YW4sIENoaWVmIEV4ZWN1dGl2ZSBPZmZpY2VyPC9hPmQCCQ9kFgJmDxUBWDxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMDY4Nic+Q29oZW4sIFJvYiwgRVZQLCBMYXcgYW5kIEdlbmVyYWwgQ291bnNlbDwvYT5kAgoPZBYCZg8VAScqIENveCwgRGF2aWQsIEFzc29jaWF0ZSBHZW5lcmFsIENvdW5zZWxkAgsPZBYCZg8VASoqIERlbGllbmNvdXJ0LCBGcmVkLCBHZW9sb2dpY2FsIFNwZWNpYWxpc3RkAgwPZBYCZg8VAVU8YSBocmVmPSdtcGx5eXJzLmFzcHg/bGFuZz1FJmFtcDtwaWQ9MTA0NTYnPkRvbmloZWUsIEppbSwgQ2hpZWYgT3BlcmF0aW5nIE9mZmljZXI8L2E+ZAIND2QWAmYPFQE2KiBEdXRpbC1CZXJyeSwgQ2xhdWRpbmUsIFRlY2huaWNhbCBMZWFkZXIsIEVudmlyb25tZW50ZAIOD2QWAmYPFQEYKiBEeWJ3YWQsIENhcm1lbiwgTWVtYmVyZAIPD2QWAmYPFQEXKiBFbWVzLCBEZWJvcmFoLCBNZW1iZXJkAhAPZBYCZg8VARsqIEVuZGVyd2ljaywgUGV0ZXIsIENvdW5zZWxkAhEPZBYCZg8VARYqIEZpc2ssIEp1bGllLCBDb3Vuc2VsZAISD2QWAmYPFQEZKiBGb3drZSwgTWFyZ2VyeSwgQ291bnNlbGQCEw9kFgJmDxUBGCogR2VvcmdlLCBSb2xhbmQsIE1lbWJlcmQCFA9kFgJmDxUBMiogR29vZGFsbCwgQnlyb24sIEluZm9ybWF0aW9uIE1hbmFnZW1lbnQgQXJjaGl0ZWN0ZAIVD2QWAmYPFQEaKiBIYWJpYiwgR2VvcmdldHRlLCBNZW1iZXJkAhYPZBYCZg8VASUqIEhhbWlsdG9uLCBEYXZpZCwgTWVtYmVyIChUZW1wb3JhcnkpZAIXD2QWAmYPFQEwKiBIYW5lYnVyeSwgSnVkaXRoLCBFVlAsIExhdyBhbmQgR2VuZXJhbCBDb3Vuc2VsZAIYD2QWAmYPFQEbKiBIYXJyaXNvbiwgUm93bGFuZCwgTWVtYmVyZAIZD2QWAmYPFQEZKiBIdWRzb24sIEFuZHJldywgQ291bnNlbGQCGg9kFgJmDxUBNyogS2F0YXJleSwgVmFsZXJpZSwgSFIgU3BlY2lhbGlzdCwgTGVhcm5pbmcgRGV2ZWxvcG1lbnRkAhsPZBYCZg8VAS8qIEtlbm55LCBCcmVuZGEsIFZQIFBlb3BsZSAmIFdvcmtmb3JjZSBTdXBwb3J0c2QCHA9kFgJmDxUBKiogS2VyZWxpdWssIEphbWllLCBWUCwgRW5lcmd5IEFkanVkaWNhdGlvbmQCHQ9kFgJmDxUBWDxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMDc3MSc+S2hhcsOpLCBQcmFkZWVwLCBDaGllZiBPcGVyYXRpbmcgT2ZmaWNlcjwvYT5kAh4PZBYCZg8VAUs8YSBocmVmPSdtcGx5eXJzLmFzcHg/bGFuZz1FJmFtcDtwaWQ9MTA2NzMnPkxlZ2dldHQsIFNoZWlsYSwgVmljZS1DaGFpcjwvYT5kAh8PZBYCZg8VASYqIExldmVyLCBHcmVnb3J5LCBWUCwgRmllbGQgT3BlcmF0aW9uc2QCIA9kFgJmDxUBHCogTG96eW5za3ksIEtyaXN0ZW4sIENvdW5zZWxkAiEPZBYCZg8VAUAqIE1hbnRoYSwgTWljaGVsLCBFeCBBZHZpc29yIHRvIHRoZSBDRU8gZm9yIHRoZSA1MHRoIEFubml2ZXJzYXJ5ZAIiD2QWAmYPFQFWPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTU3Jz5NY0NhcnRoeSwgSm9obiwgQkwsIFN0cmF0ZWd5IGFuZCBBbmFseXNpczwvYT5kAiMPZBYCZg8VAUk8YSBocmVmPSdtcGx5eXJzLmFzcHg/bGFuZz1FJmFtcDtwaWQ9MTA4NjYnPk1lcmNpZXIsIEx5bmUsIFZpY2UtQ2hhaXI8L2E+ZAIkD2QWAmYPFQEjKiBNb3JhbGVzLCBKYW5lLCBSZWd1bGF0b3J5IE9mZmljZXJkAiUPZBYCZg8VARgqIFBhcnJpc2gsIFNoYW5lLCBNZW1iZXJkAiYPZBYCZg8VASkqIFBpbnNlbnQsIEpvaG4sIFZQIFBlcmZvcm1hbmNlICYgUmVzdWx0c2QCJw9kFgJmDxUBHSogUXVhcnNoaWUsIEVsaXphYmV0aCwgTWVtYmVyZAIoD2QWAmYPFQEbKiBSb2JlcnQsIENoYW50YWwsIEVuZ2luZWVyZAIpD2QWAmYPFQEXKiBSb2RpZXIsIFJ5YW4sIENvdW5zZWxkAioPZBYCZg8VASYqIFJveSwgRGVuaXMsIFZQIFBlcmZvcm1hbmNlICYgUmVzdWx0c2QCKw9kFgJmDxUBKyogU2F1bmRlcnMsIEpvZHksIFByb2Zlc3Npb25hbCBMZWFkZXIgTGVnYWxkAiwPZBYCZg8VASYqIFNteXRoLCBQYXRyaWNrLCBWUCwgRmllbGQgT3BlcmF0aW9uc2QCLQ9kFgJmDxUBMiogU3RlZWRtYW4sIFJvYmVydCwgUHJvZmVzc2lvbmFsIExlYWRlciBFbnZpcm9ubWVuZAIuD2QWAmYPFQFQPGEgaHJlZj0nbXBseXlycy5hc3B4P2xhbmc9RSZhbXA7cGlkPTEwMDQzJz5UaMOpb3LDqnQsIEplYW4tUGF1bCwgVmljZS1DaGFpcjwvYT5kAi8PZBYCZg8VAVo8YSBocmVmPSdtcGx5eXJzLmFzcHg/bGFuZz1FJmFtcDtwaWQ9MTEzMzUnPlRvdWNoZXR0ZSwgSm9zw6llLCBDaGllZiBPcGVyYXRpbmcgT2ZmaWNlcjwvYT5kAjAPZBYCZg8VAR0qIHZhbiBFZ21vbmQsIENocmlzLCBEaXJlY3RvcmQCMQ9kFgJmDxUBVDxhIGhyZWY9J21wbHl5cnMuYXNweD9sYW5nPUUmYW1wO3BpZD0xMSc+Vm9sbG1hbiwgS2VubmV0aCBXLiwgTWVtYmVyIChUZW1wb3JhcnkpPC9hPmQCMg9kFgJmDxUBIiogV2FsbGFjZSwgUm9uLCBNZW1iZXIgKFRlbXBvcmFyeSlkAjMPZBYCZg8VARgqIFlvdW5nLCBEYXZpZCwgRGlyZWN0b3JkAgkPDxYCHwAFHiogTm8gZXhwZW5zZXMgcmVwb3J0ZWQgdG8gZGF0ZWRkZKNhpn6L+wsdgnEcxD29AK5JX7q318Zgl0UzXTQYWyZ7" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E6F08634" />
+    <div>
+        <!-- Content -->
+        
+<h2>
+   <span id="ctl00_cphContent_lblCurrentEmployees">Current Employees</span>
+</h2>
+<div>
+   
+         * Beauchemin, Christine, Counsel
+         <br />
+      
+         * Brown, Rebecca, Counsel
+         <br />
+      
+         * Charlebois, Jean-Denis, Professional Leader Economics
+         <br />
+      
+         * Cornea, Dana, Director
+         <br />
+      
+         * Cozma, Mihaela, Director
+         <br />
+      
+         * Davies, Philip, Commissioner
+         <br />
+      
+         * Dutcher, Erin, Executive Support Advisor
+         <br />
+      
+         * Erickson, Anne-Marie, Tech Leader, Socio-Economics
+         <br />
+      
+         * Farrand, Alison, Director
+         <br />
+      
+         * Fox, Jim, Vice President, IEIABU
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=10938'>Futoransky, Paula, VP, Energy Adjudication</a>
+         <br />
+      
+         * Gagné, Carol, Counsel
+         <br />
+      
+         * George, Louise, Secretary of the Commission
+         <br />
+      
+         * Gitersos, Helen, Counsel
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=11106'>Jansen, Ed, Group Leader, Security</a>
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=270'>Lapointe, Sandy, EVP, Regulatory</a>
+         <br />
+      
+         * Lim, Jessica, Counsel
+         <br />
+      
+         * Loewen, Chris, VP, Field Operations
+         <br />
+      
+         * Marion, Sylvia, Director
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=11604'>Power, Mark, VP Performance & Results</a>
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=10296'>Ross, Alex, EVP, Law and General Counsel</a>
+         <br />
+      
+         * Ruholl, Meghan, Director
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=11068'>Sletto, Tracy, EVP Trans & Strategic Engmt</a>
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=11305'>Watson, Peter, Chief Executive Officer</a>
+         <br />
+      
+         * Wiebe, Wanda, Financial Reporting Analyst
+         <br />
+      
+         * Wong, Sharon, Asst Secretary of the Commissi
+         <br />
+      
+         <a href='mplyyrs.aspx?lang=E&amp;pid=11120'>Young, Sheri, VP, Special Assignment</a>
+         <br />
+      
+   <br />
+   <br />
+   <h2>
+      <span id="ctl00_cphContent_lblFormerEmployees">Former Employees</span>
+   </h2>
+   <p>
+      
+            * Allen, Susan, Business Leader, Corporate and Info Solutions
+            <br />
+         
+            * Audino, Diana, Counsel
+            <br />
+         
+            * Bateman, Kenneth, Member
+            <br />
+         
+            * Beall, Kathleen, General Counsel
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=11467'>Bédard, Sylvain, EVP Trans & Strategic Engmt</a>
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=91'>Booth, Glenn, VP People & Workforce Supports</a>
+            <br />
+         
+            * Bruce, Sandra, Director
+            <br />
+         
+            * Bulger, John, Member
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=32'>Caron, Gaétan, Chief Executive Officer</a>
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10686'>Cohen, Rob, EVP, Law and General Counsel</a>
+            <br />
+         
+            * Cox, David, Associate General Counsel
+            <br />
+         
+            * Deliencourt, Fred, Geological Specialist
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10456'>Donihee, Jim, Chief Operating Officer</a>
+            <br />
+         
+            * Dutil-Berry, Claudine, Technical Leader, Environment
+            <br />
+         
+            * Dybwad, Carmen, Member
+            <br />
+         
+            * Emes, Deborah, Member
+            <br />
+         
+            * Enderwick, Peter, Counsel
+            <br />
+         
+            * Fisk, Julie, Counsel
+            <br />
+         
+            * Fowke, Margery, Counsel
+            <br />
+         
+            * George, Roland, Member
+            <br />
+         
+            * Goodall, Byron, Information Management Architect
+            <br />
+         
+            * Habib, Georgette, Member
+            <br />
+         
+            * Hamilton, David, Member (Temporary)
+            <br />
+         
+            * Hanebury, Judith, EVP, Law and General Counsel
+            <br />
+         
+            * Harrison, Rowland, Member
+            <br />
+         
+            * Hudson, Andrew, Counsel
+            <br />
+         
+            * Katarey, Valerie, HR Specialist, Learning Development
+            <br />
+         
+            * Kenny, Brenda, VP People & Workforce Supports
+            <br />
+         
+            * Kereliuk, Jamie, VP, Energy Adjudication
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10771'>Kharé, Pradeep, Chief Operating Officer</a>
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10673'>Leggett, Sheila, Vice-Chair</a>
+            <br />
+         
+            * Lever, Gregory, VP, Field Operations
+            <br />
+         
+            * Lozynsky, Kristen, Counsel
+            <br />
+         
+            * Mantha, Michel, Ex Advisor to the CEO for the 50th Anniversary
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=57'>McCarthy, John, BL, Strategy and Analysis</a>
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10866'>Mercier, Lyne, Vice-Chair</a>
+            <br />
+         
+            * Morales, Jane, Regulatory Officer
+            <br />
+         
+            * Parrish, Shane, Member
+            <br />
+         
+            * Pinsent, John, VP Performance & Results
+            <br />
+         
+            * Quarshie, Elizabeth, Member
+            <br />
+         
+            * Robert, Chantal, Engineer
+            <br />
+         
+            * Rodier, Ryan, Counsel
+            <br />
+         
+            * Roy, Denis, VP Performance & Results
+            <br />
+         
+            * Saunders, Jody, Professional Leader Legal
+            <br />
+         
+            * Smyth, Patrick, VP, Field Operations
+            <br />
+         
+            * Steedman, Robert, Professional Leader Environmen
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=10043'>Théorêt, Jean-Paul, Vice-Chair</a>
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=11335'>Touchette, Josée, Chief Operating Officer</a>
+            <br />
+         
+            * van Egmond, Chris, Director
+            <br />
+         
+            <a href='mplyyrs.aspx?lang=E&amp;pid=11'>Vollman, Kenneth W., Member (Temporary)</a>
+            <br />
+         
+            * Wallace, Ron, Member (Temporary)
+            <br />
+         
+            * Young, David, Director
+            <br />
+         
+   </p>
+   <p>
+      &nbsp;</p>
+   <p>
+      <span id="ctl00_cphContent_lblNoExpensesToReport">* No expenses reported to date</span>
+   </p>
+</div>
+<div>
+   <input type="submit" value="SubmitButtonMadeInvisibleAsRequiredForPassingWcag" style="display: none;" /><br />
+</div>
+        
+    </div>
+    </form>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <!-- Modified Date --> 
+    <div class="clear"></div>
+<dl id="gcwu-date-mod" role="contentinfo">
+<dt>Date modified:</dt><dd><span><time>
+      2012-09-17
+    </time></span></dd>
+</dl>
+<div class="clear"></div>
+ <!-- MainContentEnd -->
+</div>
+</div>
+    
+   <!--Secondary Menu start -->
+   <div id="wb-sec">
+    <div id="wb-sec-in">
+        <nav role="navigation">
+<h2 id="wb-nav">Secondary menu</h2>
+            <div class="wb-sec-def">                 
+                <!-- SecNavStart -->
+                <section>
+                    <h3 class="top-section"><a href="/trnsprnc/index-eng.html">Transparency</a></h3>
+                    <section>
+                        <h4><a href="/trnsprnc/cmpltdccssnfrmtnrqst/index-eng.html">Access to Information and Privacy</a></h4>
+                    </section>
+                    <section>
+                        <h4><a href="/trnsprnc/prctvdsclsr/cntrct-eng.html">Contracts</a></h4>
+                    </section>
+                    <section>
+                        <h4><a href="/trnsprnc/prctvdsclsr/grntcntb/vrvw-eng.html">Grants and Contributions</a></h4>
+                    </section>
+                    <section>
+                        <h4><a href="/trnsprnc/prctvdsclsr/trvlndhsptlty-eng.html">Travel and Hospitality</a></h4>
+                    </section>
+                    <section>
+                        <h4><a href="/trnsprnc/prctvdsclsr/dsgntdpblcffchldr-eng.html">Designated Public Office Holders</a></h4>
+                    </section>                  
+                </section>                 
+                <!-- SecNavEnd -->
+            </div>
+        </nav>
+    </div>
+</div>
+   <!--Secondary Menu end -->
+   
+   </div>
+</div>
+<div id="wb-foot">
+    <div id="wb-foot-in">
+        <footer><h2>Footer</h2>
+            <!-- FooterStart -->
+            <nav role="navigation">
+                <div id="gcwu-sft"><h3>Site footer</h3>
+                    <div id="gcwu-sft-in">
+                        <div id="gcwu-tctr">
+                            <ul>
+                                <li class="gcwu-tc"><a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a></li>
+                                <li class="gcwu-tr"><a href="/trnsprnc/index-eng.html">Transparency</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <section>
+                            <div class="span-2">
+                                <h4 class="gcwu-col-head"><a href="/bts/index-eng.html">About us</a></h4>
+                                <ul>
+                                    <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                                    <li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
+                                    <li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
+                                    <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="span-2">
+                                <h4 class="gcwu-col-head"><a href="/bts/nws/index-eng.html">News</a></h4>
+                                <ul>
+                                    <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                                    <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                                    <li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
+                                    <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                                    
+                                </ul>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="span-2">
+                                <h4 class="gcwu-col-head"><a href="/cntcts/index-eng.html">Contact us</a></h4>
+                                <address>
+                                </address>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="span-2">
+                                <h4 class="gcwu-col-head"><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h4>
+                                <ul>
+                                    <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                                    <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                                    <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
+                                    <li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                                   
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </nav>
+            <nav role="navigation">
+                <div id="gcwu-gcft"><h3>Government of Canada footer</h3>
+                    <div id="gcwu-gcft-in">
+                        <div id="gcwu-gcft-fip">
+                            <ul>
+                                <li><a rel="external" href="http://healthycanadians.gc.ca"><span>Health</span><br/>healthycanadians.gc.ca</a></li>
+                                <li><a rel="external" href="http://travel.gc.ca"><span>Travel</span><br/>travel.gc.ca</a></li>
+                                <li><a rel="external" href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span><br/>servicecanada.gc.ca</a></li>
+                                <li><a rel="external" href="http://www.jobbank.gc.ca"><span>Jobs</span><br/>jobbank.gc.ca</a></li>
+                                <li><a rel="external" href="http://actionplan.gc.ca"><span>Economy</span><br/>actionplan.gc.ca</a></li>
+                                <li id="gcwu-gcft-ca"><div><a rel="external" href="http://www.canada.ca/en/index.html">Canada.ca</a></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- FooterEnd -->
+        </footer>
+    </div>
+</div>
+</div>
+   
+   <!-- Same file for both English and French -->
+   <!-- ScriptsStart -->
+<script src="/Templates/wet/dist/js/settings.js"></script>
+<!--[if lte IE 8]>
+<script src="/Templates/wet/dist/theme-gcwu-fegc/js/theme-ie-min.js"></script>
+<script src="/Templates/wet/dist/js/pe-ap-ie-min.js"></script>
+<script src="/Templates/wet/dist/js/jquerymobile/jquery.mobile-ie.min.js"></script>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<script src="/Templates/wet/dist/theme-gcwu-fegc/js/theme-min.js"></script>
+<script src="/Templates/wet/dist/js/pe-ap-min.js"></script>
+<script src="/Templates/wet/dist/js/jquerymobile/jquery.mobile.min.js"></script>
+<!--<![endif]-->
+<!-- ScriptsEnd -->
+
+</body>
+</html>

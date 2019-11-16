@@ -1,0 +1,783 @@
+Incident Number,Incident Types,Reported Date,Nearest Populated Centre,Province,Company,Status,Latitude,Longitude,Approximate Volume Released,Substance,Release Type,Significant,Year
+INC2007-097,Release of Substance,1/2/2008,Grande Prairie,Alberta,Alliance Pipeline Ltd.,Closed,54.84,-118.65,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-001,Release of Substance,1/2/2008,Cromer,Manitoba,Enbridge Pipelines Inc.,Closed,49.73135,-101.23557,8,Crude Oil - Sweet,Liquid,No,2008
+INC2008-004,Release of Substance,1/23/2008,Cromer,Manitoba,Enbridge Pipelines Inc.,Closed,49.73135,-101.23557,100,Crude Oil - Sweet,Liquid,No,2008
+INC2008-008,Release of Substance,1/29/2008,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,58.012,-122.694333,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-016,Release of Substance,2/23/2008,Beiseker,Alberta,Foothills Pipe Lines Ltd.,Closed,51.385029,-113.535263,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-018,Release of Substance,2/25/2008,Moosomin,Saskatchewan,TransCanada PipeLines Limited,Closed,50.20739,-101.48731,100,Natural Gas - Sweet,Gas,No,2008
+INC2008-020,Release of Substance,3/3/2008,Dryden,Ontario,TransCanada PipeLines Limited,Closed,49.7894,-92.76549,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-021,Release of Substance,3/3/2008,Smooth Rock Falls,Ontario,TransCanada PipeLines Limited,Closed,49.30391,-82.04386,18,Natural Gas - Sweet,Gas,No,2008
+INC2008-027,Release of Substance,3/14/2008,Rapid City,Manitoba,TransCanada PipeLines Limited,Closed,50.07673,-99.99864,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-030,Fatality,3/24/2008,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.92095,-109.17023,Not Applicable,Not Applicable,Not Applicable,Yes,2008
+INC2008-034,Release of Substance,4/1/2008,Haileybury,Ontario,TransCanada PipeLines Limited,Closed,47.44678,-79.76267,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-037,Release of Substance,4/18/2008,Kenora,Ontario,TransCanada PipeLines Limited,Closed,49.80823,-94.18954,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-039,Release of Substance,4/21/2008,Regina,Saskatchewan,"Plains Marketing Canada, L.P.",Closed,50.48057,-104.56646,4,Crude Oil - Sweet,Liquid,No,2008
+INC2008-040,Release of Substance,4/25/2008,Charlie Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.27973,-120.96341,Not Provided,Natural Gas - Sour,Gas,No,2008
+INC2008-041,Release of Substance,4/25/2008,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.33867,-121.87115,Not Provided,Natural Gas - Sour,Gas,No,2008
+INC2008-043,Fire,5/1/2008,Cromer,Manitoba,Enbridge Pipelines Inc.,Closed,49.73115,-101.2355,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-045,Release of Substance,5/6/2008,Herschel,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.63826,-108.3544,9.4,Crude Oil - Sweet,Liquid,No,2008
+INC2008-048,Release of Substance,5/12/2008,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.48386,-104.61447,7,Crude Oil - Sweet,Liquid,No,2008
+INC2008-052,Fire,5/21/2008,Emerson,Manitoba,TransCanada PipeLines Limited,Closed,49.00106,-97.05547,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-055,Adverse Environmental Effects,5/31/2008,Fort St. John,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.47564,-120.37265,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-056,Release of Substance,6/5/2008,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.5431,-113.35401,8,Crude Oil - Sweet,Liquid,No,2008
+INC2008-057,Release of Substance,6/6/2008,Maple,Ontario,TransCanada PipeLines Limited,Closed,43.87378,-79.57985,270,Natural Gas - Sweet,Gas,No,2008
+INC2008-058,Adverse Environmental Effects,6/9/2008,Not specified,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.21594,-66.71029,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-060,Release of Substance,6/12/2008,Portage La Prairie,Manitoba,TransCanada PipeLines Limited,Closed,49.91204,-98.51757,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-062,Fire,6/24/2008,Moyie,British Columbia,TransCanada PipeLines Limited,Closed,49.28795,-115.83383,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-063,Fatality,6/25/2008,Herschel,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.63833,-108.35487,Not Applicable,Not Applicable,Not Applicable,Yes,2008
+INC2008-067,Release of Substance,7/6/2008,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54745,-113.35577,40,Crude Oil - Synthetic,Liquid,No,2008
+INC2008-070,Release of Substance,7/17/2008,Moosomin,Saskatchewan,TransCanada PipeLines Limited,Closed,50.20731,-101.48747,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-072,Release of Substance,7/18/2008,Alameda,Saskatchewan,Alliance Pipeline Ltd.,Closed,49.31834,-102.28983,800,Natural Gas - Sweet,Gas,No,2008
+INC2008-075,Release of Substance,7/23/2008,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.5416,-113.36454,2,Diesel Fuel,Liquid,No,2008
+INC2008-078,Release of Substance,7/31/2008,Hearst,Ontario,TransCanada PipeLines Limited,Closed,49.79469,-85.85655,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-079,Release of Substance,8/8/2008,Herbert,Saskatchewan,Spectra Energy Empress Management Inc. as General Partner and Agent for Spectra Energy Empress L.P.,Closed,50.539202,-107.30766,0.5,Propane,Gas,No,2008
+INC2008-080,Serious Injury (NEB or TSB),8/15/2008,Valemount,British Columbia,Trans Mountain Pipeline ULC,Closed,53.024796,-119.151198,Not Applicable,Not Applicable,Not Applicable,Yes,2008
+INC2008-084,Fire,8/26/2008,Not specified,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.10223,-106.35299,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-085,Fire,9/4/2008,Not specified,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.44373,-107.37839,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-086,Release of Substance,8/28/2008,Vermilion Bay,Ontario,TransCanada PipeLines Limited,Closed,49.85542,-93.36393,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-091,Serious Injury (NEB or TSB),9/16/2008,Pennfield,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.1982,-66.6422,Not Applicable,Not Applicable,Not Applicable,Yes,2008
+INC2008-092,Serious Injury (NEB or TSB),9/16/2008,Valemount,British Columbia,Trans Mountain Pipeline Inc.,Closed,52.83128,-119.2645,Not Applicable,Not Applicable,Not Applicable,Yes,2008
+INC2008-095,Release of Substance,9/26/2008,Falcon Lake,Manitoba,TransCanada PipeLines Limited,Closed,49.68098,-95.37458,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-097,Fire,10/7/2008,Huntsville,Ontario,TransCanada PipeLines Limited,Closed,45.33806,-79.24126,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-098,Release of Substance,10/16/2008,Portage La Prairie,Manitoba,TransCanada PipeLines Limited,Closed,49.91211,-98.51757,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-103,Release of Substance,11/4/2008,Reynolds,Manitoba,TransCanada PipeLines Limited,Closed,49.65789,-96.16268,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-110,Release of Substance,11/21/2008,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,59.20196,-121.5963,10,Condensate,Liquid,No,2008
+INC2008-112,Fire,11/26/2008,McLeod Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.03189,-123.03117,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-114,Release of Substance,12/2/2008,Winnipeg,Manitoba,TransCanada PipeLines Limited,Closed,49.68017,-96.64917,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-115,Fire,12/2/2008,Charlie Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.63822,-121.65102,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-119,Release of Substance,12/8/2008,McLeod Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.032,-123.03098,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-120,Release of Substance,12/9/2008,Winnipeg,Manitoba,TransCanada PipeLines Limited,Closed,49.75544,-97.2305,Not Provided,Natural Gas - Sweet,Gas,No,2008
+INC2008-121,Adverse Environmental Effects,12/10/2008,Goldboro,Nova Scotia,EnCana Corporation,Closed,45.18253,-61.65236,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-123,Fire,12/17/2008,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.5474,-113.35571,Not Applicable,Not Applicable,Not Applicable,No,2008
+INC2008-128,Release of Substance,1/13/2009,Hearst,Ontario,TransCanada PipeLines Limited,Closed,49.76492,-84.91824,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-002,Release of Substance,1/15/2009,Lincoln,Ontario,TransCanada PipeLines Limited,Closed,43.11405,-79.46307,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-009,Serious Injury (NEB or TSB),2/9/2009,White City,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.44344,-104.35655,Not Applicable,Not Applicable,Not Applicable,Yes,2009
+INC2009-010,Release of Substance,2/9/2009,Lincoln,Ontario,TransCanada PipeLines Limited,Closed,43.11368,-79.46307,Not Provided,Fuel Gas,Gas,No,2009
+INC2009-015,"Serious Injury (NEB or TSB), Release of Substance",2/20/2009,Wonowon,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.72686,-121.81832,0.0001,Natural Gas - Sour,Gas,Yes,2009
+INC2009-019,Release of Substance,3/5/2009,Portage La Prairie,Manitoba,TransCanada PipeLines Limited,Closed,49.91175,-98.51757,2.5,Lube Oil,Liquid,No,2009
+INC2009-021,Release of Substance,3/10/2009,Potter,Ontario,TransCanada PipeLines Limited,Closed,48.87172,-80.89396,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-024,Serious Injury (NEB or TSB),3/13/2009,Sarnia,Ontario,Enbridge Pipelines Inc.,Closed,42.97494,-82.40703,Not Applicable,Not Applicable,Not Applicable,Yes,2009
+INC2009-026,Release of Substance,3/23/2009,Not specified,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,57.31724,-120.82153,Not Provided,Natural Gas - Sour,Gas,No,2009
+INC2009-031,Release of Substance,4/7/2009,Tumbler Ridge,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,54.97941,-121.06074,Not Provided,Natural Gas - Sour,Gas,No,2009
+INC2009-032,Release of Substance,4/8/2009,Mattice,Ontario,TransCanada PipeLines Limited,Closed,49.58574,-83.16712,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-034,Release of Substance,4/23/2009,Hamilton,Ontario,TransCanada PipeLines Limited,Closed,43.35064,-80.1193,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-037,Release of Substance,5/1/2009,Upsala,Ontario,TransCanada PipeLines Limited,Closed,49.03329,-90.51006,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-039,Release of Substance,5/7/2009,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Closed,53.63705,-112.01828,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-040,Release of Substance,5/7/2009,Burnaby,British Columbia,Trans Mountain Pipeline ULC,Closed,49.26849,-122.93134,305,Crude Oil - Sweet,Liquid,No,2009
+INC2009-041,Release of Substance,5/11/2009,Valleyview,Alberta,NOVA Gas Transmission Ltd.,Closed,54.93272,-117.25214,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-042,Release of Substance,5/14/2009,Not specified,Quebec,TransCanada PipeLines Limited,Closed,45.31394,-73.48289,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-045,Release of Substance,5/22/2009,Rosetown,Saskatchewan,Kinder Morgan Cochin ULC,Closed,51.55484,-107.996,6.36,Propane,Gas,No,2009
+INC2009-048,Release of Substance,5/27/2009,Wandering River,Alberta,NOVA Gas Transmission Ltd.,Closed,55.67738,-112.18288,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-049,Release of Substance,6/3/2009,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Closed,53.63705,-112.01829,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-053,Release of Substance,6/22/2009,Loreburn,Saskatchewan,Alliance Pipeline Ltd.,Closed,51.2719,-106.75421,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-054,Release of Substance,6/28/2009,Falcon Lake,Manitoba,TransCanada PipeLines Limited,Closed,49.68123,-95.37458,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-055,Release of Substance,6/29/2009,Colborne,Ontario,Enbridge Pipelines Inc.,Closed,44.06958,-77.92945,1.8,Crude Oil - Sweet,Liquid,No,2009
+INC2009-056,Release of Substance,7/1/2009,Kobes,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.4929924,-121.335434,Not Provided,Natural Gas - Sour,Gas,No,2009
+INC2009-057,Operation Beyond Design Limits,7/2/2009,Saint-Eustache,Quebec,Trans-Northern Pipelines Inc.,Closed,45.55865,-73.89602,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-058,"Fire, Release of Substance",7/5/2009,Hanna,Alberta,NOVA Gas Transmission Ltd.,Closed,51.728528,-111.6805,17000,Natural Gas - Sweet,Gas,No,2009
+INC2009-060,Release of Substance,7/13/2009,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,58.93456,-121.3121,4,Natural Gas - Sour,Gas,No,2009
+INC2009-063,Release of Substance,7/15/2009,Smokey Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,54.09552,-112.31043,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-065,Fire,7/16/2009,Wainwright,Alberta,NOVA Gas Transmission Ltd.,Closed,52.75424,-110.74467,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-066,"Fire, Release of Substance",7/20/2009,Hay River,Alberta,NOVA Gas Transmission Ltd.,Closed,58.208389,-118.501722,1450000,Natural Gas - Sweet,Gas,Yes,2009
+INC2009-067,Release of Substance,7/20/2009,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.26269,-65.98211,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-068,Release of Substance,7/21/2009,Crowsnest Pass,Alberta,NOVA Gas Transmission Ltd.,Closed,49.62622,-114.51601,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-072,Fire,7/24/2009,Not specified,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.83306,-122.36517,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-075,Release of Substance,7/31/2009,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,55.12549,-117.83828,40,Natural Gas - Sweet,Gas,No,2009
+INC2009-076,Release of Substance,8/4/2009,Edson,Alberta,NOVA Gas Transmission Ltd.,Closed,53.58571,-116.43392,2.9,Natural Gas - Sweet,Gas,No,2009
+INC2009-078,Operation Beyond Design Limits,8/10/2009,Sarnia,Ontario,Enbridge Pipelines Inc.,Closed,42.97521,-82.40666,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-080,Fire,8/11/2009,Bowmanville,Ontario,TransCanada PipeLines Limited,Closed,43.96006,-78.81933,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-084,Release of Substance,8/24/2009,Williams Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,52.12922,-121.94289,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-086,Release of Substance,9/2/2009,Hanna,Alberta,NOVA Gas Transmission Ltd.,Closed,51.66911,-111.89811,0.5,Natural Gas - Sweet,Gas,No,2009
+INC2009-087,Release of Substance,9/2/2009,Zama Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,59.05953,-119.89276,10,Natural Gas - Sweet,Gas,No,2009
+INC2009-088,Release of Substance,9/2/2009,Burstall,Saskatchewan,Foothills Pipe Lines Ltd.,Closed,50.65584,-109.90599,566.3,Natural Gas - Sweet,Gas,No,2009
+INC2009-089,Release of Substance,9/3/2009,Savona,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,50.74862,-120.8587,12,Fuel Gas,Gas,No,2009
+INC2009-090,Release of Substance,9/4/2009,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.8308,-118.64572,100,Fuel Gas,Gas,No,2009
+INC2009-092,Fire,9/10/2009,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54735,-113.35571,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-095,"Explosion, Fire, Release of Substance",9/12/2009,Englehart,Ontario,TransCanada PipeLines Limited,Closed,47.912847,-79.987089,Not Provided,Natural Gas - Sweet,Gas,Yes,2009
+INC2009-096,Release of Substance,9/13/2009,Ste. Anne,Manitoba,TransCanada PipeLines Limited,Submitted,49.71929,-96.98281,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-100,Explosion,9/14/2009,Maple,Ontario,TransCanada PipeLines Limited,Closed,43.87381,-79.58002,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-101,Fire,9/17/2009,Strome,Alberta,Enbridge Pipelines Inc.,Closed,52.93032,-112.07365,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-102,Release of Substance,9/18/2009,Fairview,Alberta,NOVA Gas Transmission Ltd.,Closed,56.36855,-119.92869,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-103,Release of Substance,9/18/2009,Falcon Lake,Manitoba,TransCanada PipeLines Limited,Closed,49.68123,-95.37477,0.1,Natural Gas - Sweet,Gas,No,2009
+INC2009-104,Release of Substance,9/20/2009,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,53.96117,-116.46306,63000,Natural Gas - Sweet,Gas,No,2009
+INC2009-105,Release of Substance,9/22/2009,Glenboro,Manitoba,Enbridge Pipelines Inc.,Closed,49.544443,-99.320678,4.75,Crude Oil - Sweet,Liquid,No,2009
+INC2009-107,Fire,9/24/2009,Brookdale,Manitoba,TransCanada PipeLines Limited,Closed,50.04208,-99.65931,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-109,Release of Substance,9/26/2009,Marten River,Ontario,TransCanada PipeLines Limited,Closed,46.89733,-79.80783,Not Provided,Natural Gas - Sweet,Gas,Yes,2009
+INC2009-111,Release of Substance,9/29/2009,Odessa,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.29138341,-103.8103553,175,Crude Oil - Synthetic,Liquid,Yes,2009
+INC2009-112,"Fire, Release of Substance",9/30/2009,Brampton,Ontario,2193914 Canada Limited,Closed,43.59893,-79.776,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-113,Release of Substance,10/5/2009,Marionville,Ontario,Trans-Northern Pipelines Inc.,Closed,45.16297,-75.37183,3,Gasoline,Liquid,No,2009
+INC2009-115,Release of Substance,10/16/2009,Tumbler Ridge,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,54.89349,-120.66962,Not Provided,Natural Gas - Sour,Gas,No,2009
+INC2009-118,Release of Substance,10/20/2009,Hanna,Alberta,NOVA Gas Transmission Ltd.,Closed,51.66922,-111.89792,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-119,Fire,10/22/2009,Camrose,Alberta,Enbridge Pipelines Inc.,Closed,52.93029,-112.07347,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-120,Release of Substance,10/23/2009,Edson,Alberta,NOVA Gas Transmission Ltd.,Closed,54.0438,-117.42069,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-121,Release of Substance,10/29/2009,Upsala,Ontario,TransCanada PipeLines Limited,Closed,49.03334,-90.51047,100,Natural Gas - Sweet,Gas,No,2009
+INC2009-123,Release of Substance,11/1/2009,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.30706,-66.04267,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-126,Release of Substance,11/4/2009,Fairview,Alberta,NOVA Gas Transmission Ltd.,Closed,56.03467,-117.96587,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-128,Release of Substance,11/18/2009,Sackville,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.02461,-64.22321,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-129,Release of Substance,11/23/2009,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.26269,-65.98211,0.1,Natural Gas - Sweet,Gas,No,2009
+INC2009-130,Serious Injury (NEB or TSB),10/17/2009,Not specified,Manitoba,Enbridge Pipelines Inc.,Closed,49.19043,-98.10794,Not Applicable,Not Applicable,Not Applicable,Yes,2009
+INC2009-132,Fire,12/4/2009,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,59.63213,-123.09505,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-133,Serious Injury (NEB or TSB),11/17/2009,Winkler,Manitoba,Enbridge Pipelines Inc.,Closed,49.10416,-97.93104,Not Applicable,Not Applicable,Not Applicable,Yes,2009
+INC2009-134,Release of Substance,12/8/2009,Lloydminster,Saskatchewan,Husky Oil Limited,Closed,53.271222,-109.943083,3,Condensate,Liquid,No,2009
+INC2009-135,Fire,12/10/2009,Loreburn,Saskatchewan,Enbridge Pipelines Inc.,Submitted,51.1967,-106.57472,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-136,Release of Substance,12/10/2009,Moyie,British Columbia,TransCanada PipeLines Limited B.C. System,Closed,49.238462,-115.855313,Not Provided,Natural Gas - Sweet,Gas,No,2009
+INC2009-137,Release of Substance,12/11/2009,Les Cedres,Quebec,TransCanada PipeLines Limited,Closed,45.37081,-74.12582,69,Natural Gas - Sweet,Gas,No,2009
+INC2009-139,Operation Beyond Design Limits,12/14/2009,Hope,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,49.3825,-121.36469,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-140,Fire,12/16/2009,Drayton Valley,Alberta,NOVA Gas Transmission Ltd.,Closed,53.10063,-115.3622,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-141,Operation Beyond Design Limits,12/11/2009,Olds,Alberta,NOVA Gas Transmission Ltd.,Closed,51.85163,-114.07574,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-144,Operation Beyond Design Limits,12/17/2009,Tieland,Alberta,NOVA Gas Transmission Ltd.,Closed,54.79071,-114.04358,Not Applicable,Not Applicable,Not Applicable,No,2009
+INC2009-145,Release of Substance,12/17/2009,Topland,Alberta,NOVA Gas Transmission Ltd.,Closed,54.54693,-114.79252,Not Provided,Natural Gas - Sour,Gas,No,2009
+INC2009-147,Operation Beyond Design Limits,1/4/2010,Rainbow Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,58.44704,-119.22409,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2009-148,Serious Injury (NEB or TSB),12/6/2010,Burnaby,British Columbia,Trans Mountain Pipeline ULC,Closed,49.266235,-122.928102,Not Applicable,Not Applicable,Not Applicable,Yes,2010
+INC2009-149,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54740278,-113.3556944,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2009-150,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54740278,-113.3556944,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2009-151,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54740278,-113.3556944,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2009-152,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54740278,-113.3556944,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2009-153,Serious Injury (NEB or TSB),4/12/2012,Manitou,Manitoba,Enbridge Pipelines Inc.,Closed,49.316926,-98.554895,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2009-154,Serious Injury (NEB or TSB),4/12/2012,Brandon,Manitoba,Enbridge Pipelines Inc.,Closed,49.848471,-99.95009,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2009-155,Serious Injury (NEB or TSB),4/12/2012,Winkler,Manitoba,Enbridge Pipelines Inc.,Closed,49.18011,-97.938947,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2010-001,Release of Substance,1/6/2010,Fort St. John,Alberta,NOVA Gas Transmission Ltd.,Closed,56.367553,-119.931713,125000,Natural Gas - Sweet,Gas,No,2010
+INC2010-004,Adverse Environmental Effects,1/8/2010,Red Earth Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,56.86338,-114.70979,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-005,Operation Beyond Design Limits,1/16/2010,High Level,Alberta,NOVA Gas Transmission Ltd.,Closed,57.503,-116.45,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-006,Fire,1/18/2010,Belleville,Ontario,TransCanada PipeLines Limited,Closed,44.23202,-77.23148,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-009,Operation Beyond Design Limits,1/27/2010,Oakville,Ontario,Trans-Northern Pipelines Inc.,Closed,43.46745,-79.68767,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-012,Release of Substance,1/31/2010,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,55.88802,-112.12314,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-013,Operation Beyond Design Limits,2/1/2010,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,52.09768,-110.69846,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-014,Fire,2/1/2010,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.64172,-111.27087,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-016,Release of Substance,2/8/2010,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83034,-118.64722,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-018,Release of Substance,2/9/2010,Tumbler Ridge,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.04188,-121.01874,Not Provided,Natural Gas - Sour,Gas,No,2010
+INC2010-019,Release of Substance,2/12/2010,New River Beach,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.18676,-66.54595,300,Natural Gas - Sweet,Gas,No,2010
+INC2010-021,Release of Substance,2/12/2010,Grovedale,Alberta,NOVA Gas Transmission Ltd.,Closed,54.95425,-119.19227,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-022,Release of Substance,2/16/2010,Taylor,British Columbia,Provident Energy Pipeline Inc.,Closed,56.14669,-120.66454,0.25,Mixed HVP Hydrocarbons,Gas,No,2010
+INC2010-024,Fire,2/19/2010,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.64998,-122.20708,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-025,Release of Substance,2/20/2010,Belleville,Ontario,TransCanada PipeLines Limited,Closed,44.68365,-75.62111,51.4,Natural Gas - Sweet,Gas,No,2010
+INC2010-028,Release of Substance,2/26/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54457,-113.35511,150,Crude Oil - Sweet,Liquid,No,2010
+INC2010-029,Release of Substance,2/27/2010,Laval,Quebec,Trans-Northern Pipelines Inc.,Submitted,45.624393,-73.639169,30,Gasoline,Liquid,Yes,2010
+INC2010-032,Release of Substance,3/3/2010,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.34669,-116.87305,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-033,Release of Substance,3/12/2010,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,52.75419,-114.11969,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-034,Release of Substance,3/16/2010,Oakville,Ontario,Trans-Northern Pipelines Inc.,Submitted,43.406148,-79.735605,90,Gasoline,Liquid,Yes,2010
+INC2010-040,Fire,3/26/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54756,-113.35559,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-041,Fire,3/27/2010,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.19166,-118.1942,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-042,Release of Substance,4/12/2010,Caronport,Saskatchewan,TransCanada PipeLines Limited,Closed,50.48051,-105.86728,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-045,Release of Substance,4/21/2010,Ancaster,Ontario,TransCanada PipeLines Limited,Closed,43.18849,-79.8485,100,Natural Gas - Sweet,Gas,No,2010
+INC2010-047,Release of Substance,5/5/2010,Not specified,Ontario,TransCanada PipeLines Limited,Closed,48.64904,-80.69866,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-048,Fire,5/5/2010,Cobourg,Ontario,TransCanada PipeLines Limited,Closed,44.04719,-78.00847,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-050,Fire,5/11/2010,Sundre,Alberta,NOVA Gas Transmission Ltd.,Closed,51.943585,-114.736419,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-051,Release of Substance,5/22/2010,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.19361,-118.20534,1,Natural Gas - Sweet,Gas,No,2010
+INC2010-052,Release of Substance,5/25/2010,Brandon,Manitoba,Spectra Energy Empress Management Inc. as General Partner and Agent for Spectra Energy Empress L.P.,Submitted,50.04165,-99.66005,Not Provided,Propane,Gas,No,2010
+INC2010-053,Release of Substance,5/27/2010,Brooks,Alberta,NOVA Gas Transmission Ltd.,Closed,50.69805,-111.53063,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-054,Release of Substance,5/28/2010,Pennant,Saskatchewan,TransCanada PipeLines Limited,Closed,50.57578,-108.36036,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-055,Release of Substance,6/3/2010,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.093481,-116.62138,0.1,Natural Gas - Sweet,Gas,No,2010
+INC2010-057,Release of Substance,6/17/2010,Not specified,Saskatchewan,Spectra Energy Empress Management Inc. as General Partner and Agent for Spectra Energy Empress L.P.,Submitted,50.65773,-109.53719,Not Provided,Mixed HVP Hydrocarbons,Gas,No,2010
+INC2010-058,Release of Substance,6/16/2010,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83027,-118.64709,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-059,Release of Substance,6/18/2010,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.30724,-66.04254,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-060,"Fire, Release of Substance",6/22/2010,Grenfell,Saskatchewan,TransCanada PipeLines Limited,Closed,50.28617,-102.95153,100,Natural Gas - Sweet,Gas,No,2010
+INC2010-061,Release of Substance,6/22/2010,Cactus Lake,Saskatchewan,Enbridge Pipelines Inc.,Closed,52.13984,-109.80493,25,Crude Oil - Sour,Liquid,No,2010
+INC2010-062,Release of Substance,6/24/2010,Whitecourt,Alberta,NOVA Gas Transmission Ltd.,Closed,54.1326,-115.2362,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-063,Fire,6/24/2010,Prince George,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,54.28494,-122.61215,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-066,Release of Substance,7/8/2010,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Submitted,53.16727,-112.15003,0.5,Natural Gas - Sweet,Gas,No,2010
+INC2010-073,Release of Substance,7/14/2010,Montreal,Quebec,Trans-Northern Pipelines Inc.,Submitted,45.625209,-73.543389,Not Provided,Jet Fuel,Liquid,No,2010
+INC2010-074,Release of Substance,7/15/2010,Cochrane,Ontario,TransCanada PipeLines Limited,Closed,48.94621,-80.99467,3300,Natural Gas - Sweet,Gas,No,2010
+INC2010-079,Release of Substance,7/25/2010,Maple Creek,Ontario,TransCanada PipeLines Limited,Closed,43.87391,-79.57983,100,Natural Gas - Sweet,Gas,No,2010
+INC2010-084,Release of Substance,8/3/2010,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.26269,-65.98211,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-089,Release of Substance,8/16/2010,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83026,-118.64722,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-090,Release of Substance,8/18/2010,Beiseker,Alberta,NOVA Gas Transmission Ltd.,Submitted,51.32247,-113.38195,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-091,Release of Substance,8/23/2010,Williamstown,Ontario,Trans-Northern Pipelines Inc.,Submitted,45.140221,-74.562991,25.1,Gasoline,Liquid,No,2010
+INC2010-092,Release of Substance,8/25/2010,Cobourg,Ontario,TransCanada PipeLines Limited,Closed,44.00638,-78.19719,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-096,Release of Substance,9/7/2010,Carstairs,Alberta,NOVA Gas Transmission Ltd.,Closed,51.50897,-113.86985,3,Natural Gas - Sweet,Gas,No,2010
+INC2010-097,Release of Substance,9/8/2010,Whitecourt,Alberta,Alliance Pipeline Ltd.,Closed,54.31015,-115.68078,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-098,Release of Substance,9/11/2010,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,57.18167,-118.19522,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-101,Release of Substance,9/20/2010,Alida,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.42185,-101.87015,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-102,Operation Beyond Design Limits,9/21/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54740278,-113.3556944,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-103,Release of Substance,9/22/2010,Saint George,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.129046,-66.831379,14.2,Natural Gas - Sweet,Gas,No,2010
+INC2010-104,Release of Substance,9/23/2010,Enchant,Alberta,NOVA Gas Transmission Ltd.,Submitted,50.04984,-112.53824,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-105,Release of Substance,9/29/2010,Spirit River,Alberta,NOVA Gas Transmission Ltd.,Closed,55.77705,-119.36823,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-106,Release of Substance,9/30/2010,Geraldton,Ontario,TransCanada PipeLines Limited,Closed,49.73149,-87.06539,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-107,Release of Substance,10/1/2010,Piapot,Saskatchewan,Foothills Pipe Lines Ltd.,Closed,49.98,-109.12,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-110,Release of Substance,10/6/2010,North Bay,Ontario,TransCanada PipeLines Limited,Closed,46.37985,-79.46885,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-111,Release of Substance,10/7/2010,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.0923,-116.62298,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-112,Release of Substance,10/7/2010,Monchy,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,50.53819444,-107.3048333,Not Provided,Fuel Gas,Gas,No,2010
+INC2010-113,"Explosion, Fire",10/14/2010,Fort St. John,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.63939722,-121.6420556,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-114,Release of Substance,10/15/2010,Haldimand,Ontario,Enbridge Pipelines Inc.,Closed,42.83421028,-80.0417111,17.5,Crude Oil - Sweet,Liquid,No,2010
+INC2010-116,Release of Substance,10/21/2010,North Bay,Ontario,TransCanada PipeLines Limited,Closed,46.43231389,-79.4676583,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-117,Operation Beyond Design Limits,10/23/2010,Hardisty,Alberta,Enbridge Pipelines Inc.,Submitted,52.7013,-111.4402222,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-118,Fire,10/27/2010,Kenora,Ontario,TransCanada PipeLines Limited,Closed,49.79171111,-94.4943138,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-119,Release of Substance,10/28/2010,Burstall,Saskatchewan,TransCanada PipeLines Limited,Closed,50.67645278,-109.9787222,11000,Natural Gas - Sweet,Gas,No,2010
+INC2010-121,Release of Substance,11/1/2010,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83012222,-118.6471944,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-122,Release of Substance,11/2/2010,Kendal,Saskatchewan,TransCanada PipeLines Limited,Closed,50.33116111,-103.6093333,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-124,Operation Beyond Design Limits,11/5/2010,Gordondale,Alberta,NOVA Gas Transmission Ltd.,Closed,55.82576,-119.73576,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-127,Fire,11/15/2010,Portage La Prairie,Manitoba,TransCanada Keystone Pipeline GP Ltd.,Closed,50.01944722,-99.3645055,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-128,Release of Substance,11/17/2010,Grovedale,Alberta,NOVA Gas Transmission Ltd.,Closed,54.67993889,-118.9943333,1,Natural Gas - Sweet,Gas,No,2010
+INC2010-129,Release of Substance,11/19/2010,Lincoln,Ontario,TransCanada PipeLines Limited,Closed,43.11360833,-79.463075,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-130,Release of Substance,11/19/2010,Jellicoe,Ontario,TransCanada PipeLines Limited,Closed,49.68026111,-87.5951138,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-131,Release of Substance,11/20/2010,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.27811111,-66.0088056,2.8,Natural Gas - Sweet,Gas,No,2010
+INC2010-134,Adverse Environmental Effects,11/22/2010,Not specified,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.39952,-122.09349,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-135,Release of Substance,11/22/2010,Tumbler Ridge,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,54.86820278,-120.6479722,Not Provided,Natural Gas - Sour,Gas,No,2010
+INC2010-137,Release of Substance,11/22/2010,Kendal,Saskatchewan,TransCanada PipeLines Limited,Closed,50.33177,-103.60955,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-139,Operation Beyond Design Limits,11/24/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54769,-113.35921,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-141,Release of Substance,11/27/2010,Piapot,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.98,-109.12,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-143,Release of Substance,11/30/2010,Shaunavon,Saskatchewan,Foothills Pipe Lines Ltd.,Closed,49.55266,-108.3695,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-145,Release of Substance,12/1/2010,Hanna,Alberta,NOVA Gas Transmission Ltd.,Closed,51.93893056,-112.0749444,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-147,Release of Substance,12/1/2010,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.886624,-66.551134,0.5,Natural Gas - Sweet,Gas,No,2010
+INC2010-148,Release of Substance,12/3/2010,Cabri,Saskatchewan,TransCanada PipeLines Limited,Closed,50.605125,-108.7085556,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-149,Operation Beyond Design Limits,12/3/2010,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.63944722,-111.2781389,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-150,Release of Substance,12/6/2010,Sundridge,Ontario,TransCanada PipeLines Limited,Closed,45.71830278,-79.4368138,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-151,Operation Beyond Design Limits,12/8/2010,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,59.20186,-121.596498,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-153,Release of Substance,12/10/2010,Regina,Saskatchewan,TransCanada PipeLines Limited,Closed,50.39316667,-104.4093611,2.8,Natural Gas - Sweet,Gas,No,2010
+INC2010-155,Release of Substance,12/13/2010,Jellicoe,Ontario,TransCanada PipeLines Limited,Closed,49.70361,-87.41084,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-157,Release of Substance,12/15/2010,Dartmouth,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,44.663897,-63.568182,1,Natural Gas - Sweet,Gas,No,2010
+INC2010-158,Fire,12/17/2010,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,52.65486,-111.26462,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-159,Release of Substance,12/17/2010,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.50731,-116.44281,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-164,Release of Substance,12/22/2010,Jarvie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.65256,-114.52778,Not Provided,Natural Gas - Sweet,Gas,No,2010
+INC2010-167,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-168,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-169,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-170,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-171,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-172,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-173,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-174,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-175,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-176,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2010-177,Operation Beyond Design Limits,11/11/2010,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2010
+INC2011-003,Fire,1/9/2011,Grande Prairie,Alberta,Alliance Pipeline Ltd.,Closed,54.5224,-118.10037,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-004,Release of Substance,1/13/2011,Marten River,Ontario,TransCanada PipeLines Limited,Closed,46.84822454,-79.8090245,192,Natural Gas - Sweet,Gas,No,2011
+INC2011-008,Release of Substance,1/21/2011,Bowmanville,Ontario,TransCanada PipeLines Limited,Closed,43.96,-78.81941,1000,Natural Gas - Sweet,Gas,No,2011
+INC2011-011,Release of Substance,1/31/2011,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,55.57555,-113.87749,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-012,Operation Beyond Design Limits,1/31/2011,Toronto,Ontario,Trans-Northern Pipelines Inc.,Closed,43.69257,-79.61074,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-014,Fire,2/2/2011,Neutral Hills,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.29321,-111.09081,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-016,Release of Substance,2/3/2011,Monchy,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.017155,-107.831853,2,Natural Gas - Sweet,Gas,No,2011
+INC2011-017,Release of Substance,2/4/2011,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.88657778,-66.5511694,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-018,Release of Substance,2/7/2011,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.11307222,-64.7157694,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-019,Fire,2/8/2011,Neutral Hills,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.29334,-111.09092,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-026,Release of Substance,2/14/2011,North Bay,Ontario,TransCanada PipeLines Limited,Closed,46.37977,-79.46897,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-027,Release of Substance,2/18/2011,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.887,-66.551169,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-029,"Fire, Release of Substance",2/20/2011,Beardmore,Ontario,TransCanada PipeLines Limited,Submitted,49.58894444,-87.9718889,2790000,Natural Gas - Sweet,Gas,Yes,2011
+INC2011-030,Release of Substance,2/20/2011,Rainbow Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,58.44721,-119.22429,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-032,Release of Substance,2/23/2011,Burnside,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.3,-62.983333,3,Natural Gas - Sweet,Gas,No,2011
+INC2011-035,Fire,3/2/2011,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Closed,57.25289,-111.05669,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-036,Release of Substance,3/2/2011,Hanna,Alberta,NOVA Gas Transmission Ltd.,Closed,52.36527,-113.08174,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-038,Release of Substance,3/7/2011,Kamloops,British Columbia,Trans Mountain Pipeline ULC,Closed,50.66255,-120.41416,11,Waste Oil,Liquid,No,2011
+INC2011-042,Release of Substance,3/13/2011,Rosebud,Alberta,NOVA Gas Transmission Ltd.,Closed,51.18869,-112.93903,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-044,Release of Substance,3/17/2011,Ignace,Ontario,TransCanada PipeLines Limited,Closed,49.48823,-91.98782,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-045,Release of Substance,3/18/2011,Ignace,Ontario,TransCanada PipeLines Limited,Closed,49.48823,-91.98782,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-046,Release of Substance,3/21/2011,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,58.85595,-121.78287,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-048,Release of Substance,3/24/2011,Regina,Saskatchewan,Alliance Pipeline Ltd.,Closed,49.9746,-103.6528,170,Natural Gas - Sweet,Gas,No,2011
+INC2011-053,Release of Substance,3/31/2011,Nipigon,Ontario,TransCanada PipeLines Limited,Closed,49.29513,-88.10109,1000,Natural Gas - Sweet,Gas,No,2011
+INC2011-054,Fatality,4/1/2011,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.868241,-118.809763,Not Applicable,Not Applicable,Not Applicable,Yes,2011
+INC2011-055,Release of Substance,4/1/2011,Tunis,Ontario,TransCanada PipeLines Limited,Closed,48.87166,-80.893589,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-056,Release of Substance,4/3/2011,Burnside,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.3,-62.98333,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-058,"Release of Substance, Operation Beyond Design Limits",4/5/2011,Burnside,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.3,-62.98333,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-059,Release of Substance,4/6/2011,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.635343,-111.267485,Not Provided,Natural Gas Liquids,Gas,No,2011
+INC2011-061,Release of Substance,4/14/2011,Cochrane,Ontario,TransCanada PipeLines Limited,Closed,49.10559503,-81.273875,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-063,Release of Substance,4/17/2011,Wabigoon,Ontario,TransCanada PipeLines Limited,Closed,49.72702,-92.58215,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-064,Release of Substance,4/21/2011,Zama Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,59.06394,-118.84693,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-065,Release of Substance,4/22/2011,Chip Lake,Alberta,Trans Mountain Pipeline ULC,Submitted,53.60352778,-115.4963889,1.6,Crude Oil - Sweet,Liquid,Yes,2011
+INC2011-066,Release of Substance,4/26/2011,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.28501,-121.65768,1300,Natural Gas - Sour,Gas,No,2011
+INC2011-067,Release of Substance,4/25/2011,Burstall,Saskatchewan,TransCanada PipeLines Limited,Closed,50.67651,-109.97872,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-068,Fire,4/28/2011,Czar,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.29327,-111.0907,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-070,Fire,5/3/2011,Hamilton,Ontario,TransCanada PipeLines Limited,Closed,43.25556,-79.87348,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-071,Release of Substance,5/3/2011,Beardmore,Ontario,TransCanada PipeLines Limited,Closed,49.61136,-87.96157,50,Natural Gas - Sweet,Gas,No,2011
+INC2011-073,Release of Substance,5/7/2011,Edson,Alberta,NOVA Gas Transmission Ltd.,Submitted,53.60098,-116.46762,10,Natural Gas - Sweet,Gas,No,2011
+INC2011-074,Release of Substance,5/9/2011,Wrigley,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,62.70880556,-123.079889,259,Crude Oil - Sweet,Liquid,Yes,2011
+INC2011-075,Release of Substance,5/12/2011,Terrebonne,Quebec,Enbridge Pipelines Inc.,Closed,45.72466,-73.69588,4,Crude Oil - Sweet,Liquid,No,2011
+INC2011-085,Release of Substance,5/27/2011,Pincher Creek,Alberta,NOVA Gas Transmission Ltd.,Submitted,49.30721,-114.015,2,Natural Gas - Sweet,Gas,No,2011
+INC2011-087,Release of Substance,6/5/2011,Niverville,Manitoba,TransCanada PipeLines Limited,Closed,49.58317,-97.0036,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-089,Release of Substance,6/6/2011,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.30744,-66.04273,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-090,Fatality,6/7/2011,Dawson Creek,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.81189,-120.86837,Not Applicable,Not Applicable,Not Applicable,Yes,2011
+INC2011-094,Release of Substance,6/17/2011,Fort St. John,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.254,-120.716,0.0001,Natural Gas - Sweet,Gas,No,2011
+INC2011-095,Operation Beyond Design Limits,6/21/2011,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,52.64129,-111.2708,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-099,Release of Substance,6/27/2011,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.27811111,-66.0088056,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-100,Release of Substance,6/27/2011,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.806186,-66.593942,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-101,Release of Substance,6/27/2011,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.881317,-66.551169,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-102,Release of Substance,6/27/2011,Gaspereau,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,47.590212,-64.959858,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-104,Release of Substance,6/30/2011,Red Deer,Alberta,NOVA Gas Transmission Ltd.,Closed,52.24822,-113.61774,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-105,Fire,7/7/2011,Edson,Alberta,NOVA Gas Transmission Ltd.,Closed,53.96088,-116.46033,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-106,Release of Substance,7/8/2011,Burstall,Saskatchewan,TransCanada PipeLines Limited,Closed,50.67653,-109.97885,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-109,Release of Substance,7/22/2011,Caledonia,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.37514774,-62.452671,113,Natural Gas - Sweet,Gas,No,2011
+INC2011-114,Release of Substance,8/4/2011,Halifax,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,44.648901,-63.575335,934,Natural Gas - Sweet,Gas,No,2011
+INC2011-115,Release of Substance,8/4/2011,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.45872,-67.02456,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-116,Fire,8/4/2011,Herbert,Saskatchewan,TransCanada Keystone Pipeline GP Ltd.,Submitted,50.53923,-107.30765,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-119,Fire,8/6/2011,Consort,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,51.92351,-110.63297,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-120,Fire,8/6/2011,Oyen,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,51.42256,-110.54117,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-125,Fire,8/9/2011,Rapid City,Manitoba,TransCanada Keystone Pipeline GP Ltd.,Closed,50.0749,-100.00047,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-127,Release of Substance,8/16/2011,Meanook,Alberta,NOVA Gas Transmission Ltd.,Closed,54.46884,-113.21624,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-129,Operation Beyond Design Limits,8/17/2011,Toronto,Ontario,Trans-Northern Pipelines Inc.,Closed,43.768426,-79.485336,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-131,Fire,8/21/2011,White City,Saskatchewan,TransCanada PipeLines Limited,Submitted,50.39317,-104.40937,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-132,Fire,8/22/2011,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.12635,-117.83833,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-133,Fire,8/23/2011,Manning,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.19241,-118.19542,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-134,Fire,8/29/2011,White City,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.44344,-104.35691,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-135,Release of Substance,8/31/2011,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83012,-118.64715,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-136,Serious Injury (NEB or TSB),9/1/2011,Huntsville,Ontario,TransCanada PipeLines Limited,Closed,45.51138,-79.31036,Not Applicable,Not Applicable,Not Applicable,Yes,2011
+INC2011-138,Release of Substance,9/2/2011,Wabasca,Alberta,NOVA Gas Transmission Ltd.,Closed,55.84448,-113.89141,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-141,Release of Substance,9/8/2011,Musquash,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.195347,-66.401993,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-142,Release of Substance,9/9/2011,Albrights Corner,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.022695,-66.189817,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-143,Release of Substance,9/9/2011,Noonan,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.963713,-66.52814,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-146,Fire,9/10/2011,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,55.50563,-119.56184,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-152,Release of Substance,9/20/2011,Grenfell,Saskatchewan,TransCanada PipeLines Limited,Closed,50.28587,-102.95155,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-153,Release of Substance,9/26/2011,Saint George,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.129009,-66.83136,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-154,Release of Substance,9/28/2011,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83025,-118.64722,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-155,Release of Substance,10/1/2011,Maple,Ontario,TransCanada PipeLines Limited,Closed,43.87391,-79.58006,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-157,Fatality,10/12/2011,Sarnia,Ontario,Niagara Gas Transmission Limited,Submitted,42.97508,-82.40654,Not Applicable,Not Applicable,Not Applicable,Yes,2011
+INC2011-158,Release of Substance,10/13/2011,Tulita,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,64.65833,-124.83612,0.0005,Propane,Gas,No,2011
+INC2011-160,Operation Beyond Design Limits,10/14/2011,Windsor,Ontario,Ethane Shippers Joint Venture,Closed,42.280509,-83.077658,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-162,Release of Substance,10/19/2011,Wrigley,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,63.87793,-123.98697,Not Provided,Mixed HVP Hydrocarbons,Gas,No,2011
+INC2011-163,Release of Substance,10/19/2011,Wrigley,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,63.261177,-123.402616,0.001,Propane,Gas,No,2011
+INC2011-165,Fire,10/24/2011,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.25906,-103.70813,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-166,Release of Substance,10/26/2011,Rosemary,Alberta,NOVA Gas Transmission Ltd.,Closed,50.90519,-112.10804,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-167,Fire,10/31/2011,Hearst,Ontario,TransCanada PipeLines Limited,Submitted,49.67061,-83.65592,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-168,Fire,11/4/2011,Yahk,British Columbia,Foothills Pipe Lines Ltd.,Closed,49.07839,-116.10601,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-171,Release of Substance,11/20/2011,Whitecourt,Alberta,NOVA Gas Transmission Ltd.,Closed,54.14314,-115.36091,50,Natural Gas - Sweet,Gas,No,2011
+INC2011-172,Release of Substance,11/20/2011,Donnelly,Alberta,NOVA Gas Transmission Ltd.,Closed,55.72877,-117.08296,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-173,Release of Substance,11/21/2011,Calstock,Ontario,TransCanada PipeLines Limited,Closed,49.74457,-84.06787,4,Natural Gas - Sweet,Gas,No,2011
+INC2011-174,Fire,11/21/2011,Maple,Ontario,TransCanada PipeLines Limited,Submitted,43.87391,-79.57983,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-175,Operation Beyond Design Limits,11/24/2011,Portage La Prairie,Manitoba,TransCanada Keystone Pipeline GP Ltd.,Submitted,49.91197,-98.51779,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-177,Fire,12/2/2011,Fort Frances,Ontario,Centra Transmission Holdings Inc.,Closed,48.613425,-93.417778,Not Applicable,Not Applicable,Not Applicable,No,2011
+INC2011-178,Release of Substance,12/5/2011,Huntsville,Ontario,TransCanada PipeLines Limited,Closed,45.375736,-79.239306,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-179,Release of Substance,12/6/2011,Amisk,Alberta,NOVA Gas Transmission Ltd.,Submitted,52.54673,-111.03052,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-180,Release of Substance,12/7/2011,Glenboro,Manitoba,Enbridge Pipelines Inc.,Closed,49.54445,-99.3207,7,Crude Oil - Sweet,Liquid,No,2011
+INC2011-183,Release of Substance,12/14/2011,Steelman,Saskatchewan,Enbridge Pipelines (Westspur) Inc.,Closed,49.28813,-102.63736,2,Crude Oil - Sweet,Liquid,No,2011
+INC2011-185,Release of Substance,12/20/2011,Ignace,Ontario,TransCanada PipeLines Limited,Closed,49.26712,-91.23269,Not Provided,Natural Gas - Sweet,Gas,No,2011
+INC2011-186,Release of Substance,12/21/2011,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.251566,-66.097871,236,Natural Gas - Sweet,Gas,No,2011
+INC2012-002,Release of Substance,1/4/2012,Kapuskasing,Ontario,TransCanada PipeLines Limited,Closed,49.3881,-82.43604,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-003,Release of Substance,1/6/2012,Burlington,Ontario,TransCanada PipeLines Limited,Closed,43.37273,-79.83172,6,Natural Gas - Sweet,Gas,No,2012
+INC2012-004,Operation Beyond Design Limits,1/7/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-005,Serious Injury (NEB or TSB),1/9/2012,Fort Nelson,British Columbia,NOVA Gas Transmission Ltd.,Closed,59.04522,-121.26857,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2012-006,Release of Substance,1/10/2012,Cobourg,Ontario,TransCanada PipeLines Limited,Closed,44.04676,-78.00709,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-007,Release of Substance,1/15/2012,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.70181,-121.63465,Not Provided,Natural Gas - Sour,Gas,No,2012
+INC2012-009,Operation Beyond Design Limits,1/17/2012,Clearwater,British Columbia,Trans Mountain Pipeline ULC,Closed,51.5659,-120.16191,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-010,Release of Substance,1/18/2012,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.19155,-118.19433,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-011,Fire,1/20/2012,Prespatou,Alberta,NOVA Gas Transmission Ltd.,Closed,57.36771,-119.75255,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-013,Fire,1/19/2012,Assumption,Alberta,NOVA Gas Transmission Ltd.,Closed,57.37269,-119.13156,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-014,Fire,1/19/2012,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.86534,-109.02627,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-015,Fire,1/21/2012,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.38062,-119.18572,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-016,Release of Substance,1/24/2012,Abbotsford,British Columbia,Trans Mountain Pipeline ULC,Closed,49.07801,-122.20215,90,Crude Oil - Sweet,Liquid,No,2012
+INC2012-017,"Fire, Release of Substance",1/25/2012,Fort Nelson,British Columbia,NOVA Gas Transmission Ltd.,Closed,59.20208,-121.62187,0.001,Propane,Gas,No,2012
+INC2012-018,Fire,1/25/2012,Cheecham,Alberta,NOVA Gas Transmission Ltd.,Closed,56.19745,-110.86556,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-019,Release of Substance,1/26/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.274038,-66.0275,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-020,Serious Injury (NEB or TSB),1/27/2012,Cheecham,Alberta,NOVA Gas Transmission Ltd.,Closed,56.25495,-110.89551,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2012-021,Release of Substance,2/3/2012,Shaunavon,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.78627,-108.72239,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-022,"Fire, Release of Substance",2/3/2012,Cheecham,Alberta,NOVA Gas Transmission Ltd.,Closed,56.18776,-110.86149,Not Provided,Mixed HVP Hydrocarbons,Gas,No,2012
+INC2012-023,Fire,2/6/2012,Thorndale,Ontario,Enbridge Pipelines Inc.,Closed,43.14439,-81.21239,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-024,Fire,2/7/2012,Burstall,Saskatchewan,Foothills Pipe Lines Ltd.,Closed,50.66225,-110.01655,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-026,Serious Injury (NEB or TSB),2/9/2012,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.697588,-121.629633,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2012-027,Release of Substance,2/13/2012,Vermilion Bay,Ontario,TransCanada PipeLines Limited,Closed,49.82818,-93.63726,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-028,Release of Substance,2/13/2012,Vermilion Bay,Ontario,TransCanada PipeLines Limited,Closed,49.82797,-93.63666,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-029,Release of Substance,2/15/2012,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.895524,-66.542645,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-031,Fire,2/16/2012,Nipigon,Ontario,TransCanada PipeLines Limited,Closed,49.29549,-88.10056,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-032,Release of Substance,2/21/2012,Haileybury,Ontario,TransCanada PipeLines Limited,Closed,47.44682,-79.76273,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-038,Release of Substance,2/29/2012,Athabasca,Alberta,NOVA Gas Transmission Ltd.,Closed,54.64742,-112.80015,65,Natural Gas - Sweet,Gas,No,2012
+INC2012-040,Release of Substance,3/1/2012,Brandon,Manitoba,TransCanada PipeLines Limited,Closed,50.07461,-100.00038,1400,Fuel Gas,Gas,No,2012
+INC2012-041,Release of Substance,3/2/2012,Spirit River,Alberta,NOVA Gas Transmission Ltd.,Closed,55.7578,-118.30145,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-043,Fire,3/9/2012,Burstall,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,50.71038,-110.10574,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-044,Operation Beyond Design Limits,3/13/2012,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54727,-113.35571,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-045,Release of Substance,3/13/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.274038,-66.0275,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-048,Release of Substance,3/29/2012,Whitburn,Alberta,NOVA Gas Transmission Ltd.,Closed,55.81522,-119.36594,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-049,Release of Substance,3/30/2012,Iroquois,Ontario,TransCanada PipeLines Limited,Closed,44.88671,-75.29431,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-051,Release of Substance,4/13/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.27614,-66.02945,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-053,Fire,4/23/2012,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54746,-113.35569,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-054,Operation Beyond Design Limits,4/23/2012,Toronto,Ontario,Trans-Northern Pipelines Inc.,Closed,43.693367,-79.609444,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-056,Release of Substance,5/3/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.23904,-66.1031,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-057,Fire,5/5/2012,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.64991,-122.20723,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-059,Release of Substance,5/8/2012,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.830521,-118.647866,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-060,Release of Substance,5/9/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.258307,-66.093651,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-061,Release of Substance,5/9/2012,Valleyview,Alberta,NOVA Gas Transmission Ltd.,Closed,55.16008,-117.8411,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-062,Fire,5/14/2012,Glenavon,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.18704,-103.17201,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-063,Release of Substance,5/14/2012,Matheson,Ontario,TransCanada PipeLines Limited,Closed,48.41782,-80.33662,200,Natural Gas - Sweet,Gas,No,2012
+INC2012-064,Release of Substance,5/15/2012,Medicine Hat,Alberta,NOVA Gas Transmission Ltd.,Closed,50.08985,-110.72397,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-065,Release of Substance,5/16/2012,Mattice,Ontario,TransCanada PipeLines Limited,Closed,49.58892,-83.16656,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-067,Fire,5/28/2012,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.34678,-116.87308,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-068,Release of Substance,5/30/2012,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.36666,-119.75241,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-069,Operation Beyond Design Limits,5/31/2012,Edson,Alberta,NOVA Gas Transmission Ltd.,Closed,53.96051,-116.46002,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-070,Serious Injury (NEB or TSB),6/6/2012,Dawson Creek,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.81403,-120.86935,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2012-071,Fire,6/8/2012,Oshawa,Ontario,TransCanada PipeLines Limited,Closed,43.95786,-78.60959,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-072,Fire,6/8/2012,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.65396,-111.26847,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-073,Release of Substance,6/13/2012,Nipigon,Ontario,TransCanada PipeLines Limited,Closed,49.29567,-88.10151,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-074,Release of Substance,6/15/2012,Port Elgin,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.98763,-64.14375,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-075,Release of Substance,6/15/2012,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.98763,-64.14375,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-078,"Serious Injury (NEB or TSB), Fire, Release of Substance",6/23/2012,Hudson's Hope,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.4714,-122.11376,Not Provided,Natural Gas - Sweet,Gas,Yes,2012
+INC2012-080,Explosion,6/28/2012,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Closed,56.46368,-112.84413,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-081,"Fire, Release of Substance",6/29/2012,Wonowon,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,57.06925,-121.63939,Not Provided,Natural Gas - Sweet,Gas,Yes,2012
+INC2012-082,Release of Substance,6/29/2012,Charlie Lake,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.27789,-120.97802,Not Provided,Natural Gas - Sour,Gas,No,2012
+INC2012-083,Explosion,7/4/2012,Paddle Prairie,Alberta,TransCanada PipeLines Limited,Closed,57.87538,-118.41276,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-084,Explosion,7/4/2012,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.34676,-116.87305,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-086,Release of Substance,7/11/2012,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Closed,54.83015,-118.64728,5,Natural Gas - Sweet,Gas,No,2012
+INC2012-088,Fire,2/2/2012,Rocky Mountain House,Alberta,NOVA Gas Transmission Ltd.,Closed,52.50498,-115.48418,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-090,Explosion,7/16/2012,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.36127,-119.75155,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-091,Release of Substance,7/18/2012,Grenfell,Saskatchewan,TransCanada PipeLines Limited,Closed,50.28593,-102.95152,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-093,Explosion,7/26/2012,Lodgepole,Alberta,NOVA Gas Transmission Ltd.,Closed,53.03778,-115.27248,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-095,Explosion,7/27/2012,Regina,Saskatchewan,TransCanada PipeLines Limited,Closed,50.40093,-104.77915,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-097,Fire,7/31/2012,Ignace,Ontario,TransCanada PipeLines Limited,Closed,49.48156,-91.95934,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-098,Release of Substance,8/1/2012,Douglastown,Ontario,TransCanada PipeLines Limited,Closed,43.00477,-79.05065,100,Natural Gas - Sweet,Gas,No,2012
+INC2012-099,Release of Substance,8/3/2012,Saint John,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.27916,-66.09058,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-100,Release of Substance,8/7/2012,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.88692,-66.5514,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-101,Fire,8/9/2012,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.86562,-109.02627,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-106,Fire,8/16/2012,Rainbow Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,58.48217,-119.92404,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-107,Release of Substance,8/20/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.23904,-66.1032,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-109,Release of Substance,8/21/2012,Jellicoe,Ontario,TransCanada PipeLines Limited,Closed,49.69204,-87.24486,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-110,Fire,8/21/2012,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.58466,-107.91601,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-111,Release of Substance,8/22/2012,Airdrie,Alberta,TransCanada PipeLines Limited,Closed,51.40776,-113.65548,34.9,Natural Gas - Sweet,Gas,No,2012
+INC2012-112,Fire,8/23/2012,Cabri,Saskatchewan,TransCanada PipeLines Limited,Closed,50.5882,-108.45721,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-114,Release of Substance,8/25/2012,Ignace,Ontario,TransCanada PipeLines Limited,Closed,49.48139,-91.95966,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-115,Release of Substance,8/27/2012,Elmworth,Alberta,Burlington Resources Canada (Hunter) Ltd.,Closed,55.09204,-119.85311,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-116,Release of Substance,8/29/2012,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.087816,-64.778231,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-118,Fire,9/7/2012,Glenboro,Manitoba,Enbridge Pipelines Inc.,Closed,49.544121,-99.314964,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-119,Fire,9/7/2012,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.454722,-104.606667,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-121,Release of Substance,9/10/2012,Musquash,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.19227,-66.40471,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-122,Fire,9/12/2012,Caronport,Saskatchewan,TransCanada Keystone Pipeline GP Ltd.,Closed,50.48071,-105.86698,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-123,Release of Substance,9/17/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.239404,-66.102907,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-124,Release of Substance,9/18/2012,Shaunavon,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.98,-109.12,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-125,Release of Substance,9/18/2012,Sarnia,Ontario,Enbridge Pipelines Inc.,Closed,42.95262,-82.37435,0.001,Natural Gas - Sweet,Gas,No,2012
+INC2012-127,Release of Substance,9/21/2012,Flume Ridge,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.461,-66.99757,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-128,"Explosion, Fire",9/21/2012,Drayton Valley,Alberta,NOVA Gas Transmission Ltd.,Closed,52.93315,-114.88072,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-130,Operation Beyond Design Limits,9/26/2012,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.29348,-111.09216,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-131,Release of Substance,9/27/2012,Rapid City,Manitoba,TransCanada PipeLines Limited,Closed,50.0747,-100.00049,10,Natural Gas - Sweet,Gas,No,2012
+INC2012-132,Fire,9/27/2012,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.86536,-109.02607,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-133,Release of Substance,9/28/2012,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.806186,-66.593942,5.7,Natural Gas - Sweet,Gas,No,2012
+INC2012-134,Operation Beyond Design Limits,9/28/2012,Hinton,Alberta,NOVA Gas Transmission Ltd.,Closed,53.65218,-116.09968,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-135,Fire,9/30/2012,Vaughan,Ontario,TransCanada PipeLines Limited,Closed,43.87374,-79.57984,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-137,Release of Substance,10/2/2012,Rapid City,Manitoba,TransCanada PipeLines Limited,Closed,50.07455,-100.00074,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-138,Release of Substance,10/2/2012,Carberry,Manitoba,TransCanada PipeLines Limited,Closed,50.024295,-99.454233,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-139,Operation Beyond Design Limits,10/3/2012,Hines Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,56.55718,-119.02232,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-140,Release of Substance,10/4/2012,Rosemary,Alberta,NOVA Gas Transmission Ltd.,Closed,50.74405,-112.06708,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-141,Release of Substance,10/4/2012,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.48045,-104.57805,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-142,Fire,10/5/2012,Caroline,Alberta,NOVA Gas Transmission Ltd.,Closed,52.06411,-114.91249,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-144,Release of Substance,10/9/2012,Kenora,Ontario,TransCanada PipeLines Limited,Closed,49.72752728,-95.125515,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-146,Operation Beyond Design Limits,10/22/2012,Swan Hill,Alberta,NOVA Gas Transmission Ltd.,Closed,54.539693,-115.919971,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-148,Operation Beyond Design Limits,10/27/2012,Rosetown,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.482482,-107.525115,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-149,Release of Substance,10/29/2012,Sarnia,Ontario,Enbridge Pipelines Inc.,Closed,42.95261,-82.37433,7.44,Crude Oil - Sour,Liquid,No,2012
+INC2012-150,Release of Substance,10/29/2012,Kapuskasing,Ontario,TransCanada PipeLines Limited,Closed,49.38796,-82.43616,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-151,Release of Substance,10/29/2012,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,55.04178,-114.46266,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-152,Release of Substance,11/1/2012,Moyie,British Columbia,TransCanada PipeLines Limited B.C. System,Closed,49.238462,-115.855313,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-153,Release of Substance,11/1/2012,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,54.26029388,-115.2028366,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-154,Release of Substance,11/8/2012,Lincoln,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.806186,-66.593942,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-155,Fire,11/12/2012,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.36002,-119.74979,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-156,Release of Substance,11/14/2012,Salisbury,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.050194,-65.259182,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-157,Release of Substance,11/15/2012,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Closed,54.043732,-117.421244,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-158,Release of Substance,11/18/2012,Shaunavon,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.98008,-109.12,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-159,Release of Substance,11/18/2012,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.15019444,-121.4512055,Not Provided,Natural Gas - Sour,Gas,No,2012
+INC2012-161,Fire,11/22/2012,Kitchener,Ontario,TransCanada PipeLines Limited,Closed,43.406032,-80.43846,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-162,Release of Substance,11/22/2012,Beauharnois,Quebec,TransCanada PipeLines Limited,Closed,45.27297,-73.893093,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-164,Release of Substance,11/24/2012,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.48053,-104.57829,Not Provided,Natural Gas Liquids,Gas,No,2012
+INC2012-166,Release of Substance,11/27/2012,Goldboro,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.17667,-61.6226,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-168,Release of Substance,12/7/2012,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.239523,-66.102866,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-171,Serious Injury (NEB or TSB),12/15/2012,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.54719,-113.35571,Not Applicable,Not Applicable,Not Applicable,Yes,2012
+INC2012-173,Release of Substance,12/26/2012,Cabri,Saskatchewan,TransCanada PipeLines Limited,Closed,50.60505,-108.70856,Not Provided,Natural Gas - Sweet,Gas,No,2012
+INC2012-174,Fire,12/29/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.54747,-113.35571,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-175,Fire,1/8/2013,Mississauga,Ontario,TransCanada PipeLines Limited,Closed,43.551392,-79.593431,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2012-176,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-177,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-178,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-179,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-180,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-181,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-182,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-183,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-184,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-185,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-186,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-187,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-188,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-189,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-190,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-191,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-192,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-193,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-194,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-195,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-196,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-197,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-198,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-199,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-200,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-201,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2012-202,Operation Beyond Design Limits,2/27/2012,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.5467,-113.35465,Not Applicable,Not Applicable,Not Applicable,No,2012
+INC2013-003,Fire,1/8/2013,Maple,Ontario,TransCanada PipeLines Limited,Closed,43.87366,-79.57983,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-004,Release of Substance,1/8/2013,Goldboro,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.17741,-61.6223,679,Natural Gas - Sweet,Gas,No,2013
+INC2013-005,Release of Substance,1/15/2013,Dryden,Ontario,TransCanada PipeLines Limited,Closed,49.789417,-92.765515,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-007,Release of Substance,1/21/2013,Taylor,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.1442,-120.67138,9.1,Condensate,Liquid,No,2013
+INC2013-010,Release of Substance,1/25/2013,Manning,Alberta,NOVA Gas Transmission Ltd.,Closed,57.11437,-117.45693,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-011,Release of Substance,1/26/2013,Brockville,Ontario,TransCanada PipeLines Limited,Submitted,44.68344,-75.62107,1,Natural Gas - Sweet,Gas,No,2013
+INC2013-012,Release of Substance,1/26/2013,Whitecourt,Alberta,NOVA Gas Transmission Ltd.,Closed,53.96046,-116.46003,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-016,Release of Substance,2/1/2013,Caledonia,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,44.375026,-65.031085,1000,Natural Gas - Sweet,Gas,No,2013
+INC2013-018,Release of Substance,2/2/2013,Glenavon,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.18688,-103.17213,7.7,Crude Oil - Sweet,Liquid,No,2013
+INC2013-024,Release of Substance,2/10/2013,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Closed,57.02618,-111.69054,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-025,Fire,2/12/2013,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Closed,54.095087,-112.305849,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-028,Release of Substance,2/14/2013,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Closed,55.22444444,-114.8005555,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-030,Release of Substance,2/19/2013,Redcliff,Alberta,NOVA Gas Transmission Ltd.,Closed,50.060735,-110.729591,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-031,Release of Substance,2/21/2013,Falcon Lake,Manitoba,TransCanada PipeLines Limited,Closed,49.681165,-95.374581,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-038,Release of Substance,3/4/2013,Geraldton,Ontario,TransCanada PipeLines Limited,Closed,49.801251,-86.760603,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-041,Release of Substance,3/8/2013,Falcon Lake,Manitoba,TransCanada PipeLines Limited,Submitted,49.681165,-95.374581,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-043,Release of Substance,3/15/2013,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,59.20186,-121.596498,2,Condensate,Liquid,No,2013
+INC2013-044,Fire,3/16/2013,Hamburg,Alberta,NOVA Gas Transmission Ltd.,Closed,57.367714,-119.752776,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-047,Operation Beyond Design Limits,3/18/2013,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,52.65396,-111.26844,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-052,"Serious Injury (NEB or TSB), Fire",3/26/2013,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,58.653246,-122.684823,Not Applicable,Not Applicable,Not Applicable,Yes,2013
+INC2013-053,Release of Substance,4/1/2013,Edson,Alberta,Alliance Pipeline Ltd.,Closed,53.66111,-116.59955,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-056,"Fire, Release of Substance",4/4/2013,Windsor,Ontario,Plains Midstream Canada ULC,Submitted,42.281736,-83.07803,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-058,Fire,4/5/2013,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Closed,52.653959,-111.268469,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-059,Operation Beyond Design Limits,4/9/2013,Hanna,Alberta,NOVA Gas Transmission Ltd.,Submitted,51.9565,-112.370504,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-062,Operation Beyond Design Limits,4/13/2013,Windsor,Ontario,Kinder Morgan Cochin ULC,Closed,42.281736,-83.07803,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-063,Release of Substance,4/16/2013,Fredericton,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.218884,-65.984989,0.028,Natural Gas - Sweet,Gas,No,2013
+INC2013-064,Release of Substance,4/18/2013,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Submitted,51.865344,-109.026045,4,Crude Oil - Sweet,Liquid,No,2013
+INC2013-066,Release of Substance,4/26/2013,Dartmouth,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,44.68563,-63.59679,736,Natural Gas - Sweet,Gas,No,2013
+INC2013-067,Operation Beyond Design Limits,4/26/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.5475,-113.35566,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-069,Operation Beyond Design Limits,4/30/2013,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,54.5353,-117.10964,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-070,Fire,5/1/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-071,Fire,5/3/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-072,Fire,5/4/2013,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Closed,54.095087,-112.305849,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-073,Release of Substance,5/7/2013,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.254932,-65.988823,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-074,Operation Beyond Design Limits,5/10/2013,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.868264,-109.036068,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-075,Release of Substance,5/12/2013,Fairview,Alberta,NOVA Gas Transmission Ltd.,Closed,56.035238,-117.966456,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-077,Release of Substance,5/15/2013,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.254932,-65.988823,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-078,Release of Substance,5/15/2013,Sackville,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.897931,-64.368366,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-079,Release of Substance,5/15/2013,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.087971,-64.77714,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-080,Release of Substance,5/15/2013,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.087971,-64.77714,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-083,Operation Beyond Design Limits,5/23/2013,Wrigley,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,63.08805,-123.2205611,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-086,Operation Beyond Design Limits,6/6/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-087,"Fatality, Serious Injury (NEB or TSB)",6/7/2013,Swan Lake,Manitoba,Enbridge Pipelines Inc.,Closed,49.41074,-98.789672,Not Applicable,Not Applicable,Not Applicable,Yes,2013
+INC2013-088,Release of Substance,6/10/2013,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.279238,-66.006686,0.3,Natural Gas - Sweet,Gas,No,2013
+INC2013-089,Release of Substance,6/10/2013,Rollingdam,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.271448,-67.03329,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-091,Release of Substance,6/11/2013,Hilda,Alberta,NOVA Gas Transmission Ltd.,Closed,50.457417,-110.196855,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-094,Release of Substance,6/14/2013,Saint George,New Brunswick,Emera Brunswick Pipeline Company Ltd.,Closed,45.1291,-66.819134,0.3,Natural Gas - Sweet,Gas,No,2013
+INC2013-095,Release of Substance,6/14/2013,Saint George,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.156922,-66.769837,0.85,Natural Gas - Sweet,Gas,No,2013
+INC2013-096,Release of Substance,6/19/2013,Caron,Saskatchewan,TransCanada PipeLines Limited,Closed,50.480661,-105.867038,5000,Natural Gas - Sweet,Gas,No,2013
+INC2013-097,Release of Substance,6/19/2013,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,59.20186,-121.596498,0.0001,Natural Gas - Sour,Gas,No,2013
+INC2013-099,Release of Substance,6/26/2013,Hope,British Columbia,Trans Mountain Pipeline ULC,Closed,49.615781,-121.034754,17.8,Crude Oil - Sweet,Liquid,Yes,2013
+INC2013-100,Operation Beyond Design Limits,6/26/2013,Terrebonne,Quebec,Enbridge Pipelines Inc.,Closed,45.725249,-73.703931,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-101,Operation Beyond Design Limits,7/1/2013,Montreal,Quebec,Trans-Northern Pipelines Inc.,Closed,45.625321,-73.537743,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-103,Release of Substance,7/2/2013,Waasis,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.828977,-66.578676,0.0001,Natural Gas - Sweet,Gas,No,2013
+INC2013-104,Release of Substance,7/3/2013,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,52.653959,-111.268469,1.59,Crude Oil - Sweet,Liquid,No,2013
+INC2013-107,Release of Substance,7/8/2013,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.451389,-113.923639,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-111,Release of Substance,7/12/2013,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.9627,-66.6432,0.0001,Natural Gas - Sweet,Gas,No,2013
+INC2013-112,Release of Substance,7/17/2013,Ile des Chênes,Manitoba,TransCanada PipeLines Limited,Submitted,49.720115,-96.983862,1.9,Lube Oil,Liquid,No,2013
+INC2013-113,Release of Substance,7/22/2013,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.865344,-109.026045,Not Provided,Natural Gas Liquids,Gas,No,2013
+INC2013-114,Release of Substance,7/24/2013,Coaldale,Alberta,NOVA Gas Transmission Ltd.,Closed,49.634728,-112.476416,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-115,Operation Beyond Design Limits,7/24/2013,Fort St. John,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.943843,-122.074441,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-117,Fire,7/25/2013,Not specified,Alberta,Kinder Morgan Cochin ULC,Submitted,53.499634,-112.081524,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-118,Release of Substance,7/29/2013,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Submitted,51.865344,-109.026045,Not Provided,Natural Gas Liquids,Gas,No,2013
+INC2013-119,Release of Substance,8/3/2013,Cromer,Manitoba,Enbridge Pipelines Inc.,Submitted,49.753998,-101.238688,Not Provided,Natural Gas Liquids,Gas,No,2013
+INC2013-120,Release of Substance,8/4/2013,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Submitted,51.865344,-109.026045,Not Provided,Natural Gas Liquids,Gas,No,2013
+INC2013-123,Fire,8/17/2013,Taber,Alberta,NOVA Gas Transmission Ltd.,Closed,49.78485,-112.15107,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-124,Release of Substance,8/20/2013,Not specified,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.27405,-66.02748,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-126,Operation Beyond Design Limits,8/28/2013,Cromer,Manitoba,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-131,Release of Substance,9/12/2013,Edson,Alberta,NOVA Gas Transmission Ltd.,Submitted,54.09296,-116.62308,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-133,Release of Substance,9/16/2013,Not specified,Alberta,NOVA Gas Transmission Ltd.,Closed,54.08577,-116.64156,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-136,Release of Substance,9/22/2013,Strome,Alberta,Enbridge Pipelines Inc.,Submitted,52.930153,-112.073468,Not Provided,Natural Gas Liquids,Gas,No,2013
+INC2013-139,Release of Substance,9/26/2013,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.26619,-114.60103,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-141,Release of Substance,9/28/2013,Smokey Lake,Alberta,NOVA Gas Transmission Ltd.,Submitted,53.97323,-112.22835,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-142,Release of Substance,10/6/2013,Slave Lake,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.26395,-114.601007,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-146,Release of Substance,10/17/2013,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Submitted,56.514327,-113.679868,16500000,Natural Gas - Sweet,Gas,Yes,2013
+INC2013-147,Operation Beyond Design Limits,10/17/2013,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Submitted,56.51516,-113.65075,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-148,Release of Substance,10/20/2013,Gadsby,Alberta,NOVA Gas Transmission Ltd.,Submitted,52.3882,-112.2162,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-150,Release of Substance,10/23/2013,Burstall,Saskatchewan,TransCanada PipeLines Limited,Submitted,50.676806,-109.929667,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-152,Release of Substance,10/29/2013,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.273315,-66.063308,5.7,Natural Gas - Sweet,Gas,No,2013
+INC2013-153,Fire,10/31/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-154,Release of Substance,11/2/2013,Vermilion Bay,Ontario,TransCanada PipeLines Limited,Submitted,49.82512,-93.627265,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-155,Release of Substance,11/16/2013,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.273315,-66.063308,500,Natural Gas - Sweet,Gas,No,2013
+INC2013-158,Fire,11/22/2013,Saint Leon,Manitoba,Enbridge Pipelines Inc.,Closed,49.362856,-98.590633,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-159,Operation Beyond Design Limits,11/22/2013,Fort Saskatchewan,Alberta,Cochin Pipe Lines Ltd.,Closed,53.700716,-113.209466,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-161,Release of Substance,11/25/2013,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.307156,-113.511011,2.25,Crude Oil - Sweet,Liquid,No,2013
+INC2013-162,Release of Substance,11/27/2013,Boyle,Alberta,NOVA Gas Transmission Ltd.,Submitted,54.50936,-112.64735,4300000,Natural Gas - Sweet,Gas,Yes,2013
+INC2013-164,Release of Substance,12/1/2013,Sherwood Park,Alberta,Trans Mountain Pipeline ULC,Submitted,53.542908,-113.36445,12,Crude Oil - Sweet,Liquid,No,2013
+INC2013-165,Operation Beyond Design Limits,12/2/2013,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.477608,-104.569525,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-167,Fire,12/5/2013,Monchy,Saskatchewan,Foothills Pipe Lines (Saskatchewan) Ltd.,Closed,49.017155,-107.831853,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-168,Release of Substance,12/5/2013,Dryden,Ontario,TransCanada PipeLines Limited,Closed,49.7951,-92.762674,0.017,Natural Gas - Sweet,Gas,No,2013
+INC2013-169,Release of Substance,12/9/2013,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.112702,-64.714397,0.3,Natural Gas - Sweet,Gas,No,2013
+INC2013-170,Release of Substance,12/11/2013,Goldboro,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.182385,-61.652361,2000,Natural Gas - Sweet,Gas,No,2013
+INC2013-175,Release of Substance,12/16/2013,Elko,British Columbia,Foothills Pipe Lines Ltd.,Submitted,49.28487,-115.17704,Not Provided,Natural Gas - Sweet,Gas,No,2013
+INC2013-177,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-178,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-179,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-180,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-181,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-182,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-183,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-184,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-185,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-186,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-187,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-188,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-189,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-190,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-191,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-192,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-193,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-194,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-195,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-196,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-197,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-198,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-199,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-200,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-201,Operation Beyond Design Limits,10/10/2013,Cromer,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.753998,-101.238688,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-202,Operation Beyond Design Limits,7/25/2013,Montreal,Quebec,Trans-Northern Pipelines Inc.,Closed,45.625321,-73.537743,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2013-203,Operation Beyond Design Limits,7/25/2013,Montreal,Quebec,Trans-Northern Pipelines Inc.,Closed,45.625321,-73.537743,Not Applicable,Not Applicable,Not Applicable,No,2013
+INC2014-003,Release of Substance,1/8/2014,Moncton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.112702,-64.714397,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-006,"Fire, Release of Substance",1/11/2014,Ile des Chênes,Manitoba,TransCanada PipeLines Limited,Submitted,49.716512,-96.976655,2,Lube Oil,Liquid,No,2014
+INC2014-008,Release of Substance,1/12/2014,Bowden,Alberta,NOVA Gas Transmission Ltd.,Submitted,51.911918,-113.664358,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-012,Fire,1/15/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.5474,-113.35582,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-014,Release of Substance,1/16/2014,Norman Wells,Northwest Territories,Enbridge Pipelines (NW) Inc.,Closed,65.286034,-126.887048,0.0001,Natural Gas - Sweet,Gas,No,2014
+INC2014-015,Release of Substance,1/16/2014,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.273315,-66.063308,2,Natural Gas - Sweet,Gas,No,2014
+INC2014-016,Release of Substance,1/18/2014,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.392646,-104.569717,20,Crude Oil - Synthetic,Liquid,Yes,2014
+INC2014-017,Release of Substance,1/22/2014,Wildrose,Alberta,Trans Mountain Pipeline ULC,Submitted,53.5990003,-115.451183,17,Crude Oil - Sweet,Liquid,No,2014
+INC2014-018,"Fire, Release of Substance",1/25/2014,Otterburne,Manitoba,TransCanada PipeLines Limited,Submitted,49.503424,-97.00824,1,Natural Gas - Sweet,Gas,Yes,2014
+INC2014-024,Release of Substance,2/7/2014,Fredericton,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.96376,-66.6432,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-025,Fire,2/10/2014,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.635343,-111.267485,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-031,Release of Substance,2/16/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,5,Crude Oil - Sweet,Liquid,No,2014
+INC2014-033,Release of Substance,2/18/2014,Rocky Mountain House,Alberta,NOVA Gas Transmission Ltd.,Submitted,52.46036,-114.98754,100,Natural Gas - Sweet,Gas,Yes,2014
+INC2014-038,Fire,2/25/2014,Saint-Eustache,Quebec,Enbridge Pipelines Inc.,Closed,45.55837,-73.89573,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-040,Adverse Environmental Effects,3/13/2014,Maple,Ontario,TransCanada PipeLines Limited,Closed,43.8734742,-79.579834,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-041,Fire,3/13/2014,Edenwold,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-042,Release of Substance,3/13/2014,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.25073225,-66.0979223,500,Natural Gas - Sweet,Gas,No,2014
+INC2014-043,Release of Substance,3/14/2014,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.635343,-111.267485,0.001,Natural Gas - Sweet,Gas,No,2014
+INC2014-044,Release of Substance,3/17/2014,Midale,Saskatchewan,Enbridge Pipelines Inc.,Closed,49.450607,-103.338728,1.75,Crude Oil - Sweet,Liquid,No,2014
+INC2014-045,Release of Substance,3/23/2014,Fort Nelson,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,58.65351,-122.68466,6.3,Mixed HVP Hydrocarbons,Gas,No,2014
+INC2014-047,Release of Substance,3/25/2014,Wainwright,Alberta,Kinder Morgan Cochin ULC,Closed,52.922575,-110.96759,Not Provided,Mixed HVP Hydrocarbons,Gas,No,2014
+INC2014-048,Release of Substance,3/27/2014,Bassano,Alberta,NOVA Gas Transmission Ltd.,Submitted,50.78931,-112.46998,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-050,Release of Substance,4/1/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.542908,-113.36445,2.5,Crude Oil - Sour,Liquid,No,2014
+INC2014-052,Release of Substance,4/7/2014,Elbow,Saskatchewan,Kinder Morgan Cochin ULC,Closed,51.17738,-106.588176,Not Provided,Propane,Gas,No,2014
+INC2014-053,Fire,4/9/2014,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.641345,-111.270617,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-055,Release of Substance,4/10/2014,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.273315,-66.063308,1,Natural Gas - Sweet,Gas,No,2014
+INC2014-058,Release of Substance,4/13/2014,Savona,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,50.749343,-120.857245,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-059,Release of Substance,4/18/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,15,Crude Oil - Sweet,Liquid,No,2014
+INC2014-060,Release of Substance,4/19/2014,Sunnybrae,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.375146,-62.452544,56,Natural Gas - Sweet,Gas,No,2014
+INC2014-061,Release of Substance,4/24/2014,Mattice,Ontario,TransCanada PipeLines Limited,Submitted,49.586667,-83.159167,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-062,Release of Substance,4/28/2014,Conklin,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.569186,-110.720302,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-065,Release of Substance,5/1/2014,Penhold,Alberta,NOVA Gas Transmission Ltd.,Submitted,52.173034,-113.83314,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-067,Release of Substance,5/2/2014,Irma,Alberta,Alliance Pipeline Ltd.,Closed,53.031216,-111.221509,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-068,Release of Substance,5/6/2014,Dartmouth,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Closed,44.665206,-63.567743,30,Natural Gas - Sweet,Gas,No,2014
+INC2014-074,Release of Substance,5/26/2014,Vegreville,Alberta,NOVA Gas Transmission Ltd.,Submitted,53.52332,-112.07245,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-076,Release of Substance,5/28/2014,Not specified,Manitoba,TransCanada PipeLines Limited,Submitted,49.911934,-98.517574,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-078,Release of Substance,6/2/2014,Morinville,Alberta,Alliance Pipeline Ltd.,Submitted,53.818798,-113.584867,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-079,Fire,6/2/2014,Saint-André-Est,Quebec,Enbridge Pipelines Inc.,Closed,45.562805,-74.336053,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-080,Operation Beyond Design Limits,6/2/2014,Oakville,Ontario,Trans-Northern Pipelines Inc.,Submitted,43.394192,-79.737318,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-081,Release of Substance,6/3/2014,Killam,Alberta,NOVA Gas Transmission Ltd.,Submitted,52.92871,-111.88764,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-082,Release of Substance,6/5/2014,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.868264,-109.036068,0.0001,Natural Gas Liquids,Gas,No,2014
+INC2014-083,Fire,6/10/2014,Dawson Creek,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,55.814038,-120.869412,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-084,Release of Substance,6/11/2014,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.24345,-119.69047,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-087,Fire,6/13/2014,Prophet River,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,58.09092,-122.70921,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-089,Release of Substance,6/18/2014,Geraldton,Ontario,TransCanada PipeLines Limited,Submitted,49.80158,-86.7605,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-090,Fire,6/20/2014,Kerrobert,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.868264,-109.036068,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-091,Release of Substance,6/21/2014,Geraldton,Ontario,TransCanada PipeLines Limited,Submitted,49.80132,-86.7603,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-093,Release of Substance,6/27/2014,Grande Prairie,Alberta,Alliance Pipeline Ltd.,Closed,54.528731,-118.154622,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-095,Release of Substance,7/3/2014,Arnprior,Ontario,TransCanada PipeLines Limited,Submitted,45.30533,-76.20745,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-096,Release of Substance,7/6/2014,Crossfield,Alberta,NOVA Gas Transmission Ltd.,Submitted,51.43112,-114.02611,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-097,Fire,7/18/2014,Not specified,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,55.93969,-120.16184,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-101,Release of Substance,8/1/2014,Maple,Ontario,TransCanada PipeLines Limited,Submitted,43.873742,-79.579834,Not Provided,Natural Gas - Sweet,Gas,No,2014
+INC2014-105,Fire,8/11/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-106,Release of Substance,8/13/2014,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.547403,-113.355714,0.0001,Natural Gas Liquids,Gas,No,2014
+INC2014-112,Fire,9/8/2014,"Manning, Alberta",Alberta,NOVA Gas Transmission Ltd.,Submitted,57.191516,-118.194326,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-121,Release of Substance,9/22/2014,Flume Ridge,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.461,-66.99757,0.3,Natural Gas - Sweet,Gas,No,2014
+INC2014-123,Operation Beyond Design Limits,9/29/2014,Not specified,Ontario,Trans-Northern Pipelines Inc.,Closed,43.69319,-79.60875,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-126,Serious Injury (NEB or TSB),10/2/2014,Camrose,Alberta,Enbridge Pipelines Inc.,Closed,53.00696,-112.82689,Not Applicable,Not Applicable,Not Applicable,Yes,2014
+INC2014-128,Fire,10/16/2014,Fort Simpson,Northwest Territories,Enbridge Pipelines (NW) Inc.,Submitted,61.86168,-121.34796,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-129,Serious Injury (NEB or TSB),10/17/2014,Sherwood Park,Alberta,Enbridge Pipelines Inc.,Closed,53.54267,-113.35517,Not Applicable,Not Applicable,Not Applicable,Yes,2014
+INC2014-132,Release of Substance,10/23/2014,Irma,Alberta,Alliance Pipeline Ltd.,Submitted,53.03122,-111.2215,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-134,Release of Substance,11/4/2014,Deux Rivieres,Ontario,TransCanada PipeLines Limited,Submitted,46.23981,-78.13258,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-136,Release of Substance,11/10/2014,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.27322,-66.06481,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-137,Release of Substance,11/12/2014,Bentley,Alberta,NOVA Gas Transmission Ltd.,Closed,52.46696,-114.2987,0.001,Natural Gas - Sweet,Gas,No,2014
+INC2014-141,Operation Beyond Design Limits,11/18/2014,Camrose,Alberta,TransCanada PipeLines Limited,Submitted,53.10886,-112.98299,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-147,Release of Substance,12/3/2014,Irma,Alberta,Alliance Pipeline Ltd.,Closed,53.032311,-111.221031,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-148,Release of Substance,12/4/2014,Kenora,Ontario,TransCanada PipeLines Limited,Closed,49.79171,-94.49432,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2014-150,Fire,12/5/2014,Lloydminster,Alberta,Cochin Pipe Lines Ltd.,Closed,52.405926,-110.026224,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-151,Operation Beyond Design Limits,12/9/2014,Atmore,Alberta,NOVA Gas Transmission Ltd.,Submitted,54.836647,-112.551304,Not Applicable,Not Applicable,Not Applicable,No,2014
+INC2014-153,Release of Substance,12/17/2014,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.482408,-104.575209,173.6,Crude Oil - Sweet,Liquid,No,2014
+INC2014-154,Release of Substance,12/23/2014,Saint John,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,45.25902,-66.094405,100,Natural Gas - Sweet,Gas,No,2014
+INC2014-155,Release of Substance,12/23/2014,Kenora,Ontario,TransCanada PipeLines Limited,Submitted,49.79171,-94.49432,0.01,Natural Gas - Sweet,Gas,No,2014
+INC2015-001,Release of Substance,1/9/2015,St.George,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Submitted,45.2022834,-66.6866022,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-002,Operation Beyond Design Limits,1/9/2015,Bowmanville,Ontario,Trans-Northern Pipelines Inc.,Submitted,43.94536,-78.661769,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-006,Fire,1/16/2015,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.5421,-113.3584,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-010,Release of Substance,1/26/2015,"Mattice, Ontario",Ontario,TransCanada PipeLines Limited,Submitted,49.58574,-83.16674,0.01,Natural Gas - Sweet,Gas,No,2015
+INC2015-013,Release of Substance,1/31/2015,Dartmouth,Nova Scotia,Maritimes & Northeast Pipeline Management Ltd.,Submitted,44.719151,-63.583774,1,Fuel Gas,Gas,No,2015
+INC2015-014,Operation Beyond Design Limits,2/4/2015,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.54305555,-113.3541667,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-016,Release of Substance,2/8/2015,Boyle,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,54.524331,-112.665961,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-021,Release of Substance,2/28/2015,Grand Prairie,Alberta,NOVA Gas Transmission Ltd.,Submitted,55.0045,-119.472,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-022,"Explosion, Interruption of Pipeline Operations",3/2/2015,"Milden, Saskatchewan",Saskatchewan,Enbridge Pipelines Inc.,Submitted,51.446646,-107.387472,Not Applicable,Not Applicable,Not Applicable,Yes,2015
+INC2015-023,Release of Substance,3/3/2015,Glenboro,Manitoba,Enbridge Pipelines Inc.,Submitted,49.539039,-99.288393,0.015,Natural Gas Liquids,Gas,Yes,2015
+INC2015-024,Fire,3/4/2015,Hardisty,Alberta,Enbridge Pipelines Inc.,Submitted,52.49245275,-110.8520296,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-025,Fire,3/6/2015,Regina,Saskatchewan,Enbridge Pipelines Inc.,Submitted,50.4837281,-104.59147,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-028,Release of Substance,3/13/2015,Hardisty,Alberta,TransCanada Keystone Pipeline GP Ltd.,Submitted,52.65396,-111.26847,2.3,Crude Oil - Sweet,Liquid,No,2015
+INC2015-029,Release of Substance,3/17/2015,Plum Coulee,Manitoba,Enbridge Pipelines Inc.,Submitted,51.45,-107.3861111,0.0005,Natural Gas Liquids,Gas,No,2015
+INC2015-031,Release of Substance,3/30/2015,"Dryden, Ontario",Ontario,TransCanada PipeLines Limited,Submitted,49.78942,-92.76552,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-032,Release of Substance,3/30/2015,Wonowon BC,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Closed,56.708689,-121.766112,2.4,Natural Gas - Sour,Gas,No,2015
+INC2015-034,Operation Beyond Design Limits,3/31/2015,Cornwall,Ontario,Trans-Northern Pipelines Inc.,Submitted,45.03715,-74.71838,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-035,Operation Beyond Design Limits,4/2/2015,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.544257,-113.35606,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-036,Release of Substance,4/7/2015,"Dryden, Ontario",Ontario,TransCanada PipeLines Limited,Submitted,49.78942,-92.76552,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-037,Fire,4/10/2015,"Rapid City, Manitoba",Manitoba,TransCanada Keystone Pipeline GP Ltd.,Submitted,50.076253,-100.001452,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-038,Operation Beyond Design Limits,4/16/2015,Cromer,Manitoba,Enbridge Pipelines Inc.,Submitted,49.752741,-101.238774,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-041,Fire,4/19/2015,Spirit River,Alberta,Pembina Energy Services Inc.,Closed,55.786645,-118.9348,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-043,Serious Injury (NEB or TSB),4/21/2015,Jasper,Alberta,Trans Mountain Pipeline ULC,Closed,53.010185,-118.100442,Not Applicable,Not Applicable,Not Applicable,Yes,2015
+INC2015-045,Release of Substance,4/28/2015,Gradn Pointe,Ontario,Plains Midstream Canada ULC,Submitted,42.469356,-82.369772,1.82,Mixed HVP Hydrocarbons,Gas,No,2015
+INC2015-046,Release of Substance,5/4/2015,Cold Lake,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,54.69513,-110.72729,41380,Natural Gas - Sweet,Gas,No,2015
+INC2015-049,Release of Substance,5/6/2015,"Spririt River, Alberta",Alberta,NOVA Gas Transmission Ltd.,Submitted,55.81518,-119.36579,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-050,Release of Substance,5/9/2015,Salisbury,New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.16167,-65.34959,10374,Natural Gas - Sweet,Gas,No,2015
+INC2015-052,Fire,5/9/2015,Rosetown,Saskatchewan,Enbridge Pipelines Inc.,Closed,51.586,-107.959,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-053,Fire,5/11/2015,Glenboro Manitoba,Manitoba,Enbridge Pipelines Inc.,Submitted,49.538348,-99.289286,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-054,Release of Substance,5/11/2015,"Quesnel, BC",British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,52.640194,-122.447333,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-055,Release of Substance,5/12/2015,Dryden,Ontario,TransCanada PipeLines Limited,Submitted,49.78942,-92.76552,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-056,Release of Substance,5/12/2015,"Medicine Hat, Alberta",Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,50.16626,-110.59318,0.1,Natural Gas - Sweet,Gas,No,2015
+INC2015-057,Fire,5/13/2015,Edmonton,Alberta,Enbridge Pipelines Inc.,Closed,53.537622,-113.368289,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-058,Operation Beyond Design Limits,5/13/2015,Edmonton,Alberta,Enbridge Pipelines Inc.,Submitted,53.551922,-113.351563,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-059,Fire,5/20/2015,Burnaby BC,British Columbia,Trans Mountain Pipeline ULC,Submitted,49.29045,-122.95047,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-060,Release of Substance,5/22/2015,"Nipigon, Ontario",Ontario,TransCanada PipeLines Limited,Initially Submitted,49.29537,-88.10128,2,Lube Oil,Liquid,No,2015
+INC2015-061,Fire,5/22/2015,Hardisty,Alberta,Enbridge Pipelines Inc.,Closed,52.63188,-111.282521,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-062,Fire,5/25/2015,Regina,Saskatchewan,Enbridge Pipelines Inc.,Closed,50.483487,-104.587856,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-069,Release of Substance,6/18/2015,Windsor O.N. and Detroit Mich.,Ontario,Plains Midstream Canada ULC,Submitted,42.290181,-83.097073,0.0001,Propane,Gas,No,2015
+INC2015-070,Release of Substance,6/18/2015,"Regina, Saskatchewan",Saskatchewan,Alliance Pipeline Ltd.,Submitted,50.2520045,-104.408497,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-073,Release of Substance,6/27/2015,Hardisty,Alberta,Express Pipeline Ltd.,Submitted,52.63471,-111.2641,16,Crude Oil - Sweet,Liquid,No,2015
+INC2015-079,Operation Beyond Design Limits,7/10/2015,"Savona, BC",British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,50.749402,-120.856615,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-080,Release of Substance,7/13/2015,Karr Receipt Point is approximately 95 km SE of Grande Prairie,Alberta,Alliance Pipeline Ltd.,Submitted,54.61366745,-118.2116069,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-081,Operation Beyond Design Limits,7/13/2015,"Grande Prairie, Alberta",Alberta,NOVA Gas Transmission Ltd.,Submitted,54.830119,-118.646961,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-083,Release of Substance,7/16/2015,"Fort Nelson, BC",British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,58.654643,-122.68924,13.4,Natural Gas - Sour,Gas,No,2015
+INC2015-084,Release of Substance,7/20/2015,"Regina, Saskatchewan",Saskatchewan,Enbridge Pipelines Inc.,Submitted,50.482934,-104.586279,0.0001,Natural Gas Liquids,Gas,No,2015
+INC2015-085,Release of Substance,7/23/2015,"Kerrobert Station is approximately 4km NW of the town of Kerrobert, Saskatchewan",Saskatchewan,Alliance Pipeline Ltd.,Closed,51.94,-109.18,28,Natural Gas - Sweet,Gas,No,2015
+INC2015-088,Operation Beyond Design Limits,7/30/2015,"Grand Prairie, Alberta",Alberta,NOVA Gas Transmission Ltd.,Submitted,54.830119,-118.646961,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-090,Operation Beyond Design Limits,8/6/2015,Valleyview,Alberta,Alliance Pipeline Ltd.,Submitted,54.4245,-117.75955,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-092,Release of Substance,8/18/2015,Brockville,Ontario,TransCanada PipeLines Limited,Submitted,44.682404,-75.622458,0.01,Natural Gas - Sweet,Gas,No,2015
+INC2015-095,Release of Substance,8/19/2015,"Fort St. John, B.C.",Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,56.337317,-119.910103,0.001,Natural Gas - Sweet,Gas,No,2015
+INC2015-096,Release of Substance,8/21/2015,"Beiseker, AB",Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,51.32322,-113.37743,0.001,Natural Gas - Sweet,Gas,No,2015
+INC2015-097,"Explosion, Fire",8/24/2015,"Hardisty, Alberta",Alberta,Enbridge Pipelines Inc.,Submitted,52.639314,-111.27931,Not Applicable,Not Applicable,Not Applicable,Yes,2015
+INC2015-100,Release of Substance,8/27/2015,Iroquois,Ontario,TransCanada PipeLines Limited,Submitted,44.889561,-75.295674,0.01,Natural Gas - Sweet,Gas,No,2015
+INC2015-101,Fire,8/28/2015,Smoky Lake,Alberta,NOVA Gas Transmission Ltd.,Submitted,54.095881,-112.305035,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-102,Explosion,8/30/2015,Chetwynd,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,55.6499,-122.20722,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-103,Release of Substance,8/31/2015,"Mackenzie, BC",British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Submitted,55.42619,-122.67658,92300,Natural Gas - Sweet,Gas,No,2015
+INC2015-104,Release of Substance,9/6/2015,St-Paul,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,53.914064,-111.700742,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-105,Release of Substance,9/11/2015,Goldboro,Nova Scotia,EnCana Corporation,Submitted,45.177234,-61.62299574,198,Natural Gas - Sweet,Gas,No,2015
+INC2015-106,Serious Injury (NEB or TSB),9/12/2015,Tilly,Alberta,NOVA Gas Transmission Ltd.,Submitted,50.369934,-111.471082,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-107,Release of Substance,9/13/2015,Bruce,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,53.195074,-111.90868,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-108,Release of Substance,9/14/2015,City of Regina,Saskatchewan,Enbridge Pipelines Inc.,Submitted,50.482928,-104.586263,0.0001,Natural Gas Liquids,Gas,No,2015
+INC2015-109,Release of Substance,9/16/2015,"Cromer, MB",Manitoba,Enbridge Pipelines Inc.,Submitted,49.749362,-101.244345,0.0076,Natural Gas Liquids,Gas,No,2015
+INC2015-112,Release of Substance,9/24/2015,"Moncton, NB",New Brunswick,Maritimes & Northeast Pipeline Management Ltd.,Closed,46.11317,-64.71534,0.0001,Odourant,Other,No,2015
+INC2015-114,Release of Substance,10/1/2015,"Alameda, Saskatchewan",Saskatchewan,Alliance Pipeline Ltd.,Initially Submitted,49.325059,-102.297403,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-115,Release of Substance,10/9/2015,"Alameda, Saskatchewan",Saskatchewan,Alliance Pipeline Ltd.,Submitted,49.325059,-102.297403,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-116,Fire,10/14/2015,Sarnia,Ontario,Enbridge Pipelines Inc.,Submitted,42.95261,-82.37433,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-118,Release of Substance,10/16/2015,"Cromer, MB",Manitoba,Enbridge Pipelines Inc.,Submitted,49.752443,-101.241633,30,Crude Oil - Sweet,Liquid,No,2015
+INC2015-119,Serious Injury (NEB or TSB),10/21/2015,"Vibank, Saskatchewan",Saskatchewan,Enbridge Pipelines Inc.,Submitted,50.362699,-104.045302,Not Applicable,Not Applicable,Not Applicable,Yes,2015
+INC2015-120,Adverse Environmental Effects,10/25/2015,Fort McKay,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.340222,-111.67768,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-121,Release of Substance,10/27/2015,Grande Prairie,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,54.830122,-118.645459,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-122,Release of Substance,10/27/2015,Regina,Saskatchewan,Plains Midstream Canada ULC,Submitted,50.481964,-104.568289,4,Crude Oil - Sweet,Liquid,No,2015
+INC2015-123,Release of Substance,10/29/2015,Fort Mackay,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,57.3426,-111.74337,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-125,Adverse Environmental Effects,11/2/2015,Fort McKay ,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.340222,-111.677683,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-126,Operation Beyond Design Limits,11/6/2015,"Gretna, MB",Manitoba,Enbridge Pipelines Inc.,Initially Submitted,49.015601,-97.554021,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-127,Release of Substance,11/9/2015,CFB Wainwright,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,52.61406,-110.96464,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-128,Adverse Environmental Effects,11/10/2015,Fort McKay,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.34,-111.68,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-129,Adverse Environmental Effects,11/10/2015,Fort McKay,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.3,-111.68,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-130,Adverse Environmental Effects,11/10/2015,Fort McKay,Alberta,NOVA Gas Transmission Ltd.,Submitted,57.3,-111.68,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-133,Release of Substance,11/20/2015,Wonowon BC,British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Initially Submitted,56.393465,-121.3719,0.001,Natural Gas - Sour,Gas,No,2015
+INC2015-137,Fire,11/26/2015,Fox Creek,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,54.445071,-117.697381,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-139,Release of Substance,12/1/2015,Wilkesport,Ontario,Plains Midstream Canada ULC,Initially Submitted,42.714906,-82.358961,0.3,Propane,Gas,No,2015
+INC2015-140,Fire,12/4/2015,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,55.9773,-112.0273,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-141,Fire,12/4/2015,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,56.0207,-112.18207,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-142,Fire,12/5/2015,Fort McMurray,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,55.9788,-111.98153,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-143,Fire,12/10/2015,Brampton,Ontario,TransCanada PipeLines Limited,Initially Submitted,43.746944,-79.637222,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-144,Release of Substance,12/11/2015,Ile Des Chene,Manitoba,TransCanada PipeLines Limited,Initially Submitted,49.72012,-96.98386,1,Natural Gas - Sweet,Gas,No,2015
+INC2015-145,Operation Beyond Design Limits,12/11/2015,Hardisty,Alberta,Enbridge Pipelines Inc.,Initially Submitted,52.382052,-111.162948,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-146,Operation Beyond Design Limits,12/12/2015,Rainbow Lake,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,58.446355,-119.22343,Not Applicable,Not Applicable,Not Applicable,No,2015
+INC2015-147,Release of Substance,12/18/2015,"10.8 km south of Tumbler Ridge, BC",British Columbia,"Westcoast Energy Inc., carrying on business as Spectra Energy Transmission",Initially Submitted,55.04185986,-121.0187559,0.01,Natural Gas - Sour,Gas,No,2015
+INC2015-152,Fire,12/31/2015,Fort McMurray ,Alberta,NOVA Gas Transmission Ltd.,Initially Submitted,56.04405,-112.43548,Not Applicable,Not Applicable,Not Applicable,No,2015
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
