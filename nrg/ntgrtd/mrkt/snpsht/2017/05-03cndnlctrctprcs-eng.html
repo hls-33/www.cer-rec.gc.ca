@@ -1,345 +1,1440 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB - Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Electricity;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      NEB - Market Snapshot: Canadian electricity prices generally increasing
+      faster than inflation, but trends vary among provinces
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta name="dcterms.subject" title="scheme" content="Electricity;" />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-    </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces</li>
-</ol>
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>
+                Market Snapshot: Canadian electricity prices generally
+                increasing faster than inflation, but trends vary among
+                provinces
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
 
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: Canadian electricity prices generally increasing
+            faster than inflation, but trends vary among provinces
+          </h1>
+          <aside class="col-md-3 module-related pull-right">
+            <section class="panel panel-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Connect/Contact Us</h2>
+              </header>
+              <div class="list-group">
+                <a class="list-group-item" href="/rss/rss-eng.html"
+                  >Energy Information RSS Feed</a
+                >
+                <!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
+                <p class="mrgn-lft-md mrgn-tp-sm">
+                  Please send comments, questions, or suggestions for Market
+                  Snapshot topics to
+                  <a href="mailto:snapshots@cer-rec.gc.ca"
+                    >snapshots@cer-rec.gc.ca</a
+                  >
+                </p>
+              </div>
+            </section>
+          </aside>
+          <p><strong>Release date: 2017-05-17</strong></p>
+          <p>
+            Over the last decade, the electricity component of Canada’s consumer
+            price index (CPI) increased faster than the price index for all
+            consumer items. In other words, on average, electricity costs have
+            increased faster than the rate of inflation. When broken down by
+            province, Quebec’s electricity cost increases were below the rate of
+            inflation throughout the entire decade. Alberta’s costs initially
+            rose above the overall rate of inflation but then fell so that by
+            2016 costs were well below what they were in 2007.
+          </p>
+          <p class="mrgn-bttm-xl">
+            By indexing the electricity component of the CPI to January 2007,
+            this analysis explores how rates have changed over time. Absolute
+            electricity rates
+            <a href="/nrg/ntgrtd/mrkt/snpsht/2017/02-03hghcstpwr-eng.html"
+              >vary widely across provinces</a
+            >. Factors such as the generation mix in each province,
+            infrastructure and distribution costs, provincial government
+            policies and programs, and taxes all affect the total electricity
+            bills paid by consumers.
+          </p>
 
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
+          <!-- figure START -->
+          <div class="col-md-9 row mrgn-bttm-md">
+            <div id="chart7" class="mrgn-tp-md mrgn-lft-md "></div>
+          </div>
+          <div class="clearfix"></div>
+          <script class="code" type="text/javascript">
+            $(document).ready(function() {
+              $.jqplot.config.enablePlugins = true;
 
+              var s1 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 100.73126142596],
+                ["2007-03-01", 101.553930530165],
+                ["2007-04-01", 102.010968921389],
+                ["2007-05-01", 102.468007312614],
+                ["2007-06-01", 102.285191956124],
+                ["2007-07-01", 102.376599634369],
+                ["2007-08-01", 102.102376599634],
+                ["2007-09-01", 102.285191956124],
+                ["2007-10-01", 102.010968921389],
+                ["2007-11-01", 102.285191956124],
+                ["2007-12-01", 102.376599634369],
+                ["2008-01-01", 102.193784277879],
+                ["2008-02-01", 102.559414990859],
+                ["2008-03-01", 102.925045703839],
+                ["2008-04-01", 103.747714808044],
+                ["2008-05-01", 104.753199268739],
+                ["2008-06-01", 105.484460694698],
+                ["2008-07-01", 105.850091407678],
+                ["2008-08-01", 105.667276051188],
+                ["2008-09-01", 105.758683729433],
+                ["2008-10-01", 104.661791590494],
+                ["2008-11-01", 104.296160877514],
+                ["2008-12-01", 103.564899451554],
+                ["2009-01-01", 103.290676416819],
+                ["2009-02-01", 104.021937842779],
+                ["2009-03-01", 104.204753199269],
+                ["2009-04-01", 104.113345521024],
+                ["2009-05-01", 104.844606946984],
+                ["2009-06-01", 105.210237659963],
+                ["2009-07-01", 104.844606946984],
+                ["2009-08-01", 104.844606946984],
+                ["2009-09-01", 104.844606946984],
+                ["2009-10-01", 104.753199268739],
+                ["2009-11-01", 105.301645338208],
+                ["2009-12-01", 104.936014625229],
+                ["2010-01-01", 105.210237659963],
+                ["2010-02-01", 105.667276051188],
+                ["2010-03-01", 105.667276051188],
+                ["2010-04-01", 106.032906764168],
+                ["2010-05-01", 106.307129798903],
+                ["2010-06-01", 106.215722120658],
+                ["2010-07-01", 106.764168190128],
+                ["2010-08-01", 106.672760511883],
+                ["2010-09-01", 106.855575868373],
+                ["2010-10-01", 107.312614259598],
+                ["2010-11-01", 107.404021937843],
+                ["2010-12-01", 107.404021937843],
+                ["2011-01-01", 107.678244972578],
+                ["2011-02-01", 107.952468007313],
+                ["2011-03-01", 109.140767824497],
+                ["2011-04-01", 109.506398537477],
+                ["2011-05-01", 110.237659963437],
+                ["2011-06-01", 109.506398537477],
+                ["2011-07-01", 109.689213893967],
+                ["2011-08-01", 109.963436928702],
+                ["2011-09-01", 110.237659963437],
+                ["2011-10-01", 110.420475319927],
+                ["2011-11-01", 110.511882998172],
+                ["2011-12-01", 109.872029250457],
+                ["2012-01-01", 110.329067641682],
+                ["2012-02-01", 110.786106032907],
+                ["2012-03-01", 111.243144424132],
+                ["2012-04-01", 111.700182815356],
+                ["2012-05-01", 111.608775137112],
+                ["2012-06-01", 111.151736745887],
+                ["2012-07-01", 111.060329067642],
+                ["2012-08-01", 111.334552102377],
+                ["2012-09-01", 111.517367458867],
+                ["2012-10-01", 111.700182815356],
+                ["2012-11-01", 111.425959780622],
+                ["2012-12-01", 110.786106032907],
+                ["2013-01-01", 110.877513711152],
+                ["2013-02-01", 112.157221206581],
+                ["2013-03-01", 112.340036563071],
+                ["2013-04-01", 112.157221206581],
+                ["2013-05-01", 112.431444241316],
+                ["2013-06-01", 112.431444241316],
+                ["2013-07-01", 112.522851919561],
+                ["2013-08-01", 112.522851919561],
+                ["2013-09-01", 112.705667276051],
+                ["2013-10-01", 112.431444241316],
+                ["2013-11-01", 112.431444241316],
+                ["2013-12-01", 112.157221206581],
+                ["2014-01-01", 112.522851919561],
+                ["2014-02-01", 113.436928702011],
+                ["2014-03-01", 114.076782449726],
+                ["2014-04-01", 114.442413162706],
+                ["2014-05-01", 114.990859232175],
+                ["2014-06-01", 115.08226691042],
+                ["2014-07-01", 114.899451553931],
+                ["2014-08-01", 114.899451553931],
+                ["2014-09-01", 114.990859232175],
+                ["2014-10-01", 115.08226691042],
+                ["2014-11-01", 114.625228519196],
+                ["2014-12-01", 113.802559414991],
+                ["2015-01-01", 113.619744058501],
+                ["2015-02-01", 114.625228519196],
+                ["2015-03-01", 115.4478976234],
+                ["2015-04-01", 115.356489945155],
+                ["2015-05-01", 115.99634369287],
+                ["2015-06-01", 116.270566727605],
+                ["2015-07-01", 116.36197440585],
+                ["2015-08-01", 116.36197440585],
+                ["2015-09-01", 116.17915904936],
+                ["2015-10-01", 116.270566727605],
+                ["2015-11-01", 116.17915904936],
+                ["2015-12-01", 115.63071297989],
+                ["2016-01-01", 115.904936014625],
+                ["2016-02-01", 116.17915904936],
+                ["2016-03-01", 116.91042047532],
+                ["2016-04-01", 117.2760511883],
+                ["2016-05-01", 117.733089579525],
+                ["2016-06-01", 118.00731261426],
+                ["2016-07-01", 117.82449725777],
+                ["2016-08-01", 117.64168190128],
+                ["2016-09-01", 117.733089579525],
+                ["2016-10-01", 118.00731261426],
+                ["2016-11-01", 117.550274223035],
+                ["2016-12-01", 117.367458866545],
+                ["2017-01-01", 118.372943327239],
+                ["2017-02-01", 118.555758683729],
+                ["2017-03-01", 118.738574040219]
+              ];
+              var s2 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 99.8212689901698],
+                ["2007-03-01", 99.6425379803396],
+                ["2007-04-01", 99.6425379803396],
+                ["2007-05-01", 99.3744414655943],
+                ["2007-06-01", 100.983020554066],
+                ["2007-07-01", 102.234137622878],
+                ["2007-08-01", 103.217158176944],
+                ["2007-09-01", 103.127792672029],
+                ["2007-10-01", 102.055406613047],
+                ["2007-11-01", 100.446827524576],
+                ["2007-12-01", 100.446827524576],
+                ["2008-01-01", 99.106344950849],
+                ["2008-02-01", 99.0169794459339],
+                ["2008-03-01", 98.9276139410188],
+                ["2008-04-01", 100.536193029491],
+                ["2008-05-01", 100.893655049151],
+                ["2008-06-01", 100.893655049151],
+                ["2008-07-01", 102.859696157283],
+                ["2008-08-01", 102.412868632708],
+                ["2008-09-01", 101.161751563896],
+                ["2008-10-01", 101.161751563896],
+                ["2008-11-01", 102.949061662198],
+                ["2008-12-01", 103.932082216265],
+                ["2009-01-01", 102.859696157283],
+                ["2009-02-01", 103.485254691689],
+                ["2009-03-01", 101.966041108132],
+                ["2009-04-01", 101.519213583557],
+                ["2009-05-01", 103.306523681859],
+                ["2009-06-01", 102.412868632708],
+                ["2009-07-01", 102.680965147453],
+                ["2009-08-01", 104.647006255585],
+                ["2009-09-01", 103.485254691689],
+                ["2009-10-01", 102.144772117962],
+                ["2009-11-01", 103.217158176944],
+                ["2009-12-01", 103.753351206434],
+                ["2010-01-01", 103.127792672029],
+                ["2010-02-01", 102.859696157283],
+                ["2010-03-01", 102.234137622878],
+                ["2010-04-01", 103.038427167113],
+                ["2010-05-01", 107.417336907954],
+                ["2010-06-01", 108.40035746202],
+                ["2010-07-01", 112.77926720286],
+                ["2010-08-01", 112.689901697945],
+                ["2010-09-01", 111.438784629133],
+                ["2010-10-01", 110.455764075067],
+                ["2010-11-01", 109.294012511171],
+                ["2010-12-01", 110.187667560322],
+                ["2011-01-01", 109.740840035746],
+                ["2011-02-01", 107.327971403038],
+                ["2011-03-01", 106.613047363718],
+                ["2011-04-01", 110.277033065237],
+                ["2011-05-01", 108.40035746202],
+                ["2011-06-01", 108.847184986595],
+                ["2011-07-01", 112.243074173369],
+                ["2011-08-01", 114.655942806077],
+                ["2011-09-01", 111.170688114388],
+                ["2011-10-01", 115.013404825737],
+                ["2011-11-01", 112.689901697945],
+                ["2011-12-01", 116.085790884718],
+                ["2012-01-01", 117.783735478105],
+                ["2012-02-01", 116.621983914209],
+                ["2012-03-01", 112.243074173369],
+                ["2012-04-01", 112.064343163539],
+                ["2012-05-01", 114.209115281501],
+                ["2012-06-01", 115.281501340483],
+                ["2012-07-01", 116.443252904379],
+                ["2012-08-01", 118.498659517426],
+                ["2012-09-01", 117.873100983021],
+                ["2012-10-01", 116.97944593387],
+                ["2012-11-01", 114.655942806077],
+                ["2012-12-01", 115.460232350313],
+                ["2013-01-01", 116.175156389634],
+                ["2013-02-01", 115.281501340483],
+                ["2013-03-01", 115.102770330652],
+                ["2013-04-01", 116.800714924039],
+                ["2013-05-01", 117.69436997319],
+                ["2013-06-01", 117.873100983021],
+                ["2013-07-01", 120.196604110813],
+                ["2013-08-01", 120.375335120643],
+                ["2013-09-01", 120.107238605898],
+                ["2013-10-01", 118.677390527256],
+                ["2013-11-01", 120.464700625559],
+                ["2013-12-01", 120.196604110813],
+                ["2014-01-01", 121.626452189455],
+                ["2014-02-01", 120.732797140304],
+                ["2014-03-01", 120.911528150134],
+                ["2014-04-01", 122.162645218945],
+                ["2014-05-01", 125.91599642538],
+                ["2014-06-01", 122.788203753351],
+                ["2014-07-01", 124.307417336908],
+                ["2014-08-01", 124.932975871314],
+                ["2014-09-01", 125.022341376229],
+                ["2014-10-01", 125.290437890974],
+                ["2014-11-01", 124.843610366399],
+                ["2014-12-01", 125.379803395889],
+                ["2015-01-01", 126.09472743521],
+                ["2015-02-01", 125.379803395889],
+                ["2015-03-01", 124.486148346738],
+                ["2015-04-01", 125.73726541555],
+                ["2015-05-01", 127.167113494191],
+                ["2015-06-01", 126.720285969616],
+                ["2015-07-01", 129.758713136729],
+                ["2015-08-01", 129.579982126899],
+                ["2015-09-01", 128.328865058088],
+                ["2015-10-01", 128.865058087578],
+                ["2015-11-01", 130.026809651475],
+                ["2015-12-01", 130.205540661305],
+                ["2016-01-01", 133.601429848079],
+                ["2016-02-01", 133.243967828418],
+                ["2016-03-01", 133.869526362824],
+                ["2016-04-01", 133.869526362824],
+                ["2016-05-01", 135.299374441466],
+                ["2016-06-01", 135.478105451296],
+                ["2016-07-01", 136.818588025022],
+                ["2016-08-01", 136.818588025022],
+                ["2016-09-01", 135.924932975871],
+                ["2016-10-01", 135.656836461126],
+                ["2016-11-01", 134.584450402145],
+                ["2016-12-01", 134.85254691689],
+                ["2017-01-01", 132.618409294013],
+                ["2017-02-01", 132.171581769437],
+                ["2017-03-01", 131.724754244861]
+              ];
+              var s3 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 100],
+                ["2007-03-01", 100],
+                ["2007-04-01", 101.465201465201],
+                ["2007-05-01", 101.465201465201],
+                ["2007-06-01", 101.465201465201],
+                ["2007-07-01", 101.465201465201],
+                ["2007-08-01", 101.465201465201],
+                ["2007-09-01", 101.465201465201],
+                ["2007-10-01", 101.465201465201],
+                ["2007-11-01", 101.465201465201],
+                ["2007-12-01", 101.465201465201],
+                ["2008-01-01", 100.549450549451],
+                ["2008-02-01", 100.549450549451],
+                ["2008-03-01", 100.549450549451],
+                ["2008-04-01", 102.838827838828],
+                ["2008-05-01", 102.838827838828],
+                ["2008-06-01", 102.838827838828],
+                ["2008-07-01", 102.838827838828],
+                ["2008-08-01", 102.838827838828],
+                ["2008-09-01", 102.838827838828],
+                ["2008-10-01", 102.838827838828],
+                ["2008-11-01", 102.838827838828],
+                ["2008-12-01", 102.838827838828],
+                ["2009-01-01", 102.838827838828],
+                ["2009-02-01", 102.838827838828],
+                ["2009-03-01", 102.838827838828],
+                ["2009-04-01", 103.846153846154],
+                ["2009-05-01", 103.846153846154],
+                ["2009-06-01", 103.846153846154],
+                ["2009-07-01", 103.846153846154],
+                ["2009-08-01", 103.846153846154],
+                ["2009-09-01", 103.846153846154],
+                ["2009-10-01", 103.846153846154],
+                ["2009-11-01", 103.846153846154],
+                ["2009-12-01", 103.846153846154],
+                ["2010-01-01", 103.846153846154],
+                ["2010-02-01", 103.846153846154],
+                ["2010-03-01", 103.846153846154],
+                ["2010-04-01", 104.029304029304],
+                ["2010-05-01", 104.029304029304],
+                ["2010-06-01", 104.029304029304],
+                ["2010-07-01", 104.029304029304],
+                ["2010-08-01", 104.029304029304],
+                ["2010-09-01", 104.029304029304],
+                ["2010-10-01", 104.029304029304],
+                ["2010-11-01", 104.029304029304],
+                ["2010-12-01", 104.029304029304],
+                ["2011-01-01", 105.03663003663],
+                ["2011-02-01", 105.03663003663],
+                ["2011-03-01", 105.03663003663],
+                ["2011-04-01", 104.304029304029],
+                ["2011-05-01", 104.304029304029],
+                ["2011-06-01", 104.304029304029],
+                ["2011-07-01", 104.304029304029],
+                ["2011-08-01", 104.304029304029],
+                ["2011-09-01", 104.304029304029],
+                ["2011-10-01", 104.304029304029],
+                ["2011-11-01", 104.304029304029],
+                ["2011-12-01", 104.304029304029],
+                ["2012-01-01", 105.311355311355],
+                ["2012-02-01", 105.311355311355],
+                ["2012-03-01", 105.311355311355],
+                ["2012-04-01", 104.487179487179],
+                ["2012-05-01", 104.487179487179],
+                ["2012-06-01", 104.487179487179],
+                ["2012-07-01", 104.487179487179],
+                ["2012-08-01", 104.487179487179],
+                ["2012-09-01", 104.487179487179],
+                ["2012-10-01", 104.487179487179],
+                ["2012-11-01", 104.487179487179],
+                ["2012-12-01", 104.487179487179],
+                ["2013-01-01", 104.487179487179],
+                ["2013-02-01", 104.487179487179],
+                ["2013-03-01", 104.487179487179],
+                ["2013-04-01", 106.593406593407],
+                ["2013-05-01", 106.593406593407],
+                ["2013-06-01", 106.593406593407],
+                ["2013-07-01", 106.593406593407],
+                ["2013-08-01", 106.593406593407],
+                ["2013-09-01", 106.593406593407],
+                ["2013-10-01", 106.593406593407],
+                ["2013-11-01", 106.593406593407],
+                ["2013-12-01", 106.593406593407],
+                ["2014-01-01", 106.593406593407],
+                ["2014-02-01", 106.593406593407],
+                ["2014-03-01", 106.593406593407],
+                ["2014-04-01", 110.07326007326],
+                ["2014-05-01", 110.07326007326],
+                ["2014-06-01", 110.07326007326],
+                ["2014-07-01", 110.07326007326],
+                ["2014-08-01", 110.07326007326],
+                ["2014-09-01", 110.07326007326],
+                ["2014-10-01", 110.07326007326],
+                ["2014-11-01", 110.07326007326],
+                ["2014-12-01", 110.07326007326],
+                ["2015-01-01", 110.07326007326],
+                ["2015-02-01", 110.07326007326],
+                ["2015-03-01", 110.07326007326],
+                ["2015-04-01", 112.545787545788],
+                ["2015-05-01", 112.545787545788],
+                ["2015-06-01", 112.545787545788],
+                ["2015-07-01", 112.545787545788],
+                ["2015-08-01", 112.545787545788],
+                ["2015-09-01", 112.545787545788],
+                ["2015-10-01", 112.545787545788],
+                ["2015-11-01", 112.545787545788],
+                ["2015-12-01", 112.545787545788],
+                ["2016-01-01", 112.545787545788],
+                ["2016-02-01", 112.545787545788],
+                ["2016-03-01", 112.545787545788],
+                ["2016-04-01", 113.186813186813],
+                ["2016-05-01", 113.186813186813],
+                ["2016-06-01", 113.186813186813],
+                ["2016-07-01", 113.186813186813],
+                ["2016-08-01", 113.186813186813],
+                ["2016-09-01", 113.186813186813],
+                ["2016-10-01", 113.186813186813],
+                ["2016-11-01", 113.186813186813],
+                ["2016-12-01", 113.186813186813],
+                ["2017-01-01", 113.186813186813],
+                ["2017-02-01", 113.186813186813],
+                ["2017-03-01", 113.186813186813]
+              ];
+              var s4 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 100],
+                ["2007-03-01", 100],
+                ["2007-04-01", 100],
+                ["2007-05-01", 100.777202072539],
+                ["2007-06-01", 100.777202072539],
+                ["2007-07-01", 100.777202072539],
+                ["2007-08-01", 100.777202072539],
+                ["2007-09-01", 100.777202072539],
+                ["2007-10-01", 100.777202072539],
+                ["2007-11-01", 96.3730569948187],
+                ["2007-12-01", 96.3730569948187],
+                ["2008-01-01", 95.4231433506045],
+                ["2008-02-01", 95.4231433506045],
+                ["2008-03-01", 95.4231433506045],
+                ["2008-04-01", 95.4231433506045],
+                ["2008-05-01", 95.8549222797927],
+                ["2008-06-01", 95.8549222797927],
+                ["2008-07-01", 95.8549222797927],
+                ["2008-08-01", 95.8549222797927],
+                ["2008-09-01", 95.8549222797927],
+                ["2008-10-01", 95.8549222797927],
+                ["2008-11-01", 99.2227979274611],
+                ["2008-12-01", 99.2227979274611],
+                ["2009-01-01", 99.2227979274611],
+                ["2009-02-01", 99.2227979274611],
+                ["2009-03-01", 99.2227979274611],
+                ["2009-04-01", 99.2227979274611],
+                ["2009-05-01", 103.713298791019],
+                ["2009-06-01", 103.713298791019],
+                ["2009-07-01", 103.713298791019],
+                ["2009-08-01", 103.713298791019],
+                ["2009-09-01", 103.713298791019],
+                ["2009-10-01", 103.713298791019],
+                ["2009-11-01", 103.022452504318],
+                ["2009-12-01", 103.022452504318],
+                ["2010-01-01", 103.022452504318],
+                ["2010-02-01", 103.022452504318],
+                ["2010-03-01", 103.022452504318],
+                ["2010-04-01", 103.022452504318],
+                ["2010-05-01", 113.039723661485],
+                ["2010-06-01", 113.039723661485],
+                ["2010-07-01", 121.67530224525],
+                ["2010-08-01", 121.67530224525],
+                ["2010-09-01", 121.67530224525],
+                ["2010-10-01", 121.67530224525],
+                ["2010-11-01", 118.134715025907],
+                ["2010-12-01", 118.134715025907],
+                ["2011-01-01", 113.730569948187],
+                ["2011-02-01", 104.145077720207],
+                ["2011-03-01", 106.303972366149],
+                ["2011-04-01", 106.303972366149],
+                ["2011-05-01", 112.694300518135],
+                ["2011-06-01", 112.694300518135],
+                ["2011-07-01", 112.694300518135],
+                ["2011-08-01", 113.298791018998],
+                ["2011-09-01", 113.298791018998],
+                ["2011-10-01", 113.298791018998],
+                ["2011-11-01", 113.557858376511],
+                ["2011-12-01", 113.557858376511],
+                ["2012-01-01", 113.557858376511],
+                ["2012-02-01", 113.385146804836],
+                ["2012-03-01", 113.385146804836],
+                ["2012-04-01", 113.385146804836],
+                ["2012-05-01", 121.157167530225],
+                ["2012-06-01", 121.157167530225],
+                ["2012-07-01", 121.157167530225],
+                ["2012-08-01", 121.502590673575],
+                ["2012-09-01", 121.502590673575],
+                ["2012-10-01", 121.502590673575],
+                ["2012-11-01", 120.20725388601],
+                ["2012-12-01", 120.379965457686],
+                ["2013-01-01", 120.293609671848],
+                ["2013-02-01", 120.811744386874],
+                ["2013-03-01", 120.811744386874],
+                ["2013-04-01", 120.811744386874],
+                ["2013-05-01", 125.043177892919],
+                ["2013-06-01", 125.043177892919],
+                ["2013-07-01", 125.043177892919],
+                ["2013-08-01", 125.043177892919],
+                ["2013-09-01", 125.043177892919],
+                ["2013-10-01", 125.043177892919],
+                ["2013-11-01", 129.965457685665],
+                ["2013-12-01", 129.965457685665],
+                ["2014-01-01", 130.742659758204],
+                ["2014-02-01", 130.656303972366],
+                ["2014-03-01", 130.829015544041],
+                ["2014-04-01", 131.001727115717],
+                ["2014-05-01", 135.146804835924],
+                ["2014-06-01", 135.146804835924],
+                ["2014-07-01", 135.146804835924],
+                ["2014-08-01", 135.146804835924],
+                ["2014-09-01", 135.146804835924],
+                ["2014-10-01", 135.146804835924],
+                ["2014-11-01", 137.305699481865],
+                ["2014-12-01", 137.305699481865],
+                ["2015-01-01", 137.305699481865],
+                ["2015-02-01", 138.082901554404],
+                ["2015-03-01", 138.082901554404],
+                ["2015-04-01", 138.082901554404],
+                ["2015-05-01", 144.818652849741],
+                ["2015-06-01", 144.818652849741],
+                ["2015-07-01", 144.818652849741],
+                ["2015-08-01", 144.991364421416],
+                ["2015-09-01", 144.991364421416],
+                ["2015-10-01", 144.991364421416],
+                ["2015-11-01", 149.568221070812],
+                ["2015-12-01", 149.568221070812],
+                ["2016-01-01", 159.844559585492],
+                ["2016-02-01", 159.758203799655],
+                ["2016-03-01", 162.176165803109],
+                ["2016-04-01", 162.176165803109],
+                ["2016-05-01", 167.098445595855],
+                ["2016-06-01", 167.098445595855],
+                ["2016-07-01", 167.098445595855],
+                ["2016-08-01", 167.098445595855],
+                ["2016-09-01", 167.098445595855],
+                ["2016-10-01", 167.098445595855],
+                ["2016-11-01", 166.321243523316],
+                ["2016-12-01", 166.321243523316],
+                ["2017-01-01", 154.317789291883],
+                ["2017-02-01", 153.972366148532],
+                ["2017-03-01", 153.972366148532]
+              ];
+              var s5 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 97.0338983050847],
+                ["2007-03-01", 94.8305084745763],
+                ["2007-04-01", 93.8983050847458],
+                ["2007-05-01", 91.6101694915254],
+                ["2007-06-01", 96.864406779661],
+                ["2007-07-01", 108.389830508475],
+                ["2007-08-01", 117.966101694915],
+                ["2007-09-01", 116.694915254237],
+                ["2007-10-01", 107.542372881356],
+                ["2007-11-01", 108.135593220339],
+                ["2007-12-01", 107.966101694915],
+                ["2008-01-01", 102.28813559322],
+                ["2008-02-01", 101.016949152542],
+                ["2008-03-01", 99.9152542372881],
+                ["2008-04-01", 105.593220338983],
+                ["2008-05-01", 106.016949152542],
+                ["2008-06-01", 104.576271186441],
+                ["2008-07-01", 119.745762711864],
+                ["2008-08-01", 115.677966101695],
+                ["2008-09-01", 103.983050847458],
+                ["2008-10-01", 107.203389830508],
+                ["2008-11-01", 112.457627118644],
+                ["2008-12-01", 121.186440677966],
+                ["2009-01-01", 108.050847457627],
+                ["2009-02-01", 114.406779661017],
+                ["2009-03-01", 100.423728813559],
+                ["2009-04-01", 88.728813559322],
+                ["2009-05-01", 89.9152542372881],
+                ["2009-06-01", 88.0508474576271],
+                ["2009-07-01", 101.101694915254],
+                ["2009-08-01", 100.593220338983],
+                ["2009-09-01", 90.3389830508475],
+                ["2009-10-01", 80.6779661016949],
+                ["2009-11-01", 92.2033898305085],
+                ["2009-12-01", 97.4576271186441],
+                ["2010-01-01", 90.6779661016949],
+                ["2010-02-01", 88.135593220339],
+                ["2010-03-01", 82.3728813559322],
+                ["2010-04-01", 81.1864406779661],
+                ["2010-05-01", 87.6271186440678],
+                ["2010-06-01", 95.9322033898305],
+                ["2010-07-01", 107.203389830508],
+                ["2010-08-01", 104.237288135593],
+                ["2010-09-01", 92.4576271186441],
+                ["2010-10-01", 83.6440677966102],
+                ["2010-11-01", 84.7457627118644],
+                ["2010-12-01", 92.9661016949153],
+                ["2011-01-01", 99.3220338983051],
+                ["2011-02-01", 109.152542372881],
+                ["2011-03-01", 96.3559322033898],
+                ["2011-04-01", 129.576271186441],
+                ["2011-05-01", 91.1864406779661],
+                ["2011-06-01", 95.2542372881356],
+                ["2011-07-01", 119.237288135593],
+                ["2011-08-01", 139.491525423729],
+                ["2011-09-01", 107.033898305085],
+                ["2011-10-01", 143.135593220339],
+                ["2011-11-01", 120.338983050847],
+                ["2011-12-01", 152.033898305085],
+                ["2012-01-01", 162.457627118644],
+                ["2012-02-01", 152.203389830508],
+                ["2012-03-01", 111.186440677966],
+                ["2012-04-01", 104.491525423729],
+                ["2012-05-01", 98.5593220338983],
+                ["2012-06-01", 108.305084745763],
+                ["2012-07-01", 117.627118644068],
+                ["2012-08-01", 135],
+                ["2012-09-01", 128.305084745763],
+                ["2012-10-01", 120.084745762712],
+                ["2012-11-01", 102.966101694915],
+                ["2012-12-01", 110.508474576271],
+                ["2013-01-01", 114.491525423729],
+                ["2013-02-01", 104.067796610169],
+                ["2013-03-01", 101.610169491525],
+                ["2013-04-01", 111.864406779661],
+                ["2013-05-01", 103.559322033898],
+                ["2013-06-01", 105.847457627119],
+                ["2013-07-01", 128.050847457627],
+                ["2013-08-01", 129.830508474576],
+                ["2013-09-01", 127.71186440678],
+                ["2013-10-01", 112.457627118644],
+                ["2013-11-01", 111.610169491525],
+                ["2013-12-01", 109.067796610169],
+                ["2014-01-01", 117.457627118644],
+                ["2014-02-01", 109.152542372881],
+                ["2014-03-01", 109.830508474576],
+                ["2014-04-01", 101.610169491525],
+                ["2014-05-01", 122.203389830508],
+                ["2014-06-01", 91.3559322033898],
+                ["2014-07-01", 105.508474576271],
+                ["2014-08-01", 111.864406779661],
+                ["2014-09-01", 112.966101694915],
+                ["2014-10-01", 114.915254237288],
+                ["2014-11-01", 102.457627118644],
+                ["2014-12-01", 107.71186440678],
+                ["2015-01-01", 112.28813559322],
+                ["2015-02-01", 104.152542372881],
+                ["2015-03-01", 96.1864406779661],
+                ["2015-04-01", 94.6610169491525],
+                ["2015-05-01", 87.0338983050847],
+                ["2015-06-01", 83.4745762711864],
+                ["2015-07-01", 108.64406779661],
+                ["2015-08-01", 105.677966101695],
+                ["2015-09-01", 94.5762711864407],
+                ["2015-10-01", 98.4745762711864],
+                ["2015-11-01", 94.7457627118644],
+                ["2015-12-01", 96.3559322033898],
+                ["2016-01-01", 96.7796610169491],
+                ["2016-02-01", 93.3898305084746],
+                ["2016-03-01", 91.864406779661],
+                ["2016-04-01", 85.4237288135593],
+                ["2016-05-01", 84.1525423728814],
+                ["2016-06-01", 85.7627118644068],
+                ["2016-07-01", 95.0847457627119],
+                ["2016-08-01", 94.0677966101695],
+                ["2016-09-01", 86.6949152542373],
+                ["2016-10-01", 84.3220338983051],
+                ["2016-11-01", 77.4576271186441],
+                ["2016-12-01", 79.7457627118644],
+                ["2017-01-01", 88.8135593220339],
+                ["2017-02-01", 86.0169491525424],
+                ["2017-03-01", 82.3728813559322]
+              ];
+              var s6 = [
+                ["2007-01-01", 100],
+                ["2007-02-01", 100.097197298842],
+                ["2007-03-01", 100.389010916235],
+                ["2007-04-01", 99.2950319472508],
+                ["2007-05-01", 97.6198324275392],
+                ["2007-06-01", 101.78526232405],
+                ["2007-07-01", 101.826336993666],
+                ["2007-08-01", 101.82373424004],
+                ["2007-09-01", 102.042605505322],
+                ["2007-10-01", 101.763768191383],
+                ["2007-11-01", 101.772877829074],
+                ["2007-12-01", 101.789795727645],
+                ["2008-01-01", 101.170539886494],
+                ["2008-02-01", 101.229410541497],
+                ["2008-03-01", 101.242393663219],
+                ["2008-04-01", 103.447811567535],
+                ["2008-05-01", 104.058535604334],
+                ["2008-06-01", 104.476769009392],
+                ["2008-07-01", 105.475196889196],
+                ["2008-08-01", 105.512595142898],
+                ["2008-09-01", 105.545569984357],
+                ["2008-10-01", 103.953898520753],
+                ["2008-11-01", 104.030753810386],
+                ["2008-12-01", 104.086949000401],
+                ["2009-01-01", 105.109340148831],
+                ["2009-02-01", 105.104162734313],
+                ["2009-03-01", 104.96893996501],
+                ["2009-04-01", 107.582534397219],
+                ["2009-05-01", 107.589006165366],
+                ["2009-06-01", 103.580414392667],
+                ["2009-07-01", 98.0281540391232],
+                ["2009-08-01", 108.347461241121],
+                ["2009-09-01", 108.308630632242],
+                ["2009-10-01", 107.388099639047],
+                ["2009-11-01", 107.48179924613],
+                ["2009-12-01", 107.461089588061],
+                ["2010-01-01", 107.692380444749],
+                ["2010-02-01", 107.675525329664],
+                ["2010-03-01", 107.643111646809],
+                ["2010-04-01", 112.400976445273],
+                ["2010-05-01", 112.53007955032],
+                ["2010-06-01", 112.702261299091],
+                ["2010-07-01", 112.597320966788],
+                ["2010-08-01", 113.616343372487],
+                ["2010-09-01", 113.589096413629],
+                ["2010-10-01", 113.551042731012],
+                ["2010-11-01", 113.514739406214],
+                ["2010-12-01", 113.484918817987],
+                ["2011-01-01", 114.196853156866],
+                ["2011-02-01", 114.169388467351],
+                ["2011-03-01", 113.940516054722],
+                ["2011-04-01", 114.852996453685],
+                ["2011-05-01", 114.743895438651],
+                ["2011-06-01", 114.743895438651],
+                ["2011-07-01", 118.456784368526],
+                ["2011-08-01", 118.456784368526],
+                ["2011-09-01", 118.456784368526],
+                ["2011-10-01", 118.456784368526],
+                ["2011-11-01", 118.456784368526],
+                ["2011-12-01", 118.456784368526],
+                ["2012-01-01", 119.678351672043],
+                ["2012-02-01", 119.678351672043],
+                ["2012-03-01", 119.678351672043],
+                ["2012-04-01", 123.369514455799],
+                ["2012-05-01", 123.369514455799],
+                ["2012-06-01", 123.369514455799],
+                ["2012-07-01", 123.819313514228],
+                ["2012-08-01", 123.819313514228],
+                ["2012-09-01", 124.174757544935],
+                ["2012-10-01", 124.20853429614],
+                ["2012-11-01", 124.20853429614],
+                ["2012-12-01", 124.20853429614],
+                ["2013-01-01", 125.293401089486],
+                ["2013-02-01", 125.293401089486],
+                ["2013-03-01", 125.333550839968],
+                ["2013-04-01", 125.883451866499],
+                ["2013-05-01", 126.444277379956],
+                ["2013-06-01", 126.444277379956],
+                ["2013-07-01", 126.599583569013],
+                ["2013-08-01", 126.599583569013],
+                ["2013-09-01", 126.599583569013],
+                ["2013-10-01", 126.771863170301],
+                ["2013-11-01", 126.771863170301],
+                ["2013-12-01", 126.771863170301],
+                ["2014-01-01", 127.988908625694],
+                ["2014-02-01", 127.988908625694],
+                ["2014-03-01", 128.032728354489],
+                ["2014-04-01", 133.485594906694],
+                ["2014-05-01", 133.971197172613],
+                ["2014-06-01", 133.964409372427],
+                ["2014-07-01", 134.063063152651],
+                ["2014-08-01", 134.096668055914],
+                ["2014-09-01", 134.096668055914],
+                ["2014-10-01", 134.273670853899],
+                ["2014-11-01", 134.273670853899],
+                ["2014-12-01", 134.273670853899],
+                ["2015-01-01", 134.894843260752],
+                ["2015-02-01", 134.894843260752],
+                ["2015-03-01", 134.939874312134],
+                ["2015-04-01", 138.689105997835],
+                ["2015-05-01", 138.689105997835],
+                ["2015-06-01", 138.720588946855],
+                ["2015-07-01", 138.882131546941],
+                ["2015-08-01", 139.599980161042],
+                ["2015-09-01", 139.873336371501],
+                ["2015-10-01", 140.086960938925],
+                ["2015-11-01", 140.082541818285],
+                ["2015-12-01", 140.045102635667],
+                ["2016-01-01", 140.118886222276],
+                ["2016-02-01", 140.115700884432],
+                ["2016-03-01", 140.163370881537],
+                ["2016-04-01", 142.870345897458],
+                ["2016-05-01", 142.870345897458],
+                ["2016-06-01", 142.843668693009],
+                ["2016-07-01", 143.660494656166],
+                ["2016-08-01", 144.253141010643],
+                ["2016-09-01", 144.253141010643],
+                ["2016-10-01", 144.271178306845],
+                ["2016-11-01", 144.296962321783],
+                ["2016-12-01", 144.296962321783],
+                ["2017-01-01", 145.319205599866],
+                ["2017-02-01", 145.319205599866],
+                ["2017-03-01", 145.366875596971]
+              ];
 
-<h1 id="wb-cont" property="name">Market Snapshot: Canadian electricity prices generally increasing faster than inflation, but trends vary among provinces</h1>
-<aside class="col-md-3 module-related pull-right">
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Connect/Contact Us</h2>
-</header>
-<div class="list-group">
-<a class="list-group-item" href="/rss/rss-eng.html">Energy Information RSS Feed</a>
-<!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
-<p class="mrgn-lft-md mrgn-tp-sm">Please send comments, questions, or suggestions for Market Snapshot topics to <a href="mailto:snapshots@cer-rec.gc.ca">snapshots@cer-rec.gc.ca</a></p>
-</div>
-</section>
+              //var ticks = ['a', 'b', 'c', 'd'];
 
-</aside>
-<p><strong>Release date: 2017-05-17</strong></p>
-<p>Over the last decade, the electricity component of Canada’s consumer price index (CPI) increased faster than the price index for all consumer items. In other words, on average, electricity costs have increased faster than the rate of inflation. When broken down by province, Quebec’s electricity cost increases were below the rate of inflation throughout the entire decade. Alberta’s costs initially rose above the overall rate of inflation but then fell so that by 2016 costs were well below what they were in 2007.</p>
-<p class="mrgn-bttm-xl">By indexing the electricity component of the CPI to January 2007, this analysis explores how rates have changed over time. Absolute electricity rates <a href="/nrg/ntgrtd/mrkt/snpsht/2017/02-03hghcstpwr-eng.html">vary widely across provinces</a>. Factors such as the generation mix in each province, infrastructure and distribution costs, provincial government policies and programs, and taxes all affect the total electricity bills paid by consumers.</p>
-
-<!-- figure START -->
-<div class="col-md-9 row mrgn-bttm-md">
-<div id="chart7" class="mrgn-tp-md mrgn-lft-md "></div>
-</div>
-<div class="clearfix"></div>
-<script class="code" type="text/javascript">$(document).ready(function(){
-        $.jqplot.config.enablePlugins = true;
-        
-var s1 = [	['2007-01-01',100],	['2007-02-01',100.73126142596],	['2007-03-01',101.553930530165],	['2007-04-01',102.010968921389],	['2007-05-01',102.468007312614],	['2007-06-01',102.285191956124],	['2007-07-01',102.376599634369],	['2007-08-01',102.102376599634],	['2007-09-01',102.285191956124],	['2007-10-01',102.010968921389],	['2007-11-01',102.285191956124],	['2007-12-01',102.376599634369],	['2008-01-01',102.193784277879],	['2008-02-01',102.559414990859],	['2008-03-01',102.925045703839],	['2008-04-01',103.747714808044],	['2008-05-01',104.753199268739],	['2008-06-01',105.484460694698],	['2008-07-01',105.850091407678],	['2008-08-01',105.667276051188],	['2008-09-01',105.758683729433],	['2008-10-01',104.661791590494],	['2008-11-01',104.296160877514],	['2008-12-01',103.564899451554],	['2009-01-01',103.290676416819],	['2009-02-01',104.021937842779],	['2009-03-01',104.204753199269],	['2009-04-01',104.113345521024],	['2009-05-01',104.844606946984],	['2009-06-01',105.210237659963],	['2009-07-01',104.844606946984],	['2009-08-01',104.844606946984],	['2009-09-01',104.844606946984],	['2009-10-01',104.753199268739],	['2009-11-01',105.301645338208],	['2009-12-01',104.936014625229],	['2010-01-01',105.210237659963],	['2010-02-01',105.667276051188],	['2010-03-01',105.667276051188],	['2010-04-01',106.032906764168],	['2010-05-01',106.307129798903],	['2010-06-01',106.215722120658],	['2010-07-01',106.764168190128],	['2010-08-01',106.672760511883],	['2010-09-01',106.855575868373],	['2010-10-01',107.312614259598],	['2010-11-01',107.404021937843],	['2010-12-01',107.404021937843],	['2011-01-01',107.678244972578],	['2011-02-01',107.952468007313],	['2011-03-01',109.140767824497],	['2011-04-01',109.506398537477],	['2011-05-01',110.237659963437],	['2011-06-01',109.506398537477],	['2011-07-01',109.689213893967],	['2011-08-01',109.963436928702],	['2011-09-01',110.237659963437],	['2011-10-01',110.420475319927],	['2011-11-01',110.511882998172],	['2011-12-01',109.872029250457],	['2012-01-01',110.329067641682],	['2012-02-01',110.786106032907],	['2012-03-01',111.243144424132],	['2012-04-01',111.700182815356],	['2012-05-01',111.608775137112],	['2012-06-01',111.151736745887],	['2012-07-01',111.060329067642],	['2012-08-01',111.334552102377],	['2012-09-01',111.517367458867],	['2012-10-01',111.700182815356],	['2012-11-01',111.425959780622],	['2012-12-01',110.786106032907],	['2013-01-01',110.877513711152],	['2013-02-01',112.157221206581],	['2013-03-01',112.340036563071],	['2013-04-01',112.157221206581],	['2013-05-01',112.431444241316],	['2013-06-01',112.431444241316],	['2013-07-01',112.522851919561],	['2013-08-01',112.522851919561],	['2013-09-01',112.705667276051],	['2013-10-01',112.431444241316],	['2013-11-01',112.431444241316],	['2013-12-01',112.157221206581],	['2014-01-01',112.522851919561],	['2014-02-01',113.436928702011],	['2014-03-01',114.076782449726],	['2014-04-01',114.442413162706],	['2014-05-01',114.990859232175],	['2014-06-01',115.08226691042],	['2014-07-01',114.899451553931],	['2014-08-01',114.899451553931],	['2014-09-01',114.990859232175],	['2014-10-01',115.08226691042],	['2014-11-01',114.625228519196],	['2014-12-01',113.802559414991],	['2015-01-01',113.619744058501],	['2015-02-01',114.625228519196],	['2015-03-01',115.4478976234],	['2015-04-01',115.356489945155],	['2015-05-01',115.99634369287],	['2015-06-01',116.270566727605],	['2015-07-01',116.36197440585],	['2015-08-01',116.36197440585],	['2015-09-01',116.17915904936],	['2015-10-01',116.270566727605],	['2015-11-01',116.17915904936],	['2015-12-01',115.63071297989],	['2016-01-01',115.904936014625],	['2016-02-01',116.17915904936],	['2016-03-01',116.91042047532],	['2016-04-01',117.2760511883],	['2016-05-01',117.733089579525],	['2016-06-01',118.00731261426],	['2016-07-01',117.82449725777],	['2016-08-01',117.64168190128],	['2016-09-01',117.733089579525],	['2016-10-01',118.00731261426],	['2016-11-01',117.550274223035],	['2016-12-01',117.367458866545],	['2017-01-01',118.372943327239],	['2017-02-01',118.555758683729],	['2017-03-01',118.738574040219] ];
-var s2 = [	['2007-01-01',100],	['2007-02-01',99.8212689901698],	['2007-03-01',99.6425379803396],	['2007-04-01',99.6425379803396],	['2007-05-01',99.3744414655943],	['2007-06-01',100.983020554066],	['2007-07-01',102.234137622878],	['2007-08-01',103.217158176944],	['2007-09-01',103.127792672029],	['2007-10-01',102.055406613047],	['2007-11-01',100.446827524576],	['2007-12-01',100.446827524576],	['2008-01-01',99.106344950849],	['2008-02-01',99.0169794459339],	['2008-03-01',98.9276139410188],	['2008-04-01',100.536193029491],	['2008-05-01',100.893655049151],	['2008-06-01',100.893655049151],	['2008-07-01',102.859696157283],	['2008-08-01',102.412868632708],	['2008-09-01',101.161751563896],	['2008-10-01',101.161751563896],	['2008-11-01',102.949061662198],	['2008-12-01',103.932082216265],	['2009-01-01',102.859696157283],	['2009-02-01',103.485254691689],	['2009-03-01',101.966041108132],	['2009-04-01',101.519213583557],	['2009-05-01',103.306523681859],	['2009-06-01',102.412868632708],	['2009-07-01',102.680965147453],	['2009-08-01',104.647006255585],	['2009-09-01',103.485254691689],	['2009-10-01',102.144772117962],	['2009-11-01',103.217158176944],	['2009-12-01',103.753351206434],	['2010-01-01',103.127792672029],	['2010-02-01',102.859696157283],	['2010-03-01',102.234137622878],	['2010-04-01',103.038427167113],	['2010-05-01',107.417336907954],	['2010-06-01',108.40035746202],	['2010-07-01',112.77926720286],	['2010-08-01',112.689901697945],	['2010-09-01',111.438784629133],	['2010-10-01',110.455764075067],	['2010-11-01',109.294012511171],	['2010-12-01',110.187667560322],	['2011-01-01',109.740840035746],	['2011-02-01',107.327971403038],	['2011-03-01',106.613047363718],	['2011-04-01',110.277033065237],	['2011-05-01',108.40035746202],	['2011-06-01',108.847184986595],	['2011-07-01',112.243074173369],	['2011-08-01',114.655942806077],	['2011-09-01',111.170688114388],	['2011-10-01',115.013404825737],	['2011-11-01',112.689901697945],	['2011-12-01',116.085790884718],	['2012-01-01',117.783735478105],	['2012-02-01',116.621983914209],	['2012-03-01',112.243074173369],	['2012-04-01',112.064343163539],	['2012-05-01',114.209115281501],	['2012-06-01',115.281501340483],	['2012-07-01',116.443252904379],	['2012-08-01',118.498659517426],	['2012-09-01',117.873100983021],	['2012-10-01',116.97944593387],	['2012-11-01',114.655942806077],	['2012-12-01',115.460232350313],	['2013-01-01',116.175156389634],	['2013-02-01',115.281501340483],	['2013-03-01',115.102770330652],	['2013-04-01',116.800714924039],	['2013-05-01',117.69436997319],	['2013-06-01',117.873100983021],	['2013-07-01',120.196604110813],	['2013-08-01',120.375335120643],	['2013-09-01',120.107238605898],	['2013-10-01',118.677390527256],	['2013-11-01',120.464700625559],	['2013-12-01',120.196604110813],	['2014-01-01',121.626452189455],	['2014-02-01',120.732797140304],	['2014-03-01',120.911528150134],	['2014-04-01',122.162645218945],	['2014-05-01',125.91599642538],	['2014-06-01',122.788203753351],	['2014-07-01',124.307417336908],	['2014-08-01',124.932975871314],	['2014-09-01',125.022341376229],	['2014-10-01',125.290437890974],	['2014-11-01',124.843610366399],	['2014-12-01',125.379803395889],	['2015-01-01',126.09472743521],	['2015-02-01',125.379803395889],	['2015-03-01',124.486148346738],	['2015-04-01',125.73726541555],	['2015-05-01',127.167113494191],	['2015-06-01',126.720285969616],	['2015-07-01',129.758713136729],	['2015-08-01',129.579982126899],	['2015-09-01',128.328865058088],	['2015-10-01',128.865058087578],	['2015-11-01',130.026809651475],	['2015-12-01',130.205540661305],	['2016-01-01',133.601429848079],	['2016-02-01',133.243967828418],	['2016-03-01',133.869526362824],	['2016-04-01',133.869526362824],	['2016-05-01',135.299374441466],	['2016-06-01',135.478105451296],	['2016-07-01',136.818588025022],	['2016-08-01',136.818588025022],	['2016-09-01',135.924932975871],	['2016-10-01',135.656836461126],	['2016-11-01',134.584450402145],	['2016-12-01',134.85254691689],	['2017-01-01',132.618409294013],	['2017-02-01',132.171581769437],	['2017-03-01',131.724754244861] ];
-var s3 = [	['2007-01-01',100],	['2007-02-01',100],	['2007-03-01',100],	['2007-04-01',101.465201465201],	['2007-05-01',101.465201465201],	['2007-06-01',101.465201465201],	['2007-07-01',101.465201465201],	['2007-08-01',101.465201465201],	['2007-09-01',101.465201465201],	['2007-10-01',101.465201465201],	['2007-11-01',101.465201465201],	['2007-12-01',101.465201465201],	['2008-01-01',100.549450549451],	['2008-02-01',100.549450549451],	['2008-03-01',100.549450549451],	['2008-04-01',102.838827838828],	['2008-05-01',102.838827838828],	['2008-06-01',102.838827838828],	['2008-07-01',102.838827838828],	['2008-08-01',102.838827838828],	['2008-09-01',102.838827838828],	['2008-10-01',102.838827838828],	['2008-11-01',102.838827838828],	['2008-12-01',102.838827838828],	['2009-01-01',102.838827838828],	['2009-02-01',102.838827838828],	['2009-03-01',102.838827838828],	['2009-04-01',103.846153846154],	['2009-05-01',103.846153846154],	['2009-06-01',103.846153846154],	['2009-07-01',103.846153846154],	['2009-08-01',103.846153846154],	['2009-09-01',103.846153846154],	['2009-10-01',103.846153846154],	['2009-11-01',103.846153846154],	['2009-12-01',103.846153846154],	['2010-01-01',103.846153846154],	['2010-02-01',103.846153846154],	['2010-03-01',103.846153846154],	['2010-04-01',104.029304029304],	['2010-05-01',104.029304029304],	['2010-06-01',104.029304029304],	['2010-07-01',104.029304029304],	['2010-08-01',104.029304029304],	['2010-09-01',104.029304029304],	['2010-10-01',104.029304029304],	['2010-11-01',104.029304029304],	['2010-12-01',104.029304029304],	['2011-01-01',105.03663003663],	['2011-02-01',105.03663003663],	['2011-03-01',105.03663003663],	['2011-04-01',104.304029304029],	['2011-05-01',104.304029304029],	['2011-06-01',104.304029304029],	['2011-07-01',104.304029304029],	['2011-08-01',104.304029304029],	['2011-09-01',104.304029304029],	['2011-10-01',104.304029304029],	['2011-11-01',104.304029304029],	['2011-12-01',104.304029304029],	['2012-01-01',105.311355311355],	['2012-02-01',105.311355311355],	['2012-03-01',105.311355311355],	['2012-04-01',104.487179487179],	['2012-05-01',104.487179487179],	['2012-06-01',104.487179487179],	['2012-07-01',104.487179487179],	['2012-08-01',104.487179487179],	['2012-09-01',104.487179487179],	['2012-10-01',104.487179487179],	['2012-11-01',104.487179487179],	['2012-12-01',104.487179487179],	['2013-01-01',104.487179487179],	['2013-02-01',104.487179487179],	['2013-03-01',104.487179487179],	['2013-04-01',106.593406593407],	['2013-05-01',106.593406593407],	['2013-06-01',106.593406593407],	['2013-07-01',106.593406593407],	['2013-08-01',106.593406593407],	['2013-09-01',106.593406593407],	['2013-10-01',106.593406593407],	['2013-11-01',106.593406593407],	['2013-12-01',106.593406593407],	['2014-01-01',106.593406593407],	['2014-02-01',106.593406593407],	['2014-03-01',106.593406593407],	['2014-04-01',110.07326007326],	['2014-05-01',110.07326007326],	['2014-06-01',110.07326007326],	['2014-07-01',110.07326007326],	['2014-08-01',110.07326007326],	['2014-09-01',110.07326007326],	['2014-10-01',110.07326007326],	['2014-11-01',110.07326007326],	['2014-12-01',110.07326007326],	['2015-01-01',110.07326007326],	['2015-02-01',110.07326007326],	['2015-03-01',110.07326007326],	['2015-04-01',112.545787545788],	['2015-05-01',112.545787545788],	['2015-06-01',112.545787545788],	['2015-07-01',112.545787545788],	['2015-08-01',112.545787545788],	['2015-09-01',112.545787545788],	['2015-10-01',112.545787545788],	['2015-11-01',112.545787545788],	['2015-12-01',112.545787545788],	['2016-01-01',112.545787545788],	['2016-02-01',112.545787545788],	['2016-03-01',112.545787545788],	['2016-04-01',113.186813186813],	['2016-05-01',113.186813186813],	['2016-06-01',113.186813186813],	['2016-07-01',113.186813186813],	['2016-08-01',113.186813186813],	['2016-09-01',113.186813186813],	['2016-10-01',113.186813186813],	['2016-11-01',113.186813186813],	['2016-12-01',113.186813186813],	['2017-01-01',113.186813186813],	['2017-02-01',113.186813186813],	['2017-03-01',113.186813186813]];
-var s4 = [	['2007-01-01',100],	['2007-02-01',100],	['2007-03-01',100],	['2007-04-01',100],	['2007-05-01',100.777202072539],	['2007-06-01',100.777202072539],	['2007-07-01',100.777202072539],	['2007-08-01',100.777202072539],	['2007-09-01',100.777202072539],	['2007-10-01',100.777202072539],	['2007-11-01',96.3730569948187],	['2007-12-01',96.3730569948187],	['2008-01-01',95.4231433506045],	['2008-02-01',95.4231433506045],	['2008-03-01',95.4231433506045],	['2008-04-01',95.4231433506045],	['2008-05-01',95.8549222797927],	['2008-06-01',95.8549222797927],	['2008-07-01',95.8549222797927],	['2008-08-01',95.8549222797927],	['2008-09-01',95.8549222797927],	['2008-10-01',95.8549222797927],	['2008-11-01',99.2227979274611],	['2008-12-01',99.2227979274611],	['2009-01-01',99.2227979274611],	['2009-02-01',99.2227979274611],	['2009-03-01',99.2227979274611],	['2009-04-01',99.2227979274611],	['2009-05-01',103.713298791019],	['2009-06-01',103.713298791019],	['2009-07-01',103.713298791019],	['2009-08-01',103.713298791019],	['2009-09-01',103.713298791019],	['2009-10-01',103.713298791019],	['2009-11-01',103.022452504318],	['2009-12-01',103.022452504318],	['2010-01-01',103.022452504318],	['2010-02-01',103.022452504318],	['2010-03-01',103.022452504318],	['2010-04-01',103.022452504318],	['2010-05-01',113.039723661485],	['2010-06-01',113.039723661485],	['2010-07-01',121.67530224525],	['2010-08-01',121.67530224525],	['2010-09-01',121.67530224525],	['2010-10-01',121.67530224525],	['2010-11-01',118.134715025907],	['2010-12-01',118.134715025907],	['2011-01-01',113.730569948187],	['2011-02-01',104.145077720207],	['2011-03-01',106.303972366149],	['2011-04-01',106.303972366149],	['2011-05-01',112.694300518135],	['2011-06-01',112.694300518135],	['2011-07-01',112.694300518135],	['2011-08-01',113.298791018998],	['2011-09-01',113.298791018998],	['2011-10-01',113.298791018998],	['2011-11-01',113.557858376511],	['2011-12-01',113.557858376511],	['2012-01-01',113.557858376511],	['2012-02-01',113.385146804836],	['2012-03-01',113.385146804836],	['2012-04-01',113.385146804836],	['2012-05-01',121.157167530225],	['2012-06-01',121.157167530225],	['2012-07-01',121.157167530225],	['2012-08-01',121.502590673575],	['2012-09-01',121.502590673575],	['2012-10-01',121.502590673575],	['2012-11-01',120.20725388601],	['2012-12-01',120.379965457686],	['2013-01-01',120.293609671848],	['2013-02-01',120.811744386874],	['2013-03-01',120.811744386874],	['2013-04-01',120.811744386874],	['2013-05-01',125.043177892919],	['2013-06-01',125.043177892919],	['2013-07-01',125.043177892919],	['2013-08-01',125.043177892919],	['2013-09-01',125.043177892919],	['2013-10-01',125.043177892919],	['2013-11-01',129.965457685665],	['2013-12-01',129.965457685665],	['2014-01-01',130.742659758204],	['2014-02-01',130.656303972366],	['2014-03-01',130.829015544041],	['2014-04-01',131.001727115717],	['2014-05-01',135.146804835924],	['2014-06-01',135.146804835924],	['2014-07-01',135.146804835924],	['2014-08-01',135.146804835924],	['2014-09-01',135.146804835924],	['2014-10-01',135.146804835924],	['2014-11-01',137.305699481865],	['2014-12-01',137.305699481865],	['2015-01-01',137.305699481865],	['2015-02-01',138.082901554404],	['2015-03-01',138.082901554404],	['2015-04-01',138.082901554404],	['2015-05-01',144.818652849741],	['2015-06-01',144.818652849741],	['2015-07-01',144.818652849741],	['2015-08-01',144.991364421416],	['2015-09-01',144.991364421416],	['2015-10-01',144.991364421416],	['2015-11-01',149.568221070812],	['2015-12-01',149.568221070812],	['2016-01-01',159.844559585492],	['2016-02-01',159.758203799655],	['2016-03-01',162.176165803109],	['2016-04-01',162.176165803109],	['2016-05-01',167.098445595855],	['2016-06-01',167.098445595855],	['2016-07-01',167.098445595855],	['2016-08-01',167.098445595855],	['2016-09-01',167.098445595855],	['2016-10-01',167.098445595855],	['2016-11-01',166.321243523316],	['2016-12-01',166.321243523316],	['2017-01-01',154.317789291883],	['2017-02-01',153.972366148532],	['2017-03-01',153.972366148532] ];
-var s5 = [	['2007-01-01',100],	['2007-02-01',97.0338983050847],	['2007-03-01',94.8305084745763],	['2007-04-01',93.8983050847458],	['2007-05-01',91.6101694915254],	['2007-06-01',96.864406779661],	['2007-07-01',108.389830508475],	['2007-08-01',117.966101694915],	['2007-09-01',116.694915254237],	['2007-10-01',107.542372881356],	['2007-11-01',108.135593220339],	['2007-12-01',107.966101694915],	['2008-01-01',102.28813559322],	['2008-02-01',101.016949152542],	['2008-03-01',99.9152542372881],	['2008-04-01',105.593220338983],	['2008-05-01',106.016949152542],	['2008-06-01',104.576271186441],	['2008-07-01',119.745762711864],	['2008-08-01',115.677966101695],	['2008-09-01',103.983050847458],	['2008-10-01',107.203389830508],	['2008-11-01',112.457627118644],	['2008-12-01',121.186440677966],	['2009-01-01',108.050847457627],	['2009-02-01',114.406779661017],	['2009-03-01',100.423728813559],	['2009-04-01',88.728813559322],	['2009-05-01',89.9152542372881],	['2009-06-01',88.0508474576271],	['2009-07-01',101.101694915254],	['2009-08-01',100.593220338983],	['2009-09-01',90.3389830508475],	['2009-10-01',80.6779661016949],	['2009-11-01',92.2033898305085],	['2009-12-01',97.4576271186441],	['2010-01-01',90.6779661016949],	['2010-02-01',88.135593220339],	['2010-03-01',82.3728813559322],	['2010-04-01',81.1864406779661],	['2010-05-01',87.6271186440678],	['2010-06-01',95.9322033898305],	['2010-07-01',107.203389830508],	['2010-08-01',104.237288135593],	['2010-09-01',92.4576271186441],	['2010-10-01',83.6440677966102],	['2010-11-01',84.7457627118644],	['2010-12-01',92.9661016949153],	['2011-01-01',99.3220338983051],	['2011-02-01',109.152542372881],	['2011-03-01',96.3559322033898],	['2011-04-01',129.576271186441],	['2011-05-01',91.1864406779661],	['2011-06-01',95.2542372881356],	['2011-07-01',119.237288135593],	['2011-08-01',139.491525423729],	['2011-09-01',107.033898305085],	['2011-10-01',143.135593220339],	['2011-11-01',120.338983050847],	['2011-12-01',152.033898305085],	['2012-01-01',162.457627118644],	['2012-02-01',152.203389830508],	['2012-03-01',111.186440677966],	['2012-04-01',104.491525423729],	['2012-05-01',98.5593220338983],	['2012-06-01',108.305084745763],	['2012-07-01',117.627118644068],	['2012-08-01',135],	['2012-09-01',128.305084745763],	['2012-10-01',120.084745762712],	['2012-11-01',102.966101694915],	['2012-12-01',110.508474576271],	['2013-01-01',114.491525423729],	['2013-02-01',104.067796610169],	['2013-03-01',101.610169491525],	['2013-04-01',111.864406779661],	['2013-05-01',103.559322033898],	['2013-06-01',105.847457627119],	['2013-07-01',128.050847457627],	['2013-08-01',129.830508474576],	['2013-09-01',127.71186440678],	['2013-10-01',112.457627118644],	['2013-11-01',111.610169491525],	['2013-12-01',109.067796610169],	['2014-01-01',117.457627118644],	['2014-02-01',109.152542372881],	['2014-03-01',109.830508474576],	['2014-04-01',101.610169491525],	['2014-05-01',122.203389830508],	['2014-06-01',91.3559322033898],	['2014-07-01',105.508474576271],	['2014-08-01',111.864406779661],	['2014-09-01',112.966101694915],	['2014-10-01',114.915254237288],	['2014-11-01',102.457627118644],	['2014-12-01',107.71186440678],	['2015-01-01',112.28813559322],	['2015-02-01',104.152542372881],	['2015-03-01',96.1864406779661],	['2015-04-01',94.6610169491525],	['2015-05-01',87.0338983050847],	['2015-06-01',83.4745762711864],	['2015-07-01',108.64406779661],	['2015-08-01',105.677966101695],	['2015-09-01',94.5762711864407],	['2015-10-01',98.4745762711864],	['2015-11-01',94.7457627118644],	['2015-12-01',96.3559322033898],	['2016-01-01',96.7796610169491],	['2016-02-01',93.3898305084746],	['2016-03-01',91.864406779661],	['2016-04-01',85.4237288135593],	['2016-05-01',84.1525423728814],	['2016-06-01',85.7627118644068],	['2016-07-01',95.0847457627119],	['2016-08-01',94.0677966101695],	['2016-09-01',86.6949152542373],	['2016-10-01',84.3220338983051],	['2016-11-01',77.4576271186441],	['2016-12-01',79.7457627118644],	['2017-01-01',88.8135593220339],	['2017-02-01',86.0169491525424],	['2017-03-01',82.3728813559322]];
-var s6 = [	['2007-01-01',100],	['2007-02-01',100.097197298842],	['2007-03-01',100.389010916235],	['2007-04-01',99.2950319472508],	['2007-05-01',97.6198324275392],	['2007-06-01',101.78526232405],	['2007-07-01',101.826336993666],	['2007-08-01',101.82373424004],	['2007-09-01',102.042605505322],	['2007-10-01',101.763768191383],	['2007-11-01',101.772877829074],	['2007-12-01',101.789795727645],	['2008-01-01',101.170539886494],	['2008-02-01',101.229410541497],	['2008-03-01',101.242393663219],	['2008-04-01',103.447811567535],	['2008-05-01',104.058535604334],	['2008-06-01',104.476769009392],	['2008-07-01',105.475196889196],	['2008-08-01',105.512595142898],	['2008-09-01',105.545569984357],	['2008-10-01',103.953898520753],	['2008-11-01',104.030753810386],	['2008-12-01',104.086949000401],	['2009-01-01',105.109340148831],	['2009-02-01',105.104162734313],	['2009-03-01',104.96893996501],	['2009-04-01',107.582534397219],	['2009-05-01',107.589006165366],	['2009-06-01',103.580414392667],	['2009-07-01',98.0281540391232],	['2009-08-01',108.347461241121],	['2009-09-01',108.308630632242],	['2009-10-01',107.388099639047],	['2009-11-01',107.48179924613],	['2009-12-01',107.461089588061],	['2010-01-01',107.692380444749],	['2010-02-01',107.675525329664],	['2010-03-01',107.643111646809],	['2010-04-01',112.400976445273],	['2010-05-01',112.53007955032],	['2010-06-01',112.702261299091],	['2010-07-01',112.597320966788],	['2010-08-01',113.616343372487],	['2010-09-01',113.589096413629],	['2010-10-01',113.551042731012],	['2010-11-01',113.514739406214],	['2010-12-01',113.484918817987],	['2011-01-01',114.196853156866],	['2011-02-01',114.169388467351],	['2011-03-01',113.940516054722],	['2011-04-01',114.852996453685],	['2011-05-01',114.743895438651],	['2011-06-01',114.743895438651],	['2011-07-01',118.456784368526],	['2011-08-01',118.456784368526],	['2011-09-01',118.456784368526],	['2011-10-01',118.456784368526],	['2011-11-01',118.456784368526],	['2011-12-01',118.456784368526],	['2012-01-01',119.678351672043],	['2012-02-01',119.678351672043],	['2012-03-01',119.678351672043],	['2012-04-01',123.369514455799],	['2012-05-01',123.369514455799],	['2012-06-01',123.369514455799],	['2012-07-01',123.819313514228],	['2012-08-01',123.819313514228],	['2012-09-01',124.174757544935],	['2012-10-01',124.20853429614],	['2012-11-01',124.20853429614],	['2012-12-01',124.20853429614],	['2013-01-01',125.293401089486],	['2013-02-01',125.293401089486],	['2013-03-01',125.333550839968],	['2013-04-01',125.883451866499],	['2013-05-01',126.444277379956],	['2013-06-01',126.444277379956],	['2013-07-01',126.599583569013],	['2013-08-01',126.599583569013],	['2013-09-01',126.599583569013],	['2013-10-01',126.771863170301],	['2013-11-01',126.771863170301],	['2013-12-01',126.771863170301],	['2014-01-01',127.988908625694],	['2014-02-01',127.988908625694],	['2014-03-01',128.032728354489],	['2014-04-01',133.485594906694],	['2014-05-01',133.971197172613],	['2014-06-01',133.964409372427],	['2014-07-01',134.063063152651],	['2014-08-01',134.096668055914],	['2014-09-01',134.096668055914],	['2014-10-01',134.273670853899],	['2014-11-01',134.273670853899],	['2014-12-01',134.273670853899],	['2015-01-01',134.894843260752],	['2015-02-01',134.894843260752],	['2015-03-01',134.939874312134],	['2015-04-01',138.689105997835],	['2015-05-01',138.689105997835],	['2015-06-01',138.720588946855],	['2015-07-01',138.882131546941],	['2015-08-01',139.599980161042],	['2015-09-01',139.873336371501],	['2015-10-01',140.086960938925],	['2015-11-01',140.082541818285],	['2015-12-01',140.045102635667],	['2016-01-01',140.118886222276],	['2016-02-01',140.115700884432],	['2016-03-01',140.163370881537],	['2016-04-01',142.870345897458],	['2016-05-01',142.870345897458],	['2016-06-01',142.843668693009],	['2016-07-01',143.660494656166],	['2016-08-01',144.253141010643],	['2016-09-01',144.253141010643],	['2016-10-01',144.271178306845],	['2016-11-01',144.296962321783],	['2016-12-01',144.296962321783],	['2017-01-01',145.319205599866],	['2017-02-01',145.319205599866],	['2017-03-01',145.366875596971] ];
-      
-		//var ticks = ['a', 'b', 'c', 'd'];
-        
-       
-		plot1 = $.jqplot('chart7', [s1, s2, s3, s4, s5, s6],  {
-		//,'ff8837','661882','9883a2','2db155','5a5241'
-            // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
-            title:'Electricity Component of the Consumer Price Index (2007 = 100)',			
-            width: 900,
-			height: 400,
-			seriesColors: ['#2E2E2E','#04B45F','#0431B4','#FFFF00','#848484','#380B61','#ff9c37','#2db155','#5b34bo','#51d72e','#ffe237','#d72e7b','#2785a0','#ffc337'],
-			 negativeSeriesColors:['#FF7600','#123eab','#00c90d'],
-			stackSeries: false,
-			animate: !$.jqplot.use_excanvas,
-			axesDefaults: {         labelRenderer: $.jqplot.CanvasAxisLabelRenderer       }, 
-            seriesDefaults:{
-				renderer:$.jqplot.LineRenderer,	
-				shadow: true,
-                showMarker: false,
-               fill:false,
-			pointLabels: { show: false}
-				
-            },
-			series:[
-			{label: 'Canada (all items)', lineWidth: 5.0},
-			{label: 'Canada (electricity)'}, 
-			{label: 'Quebec'},
-			{label: 'Ontario'},
-			{label: 'Alberta'},
-			{label: 'All other provinces and territories'},
-						
-			],
-            axes: {
-                
-				xaxis: {
-					renderer:$.jqplot.DateAxisRenderer, //need this renderer for x-axis with dates          
-					tickOptions:{formatString:'%b %y'}, //different date options here: http://www.jqplot.com/docs/files/plugins/jqplot-dateAxisRenderer-js.html
-					tickInterval:"6 month" //choose interval - month, year, day
-					//max: '02-Feb-2014'
-					//min: '01-Jan-2005'
-				
+              plot1 = $.jqplot("chart7", [s1, s2, s3, s4, s5, s6], {
+                //,'ff8837','661882','9883a2','2db155','5a5241'
+                // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
+                title:
+                  "Electricity Component of the Consumer Price Index (2007 = 100)",
+                width: 900,
+                height: 400,
+                seriesColors: [
+                  "#2E2E2E",
+                  "#04B45F",
+                  "#0431B4",
+                  "#FFFF00",
+                  "#848484",
+                  "#380B61",
+                  "#ff9c37",
+                  "#2db155",
+                  "#5b34bo",
+                  "#51d72e",
+                  "#ffe237",
+                  "#d72e7b",
+                  "#2785a0",
+                  "#ffc337"
+                ],
+                negativeSeriesColors: ["#FF7600", "#123eab", "#00c90d"],
+                stackSeries: false,
+                animate: !$.jqplot.use_excanvas,
+                axesDefaults: {
+                  labelRenderer: $.jqplot.CanvasAxisLabelRenderer
                 },
-				yaxis: {
-					label: "Consumer Price Index - Electricity Component (2007=100)",
-					//tickOptions: {formatString: '%.1f'}, // use to set number of decimal for y-axis
-					min: 60,
-					tickOptions:{formatString:"%'i"}
-				},
-			//	y2axis: {
-			//		min:0,
-			//		max:450000,
-			//		showMark:false
-			//	}	
-            },
-			legend: {
-				renderer:$.jqplot.EnhancedLegendRenderer,
-				
-				show:true,
-				marginTop: "5px",
-				rendererOptions:{
-					
-						placement: 'outside',
-						location: 'e',
-						//numberRows: 1,
-						
-						}
-			},
-			grid: {
-			drawGridLines: true,        // wether to draw lines across the grid or not.
-			gridLineColor: '#a6a6a6',    // *Color of the grid lines.
-			background: '#f7f8f8',      // CSS color spec for background color of grid.
-			borderColor: '#232323',     // CSS color spec for border around grid.
-		//	borderWidth: 2.5,           // pixel width of border around grid.
-			shadow: false
-				},
-	
-            highlighter: { show: false, showMarker: false, tooltipOffset: 2 },      
-			cursor: {        show: false      }			
-        });
-    
-        $('#chart7').bind('jqplotDataClick', 
-            function (ev, seriesIndex, pointIndex, data) {
-                $('#info1').html('series: '+seriesIndex+', point: '+pointIndex+', data: '+data);
-            }
-        );
-    });</script>
-	<!-- figure   END -->
+                seriesDefaults: {
+                  renderer: $.jqplot.LineRenderer,
+                  shadow: true,
+                  showMarker: false,
+                  fill: false,
+                  pointLabels: { show: false }
+                },
+                series: [
+                  { label: "Canada (all items)", lineWidth: 5.0 },
+                  { label: "Canada (electricity)" },
+                  { label: "Quebec" },
+                  { label: "Ontario" },
+                  { label: "Alberta" },
+                  { label: "All other provinces and territories" }
+                ],
+                axes: {
+                  xaxis: {
+                    renderer: $.jqplot.DateAxisRenderer, //need this renderer for x-axis with dates
+                    tickOptions: { formatString: "%b %y" }, //different date options here: http://www.jqplot.com/docs/files/plugins/jqplot-dateAxisRenderer-js.html
+                    tickInterval: "6 month" //choose interval - month, year, day
+                    //max: '02-Feb-2014'
+                    //min: '01-Jan-2005'
+                  },
+                  yaxis: {
+                    label:
+                      "Consumer Price Index - Electricity Component (2007=100)",
+                    //tickOptions: {formatString: '%.1f'}, // use to set number of decimal for y-axis
+                    min: 60,
+                    tickOptions: { formatString: "%'i" }
+                  }
+                  //	y2axis: {
+                  //		min:0,
+                  //		max:450000,
+                  //		showMark:false
+                  //	}
+                },
+                legend: {
+                  renderer: $.jqplot.EnhancedLegendRenderer,
 
+                  show: true,
+                  marginTop: "5px",
+                  rendererOptions: {
+                    placement: "outside",
+                    location: "e"
+                    //numberRows: 1,
+                  }
+                },
+                grid: {
+                  drawGridLines: true, // wether to draw lines across the grid or not.
+                  gridLineColor: "#a6a6a6", // *Color of the grid lines.
+                  background: "#f7f8f8", // CSS color spec for background color of grid.
+                  borderColor: "#232323", // CSS color spec for border around grid.
+                  //	borderWidth: 2.5,           // pixel width of border around grid.
+                  shadow: false
+                },
 
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401" rel="external">Statistics Canada</a></p>
-<p><strong>Description:</strong> This line graph shows the electricity component of the CPI for Canada, Quebec, Ontario, Alberta, and a combination of other provinces and territories from January 2007 to March 2017. The combination of other provinces and territories includes B.C., Newfoundland and Labrador, Prince Edward Island, Nova Scotia, New Brunswick, Manitoba, Saskatchewan, Yukon and Northwest Territories; data for Nunavut was not available. The graph also shows the all-item CPI for Canada. All lines are indexed to equal 100 in January 2007. From January 2007 to March 2017, the all-item index increased steadily from 100 to 119. At the same time, the Canadian electricity index increased from 100 to 132. Quebec’s electricity index increased from 100 to 113. Ontario dropped from 100 in January 2007 to 95 in May 2008, then rose steeply to 167 in May 2016 before finishing at 154 in March 2017. Alberta increased to 122 in January 2009, dropped to 81 in October 2009, increased again to a high of 162 in January 2012, and then dropped to a range between 70 and 90 in 2016 and 2017. The Alberta index experiences monthly spikes, whereas the other indices are smoother. The combined series for other provinces and territories closely followed the national electricity index, and in March 2017 was 137.</p>
-</details>
-<div class="clearfix"></div>
-<p class="mrgn-tp-lg">Alberta’s deregulated power market experienced the most volatility over the past decade. Alberta’s wholesale prices, and its electricity component of the CPI, increased steeply from mid-2010 to early 2012 in response to demand increases and limited growth in supply. In the subsequent five years, new supply was installed and natural gas prices declined, which led to wholesale prices decreasing and the electricity component of Alberta’s CPI falling considerably.</p>
-<p class="mrgn-tp-lg">In Ontario, the electricity component of the CPI increased the most of all provinces, rising 66% from January 2007 to December 2016. Wholesale electricity prices generally declined, but other costs increased, namely the <a href="http://www.ieso.ca/learn/electricity-pricing/what-is-global-adjustment" rel="external">global adjustment</a> established to cover the cost of providing adequate generating capacity and conservation programs in Ontario. The average global adjustment charge on consumers’ bills increased more than 140% from 2011 to 2016. Starting in January 2017, the electricity component of the CPI began decreasing as Ontario <a href="https://news.ontario.ca/mndmf/en/2016/10/ontario-passes-legislation-to-reduce-electricity-costs-for-families-and-businesses.html" rel="external">passed legislation</a> to rebate the provincial portion of the harmonized sales tax on electricity bills.</p>
+                highlighter: {
+                  show: false,
+                  showMarker: false,
+                  tooltipOffset: 2
+                },
+                cursor: { show: false }
+              });
 
+              $("#chart7").bind("jqplotDataClick", function(
+                ev,
+                seriesIndex,
+                pointIndex,
+                data
+              ) {
+                $("#info1").html(
+                  "series: " +
+                    seriesIndex +
+                    ", point: " +
+                    pointIndex +
+                    ", data: " +
+                    data
+                );
+              });
+            });
+          </script>
+          <!-- figure   END -->
 
-<!-- Don't touch this! -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p>
+              <strong>Source:</strong>
+              <a
+                href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401"
+                rel="external"
+                >Statistics Canada</a
+              >
+            </p>
+            <p>
+              <strong>Description:</strong> This line graph shows the
+              electricity component of the CPI for Canada, Quebec, Ontario,
+              Alberta, and a combination of other provinces and territories from
+              January 2007 to March 2017. The combination of other provinces and
+              territories includes B.C., Newfoundland and Labrador, Prince
+              Edward Island, Nova Scotia, New Brunswick, Manitoba, Saskatchewan,
+              Yukon and Northwest Territories; data for Nunavut was not
+              available. The graph also shows the all-item CPI for Canada. All
+              lines are indexed to equal 100 in January 2007. From January 2007
+              to March 2017, the all-item index increased steadily from 100 to
+              119. At the same time, the Canadian electricity index increased
+              from 100 to 132. Quebec’s electricity index increased from 100 to
+              113. Ontario dropped from 100 in January 2007 to 95 in May 2008,
+              then rose steeply to 167 in May 2016 before finishing at 154 in
+              March 2017. Alberta increased to 122 in January 2009, dropped to
+              81 in October 2009, increased again to a high of 162 in January
+              2012, and then dropped to a range between 70 and 90 in 2016 and
+              2017. The Alberta index experiences monthly spikes, whereas the
+              other indices are smoother. The combined series for other
+              provinces and territories closely followed the national
+              electricity index, and in March 2017 was 137.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <p class="mrgn-tp-lg">
+            Alberta’s deregulated power market experienced the most volatility
+            over the past decade. Alberta’s wholesale prices, and its
+            electricity component of the CPI, increased steeply from mid-2010 to
+            early 2012 in response to demand increases and limited growth in
+            supply. In the subsequent five years, new supply was installed and
+            natural gas prices declined, which led to wholesale prices
+            decreasing and the electricity component of Alberta’s CPI falling
+            considerably.
+          </p>
+          <p class="mrgn-tp-lg">
+            In Ontario, the electricity component of the CPI increased the most
+            of all provinces, rising 66% from January 2007 to December 2016.
+            Wholesale electricity prices generally declined, but other costs
+            increased, namely the
+            <a
+              href="http://www.ieso.ca/learn/electricity-pricing/what-is-global-adjustment"
+              rel="external"
+              >global adjustment</a
+            >
+            established to cover the cost of providing adequate generating
+            capacity and conservation programs in Ontario. The average global
+            adjustment charge on consumers’ bills increased more than 140% from
+            2011 to 2016. Starting in January 2017, the electricity component of
+            the CPI began decreasing as Ontario
+            <a
+              href="https://news.ontario.ca/mndmf/en/2016/10/ontario-passes-legislation-to-reduce-electricity-costs-for-families-and-businesses.html"
+              rel="external"
+              >passed legislation</a
+            >
+            to rebate the provincial portion of the harmonized sales tax on
+            electricity bills.
+          </p>
 
-<!-- Additional plugins go here -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script>
+          <!-- Don't touch this! -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
 
-<!-- End additional plugins -->  
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
+
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -376,78 +1471,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

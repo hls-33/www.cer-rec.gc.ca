@@ -1,529 +1,1115 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB - Market Snapshot: Can you guess how we generate electricity?</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Electricity; Demand;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      NEB - Market Snapshot: Can you guess how we generate electricity?
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="Electricity; Demand;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: Can you guess how we generate electricity?"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: Can you guess how we generate electricity?"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: Can you guess how we generate electricity?" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: Can you guess how we generate electricity?" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>
+                Market Snapshot: Can you guess how we generate electricity?
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: Can you guess how we generate electricity?
+          </h1>
+          <aside class="col-md-3 module-related pull-right">
+            <section class="panel panel-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Connect/Contact Us</h2>
+              </header>
+              <div class="list-group">
+                <a class="list-group-item" href="/rss/rss-eng.html"
+                  >Energy Information RSS Feed</a
+                >
+                <!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
+                <p class="mrgn-lft-md mrgn-tp-sm">
+                  Please send comments, questions, or suggestions for Market
+                  Snapshot topics to
+                  <a href="mailto:snapshots@cer-rec.gc.ca"
+                    >snapshots@cer-rec.gc.ca</a
+                  >
+                </p>
+              </div>
+            </section>
+          </aside>
+          <p><strong>Release date: 2018-01-03</strong></p>
+          <p>
+            What energy sources do Canadian provinces and territories use to
+            generate their electricity? The stacked area charts below illustrate
+            the breakdown of electricity generation by source from 2005 to 2016.
+            There is a chart for each province and territory. Can you guess
+            which chart belongs to which region based on the sources of
+            electricity generation?
+          </p>
+          <p class="mrgn-bttm-xl">
+            For more information see
+            <a href="/nrg/sttstc/lctrct/rprt/2017cndrnwblpwr/index-eng.html"
+              >Canada's Renewable Power Landscape 2017</a
+            >.
+          </p>
+          <h2 class="text-left">
+            Which graph belongs to which province or territory?
+          </h2>
+          <p>
+            <img
+              src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rrtilebanner.png"
+              alt="banner"
+              class="img-responsive"
+            />
+          </p>
+          <!-- QUESTION START 1CAN-->
+          <!-- figure START -->
+          <h2 class="text-left">0.</h2>
+          <p>
+            As an example, when you click the graph below you will see it is the
+            breakdown of Canada’s total electricity generation by source from
+            2005 to 2016. Now can you guess for each of the provinces and
+            territories?
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr01-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr01-sm-eng.png"
+                      alt="Electricity Generation by Source"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Canada’s electricity generation between 2005 and 2016. Hydro
+              averaged 59.6%. Wind increased from 0.2% to 4.7%. Biomass
+              increased from 1.3% to 2.0%. Solar grew from zero to 0.5%. Coal
+              declined from 16.1% to 9.3%. Natural gas increased from 6.8% to
+              9.6%. Oil and diesel declined from 1.8% to 0.5%.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START SK4-->
+          <!-- figure START -->
+          <h2 class="text-left">1.</h2>
+          <p>
+            This prairie province primarily uses coal and natural gas, but also
+            uses a significant amount of hydro.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr04-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr04-sm-eng.png"
+                      alt="Electricity Generation by Source - Saskatchewan"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Saskatchewan’s electricity generation between 2005 and 2016.
+              Hydro’s share fluctuated between 13.4% and 23.2% of generation.
+              Wind averaged 2.7%. Coal decreased from 67.0% in 2005 to 49.3% in
+              2016. Natural gas’ share increased from 9.3% in 2005 to 33.7% in
+              2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START PE11-->
+          <!-- figure START -->
+          <h2 class="text-left">2.</h2>
+          <p>
+            This province has the highest share of wind generation of any
+            province or territory.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr11-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr11-sm-eng.png"
+                      alt="Electricity Generation by Source - Prince Edward Island"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              PEI’s electricity generation between 2005 and 2016. Wind increased
+              from 97.8% to 98.1% of generation. Biomass generated 0.9% in 2016.
+              Oil and diesel fell from 2.2% to 1.0%.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START NS9-->
+          <!-- figure START -->
+          <h2 class="text-left">3.</h2>
+          <p>
+            This is the only Maritime province to generate a majority of its
+            electricity from coal.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr09-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr09-sm-eng.png"
+                      alt="Electricity Generation by Source - Nova Scotia"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Nova Scotia’s electricity generation between 2005 and 2016. On
+              average, hydro accounted for 10.2% of generation. Wind grew from
+              1.0% to 10.6%. Biomass generation averaged 3.0%. Coal fell from
+              77.9% to 63.7%. Natural gas fluctuated from 2.1% in 2005 to a high
+              of 21.9% in 2012 before falling to 12.9% in 2016. Oil and diesel
+              decreased from 4.6% to 1.6%.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START NT9-->
+          <!-- figure START -->
+          <h2 class="text-left">4.</h2>
+          <p>
+            This territory generates the most significant share of its
+            electricity from hydro and diesel.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr13-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr13-sm-eng.png"
+                      alt="Electricity Generation by Source - Northwest Territories"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              NWT’s electricity generation between 2005 and 2016. Hydro’s share
+              fluctuated from 36.6% in 2005 to a high of 69.8% in 2016. Wind
+              grew from zero to 3.9% from 2012 to 2016. Natural gas generally
+              decreased from 22.5% to 3.9%, with fluctuations year to year. Oil
+              and diesel generation averaged 43.0% from 2005 to 2016, but fell
+              to 22.4% in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+
+          <!-- QUESTION START NB8-->
+          <!-- figure START -->
+          <h2 class="text-left">5.</h2>
+          <p>
+            This eastern province is one of two that use nuclear power to
+            generate electricity.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr08-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr08-sm-eng.png"
+                      alt="Electricity Generation by Source - New Brunswick"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              New Brunswick’s electricity generation between 2005 and 2016.
+              Hydro fluctuated from 18.4% in 2005, to 33.0% in 2011, then
+              decreased to 20.6% in 2016. Wind’s share increased from zero to
+              5.6%. Biomass remained stable at around 4.0%. Nuclear dropped to
+              zero between 2009 and 2011 then increased to 29.9% in 2016. Coal
+              fluctuated from 13.9% in 2005, to an average of 21.6% between 2009
+              and 2011, and was 20.7% in 2016. Natural gas increased from 9.4%
+              in 2005 to 15.5% in 2016, while oil and diesel dropped from 34.7%
+              to 3.9% over these years.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START QC7-->
+          <!-- figure START -->
+          <h2 class="text-left">6.</h2>
+          <p>
+            This hydro dominated province used to generate nuclear power until
+            the end of 2012.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr07-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr07-sm-eng.png"
+                      alt="Electricity Generation by Source - Quebec"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Quebec’s electricity generation between 2005 and 2016. On average,
+              hydro accounted for 95.9% of generation. Wind increased from 0.2%
+              in 2005 to 3.6% in 2016. Biomass increased from 0.4% to 1.0%.
+              Nuclear power dropped from 2.4% to zero in 2012. Natural gas, oil
+              and diesel accounted for about 0.2% in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START AB3-->
+          <!-- figure START -->
+          <h2 class="text-left">7.</h2>
+          <p>
+            This province generates most of its electricity from coal and
+            natural gas, but also generates the most wind power in western
+            Canada.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr03-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr03-sm-eng.png"
+                      alt="Electricity Generation by Source - Alberta"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Alberta’s electricity generation between 2005 and 2016. Hydro
+              accounted for 3.4% of generation in 2005 and 2.8% in 2016. Biomass
+              increased from 2.5% to 2.7% over that period. Wind increased from
+              1.1% in 2005 to 6.9% in 2016. Coal decreased from 64.3% to 47.4%.
+              Natural gas, increased its share from 28.7% to 40.3%.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START MB5-->
+          <!-- figure START -->
+          <h2 class="text-left">8.</h2>
+          <p>
+            This province generates over 97% of its electricity from hydro. This
+            is the highest share of hydro generation of any province.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr05-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr05-sm-eng.png"
+                      alt="Electricity Generation by Source - Manitoba"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the source of
+              Manitoba’s electricity generation between 2005 and 2016. On
+              average, hydro has accounted for about 97.5% of generation. Wind
+              increased from 0.1% in 2005 to 2.4% in 2016. Biomass has remained
+              less than half a percent of generation. Coal, natural gas, oil and
+              diesel each averaged less than half of a percent of generation,
+              and have decreased to shares near zero in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START ON6-->
+          <!-- figure START -->
+          <h2 class="text-left">9.</h2>
+          <p>
+            This province generates the majority of its electricity from nuclear
+            power, and phased out coal generation in 2014.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr06-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr06-sm-eng.png"
+                      alt="Electricity Generation by Source - Ontario"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Ontario’s electricity generation between 2005 and 2016. On
+              average, hydro accounted for 23.1% of generation. Wind’s share
+              grew from zero to 7.8%, solar from zero to 2.3%, and biomass
+              remained at 0.7%. Nuclear grew from 49.6% to 58.3% of generation.
+              Coal decreased from 18.7% in 2005 to 0% in 2014. Natural gas
+              peaked at 16.1% in 2011 before falling to 8.2% in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START NU14-->
+          <!-- figure START -->
+          <h2 class="text-left">10.</h2>
+          <p>
+            This territory generates almost all its electricity from diesel.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr14-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr14-sm-eng.png"
+                      alt="Electricity Generation by Source - Nunavut"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Nunavut’s electricity generation between 2005 and 2016. Oil and
+              diesel accounted for almost all of generation since 2005.
+              Nunavut’s solar generation is estimated to be less than 0.1 GW.h
+              per year. It is too small to be visible on the graph.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START NL10-->
+          <!-- figure START -->
+          <h2 class="text-left">11.</h2>
+          <p>
+            This eastern province generates most of its electricity from hydro.
+            Diesel is its second largest source of electricity.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr10-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr10-sm-eng.png"
+                      alt="Electricity Generation by Source - Newfoundland and Labrador"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Newfoundland and Labrador’s electricity generation between 2005
+              and 2016. On average, hydro accounted for 95.8% of generation.
+              Wind and biomass generated less than 1% combined. Natural gas
+              averaged 1.2%. Oil and diesel averaged 2.7% of generation.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+
+          <!-- QUESTION START YK10-->
+          <!-- figure START -->
+          <h2 class="text-left">12.</h2>
+          <p>This territory generates most of its electricity from hydro.</p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr12-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr12-sm-eng.png"
+                      alt="Electricity Generation by Source - Yukon"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              Yukon’s electricity generation between 2005 and 2016. Hydro
+              generation averaged 93.8% from 2005 to 2016. Oil and diesel
+              generation accounting for an average of 6.0%. Wind, solar and
+              natural gas generated about 0.8% combined in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <!-- QUESTION START BC2-->
+          <!-- figure START -->
+          <h2 class="text-left">13.</h2>
+          <p>
+            This hydro province also generates a significant about of
+            electricity from biomass, related to its forestry industry.
+          </p>
+          <div class="col-md-9 row">
+            <div class="wb-lbx">
+              <ul
+                class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0"
+              >
+                <li class="text-center">
+                  <a
+                    class="lb-item-gal"
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr02-lg-eng.png"
+                    title="Electricity Generation by Source"
+                    ><img
+                      src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr02-sm-eng.png"
+                      alt="Electricity Generation by Source - British Columbia"
+                    /><br />
+                    <span class="small">Click to reveal answer</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!-- figure END -->
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This graph shows the composition of
+              B.C.’s electricity generation between 2005 and 2016. Hydro
+              averaged 88.9% of generation. Wind increased from 0% in 2008 to
+              1.4% in 2016. Biomass doubled from 4.8% to 9.0%. Natural gas
+              generation declined from 5.1% to 1.5% of generation from 2005 to
+              2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <!-- QUESTION END -->
+          <p class="mrgn-tp-lg">
+            How many did you guess correctly? To learn more, see the
+            <a href="/nrg/sttstc/lctrct/index-eng.html"
+              >NEB's electricity statistics and publications</a
+            >
+            and
+            <a href="/nrg/sttstc/lctrct/rprt/2017cndrnwblpwr/index-eng.html"
+              >Canada's Renewable Power Landscape 2017</a
+            >.
+          </p>
+          <!-- Don't touch this! -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
+
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
+
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
     </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: Can you guess how we generate electricity?</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
-
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
-<h1 id="wb-cont" property="name">Market Snapshot: Can you guess how we generate electricity?</h1>
-<aside class="col-md-3 module-related pull-right">
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Connect/Contact Us</h2>
-</header>
-<div class="list-group">
-<a class="list-group-item" href="/rss/rss-eng.html">Energy Information RSS Feed</a>
-<!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
-<p class="mrgn-lft-md mrgn-tp-sm">Please send comments, questions, or suggestions for Market Snapshot topics to <a href="mailto:snapshots@cer-rec.gc.ca">snapshots@cer-rec.gc.ca</a></p>
-</div>
-</section>
-
-</aside>
-<p><strong>Release date: 2018-01-03</strong></p>
-<p>What energy sources do Canadian provinces and territories use to generate their electricity? The stacked area charts below illustrate the breakdown of electricity generation by source from 2005 to 2016. There is a chart for each province and territory. Can you guess which chart belongs to which region based on the sources of electricity generation?</p>
-<p class="mrgn-bttm-xl">For more information see <a href="/nrg/sttstc/lctrct/rprt/2017cndrnwblpwr/index-eng.html">Canada's Renewable Power Landscape 2017</a>.</p>
-<h2 class="text-left">Which graph belongs to which province or territory?</h2>
-<p><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rrtilebanner.png" alt="banner" class="img-responsive"/></p>
-<!-- QUESTION START 1CAN-->
-<!-- figure START -->
-<h2 class="text-left">0.</h2>
-<p>As an example, when you click the graph below you will see it is the breakdown of Canada’s total electricity generation by source from 2005 to 2016. Now can you guess for each of the provinces and territories?</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr01-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr01-sm-eng.png" alt="Electricity Generation by Source"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Canada’s electricity generation between 2005 and 2016. Hydro averaged 59.6%. Wind increased from 0.2% to 4.7%. Biomass increased from 1.3% to 2.0%. Solar grew from zero to 0.5%. Coal declined from 16.1% to 9.3%. Natural gas increased from 6.8% to 9.6%. Oil and diesel declined from 1.8% to 0.5%.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START SK4-->
-<!-- figure START -->
-<h2 class="text-left">1. </h2>
-<p>This prairie province primarily uses coal and natural gas, but also uses a significant amount of hydro.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr04-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr04-sm-eng.png" alt="Electricity Generation by Source - Saskatchewan"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Saskatchewan’s electricity generation between 2005 and 2016. Hydro’s share fluctuated between 13.4% and 23.2% of generation. Wind averaged 2.7%. Coal decreased from 67.0% in 2005 to 49.3% in 2016. Natural gas’ share increased from 9.3% in 2005 to 33.7% in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START PE11-->
-<!-- figure START -->
-<h2 class="text-left">2. </h2>
-<p>This province has the highest share of wind generation of any province or territory.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr11-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr11-sm-eng.png" alt="Electricity Generation by Source - Prince Edward Island"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of PEI’s electricity generation between 2005 and 2016. Wind increased from 97.8% to 98.1% of generation. Biomass generated 0.9% in 2016. Oil and diesel fell from 2.2% to 1.0%.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START NS9-->
-<!-- figure START -->
-<h2 class="text-left">3. </h2>
-<p>This is the only Maritime province to generate a majority of its electricity from coal.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr09-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr09-sm-eng.png" alt="Electricity Generation by Source - Nova Scotia"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Nova Scotia’s electricity generation between 2005 and 2016. On average, hydro accounted for 10.2% of generation. Wind grew from 1.0% to 10.6%. Biomass generation averaged 3.0%. Coal fell from 77.9% to 63.7%. Natural gas fluctuated from 2.1% in 2005 to a high of 21.9% in 2012 before falling to 12.9% in 2016. Oil and diesel decreased from 4.6% to 1.6%.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START NT9-->
-<!-- figure START -->
-<h2 class="text-left">4. </h2>
-<p>This territory generates the most significant share of its electricity from hydro and diesel.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr13-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr13-sm-eng.png" alt="Electricity Generation by Source - Northwest Territories"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of NWT’s electricity generation between 2005 and 2016. Hydro’s share fluctuated from 36.6% in 2005 to a high of 69.8% in 2016. Wind grew from zero to 3.9% from 2012 to 2016. Natural gas generally decreased from 22.5% to 3.9%, with fluctuations year to year. Oil and diesel generation averaged 43.0% from 2005 to 2016, but fell to 22.4% in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-
-<!-- QUESTION START NB8-->
-<!-- figure START -->
-<h2 class="text-left">5. </h2>
-<p>This eastern province is one of two that use nuclear power to generate electricity.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr08-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr08-sm-eng.png" alt="Electricity Generation by Source - New Brunswick"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of New Brunswick’s electricity generation between 2005 and 2016. Hydro fluctuated from 18.4% in 2005, to 33.0% in 2011, then decreased to 20.6% in 2016. Wind’s share increased from zero to 5.6%. Biomass remained stable at around 4.0%. Nuclear dropped to zero between 2009 and 2011 then increased to 29.9% in 2016. Coal fluctuated from 13.9% in 2005, to an average of 21.6% between 2009 and 2011, and was 20.7% in 2016. Natural gas increased from 9.4% in 2005 to 15.5% in 2016, while oil and diesel dropped from 34.7% to 3.9% over these years.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START QC7-->
-<!-- figure START -->
-<h2 class="text-left">6. </h2>
-<p>This hydro dominated province used to generate nuclear power until the end of 2012. </p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr07-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr07-sm-eng.png" alt="Electricity Generation by Source - Quebec"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Quebec’s electricity generation between 2005 and 2016. On average, hydro accounted for 95.9% of generation. Wind increased from 0.2% in 2005 to 3.6% in 2016. Biomass increased from 0.4% to 1.0%. Nuclear power dropped from 2.4% to zero in 2012. Natural gas, oil and diesel accounted for about 0.2% in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START AB3-->
-<!-- figure START -->
-<h2 class="text-left">7. </h2>
-<p>This province generates most of its electricity from coal and natural gas, but also generates the most wind power in western Canada.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr03-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr03-sm-eng.png" alt="Electricity Generation by Source - Alberta"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Alberta’s electricity generation between 2005 and 2016. Hydro accounted for 3.4% of generation in 2005 and 2.8% in 2016. Biomass increased from 2.5% to 2.7% over that period. Wind increased from 1.1% in 2005 to 6.9% in 2016. Coal decreased from 64.3% to 47.4%. Natural gas, increased its share from 28.7% to 40.3%.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START MB5-->
-<!-- figure START -->
-<h2 class="text-left">8. </h2>
-<p>This province generates over 97% of its electricity from hydro. This is the highest share of hydro generation of any province.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr05-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr05-sm-eng.png" alt="Electricity Generation by Source - Manitoba"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the source of Manitoba’s electricity generation between 2005 and 2016. On average, hydro has accounted for about 97.5% of generation. Wind increased from 0.1% in 2005 to 2.4% in 2016. Biomass has remained less than half a percent of generation. Coal, natural gas, oil and diesel each averaged less than half of a percent of generation, and have decreased to shares near zero in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START ON6-->
-<!-- figure START -->
-<h2 class="text-left">9. </h2>
-<p>This province generates the majority of its electricity from nuclear power, and phased out coal generation in 2014.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr06-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr06-sm-eng.png" alt="Electricity Generation by Source - Ontario"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Ontario’s electricity generation between 2005 and 2016. On average, hydro accounted for 23.1% of generation. Wind’s share grew from zero to 7.8%, solar from zero to 2.3%, and biomass remained at 0.7%. Nuclear grew from 49.6% to 58.3% of generation. Coal decreased from 18.7% in 2005 to 0% in 2014. Natural gas peaked at 16.1% in 2011 before falling to 8.2% in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START NU14-->
-<!-- figure START -->
-<h2 class="text-left">10. </h2>
-<p>This territory generates almost all its electricity from diesel.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr14-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr14-sm-eng.png" alt="Electricity Generation by Source - Nunavut"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Nunavut’s electricity generation between 2005 and 2016.  Oil and diesel accounted for almost all of generation since 2005. Nunavut’s solar generation is estimated to be less than 0.1 GW.h per year. It is too small to be visible on the graph.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START NL10-->
-<!-- figure START -->
-<h2 class="text-left">11. </h2>
-<p>This eastern province generates most of its electricity from hydro. Diesel is its second largest source of electricity.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr10-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr10-sm-eng.png" alt="Electricity Generation by Source - Newfoundland and Labrador"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Newfoundland and Labrador’s electricity generation between 2005 and 2016. On average, hydro accounted for 95.8% of generation. Wind and biomass generated less than 1% combined. Natural gas averaged 1.2%. Oil and diesel averaged 2.7% of generation.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-
-<!-- QUESTION START YK10-->
-<!-- figure START -->
-<h2 class="text-left">12. </h2>
-<p>This territory generates most of its electricity from hydro.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr12-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr12-sm-eng.png" alt="Electricity Generation by Source - Yukon"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of Yukon’s electricity generation between 2005 and 2016. Hydro generation averaged 93.8% from 2005 to 2016. Oil and diesel generation accounting for an average of 6.0%. Wind, solar and natural gas generated about 0.8% combined in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<!-- QUESTION START BC2-->
-<!-- figure START -->
-<h2 class="text-left">13. </h2>
-<p>This hydro province also generates a significant about of electricity from biomass, related to its forestry industry.</p>
-<div class="col-md-9 row">
-<div class="wb-lbx">
-<ul class="lb-gallery list-unstyled col-md-12 mrgn-bttm-0 mrgn-tp-0">
-<li class="text-center"> <a class="lb-item-gal" href="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr02-lg-eng.png" title="Electricity Generation by Source"><img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms01-01-rr02-sm-eng.png" alt="Electricity Generation by Source - British Columbia"/><br />
-<span class="small">Click to reveal answer</span></a></li>
-</ul>
-</div>
-</div>
-<div class="clearfix"></div>
-<!-- figure END -->
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This graph shows the composition of B.C.’s electricity generation between 2005 and 2016. Hydro averaged 88.9% of generation. Wind increased from 0% in 2008 to 1.4% in 2016. Biomass doubled from 4.8% to 9.0%. Natural gas generation declined from 5.1% to 1.5% of generation from 2005 to 2016.</p>
-</details>
-<div class="clearfix"></div>
-<!-- QUESTION END -->
-<p class="mrgn-tp-lg">How many did you guess correctly? To learn more, see the <a href="/nrg/sttstc/lctrct/index-eng.html">NEB's electricity statistics and publications</a> and <a href="/nrg/sttstc/lctrct/rprt/2017cndrnwblpwr/index-eng.html">Canada's Renewable Power Landscape 2017</a>.</p>
-<!-- Don't touch this! -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
-
-<!-- Additional plugins go here -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script>
-
-<!-- End additional plugins --> 
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -560,78 +1146,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

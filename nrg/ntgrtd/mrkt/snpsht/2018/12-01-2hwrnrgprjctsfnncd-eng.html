@@ -1,607 +1,1576 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB - Market Snapshot: How are energy projects financed?</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Finance;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>NEB - Market Snapshot: How are energy projects financed?</title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta name="dcterms.subject" title="scheme" content="Finance;" />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: How are energy projects financed?"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: How are energy projects financed?"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: How are energy projects financed?" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: How are energy projects financed?" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>Market Snapshot: How are energy projects financed?</li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: How are energy projects financed?
+          </h1>
+          <aside class="col-md-3 module-related pull-right">
+            <section class="panel panel-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Connect/Contact Us</h2>
+              </header>
+              <div class="list-group">
+                <a class="list-group-item" href="/rss/rss-eng.html"
+                  >Energy Information RSS Feed</a
+                >
+                <!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
+                <p class="mrgn-lft-md mrgn-tp-sm">
+                  Please send comments, questions, or suggestions for Market
+                  Snapshot topics to
+                  <a href="mailto:snapshots@cer-rec.gc.ca"
+                    >snapshots@cer-rec.gc.ca</a
+                  >
+                </p>
+              </div>
+            </section>
+          </aside>
+          <p><strong>Release date: 2018-12-12</strong></p>
+          <h2>Introduction</h2>
+          <p>
+            The energy industry is very capital-intensive. Projects often
+            require an initial investment of billions of dollars to extract oil
+            and gas, upgrade bitumen, refine crude oil, transport oil and gas
+            products, or generate and distribute power. An upcoming LNG export
+            project, LNG Canada, is expected to be the largest private sector
+            project in Canada’s history at an estimated $40 billion<sup
+              id="fn1-rf"
+              ><a class="fn-lnk" href="#fn1"
+                ><span class="wb-inv">Footnote </span>1</a
+              ></sup
+            >. Annual combined investment in new and existing Canadian oil sands
+            projects often exceeds $20 billion per year and peaked about $33
+            billion in 2014 before global oil prices dropped substantially<sup
+              id="fn2-rf"
+              ><a class="fn-lnk" href="#fn2"
+                ><span class="wb-inv">Footnote </span>2</a
+              ></sup
+            >. Overall, capital expenditure in Canada’s upstream<sup id="fn3-rf"
+              ><a class="fn-lnk" href="#fn3"
+                ><span class="wb-inv">Footnote </span>3</a
+              ></sup
+            >
+            oil and gas sector exceeded $40 billion in 2017<sup id="fn4-rf"
+              ><a class="fn-lnk" href="#fn4"
+                ><span class="wb-inv">Footnote </span>4</a
+              ></sup
+            >.
+          </p>
+          <p>
+            When a company decides to build a large scale project, it needs to
+            arrange funds to pay for the project. While the company may have
+            excess cash generated internally from current operations or from
+            asset sales, typically the company also needs to raise additional
+            funds in the capital markets. The primary external sources of
+            capital funds that the company may use are equity, debt, or some
+            combination of the two.
+          </p>
+          <p>
+            The overall blend of equity and debt financing that a company uses
+            across all lines of its business is called its “capital structure”.
+            The cost to the company of each source of capital is a key
+            determining factor in capital structure decisions and has
+            significant implications for the profitability of individual
+            projects and the overall business. Both industry specific, and
+            overall economic market conditions, can influence the availability
+            and cost of capital. Capital structure is commonly expressed as a
+            percentage of equity to total capital and of debt to total capital,
+            or as a total debt to total equity ratio.
+          </p>
+          <p class="mrgn-bttm-xl">
+            The capital structure of a company affects its financial risk level.
+            As more debt is used, the company’s financial risk rises by
+            increasing the likelihood of the company not being able to meet its
+            financial obligations, including required debt payments. Therefore,
+            the higher the company’s operational risk profile, the less debt it
+            is likely to use in its capital structure. See Figure 1 for
+            representative capital structures in the Canadian energy industry.
+            Upstream companies tend to use more equity in their capital
+            structure as these companies typically possess higher operating or
+            other business risks, whereas pipeline and electricity companies
+            typically use relatively more debt in their overall capital
+            structure as these companies tend to carry lower business risk in
+            the energy space.
+          </p>
+          <h3>
+            Figure 1: Common Capital Structures Employed in the Canadian Energy
+            Industry
+          </h3>
+          <!-- figure START -->
+          <img
+            src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms12-01-2-01-eng.png"
+            alt="Figure 1: Common Capital Structures Employed in the Canadian Energy Industry"
+            class="img-responsive"
+          />
+          <!-- figure END -->
+
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p>
+              <strong>Source:</strong> Thomson Reuters data and Company websites
+            </p>
+            <p>
+              <strong>Description:</strong> The pie chart on the left shows the
+              capital structure of a representative large upstream oil & gas
+              company as 75% equity and 25% debt. The pie chart on the right
+              shows the capital structure of a representative large power
+              company as 50% debt, 45% equity, and 5% hybrid capital.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h4>Financing with Equity</h4>
+          <p>
+            Capital from equity sources comes from selling shares to
+            shareholders, generally by issuing new common shares<sup id="fn5-rf"
+              ><a class="fn-lnk" href="#fn5"
+                ><span class="wb-inv">Footnote </span>5</a
+              ></sup
+            >
+            on public stock exchanges or through private placements. If the
+            company has never issued shares on a stock exchange before, it is
+            considered an Initial Public Offering (IPO).
+          </p>
+          <p>
+            Common shares give the purchaser direct ownership in the company,
+            including profits from all of its projects. The company decides when
+            and how much of its profits to retain inside the company versus to
+            distribute to shareholders in the form of dividends or share
+            repurchases:
+          </p>
+          <ul>
+            <li>
+              Dividends are the most common way shareholders are compensated by
+              the company for investing in common shares. Dividends may be paid
+              on a regular schedule, for example quarterly, or on an ad hoc
+              basis. Pipeline and utility companies tend to have relatively
+              stable operating cash flows, and thus typically pay a steady
+              stream of dividends. Upstream oil and gas companies tend to have
+              more variable operating cash flows, due in part to more exposure
+              to commodity price risk and exploration or other technical risks,
+              so dividend payments may be less certain.
+            </li>
+            <li>
+              Share repurchases, or buybacks, are when the company uses its
+              excess cash to buy back a certain amount of shares from investors
+              either at current prices on the stock exchange or by using a
+              tender<sup id="fn6-rf"
+                ><a class="fn-lnk" href="#fn6"
+                  ><span class="wb-inv">Footnote </span>6</a
+                ></sup
+              >
+              process offering premium prices. The intended effect of buybacks
+              is to increase the company’s share price and increase the
+              proportionate share of profits for remaining shareholders going
+              forward, since fewer shares are outstanding. Upstream oil and gas
+              companies tend to use share buybacks more frequently than pipeline
+              and utility companies, when they have large but sporadic cash
+              receipts due, for example, to major projects coming online.
+            </li>
+          </ul>
+          <p>
+            Table 1 shows that recent common share issuances in the energy
+            industry largely have been done by oil sands and pipeline companies.
+            In total, about US$35 billion has been raised by Canadian upstream
+            oil and gas companies in equities markets in the past five years and
+            almost US$100 billion in the overall Canadian energy industry<sup
+              id="fn7-rf"
+              ><a class="fn-lnk" href="#fn7"
+                ><span class="wb-inv">Footnote </span>7</a
+              ></sup
+            >. To provide a sense of perspective, Canadian companies across all
+            industries raised about C$260<sup id="fn8-rf"
+              ><a class="fn-lnk" href="#fn8"
+                ><span class="wb-inv">Footnote </span>8</a
+              ></sup
+            >
+            billion in the same period, with energy representing around 50% of
+            the total.
+          </p>
+          <p></p>
+          <table class="table table-bordered">
+            <caption>
+              Table&nbsp;1: Recent Equity Issuances by Canadian Energy Companies
+            </caption>
+            <thead>
+              <tr>
+                <th class="active text-center">Issue Date</th>
+                <th class="active text-center">Issuer Name</th>
+                <th class="active text-center">Amount Issued (CAD million)</th>
+                <th class="active text-center">Issue Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active text-center">
+                <td colspan="4">Upstream Oil and Gas</td>
+              </tr>
+              <tr>
+                <td>31 May 2017</td>
+                <td>Canadian Natural Resources Ltd</td>
+                <td>4&nbsp;000</td>
+                <td>Follow-On</td>
+              </tr>
+              <tr>
+                <td>29 March 2017</td>
+                <td>Cenovus Energy Inc</td>
+                <td>3&nbsp;000</td>
+                <td>Follow-On</td>
+              </tr>
+              <tr>
+                <td>24 January 2017</td>
+                <td>MEG Energy Corp</td>
+                <td>518</td>
+                <td>Follow-On</td>
+              </tr>
+              <tr class="active text-center">
+                <td colspan="4">Pipeline and Utilities</td>
+              </tr>
+
+              <tr>
+                <td>28 June 2018</td>
+                <td>TransCanada Corp</td>
+                <td>1&nbsp;000</td>
+                <td>Follow-On</td>
+              </tr>
+              <tr>
+                <td>30 May 2017</td>
+                <td>Kinder Morgan Canada Ltd</td>
+                <td>1&nbsp;000</td>
+                <td>IPO</td>
+              </tr>
+              <tr>
+                <td>6 December 2017</td>
+                <td>Enbridge Inc</td>
+                <td>1&nbsp;500</td>
+                <td>Follow-On</td>
+              </tr>
+              <tr>
+                <td>25 January 2017</td>
+                <td>AltaGas Ltd</td>
+                <td>2&nbsp;100</td>
+                <td>Follow-On</td>
+              </tr>
+            </tbody>
+          </table>
+          <span class="clearfix"></span>
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source</summary>
+            <p>
+              <strong>Source:</strong> Company websites and corporate filings on
+              SEDAR
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h4>Cost of Equity</h4>
+          <p>
+            If the company runs into financial difficulties and is unable to pay
+            all of its financial obligations, then lenders are contractually
+            required to be repaid first. Common shareholders rarely receive
+            sufficient payment for their investment as they are lowest in the
+            repayment priority hierarchy (see Figure 2). Generally this makes
+            investing in common shares riskier than investing in debt of the
+            same company; therefore shareholders expect a higher potential
+            return on their equity, making it relatively more costly for a
+            company to issue equity than debt.
+          </p>
+          <h3>
+            Figure 2: Repayment Priority Hierarchy of Various Financial
+            Instruments
+          </h3>
+          <!-- figure START -->
+          <img
+            src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms12-01-2-02-eng.png"
+            alt="Figure 2: Repayment Priority Hierarchy of Various Financial Instruments"
+            class="img-responsive"
+          />
+          <!-- figure END -->
+
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> The figure shows that financial
+              instruments with the highest priority of repayment are secured
+              debt, followed by senior unsecured debt, then other/subordinated
+              debt, then preferred equity, and finally common equity. The
+              risk/reward potential for these instruments increases in the same
+              order, with common equity having the highest risk/reward
+              potential.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <p class="mrgn-tp-lg">
+            The cost of equity is the expected return an investor requires in
+            order to be willing to invest in the company. The expected return
+            includes a capital appreciation component as well as a dividend cash
+            flow component. Calculating the cost to the company of using equity
+            capital is a complex matter, and there are several techniques
+            available for estimating cost of equity. Conceptually, cost of
+            equity must take into account the risk premium, or reward, that
+            shareholders demand for bearing the risk of investing in equities
+            versus a relatively “risk-free” investment like Canadian government
+            bonds. Additionally, it must compensate shareholders for the
+            company’s specific risk level as compared to investing in an
+            “average-risk” stock or benchmark index<sup id="fn9-rf"
+              ><a class="fn-lnk" href="#fn9"
+                ><span class="wb-inv">Footnote </span>9</a
+              ></sup
+            >
+            of the stock market which the company trades. Another approach
+            indicates that the cost of equity must equate the current share
+            price to all expected future cash flows to the shareholders.
+          </p>
+          <h4>Advantages of Using Equity</h4>
+          <p>
+            The key advantages for a company to use equity financing versus debt
+            financing include:
+          </p>
+          <ul>
+            <li>
+              No direct repayment of initial capital<sup id="fn10-rf"
+                ><a class="fn-lnk" href="#fn10"
+                  ><span class="wb-inv">Footnote </span>10</a
+                ></sup
+              >.
+            </li>
+            <li>
+              No requirement that regular cash flows to be made to shareholders.
+            </li>
+          </ul>
+          <p>
+            Ultimately, for the above two reasons, equity offers the company the
+            most flexibility in terms of managing cash flows.
+          </p>
+          <h4>Disadvantages of Using Equity</h4>
+          <p>
+            Equity is typically the more costly source of capital as investors
+            expect to be compensated for taking on this uncertainty of timing
+            and amount of dividend cash flows and recovery of initial
+            investment, particularly in the case of financial distress when
+            equity holders may be left with nothing. Also as the company issues
+            more common shares, it dilutes<sup id="fn11-rf"
+              ><a class="fn-lnk" href="#fn11"
+                ><span class="wb-inv">Footnote </span>11</a
+              ></sup
+            >
+            value and control for existing shareholders.
+          </p>
+          <h4>Financing with Debt</h4>
+          <p>
+            Debt is an amount of funds that a company borrows from a lender with
+            a contractual obligation to repay the full amount borrowed plus
+            interest at an agreed-upon schedule. Lenders, also known as debt
+            holders, do not receive any ownership in the company. Capital
+            sourced from debt may come from banks, in the form of commercial
+            paper or revolving lines of credit for example, or from investors
+            who lend money by purchasing new bonds issued by the company.
+          </p>
+          <p>
+            Bonds are most commonly used as large value, long-term sources of
+            capital to fund major projects rather than traditional bank debt,
+            which is often used for short-term operational financing. The
+            company must pay bondholders a regularly scheduled return on their
+            investment similar to interest payments, which are called coupon
+            payments. Coupons are expressed as a percentage of the bond’s face
+            value or par value. The company must later pay bondholders a return
+            of their capital though repayment of the principal amount at the
+            bond maturity date. Bonds typically have a maturity date that is 10
+            to 30&nbsp;years in the future, often matching the economic life of
+            the company’s project.
+          </p>
+          <p>
+            Recent large value debt issuances in the Canadian energy industry
+            (shown in Table 2) have been done primarily by pipeline and utility
+            companies as they have relatively more stable, lower-risk cash flows
+            that can be used to meet required interest or coupon payments.
+            Notwithstanding, roughly US$100 billion has been raised by Canadian
+            upstream companies and US$300 billion<sup id="fn12-rf"
+              ><a class="fn-lnk" href="#fn12"
+                ><span class="wb-inv">Footnote </span>12</a
+              ></sup
+            >
+            in the broader Canadian energy industry in the corporate bond
+            markets in the past 5 years. The total amount raised in the
+            corporate bond markets by all Canadian companies over the same time
+            period was C$1.4<sup id="fn13-rf"
+              ><a class="fn-lnk" href="#fn13"
+                ><span class="wb-inv">Footnote </span>13</a
+              ></sup
+            >
+            trillion, with energy companies accounting for roughly 30% of the
+            total.
+          </p>
+          <table class="table table-bordered">
+            <caption>
+              Table 2: Recent Debt Issuances by Canadian Energy Companies
+            </caption>
+            <thead>
+              <tr>
+                <th class="active text-center">Issue Date</th>
+                <th class="active text-center">Issuer Name</th>
+                <th class="active text-center">Coupon (%)</th>
+                <th class="active text-center">Maturity</th>
+                <th class="active text-center">Amount Issued (CAD million)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active text-center">
+                <td colspan="4">Pipeline and Utilities</td>
+              </tr>
+              <tr>
+                <td>3 July 2018</td>
+                <td>TransCanada Pipelines Ltd</td>
+                <td>4.18</td>
+                <td>3 July 2048</td>
+                <td>800</td>
+              </tr>
+              <tr>
+                <td>22 November 2017</td>
+                <td>Union Gas Ltd</td>
+                <td>2.88</td>
+                <td>22 November 2027</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>22 November 2017</td>
+                <td>Union Gas Ltd</td>
+                <td>3.59</td>
+                <td>22 November 2047</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>15 September 2017</td>
+                <td>TransCanada Pipelines Ltd</td>
+                <td>3.39</td>
+                <td>15 March 2028</td>
+                <td>300</td>
+              </tr>
+              <tr>
+                <td>15 September 2017</td>
+                <td>TransCanada Pipelines Ltd</td>
+                <td>4.33</td>
+                <td>16 September 2047</td>
+                <td>700</td>
+              </tr>
+              <tr>
+                <td class="active text-center" colspan="4">
+                  Refinery Companies
+                </td>
+              </tr>
+
+              <tr>
+                <td>19 May 2017</td>
+                <td>North West Redwater Partnership</td>
+                <td>2.80</td>
+                <td>1 June 2027</td>
+                <td>750</td>
+              </tr>
+              <tr>
+                <td>19 May 2017</td>
+                <td>North West Redwater Partnership</td>
+                <td>3.65</td>
+                <td>1 June 2035</td>
+                <td>750</td>
+              </tr>
+            </tbody>
+          </table>
+          <span class="clearfix"></span>
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source</summary>
+            <p>
+              <strong>Source:</strong> Company websites and corporate filings on
+              SEDAR
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h4>Cost of Debt</h4>
+          <p>
+            The cost of debt to the company is the specified interest rate or
+            coupon rate that the company is required to pay to lenders (banks,
+            bondholders) in order to entice them to lend. The cost of debt that
+            a company can achieve is highly dependent on the company’s financial
+            risk, or more specifically its credit risk, which is the risk that
+            the company will not be able to pay its financial obligations in
+            full and on time. Third party rating agencies assign credit
+            ratings<sup id="fn14-rf"
+              ><a class="fn-lnk" href="#fn14"
+                ><span class="wb-inv">Footnote </span>14</a
+              ></sup
+            >
+            to companies and to individual debt issues. The lower the credit
+            rating, the more costly it is for the company to finance using debt,
+            as lenders expect to be compensated for taking on higher risk.
+          </p>
+          <p>
+            Other factors that influence the cost of debt include the time to
+            maturity of the particular bond as well as current and expected
+            future interest rates over that time period; these factors define
+            the yield curve for companies with the same credit rating. In a
+            rising interest rate environment, bondholders will expect higher
+            rates of return in order to be willing to invest in corporate bonds
+            as opposed to less risky government bonds. Additionally, seniority
+            or priority of debt impacts the cost of that debt since in times of
+            financial distress secured debt holders are repaid first, followed
+            by senior unsecured debt holders, and finally by subordinated debt
+            holders (see Figure 2); the higher in the priority hierarchy, the
+            lower the cost of that debt, all else equal.
+          </p>
+          <h4>Advantages of Using Debt</h4>
+          <p>
+            The primary advantages for a company to use debt versus equity
+            include:
+          </p>
+          <ul>
+            <li>
+              It is generally the least costly source of capital since debt
+              holders receive regular payments with greater certainty than
+              equity holders do with dividends. Table 2 shows that recent debt
+              costs are in the low to mid-single digits for large investment
+              grade energy companies.
+            </li>
+            <li>
+              The interest and coupon payments are tax deductible whereas
+              dividend payments are not, therefore further lowering the net cost
+              of debt.
+            </li>
+            <li>
+              Debt holders do not receive any ownership stake, therefore, using
+              debt does not dilute shareholders’ interests.
+            </li>
+          </ul>
+          <h4>Disadvantages of Using Debt</h4>
+          <p>
+            The company has a contractual obligation to adhere to interest and
+            principal repayment schedules or risk facing default, and in the
+            worst case, bankruptcy. The more debt that a company takes on, the
+            higher its financial risk, and eventually the higher its future debt
+            issuance costs may become.
+          </p>
+          <h4>Financing with Hybrid Instruments</h4>
+          <p>
+            In addition to raising funds by issuing traditional equity or debt,
+            a third and less common source of capital that companies may use is
+            called hybrid capital. Hybrid instruments have both debt and equity
+            characteristics, and typically fall in the middle of the priority of
+            repayments in the event of a default. This includes financial
+            instruments such as preferred shares and convertible bonds:
+          </p>
+          <ul>
+            <li>
+              Preferred shares pay a regular fixed dividend that is required to
+              be paid before any dividends can be paid to common shareholders.
+              Preferred shareholders are higher in the repayment priority
+              hierarchy, so they are more likely than common shareholders to
+              receive some initial investment back; however they typically do
+              not get voting rights like common shareholders do. The cost to the
+              company of using preferred equity is generally less than using
+              common equity, but the company has less dividend payment
+              flexibility with preferred shares.
+            </li>
+            <li>
+              Convertible bonds have characteristics that look similar to
+              regular bonds; however bondholders of convertibles have the option
+              to convert their bonds into a predetermined number of common
+              shares, at which point they would become equity holders rather
+              than debt holders, and participate in upside growth of the
+              company. Convertible bondholders are lower in the repayment
+              priority hierarchy than regular bondholders. The company’s cost of
+              capital on convertibles is generally less than using equity.
+            </li>
+          </ul>
+          <p>
+            Energy companies, particularly pipeline, power, and other utility
+            companies, are becoming more reliant on hybrid capital; hybrid
+            accounts for approximately 3 to 6%<sup id="fn15-rf"
+              ><a class="fn-lnk" href="#fn15"
+                ><span class="wb-inv">Footnote </span>15</a
+              ></sup
+            >
+            of the capital structure for companies in those industry segments.
+            Companies have been looking for more flexible financing for large
+            energy infrastructure projects, especially since the 2014 global oil
+            price dip that contributed to lower share prices and higher debt
+            levels. Companies, especially pipeline companies, strive to maintain
+            attractive credit ratings. Often hybrid capital may be treated more
+            like equity by credit rating agencies so new hybrid issuances may
+            not negatively impact the company’s credit rating.
+          </p>
+          <p>
+            Table 3 lists recent large value preferred share issuances in the
+            energy industry, showing that preferreds tend to be used by pipeline
+            companies in recent years. Approximately US$13 billion<sup
+              id="fn16-rf"
+              ><a class="fn-lnk" href="#fn16"
+                ><span class="wb-inv">Footnote </span>16</a
+              ></sup
+            >
+            has been raised in preferred share issues in Canada’s energy
+            industry since January 2017 and roughly C$50<sup id="fn17-rf"
+              ><a class="fn-lnk" href="#fn17"
+                ><span class="wb-inv">Footnote </span>17</a
+              ></sup
+            >
+            billion has been raised by Canadian companies across all industries
+            in the past 5 years. In Enbridge Inc’s 2018 Investor
+            Presentation<sup id="fn18-rf"
+              ><a class="fn-lnk" href="#fn18"
+                ><span class="wb-inv">Footnote </span>18</a
+              ></sup
+            >, management indicated plans to raise more than $3 billion over the
+            next few years in hybrid capital, showing the growing importance of
+            hybrid capital in the Canadian energy industry.
+          </p>
+          <table class="table table-bordered">
+            <caption>
+              Table 3: Recent Preferred Share Issuances by Canadian Energy
+              Companies
+            </caption>
+            <thead>
+              <tr>
+                <th class="active text-center">Issue Date</th>
+                <th class="active text-center">Issuer Name</th>
+                <th class="active text-center">Coupon (%)</th>
+                <th class="active text-center">Amount Issued (CAD million)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="active text-center" colspan="4">
+                  Pipeline and Utilities
+                </td>
+              </tr>
+              <tr>
+                <td>17 May 2018</td>
+                <td>Emera Inc</td>
+                <td>4.90</td>
+                <td>300</td>
+              </tr>
+              <tr>
+                <td>15 December 2017</td>
+                <td>Kinder Morgan Canada Ltd</td>
+                <td>5.20</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>11 December 2017</td>
+                <td>Enbridge Inc</td>
+                <td>4.90</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>7 December 2017</td>
+                <td>Pembina Pipeline Corp</td>
+                <td>4.90</td>
+                <td>400</td>
+              </tr>
+              <tr>
+                <td>15 August 2017</td>
+                <td>Kinder Morgan Canada Ltd</td>
+                <td>5.25</td>
+                <td>300</td>
+              </tr>
+            </tbody>
+          </table>
+          <span class="clearfix"></span>
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source</summary>
+            <p>
+              <strong>Source:</strong> Company websites and corporate filings on
+              SEDAR
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h4>Aggregate Capital Raised</h4>
+          <p>
+            Canadian companies, both overall, as well as those in the energy
+            industry, have raised significantly more funds in the corporate bond
+            market as compared to equities markets over the past decade. Bank of
+            Canada statistics show that overall Canadian companies’ use of bonds
+            exceeded use of equity in 2017 with about C$275&nbsp;billion raised
+            in corporate bonds and C$85 billion raised in equity capital
+            markets.
+          </p>
+          <p>
+            Prevailing energy commodity market conditions have a clear impact on
+            capital markets; at the same time, capital market conditions
+            contribute to future energy commodity market outcomes. Canadian
+            upstream oil and gas companies combined only issued a net of -C$2.8
+            billion in bonds and C$2.4 billion in equity in 2017<sup
+              id="fn19-rf"
+              ><a class="fn-lnk" href="#fn19"
+                ><span class="wb-inv">Footnote </span>19</a
+              ></sup
+            >
+            (see Figure&nbsp;3). This indicates that a large volume of bond
+            retirements and stock repurchases were occurring at roughly the same
+            pace as new issuances. Since the global oil price drop in 2014 and
+            subsequent drop in Canadian interest rates, many companies have been
+            redeeming bonds to take advantage of new lower costs of borrowing,
+            as well as buying back shares at depressed prices to add shareholder
+            value and support share prices.
+          </p>
+          <h3>
+            Figure 3: Bank of Canada: Net New Stock and Bond Issuances by
+            Upstream Companies
+          </h3>
+          <!-- figure START -->
+          <div
+            class="tableauPlaceholder"
+            id="viz1544202605627"
+            style="position: relative"
+          >
+            <noscript
+              ><a href=""
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ba&#47;BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities&#47;1_rss.png"
+                  style="border: none"/></a></noscript
+            ><object class="tableauViz" style="display:none;"
+              ><param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+              <param name="embed_code_version" value="3"/>
+              <param name="site_root" value=""/><param
+                name="name"
+                value="BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities"/><param
+                name="tabs"
+                value="no"/><param name="toolbar" value="yes"/><param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ba&#47;BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities&#47;1.png"/>
+              <param name="animate_transition" value="yes"/><param
+                name="display_static_image"
+                value="yes"/><param name="display_spinner" value="yes"/><param
+                name="display_overlay"
+                value="yes"/><param name="display_count" value="yes"/><param
+                name="filter"
+                value="publish=yes"
+            /></object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1544202605627");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1050px";
+            vizElement.style.height = "627px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+          <!-- figure END -->
+
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p>
+              <strong>Source:</strong> Bank of Canada Statistics, EIA crude
+              prices
+            </p>
+            <p>
+              <strong>Description:</strong> The interactive chart shows the
+              trends of stock and bond net new issues by upstream oil & gas
+              companies since 2000, with net new stock issues in negative
+              territory in 2000/2001, followed by growth in the early to
+              mid-2000s until peaking in 2011 at C$ 23.9 billion. This growth
+              trend largely corresponded with WTI oil price movements, and both
+              WTI prices and net new issues dropped sharply in recent years.
+              2018 YTD has -$524 million in net new stock issues. The net new
+              bond issuances for oil & gas companies was positive but widely
+              fluctuated during 2000 through 2014, and has since been negative
+              and at -$2.4 billion in 2018 YTD. In contrast, net new issues of
+              stocks and bonds across all industries in Canada has been positive
+              since 2000.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <div
+            id="MainContent_MainContent_disclaimer_en"
+            class="mrgn-tp-lg alert alert-danger"
+          >
+            <h3>Disclaimer:</h3>
+            This report is provided for informational purposes only and should
+            not be used in making investment decisions.
+          </div>
+          <aside class="wb-fnote " role="note">
+            <h2 id="fn" class="wb-inv ">Footnote</h2>
+            <dl>
+              <dt>Footnote 1</dt>
+              <dd id="fn1">
+                <p>
+                  This total includes anticipated costs of the associated
+                  infrastructure including the Coastal Gas Link Pipeline.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn1-rf"
+                    ><span class="wb-inv">Return to footnote </span>1<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 2</dt>
+              <dd id="fn2">
+                <p>
+                  <a
+                    href="https://www.aer.ca/providing-information/data-and-reports/statistical-reports/capital-expenditure-data"
+                    rel="external"
+                    >AER, ST89 Capital Expenditures</a
+                  >
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn2-rf"
+                    ><span class="wb-inv">Return to footnote </span>2<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 3</dt>
+              <dd id="fn3">
+                <p>
+                  Upstream refers to the energy industry segment that includes
+                  companies primarily involved in oil and gas exploration &
+                  production activities.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn3-rf"
+                    ><span class="wb-inv">Return to footnote </span>3<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 4</dt>
+              <dd id="fn4">
+                <p>
+                  <a
+                    href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510006401"
+                    rel="external"
+                    >Statistics Canada Table: 25-10-0064-01</a
+                  >
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn4-rf"
+                    ><span class="wb-inv">Return to footnote </span>4<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 5</dt>
+              <dd id="fn5">
+                <p>
+                  Common shareholders have an ownership stake in the company and
+                  they have voting rights.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn5-rf"
+                    ><span class="wb-inv">Return to footnote </span>5<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 6</dt>
+              <dd id="fn6">
+                <p>
+                  Tender process involves the company notifying existing
+                  shareholders of an offer to purchase a certain number of
+                  shares at a fixed price or at a range of prices, typically
+                  above the market price on the date of buyback announcement.
+                  The offer stays open until a specified deadline or until
+                  enough shareholders tender their shares.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn6-rf"
+                    ><span class="wb-inv">Return to footnote </span>6<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 7</dt>
+              <dd id="fn7">
+                <p>
+                  Estimated using Thomson Reuters data and company websites for
+                  the period 1&nbsp;January 2013 through 30&nbsp;September 2018.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn7-rf"
+                    ><span class="wb-inv">Return to footnote </span>7<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 8</dt>
+              <dd id="fn8">
+                <p>
+                  <a
+                    href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table"
+                    rel="external"
+                    >Bank of Canada Statistics for the period 1&nbsp;January
+                    2013 through 30&nbsp;September 2018</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn8-rf"
+                    ><span class="wb-inv">Return to footnote </span>8<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 9</dt>
+              <dd id="fn9">
+                <p>
+                  S&P TSX 60 index is a commonly used benchmark in Canada, and
+                  is made up of the 60 largest companies so specific risk that
+                  applies to one company in the index is less unlikely to impact
+                  the overall index.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn9-rf"
+                    ><span class="wb-inv">Return to footnote </span>9<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 10</dt>
+              <dd id="fn10">
+                <p>
+                  Shareholders receive a return of capital when they sell their
+                  shares to another shareholder, and may result in a capital
+                  gain or loss to shareholders depending on share price
+                  performance over the holding period.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn10-rf"
+                    ><span class="wb-inv">Return to footnote </span>10<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 11</dt>
+              <dd id="fn11">
+                <p>
+                  Dilution occurs when there is an increase in the number of
+                  common shares outstanding, as it effectively decreases
+                  existing shareholders’ ownership and thus decreases their
+                  stake to retained earnings and future profits.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn11-rf"
+                    ><span class="wb-inv">Return to footnote </span>11<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 12</dt>
+              <dd id="fn12">
+                <p>
+                  Estimated using Thomson Reuters data and company websites for
+                  the period 1&nbsp;January 2013 through 30&nbsp;September 2018.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn12-rf"
+                    ><span class="wb-inv">Return to footnote </span>12<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 13</dt>
+              <dd id="fn13">
+                <p>
+                  <a
+                    href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table"
+                    >Bank of Canada Statistics for the period 1&nbsp;January
+                    2013 through 30&nbsp;September 2018</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn13-rf"
+                    ><span class="wb-inv">Return to footnote </span>13<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 14</dt>
+              <dd id="fn14">
+                <p>
+                  One credit rating agency, S&P, considers long term issuers
+                  that receive a rating of AAA down to BBB as “investment
+                  grade”whereas issuers rated BB or below as “non-investment
+                  grade”.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn14-rf"
+                    ><span class="wb-inv">Return to footnote </span>14<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 15</dt>
+              <dd id="fn15">
+                <p>Derived using Thomson Reuters data and company websites.</p>
+                <p class="fn-rtn">
+                  <a href="#fn15-rf"
+                    ><span class="wb-inv">Return to footnote </span>15<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 16</dt>
+              <dd id="fn16">
+                <p>
+                  <a
+                    href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table"
+                    >Bank of Canada Statistics for the period 1&nbsp;January
+                    2013 through 30&nbsp;September 2018</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn16-rf"
+                    ><span class="wb-inv">Return to footnote </span>16<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 17</dt>
+              <dd id="fn17">
+                <p>
+                  <a
+                    href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table"
+                    >Bank of Canada Statistics for the period 1&nbsp;January
+                    2013 through 30&nbsp;September 2018</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn17-rf"
+                    ><span class="wb-inv">Return to footnote </span>17<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 18</dt>
+              <dd id="fn18">
+                <p>
+                  <a
+                    href="https://www.enbridge.com/~/media/Enb/Documents/Investor%20Relations/2018/ENB_Investment_Community_Presentation_Aug2018.pdf"
+                    >Enbridge Investor Presentation</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn18-rf"
+                    ><span class="wb-inv">Return to footnote </span>18<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 19</dt>
+              <dd id="fn19">
+                <p>
+                  Bank of Canada,
+                  <a
+                    href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/net-new-issues-of-securities-by-corporations-and-federal-government-enterprises-industrial-classification-formerly-k9/"
+                    >Net new issues of securities by corporations and federal
+                    government enterprises: Industrial classification</a
+                  >
+                  (formerly&nbsp;K9).
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn19-rf"
+                    ><span class="wb-inv">Return to footnote </span>19<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+            </dl>
+          </aside>
+          <!-- Don't touch this! -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
     </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: How are energy projects financed?</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
-
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
-<h1 id="wb-cont" property="name">Market Snapshot: How are energy projects financed?</h1>
-<aside class="col-md-3 module-related pull-right"> 
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Connect/Contact Us</h2>
-</header>
-<div class="list-group">
-<a class="list-group-item" href="/rss/rss-eng.html">Energy Information RSS Feed</a>
-<!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
-<p class="mrgn-lft-md mrgn-tp-sm">Please send comments, questions, or suggestions for Market Snapshot topics to <a href="mailto:snapshots@cer-rec.gc.ca">snapshots@cer-rec.gc.ca</a></p>
-</div>
-</section>
- 
-</aside>
-<p><strong>Release date: 2018-12-12</strong></p>
-<h2>Introduction</h2>
-<p>The energy industry is very capital-intensive. Projects often require an initial investment of billions of dollars to extract oil and gas, upgrade bitumen, refine crude oil, transport oil and gas products, or generate and distribute power. An upcoming LNG export project, LNG Canada, is expected to be the largest private sector project in Canada’s history at an estimated $40 billion<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>. Annual combined investment in new and existing Canadian oil sands projects often exceeds $20 billion per year and peaked about $33 billion in 2014 before global oil prices dropped substantially<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup>. Overall, capital expenditure in Canada’s upstream<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup> oil and gas sector exceeded $40 billion in 2017<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>.</p>
-<p>When a company decides to build a large scale project, it needs to arrange funds to pay for the project. While the company may have excess cash generated internally from current operations or from asset sales, typically the company also needs to raise additional funds in the capital markets. The primary external sources of capital funds that the company may use are equity, debt, or some combination of the two.</p>
-<p>The overall blend of equity and debt financing that a company uses across all lines of its business is called its “capital structure”. The cost to the company of each source of capital is a key determining factor in capital structure decisions and has significant implications for the profitability of individual projects and the overall business. Both industry specific, and overall economic market conditions, can influence the availability and cost of capital. Capital structure is commonly expressed as a percentage of equity to total capital and of debt to total capital, or as a total debt to total equity ratio.</p>
-<p class="mrgn-bttm-xl">The capital structure of a company affects its financial risk level. As more debt is used, the company’s financial risk rises by increasing the likelihood of the company not being able to meet its financial obligations, including required debt payments. Therefore, the higher the company’s operational risk profile, the less debt it is likely to use in its capital structure. See Figure 1 for representative capital structures in the Canadian energy industry. Upstream companies tend to use more equity in their capital structure as these companies typically possess higher operating or other business risks, whereas pipeline and electricity companies typically use relatively more debt in their overall capital structure as these companies tend to carry lower business risk in the energy space.</p>
-<h3>Figure 1: Common Capital Structures Employed in the Canadian Energy Industry </h3>
-<!-- figure START -->
-<img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms12-01-2-01-eng.png" alt="Figure 1: Common Capital Structures Employed in the Canadian Energy Industry" class="img-responsive">
-<!-- figure END -->
-
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> Thomson Reuters data and Company websites</p>
-<p><strong>Description:</strong> The pie chart on the left shows the capital structure of a representative large upstream oil & gas company as 75% equity and 25% debt. The pie chart on the right shows the capital structure of a representative large power company as 50% debt, 45% equity, and 5% hybrid capital.</p>
-</details>
-<div class="clearfix"></div>
-<h4>Financing with Equity</h4>
-<p>Capital from equity sources comes from selling shares to shareholders, generally by issuing new common shares<sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Footnote </span>5</a></sup> on public stock exchanges or through private placements. If the company has never issued shares on a stock exchange before, it is considered an Initial Public Offering (IPO).</p>
-<p>Common shares give the purchaser direct ownership in the company, including profits from all of its projects. The company decides when and how much of its profits to retain inside the company versus to distribute to shareholders in the form of dividends or share repurchases:</p>
-<ul><li>Dividends are the most common way shareholders are compensated by the company for investing in common shares. Dividends may be paid on a regular schedule, for example quarterly, or on an ad hoc basis. Pipeline and utility companies tend to have relatively stable operating cash flows, and thus typically pay a steady stream of dividends. Upstream oil and gas companies tend to have more variable operating cash flows, due in part to more exposure to commodity price risk and exploration or other technical risks, so dividend payments may be less certain.</li>
-<li>Share repurchases, or buybacks, are when the company uses its excess cash to buy back a certain amount of shares from investors either at current prices on the stock exchange or by using a tender<sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Footnote </span>6</a></sup> process offering premium prices. The intended effect of buybacks is to increase the company’s share price and increase the proportionate share of profits for remaining shareholders going forward, since fewer shares are outstanding. Upstream oil and gas companies tend to use share buybacks more frequently than pipeline and utility companies, when they have large but sporadic cash receipts due, for example, to major projects coming online.</li></ul>
-<p>Table 1 shows that recent common share issuances in the energy industry largely have been done by oil sands and pipeline companies. In total, about US$35 billion has been raised by Canadian upstream oil and gas companies in equities markets in the past five years and almost US$100 billion in the overall Canadian energy industry<sup id="fn7-rf"><a class="fn-lnk" href="#fn7"><span class="wb-inv">Footnote </span>7</a></sup>. To provide a sense of perspective, Canadian companies across all industries raised about C$260<sup id="fn8-rf"><a class="fn-lnk" href="#fn8"><span class="wb-inv">Footnote </span>8</a></sup> billion in the same period, with energy representing around 50% of the total.<p>
-<table class="table table-bordered">
-<caption>Table&nbsp;1: Recent Equity Issuances by Canadian Energy Companies</caption>
-<thead>
-<tr>
-<th class="active text-center">Issue Date</th>
-<th class="active text-center">Issuer Name</th>
-<th class="active text-center">Amount Issued (CAD million)</th>
-<th class="active text-center">Issue Type</th>
-</tr>
-</thead>
-<tbody>
-<tr class="active text-center">
-<td colspan="4">Upstream Oil and Gas</td>
-</tr>
-<tr>
-<td>31 May 2017</td>
-<td>Canadian Natural Resources Ltd</td>
-<td>4&nbsp;000</td>
-<td>Follow-On</td>
-</tr>
-<tr>
-<td>29 March 2017</td>
-<td>Cenovus Energy Inc</td>
-<td>3&nbsp;000</td>
-<td>Follow-On</td>
-</tr>
-<tr>
-<td>24 January 2017</td>
-<td>MEG Energy Corp</td>
-<td>518</td>
-<td>Follow-On</td>
-</tr>
-<tr class="active text-center">
-<td colspan="4">Pipeline and Utilities</td>
-<tr>
-<td>28 June 2018</td>
-<td>TransCanada Corp</td>
-<td>1&nbsp;000</td>
-<td>Follow-On</td>
-</tr>
-<tr>
-<td>30 May 2017</td>
-<td>Kinder Morgan Canada Ltd</td>
-<td>1&nbsp;000</td>
-<td>IPO</td>
-</tr>
-<tr>
-<td>6 December 2017</td>
-<td>Enbridge Inc</td>
-<td>1&nbsp;500</td>
-<td>Follow-On</td>
-</tr>
-<tr>
-<td>25 January 2017</td>
-<td>AltaGas Ltd</td>
-<td>2&nbsp;100</td>
-<td>Follow-On</td>
-</tr>
-</tbody>
-</table>
-<span class="clearfix"></span>
-<div class="clearfix"></div>
-<details>
-<summary>Source</summary>
-<p><strong>Source:</strong> Company websites and corporate filings on SEDAR</p>
-</details>
-<div class="clearfix"></div>
-<h4>Cost of Equity</h4>
-<p>If the company runs into financial difficulties and is unable to pay all of its financial obligations, then lenders are contractually required to be repaid first. Common shareholders rarely receive sufficient payment for their investment as they are lowest in the repayment priority hierarchy (see Figure 2). Generally this makes investing in common shares riskier than investing in debt of the same company; therefore shareholders expect a higher potential return on their equity, making it relatively more costly for a company to issue equity than debt.</p>
-<h3>Figure 2: Repayment Priority Hierarchy of Various Financial Instruments</h3>
-<!-- figure START -->
-<img src="/nrg/ntgrtd/mrkt/snpsht/2018/mg/ms12-01-2-02-eng.png" alt="Figure 2: Repayment Priority Hierarchy of Various Financial Instruments" class="img-responsive">
-<!-- figure END -->
-
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> The figure shows that financial instruments with the highest priority of repayment are secured debt, followed by senior unsecured debt, then other/subordinated debt, then preferred equity, and finally common equity. The risk/reward potential for these instruments increases in the same order, with common equity having the highest risk/reward potential.</p>
-</details>
-<div class="clearfix"></div>
-<p class="mrgn-tp-lg">The cost of equity is the expected return an investor requires in order to be willing to invest in the company. The expected return includes a capital appreciation component as well as a dividend cash flow component. Calculating the cost to the company of using equity capital is a complex matter, and there are several techniques available for estimating cost of equity. Conceptually, cost of equity must take into account the risk premium, or reward, that shareholders demand for bearing the risk of investing in equities versus a relatively “risk-free” investment like Canadian government bonds. Additionally, it must compensate shareholders for the company’s specific risk level as compared to investing in an “average-risk” stock or benchmark index<sup id="fn9-rf"><a class="fn-lnk" href="#fn9"><span class="wb-inv">Footnote </span>9</a></sup> of the stock market which the company trades. Another approach indicates that the cost of equity must equate the current share price to all expected future cash flows to the shareholders.</p>
-<h4>Advantages of Using Equity</h4>
-<p>The key advantages for a company to use equity financing versus debt financing include:</p>
-<ul><li>No direct repayment of initial capital<sup id="fn10-rf"><a class="fn-lnk" href="#fn10"><span class="wb-inv">Footnote </span>10</a></sup>.</li>
-<li>No requirement that regular cash flows to be made to shareholders.</li></ul>
-<p>Ultimately, for the above two reasons, equity offers the company the most flexibility in terms of managing cash flows.</p>
-<h4>Disadvantages of Using Equity</h4>
-<p>Equity is typically the more costly source of capital as investors expect to be compensated for taking on this uncertainty of timing and amount of dividend cash flows and recovery of initial investment, particularly in the case of financial distress when equity holders may be left with nothing. Also as the company issues more common shares, it dilutes<sup id="fn11-rf"><a class="fn-lnk" href="#fn11"><span class="wb-inv">Footnote </span>11</a></sup> value and control for existing shareholders.</p>
-<h4>Financing with Debt</h4>
-<p>Debt is an amount of funds that a company borrows from a lender with a contractual obligation to repay the full amount borrowed plus interest at an agreed-upon schedule. Lenders, also known as debt holders, do not receive any ownership in the company. Capital sourced from debt may come from banks, in the form of commercial paper or revolving lines of credit for example, or from investors who lend money by purchasing new bonds issued by the company.</p>
-<p>Bonds are most commonly used as large value, long-term sources of capital to fund major projects rather than traditional bank debt, which is often used for short-term operational financing. The company must pay bondholders a regularly scheduled return on their investment similar to interest payments, which are called coupon payments. Coupons are expressed as a percentage of the bond’s face value or par value. The company must later pay bondholders a return of their capital though repayment of the principal amount at the bond maturity date. Bonds typically have a maturity date that is 10 to 30&nbsp;years in the future, often matching the economic life of the company’s project.</p>
-<p>Recent large value debt issuances in the Canadian energy industry (shown in Table 2) have been done primarily by pipeline and utility companies as they have relatively more stable, lower-risk cash flows that can be used to meet required interest or coupon payments. Notwithstanding, roughly US$100 billion has been raised by Canadian upstream companies and US$300 billion<sup id="fn12-rf"><a class="fn-lnk" href="#fn12"><span class="wb-inv">Footnote </span>12</a></sup> in the broader Canadian energy industry in the corporate bond markets in the past 5 years. The total amount raised in the corporate bond markets by all Canadian companies over the same time period was C$1.4<sup id="fn13-rf"><a class="fn-lnk" href="#fn13"><span class="wb-inv">Footnote </span>13</a></sup> trillion, with energy companies accounting for roughly 30% of the total.</p>
-<table class="table table-bordered">
-<caption>
-Table 2: Recent Debt Issuances by Canadian Energy Companies
-</caption>
-<thead>
-<tr>
-<th class="active text-center">Issue Date</th>
-<th class="active text-center">Issuer Name</th>
-<th class="active text-center">Coupon (%)</th>
-<th class="active text-center">Maturity</th>
-<th class="active text-center">Amount Issued (CAD million)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="active text-center">
-<td colspan="4">Pipeline and Utilities</td>
-</tr>
-<tr>
-<td>3 July 2018</td>
-<td>TransCanada Pipelines Ltd</td>
-<td>4.18</td>
-<td>3 July 2048</td>
-<td>800</td>
-</tr>
-<tr>
-<td>22 November 2017</td>
-<td>Union Gas Ltd</td>
-<td>2.88</td>
-<td>22 November 2027</td>
-<td>250</td>
-</tr>
-<tr>
-<td>22 November 2017</td>
-<td>Union Gas Ltd</td>
-<td>3.59</td>
-<td>22 November 2047</td>
-<td>250</td>
-</tr>
-<tr>
-<td>15 September 2017</td>
-<td>TransCanada Pipelines Ltd</td>
-<td>3.39</td>
-<td>15 March 2028</td>
-<td>300</td>
-</tr>
-<tr>
-<td>15 September 2017</td>
-<td>TransCanada Pipelines Ltd</td>
-<td>4.33</td>
-<td>16 September 2047</td>
-<td>700</td>
-</tr>
-<tr>
-<td class="active text-center" colspan="4">Refinery Companies</td>
-<tr>
-<td>19 May 2017</td>
-<td>North West Redwater Partnership</td>
-<td>2.80</td>
-<td>1 June 2027</td>
-<td>750</td>
-</tr>
-<tr>
-<td>19 May 2017</td>
-<td>North West Redwater Partnership</td>
-<td>3.65</td>
-<td>1 June 2035</td>
-<td>750</td>
-</tr>
-</tbody>
-</table>
-<span class="clearfix"></span>
-<div class="clearfix"></div>
-<details>
-<summary>Source</summary>
-<p><strong>Source:</strong> Company websites and corporate filings on SEDAR</p>
-</details>
-<div class="clearfix"></div>
-<h4>Cost of Debt</h4>
-<p>The cost of debt to the company is the specified interest rate or coupon rate that the company is required to pay to lenders (banks, bondholders) in order to entice them to lend. The cost of debt that a company can achieve is highly dependent on the company’s financial risk, or more specifically its credit risk, which is the risk that the company will not be able to pay its financial obligations in full and on time. Third party rating agencies assign credit ratings<sup id="fn14-rf"><a class="fn-lnk" href="#fn14"><span class="wb-inv">Footnote </span>14</a></sup> to companies and to individual debt issues. The lower the credit rating, the more costly it is for the company to finance using debt, as lenders expect to be compensated for taking on higher risk.</p>
-<p>Other factors that influence the cost of debt include the time to maturity of the particular bond as well as current and expected future interest rates over that time period; these factors define the yield curve for companies with the same credit rating. In a rising interest rate environment, bondholders will expect higher rates of return in order to be willing to invest in corporate bonds as opposed to less risky government bonds. Additionally, seniority or priority of debt impacts the cost of that debt since in times of financial distress secured debt holders are repaid first, followed by senior unsecured debt holders, and finally by subordinated debt holders (see Figure 2); the higher in the priority hierarchy, the lower the cost of that debt, all else equal.</p>
-<h4>Advantages of Using Debt</h4>
-<p>The primary advantages for a company to use debt versus equity include:</p>
-<ul><li>It is generally the least costly source of capital since debt holders receive regular payments with greater certainty than equity holders do with dividends. Table 2 shows that recent debt costs are in the low to mid-single digits for large investment grade energy companies.</li>
-<li>The interest and coupon payments are tax deductible whereas dividend payments are not, therefore further lowering the net cost of debt.</li>
-<li>Debt holders do not receive any ownership stake, therefore, using debt does not dilute shareholders’ interests.</li></ul>
-<h4>Disadvantages of Using Debt</h4>
-<p>The company has a contractual obligation to adhere to interest and principal repayment schedules or risk facing default, and in the worst case, bankruptcy. The more debt that a company takes on, the higher its financial risk, and eventually the higher its future debt issuance costs may become.</p>
-<h4>Financing with Hybrid Instruments</h4>
-<p>In addition to raising funds by issuing traditional equity or debt, a third and less common source of capital that companies may use is called hybrid capital. Hybrid instruments have both debt and equity characteristics, and typically fall in the middle of the priority of repayments in the event of a default. This includes financial instruments such as preferred shares and convertible bonds:</p>
-<ul><li>Preferred shares pay a regular fixed dividend that is required to be paid before any dividends can be paid to common shareholders. Preferred shareholders are higher in the repayment priority hierarchy, so they are more likely than common shareholders to receive some initial investment back; however they typically do not get voting rights like common shareholders do. The cost to the company of using preferred equity is generally less than using common equity, but the company has less dividend payment flexibility with preferred shares.</li> 
-<li>Convertible bonds have characteristics that look similar to regular bonds; however bondholders of convertibles have the option to convert their bonds into a predetermined number of common shares, at which point they would become equity holders rather than debt holders, and participate in upside growth of the company. Convertible bondholders are lower in the repayment priority hierarchy than regular bondholders. The company’s cost of capital on convertibles is generally less than using equity.</li></ul> 
-<p>Energy companies, particularly pipeline, power, and other utility companies, are becoming more reliant on hybrid capital; hybrid accounts for approximately 3 to 6%<sup id="fn15-rf"><a class="fn-lnk" href="#fn15"><span class="wb-inv">Footnote </span>15</a></sup> of the capital structure for companies in those industry segments. Companies have been looking for more flexible financing for large energy infrastructure projects, especially since the 2014 global oil price dip that contributed to lower share prices and higher debt levels. Companies, especially pipeline companies, strive to maintain attractive credit ratings. Often hybrid capital may be treated more like equity by credit rating agencies so new hybrid issuances may not negatively impact the company’s credit rating.</p>
-<p>Table 3 lists recent large value preferred share issuances in the energy industry, showing that preferreds tend to be used by pipeline companies in recent years. Approximately US$13 billion<sup id="fn16-rf"><a class="fn-lnk" href="#fn16"><span class="wb-inv">Footnote </span>16</a></sup> has been raised in preferred share issues in Canada’s energy industry since January 2017 and roughly C$50<sup id="fn17-rf"><a class="fn-lnk" href="#fn17"><span class="wb-inv">Footnote </span>17</a></sup> billion has been raised by Canadian companies across all industries in the past 5 years. In Enbridge Inc’s 2018 Investor Presentation<sup id="fn18-rf"><a class="fn-lnk" href="#fn18"><span class="wb-inv">Footnote </span>18</a></sup>, management indicated plans to raise more than $3 billion over the next few years in hybrid capital, showing the growing importance of hybrid capital in the Canadian energy industry.</p>
-<table class="table table-bordered">
-<caption>
-Table 3: Recent Preferred Share Issuances by Canadian Energy Companies
-</caption>
-<thead>
-<tr>
-<th class="active text-center">Issue Date</th>
-<th class="active text-center">Issuer Name</th>
-<th class="active text-center">Coupon (%)</th>
-<th class="active text-center">Amount Issued (CAD million)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="active text-center" colspan="4">Pipeline and Utilities</td>
-</tr>
-<tr>
-<td>17 May 2018</td>
-<td>Emera Inc</td>
-<td>4.90</td>
-<td>300</td>
-</tr>
-<tr>
-<td>15 December 2017</td>
-<td>Kinder Morgan Canada Ltd</td>
-<td>5.20</td>
-<td>250</td>
-</tr>
-<tr>
-<td>11 December 2017</td>
-<td>Enbridge Inc</td>
-<td>4.90</td>
-<td>500</td>
-</tr>
-<tr>
-<td>7 December 2017</td>
-<td>Pembina Pipeline Corp</td>
-<td>4.90</td>
-<td>400</td>
-</tr>
-<tr>
-<td>15 August 2017</td>
-<td>Kinder Morgan Canada Ltd</td>
-<td>5.25</td>
-<td>300</td>
-</tr>
-</tbody>
-</table>
-<span class="clearfix"></span>
-<div class="clearfix"></div>
-<details>
-<summary>Source</summary>
-<p><strong>Source:</strong> Company websites and corporate filings on SEDAR</p>
-</details>
-<div class="clearfix"></div>
-<h4>Aggregate Capital Raised</h4>
-<p>Canadian companies, both overall, as well as those in the energy industry, have raised significantly more funds in the corporate bond market as compared to equities markets over the past decade. Bank of Canada statistics show that overall Canadian companies’ use of bonds exceeded use of equity in 2017 with about C$275&nbsp;billion raised in corporate bonds and C$85 billion raised in equity capital markets.</p>
-<p>Prevailing energy commodity market conditions have a clear impact on capital markets; at the same time, capital market conditions contribute to future energy commodity market outcomes. Canadian upstream oil and gas companies combined only issued a net of -C$2.8 billion in bonds and C$2.4 billion in equity in 2017<sup id="fn19-rf"><a class="fn-lnk" href="#fn19"><span class="wb-inv">Footnote </span>19</a></sup> (see Figure&nbsp;3). This indicates that a large volume of bond retirements and stock repurchases were occurring at roughly the same pace as new issuances. Since the global oil price drop in 2014 and subsequent drop in Canadian interest rates, many companies have been redeeming bonds to take advantage of new lower costs of borrowing, as well as buying back shares at depressed prices to add shareholder value and support share prices.</p>
-<h3>Figure 3: Bank of Canada: Net New Stock and Bond Issuances by Upstream Companies</h3>
-<!-- figure START -->
-<div class='tableauPlaceholder' id='viz1544202605627' style='position: relative'><noscript><a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ba&#47;BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ba&#47;BankofCanadaNeNewStockandBondIssuancesbyUpstreamCompanies&#47;IssuesofSecurities&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1544202605627');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1050px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<!-- figure END -->
-
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> Bank of Canada Statistics, EIA crude prices</p>
-<p><strong>Description:</strong> The interactive chart shows the trends of stock and bond net new issues by upstream oil & gas companies since 2000, with net new stock issues in negative territory in 2000/2001, followed by growth in the early to mid-2000s until peaking in 2011 at C$ 23.9 billion. This growth trend largely corresponded with WTI oil price movements, and both WTI prices and net new issues dropped sharply in recent years. 2018 YTD has -$524 million in net new stock issues. The net new bond issuances for oil & gas companies was positive but widely fluctuated during 2000 through 2014, and has since been negative and at -$2.4 billion in 2018 YTD.  In contrast, net new issues of stocks and bonds across all industries in Canada has been positive since 2000.</p>
-</details>
-<div class="clearfix"></div>
-<div id="MainContent_MainContent_disclaimer_en" class="mrgn-tp-lg alert alert-danger">
-<h3>Disclaimer:</h3>
-This report is provided for informational purposes only and should not be used in making investment decisions. 
-</div>
-<aside class="wb-fnote " role="note">
-<h2 id="fn" class="wb-inv ">Footnote</h2>
-<dl>
-<dt>Footnote 1</dt>
-<dd id="fn1">
-<p>This total includes anticipated costs of the associated infrastructure including the Coastal Gas Link Pipeline.</p>
-<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 2</dt>
-<dd id="fn2">
-<p><a href="https://www.aer.ca/providing-information/data-and-reports/statistical-reports/capital-expenditure-data" rel="external">AER, ST89 Capital Expenditures</a></p>
-<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 3</dt>
-<dd id="fn3">
-<p>Upstream refers to the energy industry segment that includes companies primarily involved in oil and gas exploration & production activities.</p>
-<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 4</dt>
-<dd id="fn4">
-<p><a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510006401" rel="external">Statistics Canada Table: 25-10-0064-01</a></p>
-<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 5</dt>
-<dd id="fn5">
-<p>Common shareholders have an ownership stake in the company and they have voting rights.</p>
-<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Return to footnote </span>5<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 6</dt>
-<dd id="fn6">
-<p>Tender process involves the company notifying existing shareholders of an offer to purchase a certain number of shares at a fixed price or at a range of prices, typically above the market price on the date of buyback announcement. The offer stays open until a specified deadline or until enough shareholders tender their shares.</p>
-<p class="fn-rtn"><a href="#fn6-rf"><span class="wb-inv">Return to footnote </span>6<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 7</dt>
-<dd id="fn7">
-<p>Estimated using Thomson Reuters data and company websites for the period 1&nbsp;January 2013 through 30&nbsp;September 2018.</p>
-<p class="fn-rtn"><a href="#fn7-rf"><span class="wb-inv">Return to footnote </span>7<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 8</dt>
-<dd id="fn8">
-<p><a href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table" rel="external">Bank of Canada Statistics for the period 1&nbsp;January 2013 through 30&nbsp;September 2018</a>.</p>
-<p class="fn-rtn"><a href="#fn8-rf"><span class="wb-inv">Return to footnote </span>8<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 9</dt>
-<dd id="fn9">
-<p>S&P TSX 60 index is a commonly used benchmark in Canada, and is made up of the 60 largest companies so specific risk that applies to one company in the index is less unlikely to impact the overall index.</p>
-<p class="fn-rtn"><a href="#fn9-rf"><span class="wb-inv">Return to footnote </span>9<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 10</dt>
-<dd id="fn10">
-<p>Shareholders receive a return of capital when they sell their shares to another shareholder, and may result in a capital gain or loss to shareholders depending on share price performance over the holding period.</p>
-<p class="fn-rtn"><a href="#fn10-rf"><span class="wb-inv">Return to footnote </span>10<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 11</dt>
-<dd id="fn11">
-<p>Dilution occurs when there is an increase in the number of common shares outstanding, as it effectively decreases existing shareholders’ ownership and thus decreases their stake to retained earnings and future profits.</p>
-<p class="fn-rtn"><a href="#fn11-rf"><span class="wb-inv">Return to footnote </span>11<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 12</dt>
-<dd id="fn12">
-<p>Estimated using Thomson Reuters data and company websites for the period 1&nbsp;January 2013 through 30&nbsp;September 2018.</p>
-<p class="fn-rtn"><a href="#fn12-rf"><span class="wb-inv">Return to footnote </span>12<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 13</dt>
-<dd id="fn13">
-<p><a href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table">Bank of Canada Statistics for the period 1&nbsp;January 2013 through 30&nbsp;September 2018</a>.</p>
-<p class="fn-rtn"><a href="#fn13-rf"><span class="wb-inv">Return to footnote </span>13<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 14</dt>
-<dd id="fn14">
-<p>One credit rating agency, S&P, considers long term issuers that receive a rating of AAA down to BBB as “investment grade”whereas issuers rated BB or below as “non-investment grade”.</p>
-<p class="fn-rtn"><a href="#fn14-rf"><span class="wb-inv">Return to footnote </span>14<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 15</dt>
-<dd id="fn15">
-<p>Derived using Thomson Reuters data and company websites.</p>
-<p class="fn-rtn"><a href="#fn15-rf"><span class="wb-inv">Return to footnote </span>15<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 16</dt>
-<dd id="fn16">
-<p><a href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table">Bank of Canada Statistics for the period 1&nbsp;January 2013 through 30&nbsp;September 2018</a>.</p>
-<p class="fn-rtn"><a href="#fn16-rf"><span class="wb-inv">Return to footnote </span>16<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 17</dt>
-<dd id="fn17">
-<p><a href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/capital-markets-activities-gross-new-issues-retirements-and-net-new-issues-of-securities-formerly-f4-to-f10/#table">Bank of Canada Statistics for the period 1&nbsp;January 2013 through 30&nbsp;September 2018</a>.</p>
-<p class="fn-rtn"><a href="#fn17-rf"><span class="wb-inv">Return to footnote </span>17<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 18</dt>
-<dd id="fn18">
-<p><a href="https://www.enbridge.com/~/media/Enb/Documents/Investor%20Relations/2018/ENB_Investment_Community_Presentation_Aug2018.pdf">Enbridge Investor Presentation</a>.</p>
-<p class="fn-rtn"><a href="#fn18-rf"><span class="wb-inv">Return to footnote </span>18<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 19</dt>
-<dd id="fn19">
-<p>Bank of Canada, <a href="https://www.bankofcanada.ca/rates/banking-and-financial-statistics/net-new-issues-of-securities-by-corporations-and-federal-government-enterprises-industrial-classification-formerly-k9/">Net new issues of securities by corporations and federal government enterprises: Industrial classification</a> (formerly&nbsp;K9).</p>
-<p class="fn-rtn"><a href="#fn19-rf"><span class="wb-inv">Return to footnote </span>19<span class="wb-inv"> referrer</span></a></p>
-</dd>
-</dl>
-</aside>
-<!-- Don't touch this! --> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script> 
-<!-- Additional plugins go here --> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script> 
-<!-- End additional plugins --> 
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section> 
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -638,78 +1607,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

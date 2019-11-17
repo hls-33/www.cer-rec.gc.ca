@@ -1,947 +1,1304 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-2col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-2col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>CER – Electricity Export Authorizations</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>CER – Electricity Export Authorizations</title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta name="dcterms.subject" title="scheme" content="" />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Electricity Export Authorizations" />
-<meta name="dcterms.title" content="NEB – Electricity Export Authorizations" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" />
-<!-- Meta data-->
-<!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Electricity Export Authorizations" />
+    <meta
+      name="dcterms.title"
+      content="NEB – Electricity Export Authorizations"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!-- Meta data-->
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
 
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li>	<li class="wb-slc visible-md visible-lg">
-		<a class="wb-sl" href="#wb-sec">Skip to section menu</a>
-	</li>
-</ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-							
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li> 	
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-    </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/sttstc/index-eng.html">Statistics & Analysis</a></li>
-<li><a href="/nrg/sttstc/lctrct/index-eng.html">Electricity (including Renewables)</a></li>
-<li>Electricity Export Authorizations</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
-
-<!-- InstanceBeginEditable name="center" -->
-<h1 id="wb-cont" property="name">Electricity Export Authorizations</h1>
-<div class="row">
-<div class="col-md-4 pull-right ">
-  <aside class="module">
-    <section class="panel panel-primary">
-        <header class="panel-heading">
-            <h2 class="panel-title">Contact Us</h2>
-        </header>
-        <div class="panel-body">
-            
-  <p>For further information contact <a href="mailto:electricitypermitlist@cer-rec.gc.ca">electricitypermitlist@cer-rec.gc.ca</a> or Ingrid Ektvedt at 403-299-3518.</p>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+      <li class="wb-slc visible-md visible-lg">
+        <a class="wb-sl" href="#wb-sec">Skip to section menu</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
           </div>
-    </section>
-</aside>
-</div>
-<div class="mrgn-lft-md mrgn-rght-md">
-<p><a href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn.pdf" title="Electricity Export Authorizations">Electricity Export Authorizations &ndash; Current to 30&nbsp;September 2016 (updated quarterly) [PDF&nbsp;55&nbsp;KB]</a></p>
-<p>The current list of valid Canada Energy Regulator electricity export permits provided below is updated and posted quarterly.</p>
-<p><strong>Current to 30&nbsp;September 2016 (updated quarterly) /<br>
-À jour au 30&nbsp;septembre 2016 (mises à jour trimestrielles)</strong></p>
-<table class=" small   table table-bordered">
-<caption>
-<strong>Electricity Export Authorizations / Autorisations pour l'exportation d'électricité</strong>
-</caption>
-<thead>
-<tr>
-<th class=" nowrap text-center active">Authori-<br>
-zations /<br>
-<br>
-Autori-<br>
-sations</th>
-<th class="text-center active">Exporter /<br>
-Exportateur</th>
-<th class=" nowrap text-center active">Permit<br>
-Start Date<br>
-(yyyy-mm-dd)<br>
-<br>
-Date de début<br>
-du permis<br>
-(aaaa-mm-jj)</th>
-<th class=" nowrap text-center active">Permit<br>
-End Date<br>
-(yyyy-mm-dd)<br>
-<br>
-Date d'échéance<br>
-du permis<br>
-(aaaa-mm-jjd)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>EPE-315</td>
-<td>2001 RBCP Canadian GP Limited, <br>
-on behalf of/au nom de la RBC Energy Services LP</td>
-<td class="text-right nowrap ">2007-08-24</td>
-<td class="text-right ">2017-08-23</td>
-</tr>
-<tr>
-<td>EPE-321</td>
-<td>Algonquin Tinker Gen Co.</td>
-<td class="text-right ">2008-07-01</td>
-<td class="text-right ">2018-06-30</td>
-</tr>
-<tr>
-<td>EPE-398</td>
-<td>ALLETE, Inc. dba/au nom de Minnesota Power</td>
-<td class="text-right ">2014-12-03</td>
-<td class="text-right ">2024-12-02</td>
-</tr>
-<tr>
-<td>EPE-411</td>
-<td>ATCO Power Canada Ltd.</td>
-<td class="text-right ">2016-05-19</td>
-<td class="text-right ">2026-05-18</td>
-</tr>
-<tr>
-<td>EPE-309</td>
-<td>BNP Paribas Energy Trading GP</td>
-<td class="text-right ">2007-07-16</td>
-<td class="text-right ">2017-07-15</td>
-</tr>
-<tr>
-<td>EPE-310</td>
-<td>BNP Paribas Energy Trading GP</td>
-<td class="text-right ">2007-07-16</td>
-<td class="text-right ">2017-07-15</td>
-</tr>
-<tr>
-<td>EPE-369</td>
-<td>BP Canada Energy Group ULC</td>
-<td class="text-right ">2011-08-05</td>
-<td class="text-right ">2021-08-04</td>
-</tr>
-<tr>
-<td>EPE-389</td>
-<td>BP Energy Company</td>
-<td class="text-right ">2013-12-13</td>
-<td class="text-right ">2023-12-12</td>
-</tr>
-<tr>
-<td>EPE-298</td>
-<td>British Columbia Hydro and Power Authority</td>
-<td class="text-right ">2006-10-26</td>
-<td class="text-right ">2016-09-30</td>
-</tr>
-<tr>
-<td>EPE-335</td>
-<td>British Columbia Hydro and Power Authority</td>
-<td class="text-right ">2009-04-14</td>
-<td class="text-right ">2019-04-13</td>
-</tr>
-<tr>
-<td>EPE-337</td>
-<td>British Columbia Hydro and Power Authority</td>
-<td class="text-right ">2009-05-01</td>
-<td class="text-right ">2019-04-30</td>
-</tr>
-<tr>
-<td>EPE-303</td>
-<td>Brookfield Energy Marketing Inc. and/et Brookfield Energy Marketing Inc.<br>
-as General Partner on behalf of/en tant que commandité au nom de Brookfield Energy Marketing LP</td>
-<td class="text-right ">2007-07-06</td>
-<td class="text-right ">2017-07-05</td>
-</tr>
-<tr>
-<td>EPE-299</td>
-<td>Bruce Power Inc.</td>
-<td class="text-right ">2007-03-28</td>
-<td class="text-right ">2017-03-27</td>
-</tr>
-<tr>
-<td>EPE-29</td>
-<td>Canadian Transit Company</td>
-<td class="text-right ">1991-09-01</td>
-<td class="text-right ">2021-08-31</td>
-</tr>
-<tr>
-<td>EPE-378</td>
-<td>CANADIAN WOOD PRODUCTS &ndash; MONTREAL INC.</td>
-<td class="text-right ">2012-04-18</td>
-<td class="text-right ">2022-04-17</td>
-</tr>
-<tr>
-<td>EPE-373</td>
-<td>Cargill Energy Trading Canada, Inc.</td>
-<td class="text-right ">2011-05-02</td>
-<td class="text-right ">2022-05-01</td>
-</tr>
-<tr>
-<td>EPE-350</td>
-<td>Castleton Commodities Merchant Trading L.P.</td>
-<td class="text-right ">2010-04-07</td>
-<td class="text-right ">2020-04-06</td>
-</tr>
-<tr>
-<td>EPE-349</td>
-<td>Centre Lane Trading Ltd.</td>
-<td class="text-right ">2010-04-14</td>
-<td class="text-right ">2020-04-13</td>
-</tr>
-<tr>
-<td>EPE-399</td>
-<td>Chubu TT Energy Management Inc.</td>
-<td class="text-right ">2015-03-10</td>
-<td class="text-right ">2025-03-09</td>
-</tr>
-<tr>
-<td>EPE-307</td>
-<td>Citigroup Energy Canada ULC</td>
-<td class="text-right ">2007-07-13</td>
-<td class="text-right ">2017-07-12</td>
-</tr>
-<tr>
-<td>EPE-308</td>
-<td>Citigroup Energy Canada ULC</td>
-<td class="text-right ">2007-07-13</td>
-<td class="text-right ">2017-07-12</td>
-</tr>
-<tr>
-<td>EPE-341</td>
-<td>Columbia Power Corporation</td>
-<td class="text-right ">2009-08-19</td>
-<td class="text-right ">2019-08-18</td>
-</tr>
-<tr>
-<td>EPE-368</td>
-<td>Command Power Corp.</td>
-<td class="text-right ">2011-06-27</td>
-<td class="text-right ">2021-06-26</td>
-</tr>
-<tr>
-<td>EPE-415</td>
-<td>Commerce Energy, Inc.</td>
-<td class="text-right ">2016-09-22</td>
-<td class="text-right ">2026-09-21</td>
-</tr>
-<tr>
-<td>EPE-409</td>
-<td>Consolidated Edison Energy, Inc.</td>
-<td class="text-right ">2016-02-18</td>
-<td class="text-right ">2020-02-17</td>
-</tr>
-<tr>
-<td>EPE-383</td>
-<td>Consumers Energy Company</td>
-<td class="text-right ">2012-09-18</td>
-<td class="text-right ">2022-09-17</td>
-</tr>
-<tr>
-<td>EPE-375</td>
-<td>CP Energy Marketing Inc., as General Partner,<br>
-on behalf of/en tant que commandité au nom de CP Energy Marketing L.P.</td>
-<td class="text-right ">2012-03-14</td>
-<td class="text-right ">2022-03-13</td>
-</tr>
-<tr>
-<td>EPE-314</td>
-<td>DC Energy LLC</td>
-<td class="text-right ">2007-08-01</td>
-<td class="text-right ">2017-07-31</td>
-</tr>
-<tr>
-<td>EPE-26</td>
-<td>Detroit and Windsor Subway Company, The</td>
-<td class="text-right ">1991-12-01</td>
-<td class="text-right ">2021-11-30</td>
-</tr>
-<tr>
-<td>EPE-376</td>
-<td>Direct Energy Marketing Inc.</td>
-<td class="text-right ">2012-04-01</td>
-<td class="text-right ">2022-03-31</td>
-</tr>
-<tr>
-<td>EPE-377</td>
-<td>DTE Energy Trading, Inc.</td>
-<td class="text-right ">2012-05-01</td>
-<td class="text-right ">2022-04-30</td>
-</tr>
-<tr>
-<td>EPE-366</td>
-<td>Dynasty Power Inc.</td>
-<td class="text-right ">2011-05-19</td>
-<td class="text-right ">2021-05-18</td>
-</tr>
-<tr>
-<td>EPE-357</td>
-<td>EDF Trading North America, LLC</td>
-<td class="text-right ">2010-09-09</td>
-<td class="text-right ">2016-09-30</td>
-</tr>
-<tr>
-<td>EPE-381</td>
-<td>Emera Energy Inc.</td>
-<td class="text-right ">2012-09-17</td>
-<td class="text-right ">2022-09-16</td>
-</tr>
-<tr>
-<td>EPE-365</td>
-<td>EnCana Corporation</td>
-<td class="text-right ">2011-07-18</td>
-<td class="text-right ">2021-07-17</td>
-</tr>
-<tr>
-<td>EPE-407</td>
-<td>ENMAX Energy Marketing Inc.</td>
-<td class="text-right ">2016-01-01</td>
-<td class="text-right ">2025-12-31</td>
-</tr>
-<tr>
-<td>EPE-344</td>
-<td>Exelon Generation Company, LLC</td>
-<td class="text-right ">2009-11-24</td>
-<td class="text-right ">2019-11-23</td>
-</tr>
-<tr>
-<td>EPE-13</td>
-<td>FortisBC Inc.</td>
-<td class="text-right ">1991-01-01</td>
-<td class="text-right ">2020-12-31</td>
-</tr>
-<tr>
-<td>EPE-70</td>
-<td>Grand Trunk Western Railroad Company</td>
-<td class="text-right ">1995-04-01</td>
-<td class="text-right ">2025-03-31</td>
-</tr>
-<tr>
-<td>EPE-333</td>
-<td>Green Tech Finance Inc.</td>
-<td class="text-right ">2008-12-22</td>
-<td class="text-right ">2018-12-21</td>
-</tr>
-<tr>
-<td>EPE-75</td>
-<td>H2O Power G.P. Inc. /Commandité H2O Énergie Inc.<br>
-on behalf of/au nom de H2O Power Limited Partnership /Société en Commandite H2O Énergie</td>
-<td class="text-right ">1995-07-01</td>
-<td class="text-right ">2020-06-30</td>
-</tr>
-<tr>
-<td>EPE-25</td>
-<td>Hydro One Networks Inc.</td>
-<td class="text-right ">1991-05-15</td>
-<td class="text-right ">2021-05-14</td>
-</tr>
-<tr>
-<td>EL-184</td>
-<td>Hydro-Québec &ndash; Quebec Hydro</td>
-<td class="text-right ">1996-11-01</td>
-<td class="text-right ">2020-10-31</td>
-</tr>
-<tr>
-<td>EPE-20</td>
-<td>Hydro-Québec &ndash; Quebec Hydro</td>
-<td class="text-right ">1991-04-01</td>
-<td class="text-right ">2021-03-31</td>
-</tr>
-<tr>
-<td>EPE-359</td>
-<td>Hydro-Québec &ndash; Quebec Hydro</td>
-<td class="text-right ">2011-01-01</td>
-<td class="text-right ">2020-12-31</td>
-</tr>
-<tr>
-<td>EPE-370</td>
-<td>Hydro-Québec &ndash; Quebec Hydro</td>
-<td class="text-right ">2012-11-01</td>
-<td class="text-right ">2039-12-31</td>
-</tr>
-<tr>
-<td height="23">EPE-22</td>
-<td>Independent Electricity Market Operator</td>
-<td class="text-right ">1996-01-01</td>
-<td class="text-right ">2025-12-31</td>
-</tr>
-<tr>
-<td>EPE-289</td>
-<td>Independent Electricity System Operator</td>
-<td class="text-right ">2006-08-02</td>
-<td class="text-right ">2017-01-31</td>
-</tr>
-<tr>
-<td>EPE-372</td>
-<td>Madstone Energy Corp.</td>
-<td class="text-right ">2011-11-17</td>
-<td class="text-right ">2021-11-16</td>
-</tr>
-<tr>
-<td>EPE-384</td>
-<td>MAG Energy Solutions Inc.</td>
-<td class="text-right ">2012-11-01</td>
-<td class="text-right ">2022-10-31</td>
-</tr>
-<tr>
-<td>EPE-33</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">1997-05-01</td>
-<td class="text-right ">2016-10-31</td>
-</tr>
-<tr>
-<td>EPE-363</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2011-05-01</td>
-<td class="text-right ">2022-04-30</td>
-</tr>
-<tr>
-<td>EPE-374</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2015-05-01</td>
-<td class="text-right ">2025-04-30</td>
-</tr>
-<tr>
-<td>EPE-379</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2012-06-01</td>
-<td class="text-right ">2023-05-31</td>
-</tr>
-<tr>
-<td>EPE-387</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2014-11-01</td>
-<td class="text-right ">2030-04-30</td>
-</tr>
-<tr>
-<td>EPE-392</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2015-06-01 </td>
-<td class="text-right ">2020-05-31 </td>
-</tr>
-<tr>
-<td>EPE-393</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2014-10-01</td>
-<td class="text-right ">2019-09-30</td>
-</tr>
-<tr>
-<td>EPE-402</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2015-08-01</td>
-<td class="text-right ">2020-07-31</td>
-</tr>
-<tr>
-<td>EPE-404</td>
-<td>Manitoba Hydro-Electric Board &ndash; Régie de l'hydro-électricité du Manitoba</td>
-<td class="text-right ">2015-11-01</td>
-<td class="text-right ">2025-10-31</td>
-</tr>
-<tr>
-<td>EPE-285</td>
-<td>Maritime Electric Company, Limited</td>
-<td class="text-right ">2006-08-04</td>
-<td class="text-right ">2016-10-31</td>
-</tr>
-<tr>
-<td>EPE-286</td>
-<td>Maritime Electric Company, Limited</td>
-<td class="text-right ">2006-08-04</td>
-<td class="text-right ">2016-10-31</td>
-</tr>
-<tr>
-<td>EPE-334</td>
-<td>Marketing d'énergie HQ Inc. &ndash; HQ Energy Marketing Inc.</td>
-<td class="text-right ">2009-04-08</td>
-<td class="text-right ">2019-04-07</td>
-</tr>
-<tr>
-<td>EPE-317</td>
-<td>Mercuria Commodities Canada Corporation</td>
-<td class="text-right ">2007-09-18</td>
-<td class="text-right ">2017-09-17</td>
-</tr>
-<tr>
-<td>EPE-318</td>
-<td>Mercuria Commodities Canada Corporation</td>
-<td class="text-right ">2007-09-18</td>
-<td class="text-right ">2017-09-17</td>
-</tr>
-<tr>
-<td>EPE-382</td>
-<td>Merrill Lynch Commodities Canada, ULC &ndash; Matières Premières Merrill Lynch Canada, SRI</td>
-<td class="text-right ">2012-12-20</td>
-<td class="text-right ">2022-12-19</td>
-</tr>
-<tr>
-<td>EPE-353</td>
-<td>Merrill Lynch Commodities, Inc.</td>
-<td class="text-right ">2010-06-07</td>
-<td class="text-right ">2020-06-06</td>
-</tr>
-<tr>
-<td>EPE-380</td>
-<td>Morgan Stanley Capital Group Inc.</td>
-<td class="text-right ">2012-08-01</td>
-<td class="text-right ">2022-07-31</td>
-</tr>
-<tr>
-<td>EPE-338</td>
-<td>Nalcor Energy Marketing Corporation</td>
-<td class="text-right ">2009-06-19</td>
-<td class="text-right ">2019-06-18</td>
-</tr>
-<tr>
-<td>EPE-28</td>
-<td>New Brunswick Energy Marketing Corporation</td>
-<td class="text-right ">1991-10-21</td>
-<td class="text-right ">2021-10-20</td>
-</tr>
-<tr>
-<td>EPE-148</td>
-<td>New Brunswick Energy Marketing Corporation</td>
-<td class="text-right ">2000-01-01</td>
-<td class="text-right ">2020-10-31</td>
-</tr>
-<tr>
-<td>EPE-295</td>
-<td>New Brunswick Energy Marketing Corporation</td>
-<td class="text-right ">2007-01-01</td>
-<td class="text-right ">2016-12-31</td>
-</tr>
-<tr>
-<td>EPE-327</td>
-<td>New Brunswick Power Corporation</td>
-<td class="text-right ">2008-07-09</td>
-<td class="text-right ">2018-07-08</td>
-</tr>
-<tr>
-<td>EPE-330</td>
-<td>NextEra Energy Power Marketing, LLC</td>
-<td class="text-right ">2008-11-05</td>
-<td class="text-right ">2018-11-04</td>
-</tr>
-<tr>
-<td>EPE-364</td>
-<td>Noble Americas Gas &amp; Power Corp.</td>
-<td class="text-right ">2011-04-29</td>
-<td class="text-right ">2021-04-28</td>
-</tr>
-<tr>
-<td>EPE-394</td>
-<td>Northern States Power Company, a Minnesota corporation</td>
-<td class="text-right ">2014-08-06</td>
-<td class="text-right ">2024-08-05</td>
-</tr>
-<tr>
-<td>EPE-408</td>
-<td>NorthPoint Energy Solutions Inc.</td>
-<td class="text-right ">2016-03-15</td>
-<td class="text-right ">2026-03-14</td>
-</tr>
-<tr>
-<td>EPE-332</td>
-<td>Nova Scotia Power Incorporated</td>
-<td class="text-right ">2009-01-01</td>
-<td class="text-right ">2018-12-31</td>
-</tr>
-<tr>
-<td>EPE-360</td>
-<td>NRG Power Marketing LLC</td>
-<td class="text-right ">2011-01-25</td>
-<td class="text-right ">2021-01-24</td>
-</tr>
-<tr>
-<td>EPE-24</td>
-<td>Ontario Power Generation Inc.</td>
-<td class="text-right ">1991-07-01</td>
-<td class="text-right ">2021-06-30</td>
-<p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-</tr>
-<tr>
-<td>EPE-110</td>
-<td>Ontario Power Generation Inc.</td>
-<td class="text-right ">1998-03-19</td>
-<td class="text-right ">2025-06-30</td>
-</tr>
-<tr>
-<td>EPE-410</td>
-<td>Ontario Power Generation Inc.</td>
-<td class="text-right ">2016-07-01</td>
-<td class="text-right ">2026-06-30</td>
-</tr>
-<tr>
-<td>EPE-405</td>
-<td>Peninsula Power, LLC</td>
-<td class="text-right ">2015-08-06</td>
-<td class="text-right ">2025-08-05</td>
-</tr>
-<tr>
-<td>EPE-391</td>
-<td>Plant-E Corp.</td>
-<td class="text-right ">2014-02-18</td>
-<td class="text-right ">2024-02-17</td>
-</tr>
-<tr>
-<td>EPE-336</td>
-<td>Powerex Corp.</td>
-<td class="text-right ">2009-05-01</td>
-<td class="text-right ">2019-04-30</td>
-</tr>
-<tr>
-<td>EPE-397</td>
-<td>Rainbow Energy Marketing Corporation</td>
-<td class="text-right ">2014-09-18</td>
-<td class="text-right ">2024-09-17</td>
-</tr>
-<tr>
-<td>EPE-401</td>
-<td>Roctop Investments Inc.</td>
-<td class="text-right ">2015-07-14</td>
-<td class="text-right ">2025-07-13</td>
-</tr>
-<tr>
-<td>EPE-328</td>
-<td>Royal Bank of Canada &ndash; Banque Royale du Canada</td>
-<td class="text-right ">2008-08-27</td>
-<td class="text-right ">2017-08-26</td>
-</tr>
-<tr>
-<td>EPE-326</td>
-<td>Saracen Power LP</td>
-<td class="text-right ">2008-07-08</td>
-<td class="text-right ">2018-07-07</td>
-</tr>
-<tr>
-<td>EPE-351</td>
-<td>Saskatchewan Power Corporation</td>
-<td class="text-right ">2010-04-30</td>
-<td class="text-right ">2020-04-29</td>
-</tr>
-<tr>
-<td>EPE-395</td>
-<td>SESCO Enterprises Canada, Ltd.</td>
-<td class="text-right ">2014-08-06</td>
-<td class="text-right ">2024-08-05</td>
-</tr>
-<tr>
-<td>EPE-361</td>
-<td>Shell Energy North America (Canada) Inc.</td>
-<td class="text-right ">2011-01-25</td>
-<td class="text-right ">2021-01-24</td>
-</tr>
-<tr>
-<td>EPE-362</td>
-<td>Shell Energy North America (US), L.P.</td>
-<td class="text-right ">2011-04-13</td>
-<td class="text-right ">2021-04-12</td>
-</tr>
-<tr>
-<td>EPE-388</td>
-<td>Talen Energy Marketing, LLC.</td>
-<td class="text-right ">2013-12-15</td>
-<td class="text-right ">2023-12-14</td>
-</tr>
-<tr>
-<td>EPE-403</td>
-<td>Targray Americas Inc.</td>
-<td class="text-right ">2015-07-30</td>
-<td class="text-right ">2025-07-29</td>
-</tr>
-<tr>
-<td>EPE-386</td>
-<td>TEC Energy Inc.</td>
-<td class="text-right ">2013-09-06</td>
-<td class="text-right ">2023-09-05</td>
-</tr>
-<tr>
-<td>EPE-390</td>
-<td>Teck Metals Ltd.</td>
-<td class="text-right ">2014-03-01</td>
-<td class="text-right ">2024-02-29</td>
-</tr>
-<tr>
-<td>EPE-311</td>
-<td>Tenaska Power Canada, a division of / une division de TPS Corp.</td>
-<td class="text-right ">2007-08-01</td>
-<td class="text-right ">2017-07-31</td>
-</tr>
-<tr>
-<td>EPE-312</td>
-<td>Tenaska Power Canada, a division of / une division de TPS Corp.</td>
-<td class="text-right ">2007-08-01</td>
-<td class="text-right ">2017-07-31</td>
-</tr>
-<tr>
-<td>EPE-414</td>
-<td>Tidal Energy Marketing Inc.</td>
-<td class="text-right ">2016-08-19</td>
-<td class="text-right ">2026-08-18</td>
-</tr>
-<tr>
-<td>EPE-400</td>
-<td>TrailStone Power, LLC</td>
-<td class="text-right ">2015-03-10</td>
-<td class="text-right ">2025-03-09</td>
-</tr>
-<tr>
-<td>EPE-356</td>
-<td>TransAlta Energy Marketing Corp.</td>
-<td class="text-right ">2010-11-01</td>
-<td class="text-right ">2020-10-31</td>
-</tr>
-<tr>
-<td>EPE-406</td>
-<td>TransCanada Energy Sales Ltd.</td>
-<td class="text-right ">2015-11-16</td>
-<td class="text-right ">2025-11-15</td>
-</tr>
-<tr>
-<td>EPE-371</td>
-<td>TransCanada Power Marketing Ltd.</td>
-<td class="text-right ">2012-03-08</td>
-<td class="text-right ">2022-03-07</td>
-</tr>
-<tr>
-<td>EPE-385</td>
-<td>Twin Rivers Paper Company Inc.</td>
-<td class="text-right ">2013-01-01</td>
-<td class="text-right ">2022-12-31</td>
-</tr>
-<tr>
-<td>EPE-358</td>
-<td>Vitol Inc.</td>
-<td class="text-right ">2010-10-25</td>
-<td class="text-right ">2020-10-24</td>
-</tr>
-<tr>
-<td>EPE-346 </td>
-<td>West Oaks Energy NY/NE, LP</td>
-<td class="text-right ">2009-11-19</td>
-<td class="text-right ">2019-11-18</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-<nav class="col-md-3 col-md-pull-9 visible-md visible-lg" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
-    <h2>Section menu</h2>
-        <ul class="list-group menu list-unstyled"> <li>
-            <h3><a href="/nrg/index-eng.html">Energy Information</a></h3>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/sttstc/index-eng.html">Statistics & Analysis</a>                        <ul class="list-group menu list-unstyled expanded">
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/crdlndptrlmprdct/index-eng.html"><div class="mrgn-lft-md">Crude Oil and Petroleum Products</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/lctrct/index-eng.html"><div class="mrgn-lft-md">Electricity (including Renewables)</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/ntrlgs/index-eng.html"><div class="mrgn-lft-md">Natural Gas</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/ntrlgslqds/index-eng.html"><div class="mrgn-lft-md">Natural Gas Liquids (NGLs)</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/ftr/index-eng.html"><div class="mrgn-lft-md">Canada's Energy Future</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                    <li><a class="list-group-item" href="https://apps2.cer-rec.gc.ca/dvs/"><div class="mrgn-lft-lg">Explore Canada’s Energy Future</div></a></li>
-		                    <li class="wb-invisible"><a href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn-eng.html"></a></li>
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/mrkt/index-eng.html"><div class="mrgn-lft-md">Energy Markets</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"><div class="mrgn-lft-lg">Market Snapshots</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/nrgsstmprfls/index-eng.html"><div class="mrgn-lft-lg">Provincial and Territorial Energy Profiles</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/prcstrdrtcl/index-eng.html"><div class="mrgn-lft-lg">Commodity Prices and Trade Updates</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/dnmc/index-eng.html"><div class="mrgn-lft-lg">Energy Dynamics</div></a></li>
-		                    <li class="wb-invisible"><a href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn-eng.html"></a></li>
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/pplnprtl/index-eng.html"><div class="mrgn-lft-md">Canada’s pipeline system portal</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/tl/index-eng.html">Tools</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/nrg/tl/nrgcmmdt/index-eng.html"><div class="mrgn-lft-md">Energy Commodity Indicators</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="https://apps.cer-rec.gc.ca/Conversion/calculator-calculatrice.aspx?GoCTemplateCulture=en-CA"><div class="mrgn-lft-md">Energy Conversion Calculator</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="https://apps.cer-rec.gc.ca/Conversion/conversion-tables.aspx?GoCTemplateCulture=en-CA"><div class="mrgn-lft-md">Energy Conversion Tables</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/tl/glssr-eng.html"><div class="mrgn-lft-md">Energy Information Program - Glossary</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                </li>
-                <!-- SecNavEnd -->
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
             </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/sttstc/index-eng.html">Statistics & Analysis</a>
+              </li>
+              <li>
+                <a href="/nrg/sttstc/lctrct/index-eng.html"
+                  >Electricity (including Renewables)</a
+                >
+              </li>
+              <li>Electricity Export Authorizations</li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <main
+          role="main"
+          property="mainContentOfPage"
+          class="col-md-9 col-md-push-3"
+        >
+          <!-- InstanceBeginEditable name="center" -->
+          <h1 id="wb-cont" property="name">
+            Electricity Export Authorizations
+          </h1>
+          <div class="row">
+            <div class="col-md-4 pull-right ">
+              <aside class="module">
+                <section class="panel panel-primary">
+                  <header class="panel-heading">
+                    <h2 class="panel-title">Contact Us</h2>
+                  </header>
+                  <div class="panel-body">
+                    <p>
+                      For further information contact
+                      <a href="mailto:electricitypermitlist@cer-rec.gc.ca"
+                        >electricitypermitlist@cer-rec.gc.ca</a
+                      >
+                      or Ingrid Ektvedt at 403-299-3518.
+                    </p>
+                  </div>
+                </section>
+              </aside>
+            </div>
+            <div class="mrgn-lft-md mrgn-rght-md">
+              <p>
+                <a
+                  href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn.pdf"
+                  title="Electricity Export Authorizations"
+                  >Electricity Export Authorizations &ndash; Current to
+                  30&nbsp;September 2016 (updated quarterly)
+                  [PDF&nbsp;55&nbsp;KB]</a
+                >
+              </p>
+              <p>
+                The current list of valid Canada Energy Regulator electricity
+                export permits provided below is updated and posted quarterly.
+              </p>
+              <p>
+                <strong
+                  >Current to 30&nbsp;September 2016 (updated quarterly) /<br />
+                  À jour au 30&nbsp;septembre 2016 (mises à jour
+                  trimestrielles)</strong
+                >
+              </p>
+              <table class=" small   table table-bordered">
+                <caption>
+                  <strong
+                    >Electricity Export Authorizations / Autorisations pour
+                    l'exportation d'électricité</strong
+                  >
+                </caption>
+                <thead>
+                  <tr>
+                    <th class=" nowrap text-center active">
+                      Authori-<br />
+                      zations /<br />
+                      <br />
+                      Autori-<br />
+                      sations
+                    </th>
+                    <th class="text-center active">
+                      Exporter /<br />
+                      Exportateur
+                    </th>
+                    <th class=" nowrap text-center active">
+                      Permit<br />
+                      Start Date<br />
+                      (yyyy-mm-dd)<br />
+                      <br />
+                      Date de début<br />
+                      du permis<br />
+                      (aaaa-mm-jj)
+                    </th>
+                    <th class=" nowrap text-center active">
+                      Permit<br />
+                      End Date<br />
+                      (yyyy-mm-dd)<br />
+                      <br />
+                      Date d'échéance<br />
+                      du permis<br />
+                      (aaaa-mm-jjd)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>EPE-315</td>
+                    <td>
+                      2001 RBCP Canadian GP Limited, <br />
+                      on behalf of/au nom de la RBC Energy Services LP
+                    </td>
+                    <td class="text-right nowrap ">2007-08-24</td>
+                    <td class="text-right ">2017-08-23</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-321</td>
+                    <td>Algonquin Tinker Gen Co.</td>
+                    <td class="text-right ">2008-07-01</td>
+                    <td class="text-right ">2018-06-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-398</td>
+                    <td>ALLETE, Inc. dba/au nom de Minnesota Power</td>
+                    <td class="text-right ">2014-12-03</td>
+                    <td class="text-right ">2024-12-02</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-411</td>
+                    <td>ATCO Power Canada Ltd.</td>
+                    <td class="text-right ">2016-05-19</td>
+                    <td class="text-right ">2026-05-18</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-309</td>
+                    <td>BNP Paribas Energy Trading GP</td>
+                    <td class="text-right ">2007-07-16</td>
+                    <td class="text-right ">2017-07-15</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-310</td>
+                    <td>BNP Paribas Energy Trading GP</td>
+                    <td class="text-right ">2007-07-16</td>
+                    <td class="text-right ">2017-07-15</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-369</td>
+                    <td>BP Canada Energy Group ULC</td>
+                    <td class="text-right ">2011-08-05</td>
+                    <td class="text-right ">2021-08-04</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-389</td>
+                    <td>BP Energy Company</td>
+                    <td class="text-right ">2013-12-13</td>
+                    <td class="text-right ">2023-12-12</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-298</td>
+                    <td>British Columbia Hydro and Power Authority</td>
+                    <td class="text-right ">2006-10-26</td>
+                    <td class="text-right ">2016-09-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-335</td>
+                    <td>British Columbia Hydro and Power Authority</td>
+                    <td class="text-right ">2009-04-14</td>
+                    <td class="text-right ">2019-04-13</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-337</td>
+                    <td>British Columbia Hydro and Power Authority</td>
+                    <td class="text-right ">2009-05-01</td>
+                    <td class="text-right ">2019-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-303</td>
+                    <td>
+                      Brookfield Energy Marketing Inc. and/et Brookfield Energy
+                      Marketing Inc.<br />
+                      as General Partner on behalf of/en tant que commandité au
+                      nom de Brookfield Energy Marketing LP
+                    </td>
+                    <td class="text-right ">2007-07-06</td>
+                    <td class="text-right ">2017-07-05</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-299</td>
+                    <td>Bruce Power Inc.</td>
+                    <td class="text-right ">2007-03-28</td>
+                    <td class="text-right ">2017-03-27</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-29</td>
+                    <td>Canadian Transit Company</td>
+                    <td class="text-right ">1991-09-01</td>
+                    <td class="text-right ">2021-08-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-378</td>
+                    <td>CANADIAN WOOD PRODUCTS &ndash; MONTREAL INC.</td>
+                    <td class="text-right ">2012-04-18</td>
+                    <td class="text-right ">2022-04-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-373</td>
+                    <td>Cargill Energy Trading Canada, Inc.</td>
+                    <td class="text-right ">2011-05-02</td>
+                    <td class="text-right ">2022-05-01</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-350</td>
+                    <td>Castleton Commodities Merchant Trading L.P.</td>
+                    <td class="text-right ">2010-04-07</td>
+                    <td class="text-right ">2020-04-06</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-349</td>
+                    <td>Centre Lane Trading Ltd.</td>
+                    <td class="text-right ">2010-04-14</td>
+                    <td class="text-right ">2020-04-13</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-399</td>
+                    <td>Chubu TT Energy Management Inc.</td>
+                    <td class="text-right ">2015-03-10</td>
+                    <td class="text-right ">2025-03-09</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-307</td>
+                    <td>Citigroup Energy Canada ULC</td>
+                    <td class="text-right ">2007-07-13</td>
+                    <td class="text-right ">2017-07-12</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-308</td>
+                    <td>Citigroup Energy Canada ULC</td>
+                    <td class="text-right ">2007-07-13</td>
+                    <td class="text-right ">2017-07-12</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-341</td>
+                    <td>Columbia Power Corporation</td>
+                    <td class="text-right ">2009-08-19</td>
+                    <td class="text-right ">2019-08-18</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-368</td>
+                    <td>Command Power Corp.</td>
+                    <td class="text-right ">2011-06-27</td>
+                    <td class="text-right ">2021-06-26</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-415</td>
+                    <td>Commerce Energy, Inc.</td>
+                    <td class="text-right ">2016-09-22</td>
+                    <td class="text-right ">2026-09-21</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-409</td>
+                    <td>Consolidated Edison Energy, Inc.</td>
+                    <td class="text-right ">2016-02-18</td>
+                    <td class="text-right ">2020-02-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-383</td>
+                    <td>Consumers Energy Company</td>
+                    <td class="text-right ">2012-09-18</td>
+                    <td class="text-right ">2022-09-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-375</td>
+                    <td>
+                      CP Energy Marketing Inc., as General Partner,<br />
+                      on behalf of/en tant que commandité au nom de CP Energy
+                      Marketing L.P.
+                    </td>
+                    <td class="text-right ">2012-03-14</td>
+                    <td class="text-right ">2022-03-13</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-314</td>
+                    <td>DC Energy LLC</td>
+                    <td class="text-right ">2007-08-01</td>
+                    <td class="text-right ">2017-07-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-26</td>
+                    <td>Detroit and Windsor Subway Company, The</td>
+                    <td class="text-right ">1991-12-01</td>
+                    <td class="text-right ">2021-11-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-376</td>
+                    <td>Direct Energy Marketing Inc.</td>
+                    <td class="text-right ">2012-04-01</td>
+                    <td class="text-right ">2022-03-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-377</td>
+                    <td>DTE Energy Trading, Inc.</td>
+                    <td class="text-right ">2012-05-01</td>
+                    <td class="text-right ">2022-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-366</td>
+                    <td>Dynasty Power Inc.</td>
+                    <td class="text-right ">2011-05-19</td>
+                    <td class="text-right ">2021-05-18</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-357</td>
+                    <td>EDF Trading North America, LLC</td>
+                    <td class="text-right ">2010-09-09</td>
+                    <td class="text-right ">2016-09-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-381</td>
+                    <td>Emera Energy Inc.</td>
+                    <td class="text-right ">2012-09-17</td>
+                    <td class="text-right ">2022-09-16</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-365</td>
+                    <td>EnCana Corporation</td>
+                    <td class="text-right ">2011-07-18</td>
+                    <td class="text-right ">2021-07-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-407</td>
+                    <td>ENMAX Energy Marketing Inc.</td>
+                    <td class="text-right ">2016-01-01</td>
+                    <td class="text-right ">2025-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-344</td>
+                    <td>Exelon Generation Company, LLC</td>
+                    <td class="text-right ">2009-11-24</td>
+                    <td class="text-right ">2019-11-23</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-13</td>
+                    <td>FortisBC Inc.</td>
+                    <td class="text-right ">1991-01-01</td>
+                    <td class="text-right ">2020-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-70</td>
+                    <td>Grand Trunk Western Railroad Company</td>
+                    <td class="text-right ">1995-04-01</td>
+                    <td class="text-right ">2025-03-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-333</td>
+                    <td>Green Tech Finance Inc.</td>
+                    <td class="text-right ">2008-12-22</td>
+                    <td class="text-right ">2018-12-21</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-75</td>
+                    <td>
+                      H2O Power G.P. Inc. /Commandité H2O Énergie Inc.<br />
+                      on behalf of/au nom de H2O Power Limited Partnership
+                      /Société en Commandite H2O Énergie
+                    </td>
+                    <td class="text-right ">1995-07-01</td>
+                    <td class="text-right ">2020-06-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-25</td>
+                    <td>Hydro One Networks Inc.</td>
+                    <td class="text-right ">1991-05-15</td>
+                    <td class="text-right ">2021-05-14</td>
+                  </tr>
+                  <tr>
+                    <td>EL-184</td>
+                    <td>Hydro-Québec &ndash; Quebec Hydro</td>
+                    <td class="text-right ">1996-11-01</td>
+                    <td class="text-right ">2020-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-20</td>
+                    <td>Hydro-Québec &ndash; Quebec Hydro</td>
+                    <td class="text-right ">1991-04-01</td>
+                    <td class="text-right ">2021-03-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-359</td>
+                    <td>Hydro-Québec &ndash; Quebec Hydro</td>
+                    <td class="text-right ">2011-01-01</td>
+                    <td class="text-right ">2020-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-370</td>
+                    <td>Hydro-Québec &ndash; Quebec Hydro</td>
+                    <td class="text-right ">2012-11-01</td>
+                    <td class="text-right ">2039-12-31</td>
+                  </tr>
+                  <tr>
+                    <td height="23">EPE-22</td>
+                    <td>Independent Electricity Market Operator</td>
+                    <td class="text-right ">1996-01-01</td>
+                    <td class="text-right ">2025-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-289</td>
+                    <td>Independent Electricity System Operator</td>
+                    <td class="text-right ">2006-08-02</td>
+                    <td class="text-right ">2017-01-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-372</td>
+                    <td>Madstone Energy Corp.</td>
+                    <td class="text-right ">2011-11-17</td>
+                    <td class="text-right ">2021-11-16</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-384</td>
+                    <td>MAG Energy Solutions Inc.</td>
+                    <td class="text-right ">2012-11-01</td>
+                    <td class="text-right ">2022-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-33</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">1997-05-01</td>
+                    <td class="text-right ">2016-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-363</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2011-05-01</td>
+                    <td class="text-right ">2022-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-374</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2015-05-01</td>
+                    <td class="text-right ">2025-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-379</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2012-06-01</td>
+                    <td class="text-right ">2023-05-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-387</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2014-11-01</td>
+                    <td class="text-right ">2030-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-392</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2015-06-01</td>
+                    <td class="text-right ">2020-05-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-393</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2014-10-01</td>
+                    <td class="text-right ">2019-09-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-402</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2015-08-01</td>
+                    <td class="text-right ">2020-07-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-404</td>
+                    <td>
+                      Manitoba Hydro-Electric Board &ndash; Régie de
+                      l'hydro-électricité du Manitoba
+                    </td>
+                    <td class="text-right ">2015-11-01</td>
+                    <td class="text-right ">2025-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-285</td>
+                    <td>Maritime Electric Company, Limited</td>
+                    <td class="text-right ">2006-08-04</td>
+                    <td class="text-right ">2016-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-286</td>
+                    <td>Maritime Electric Company, Limited</td>
+                    <td class="text-right ">2006-08-04</td>
+                    <td class="text-right ">2016-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-334</td>
+                    <td>
+                      Marketing d'énergie HQ Inc. &ndash; HQ Energy Marketing
+                      Inc.
+                    </td>
+                    <td class="text-right ">2009-04-08</td>
+                    <td class="text-right ">2019-04-07</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-317</td>
+                    <td>Mercuria Commodities Canada Corporation</td>
+                    <td class="text-right ">2007-09-18</td>
+                    <td class="text-right ">2017-09-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-318</td>
+                    <td>Mercuria Commodities Canada Corporation</td>
+                    <td class="text-right ">2007-09-18</td>
+                    <td class="text-right ">2017-09-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-382</td>
+                    <td>
+                      Merrill Lynch Commodities Canada, ULC &ndash; Matières
+                      Premières Merrill Lynch Canada, SRI
+                    </td>
+                    <td class="text-right ">2012-12-20</td>
+                    <td class="text-right ">2022-12-19</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-353</td>
+                    <td>Merrill Lynch Commodities, Inc.</td>
+                    <td class="text-right ">2010-06-07</td>
+                    <td class="text-right ">2020-06-06</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-380</td>
+                    <td>Morgan Stanley Capital Group Inc.</td>
+                    <td class="text-right ">2012-08-01</td>
+                    <td class="text-right ">2022-07-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-338</td>
+                    <td>Nalcor Energy Marketing Corporation</td>
+                    <td class="text-right ">2009-06-19</td>
+                    <td class="text-right ">2019-06-18</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-28</td>
+                    <td>New Brunswick Energy Marketing Corporation</td>
+                    <td class="text-right ">1991-10-21</td>
+                    <td class="text-right ">2021-10-20</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-148</td>
+                    <td>New Brunswick Energy Marketing Corporation</td>
+                    <td class="text-right ">2000-01-01</td>
+                    <td class="text-right ">2020-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-295</td>
+                    <td>New Brunswick Energy Marketing Corporation</td>
+                    <td class="text-right ">2007-01-01</td>
+                    <td class="text-right ">2016-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-327</td>
+                    <td>New Brunswick Power Corporation</td>
+                    <td class="text-right ">2008-07-09</td>
+                    <td class="text-right ">2018-07-08</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-330</td>
+                    <td>NextEra Energy Power Marketing, LLC</td>
+                    <td class="text-right ">2008-11-05</td>
+                    <td class="text-right ">2018-11-04</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-364</td>
+                    <td>Noble Americas Gas &amp; Power Corp.</td>
+                    <td class="text-right ">2011-04-29</td>
+                    <td class="text-right ">2021-04-28</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-394</td>
+                    <td>
+                      Northern States Power Company, a Minnesota corporation
+                    </td>
+                    <td class="text-right ">2014-08-06</td>
+                    <td class="text-right ">2024-08-05</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-408</td>
+                    <td>NorthPoint Energy Solutions Inc.</td>
+                    <td class="text-right ">2016-03-15</td>
+                    <td class="text-right ">2026-03-14</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-332</td>
+                    <td>Nova Scotia Power Incorporated</td>
+                    <td class="text-right ">2009-01-01</td>
+                    <td class="text-right ">2018-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-360</td>
+                    <td>NRG Power Marketing LLC</td>
+                    <td class="text-right ">2011-01-25</td>
+                    <td class="text-right ">2021-01-24</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-24</td>
+                    <td>Ontario Power Generation Inc.</td>
+                    <td class="text-right ">1991-07-01</td>
+                    <td class="text-right ">2021-06-30</td>
+                    <p></p>
+                  </tr>
+
+                  <tr>
+                    <td>EPE-110</td>
+                    <td>Ontario Power Generation Inc.</td>
+                    <td class="text-right ">1998-03-19</td>
+                    <td class="text-right ">2025-06-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-410</td>
+                    <td>Ontario Power Generation Inc.</td>
+                    <td class="text-right ">2016-07-01</td>
+                    <td class="text-right ">2026-06-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-405</td>
+                    <td>Peninsula Power, LLC</td>
+                    <td class="text-right ">2015-08-06</td>
+                    <td class="text-right ">2025-08-05</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-391</td>
+                    <td>Plant-E Corp.</td>
+                    <td class="text-right ">2014-02-18</td>
+                    <td class="text-right ">2024-02-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-336</td>
+                    <td>Powerex Corp.</td>
+                    <td class="text-right ">2009-05-01</td>
+                    <td class="text-right ">2019-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-397</td>
+                    <td>Rainbow Energy Marketing Corporation</td>
+                    <td class="text-right ">2014-09-18</td>
+                    <td class="text-right ">2024-09-17</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-401</td>
+                    <td>Roctop Investments Inc.</td>
+                    <td class="text-right ">2015-07-14</td>
+                    <td class="text-right ">2025-07-13</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-328</td>
+                    <td>
+                      Royal Bank of Canada &ndash; Banque Royale du Canada
+                    </td>
+                    <td class="text-right ">2008-08-27</td>
+                    <td class="text-right ">2017-08-26</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-326</td>
+                    <td>Saracen Power LP</td>
+                    <td class="text-right ">2008-07-08</td>
+                    <td class="text-right ">2018-07-07</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-351</td>
+                    <td>Saskatchewan Power Corporation</td>
+                    <td class="text-right ">2010-04-30</td>
+                    <td class="text-right ">2020-04-29</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-395</td>
+                    <td>SESCO Enterprises Canada, Ltd.</td>
+                    <td class="text-right ">2014-08-06</td>
+                    <td class="text-right ">2024-08-05</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-361</td>
+                    <td>Shell Energy North America (Canada) Inc.</td>
+                    <td class="text-right ">2011-01-25</td>
+                    <td class="text-right ">2021-01-24</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-362</td>
+                    <td>Shell Energy North America (US), L.P.</td>
+                    <td class="text-right ">2011-04-13</td>
+                    <td class="text-right ">2021-04-12</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-388</td>
+                    <td>Talen Energy Marketing, LLC.</td>
+                    <td class="text-right ">2013-12-15</td>
+                    <td class="text-right ">2023-12-14</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-403</td>
+                    <td>Targray Americas Inc.</td>
+                    <td class="text-right ">2015-07-30</td>
+                    <td class="text-right ">2025-07-29</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-386</td>
+                    <td>TEC Energy Inc.</td>
+                    <td class="text-right ">2013-09-06</td>
+                    <td class="text-right ">2023-09-05</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-390</td>
+                    <td>Teck Metals Ltd.</td>
+                    <td class="text-right ">2014-03-01</td>
+                    <td class="text-right ">2024-02-29</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-311</td>
+                    <td>
+                      Tenaska Power Canada, a division of / une division de TPS
+                      Corp.
+                    </td>
+                    <td class="text-right ">2007-08-01</td>
+                    <td class="text-right ">2017-07-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-312</td>
+                    <td>
+                      Tenaska Power Canada, a division of / une division de TPS
+                      Corp.
+                    </td>
+                    <td class="text-right ">2007-08-01</td>
+                    <td class="text-right ">2017-07-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-414</td>
+                    <td>Tidal Energy Marketing Inc.</td>
+                    <td class="text-right ">2016-08-19</td>
+                    <td class="text-right ">2026-08-18</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-400</td>
+                    <td>TrailStone Power, LLC</td>
+                    <td class="text-right ">2015-03-10</td>
+                    <td class="text-right ">2025-03-09</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-356</td>
+                    <td>TransAlta Energy Marketing Corp.</td>
+                    <td class="text-right ">2010-11-01</td>
+                    <td class="text-right ">2020-10-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-406</td>
+                    <td>TransCanada Energy Sales Ltd.</td>
+                    <td class="text-right ">2015-11-16</td>
+                    <td class="text-right ">2025-11-15</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-371</td>
+                    <td>TransCanada Power Marketing Ltd.</td>
+                    <td class="text-right ">2012-03-08</td>
+                    <td class="text-right ">2022-03-07</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-385</td>
+                    <td>Twin Rivers Paper Company Inc.</td>
+                    <td class="text-right ">2013-01-01</td>
+                    <td class="text-right ">2022-12-31</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-358</td>
+                    <td>Vitol Inc.</td>
+                    <td class="text-right ">2010-10-25</td>
+                    <td class="text-right ">2020-10-24</td>
+                  </tr>
+                  <tr>
+                    <td>EPE-346</td>
+                    <td>West Oaks Energy NY/NE, LP</td>
+                    <td class="text-right ">2009-11-19</td>
+                    <td class="text-right ">2019-11-18</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+        <nav
+          class="col-md-3 col-md-pull-9 visible-md visible-lg"
+          typeof="SiteNavigationElement"
+          id="wb-sec"
+          role="navigation"
+        >
+          <h2>Section menu</h2>
+          <ul class="list-group menu list-unstyled">
+            <li>
+              <h3><a href="/nrg/index-eng.html">Energy Information</a></h3>
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/sttstc/index-eng.html"
+                    >Statistics & Analysis</a
+                  >
+                  <ul class="list-group menu list-unstyled expanded">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/crdlndptrlmprdct/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Crude Oil and Petroleum Products
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/lctrct/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Electricity (including Renewables)
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/ntrlgs/index-eng.html"
+                        ><div class="mrgn-lft-md">Natural Gas</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/ntrlgslqds/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Natural Gas Liquids (NGLs)
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/ntgrtd/index-eng.html"
+                    >Integrated Energy Analysis</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/ftr/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Canada's Energy Future
+                        </div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv">
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="https://apps2.cer-rec.gc.ca/dvs/"
+                            ><div class="mrgn-lft-lg">
+                              Explore Canada’s Energy Future
+                            </div></a
+                          >
+                        </li>
+                        <li class="wb-invisible">
+                          <a
+                            href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn-eng.html"
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/mrkt/index-eng.html"
+                        ><div class="mrgn-lft-md">Energy Markets</div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv">
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                            ><div class="mrgn-lft-lg">Market Snapshots</div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/nrgsstmprfls/index-eng.html"
+                            ><div class="mrgn-lft-lg">
+                              Provincial and Territorial Energy Profiles
+                            </div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/prcstrdrtcl/index-eng.html"
+                            ><div class="mrgn-lft-lg">
+                              Commodity Prices and Trade Updates
+                            </div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/dnmc/index-eng.html"
+                            ><div class="mrgn-lft-lg">Energy Dynamics</div></a
+                          >
+                        </li>
+                        <li class="wb-invisible">
+                          <a
+                            href="/nrg/sttstc/lctrct/stt/lctrctyxprtthrztn-eng.html"
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/pplnprtl/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Canada’s pipeline system portal
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/tl/index-eng.html"
+                    >Tools</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/tl/nrgcmmdt/index-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Energy Commodity Indicators
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="https://apps.cer-rec.gc.ca/Conversion/calculator-calculatrice.aspx?GoCTemplateCulture=en-CA"
+                        ><div class="mrgn-lft-md">
+                          Energy Conversion Calculator
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="https://apps.cer-rec.gc.ca/Conversion/conversion-tables.aspx?GoCTemplateCulture=en-CA"
+                        ><div class="mrgn-lft-md">
+                          Energy Conversion Tables
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a class="list-group-item" href="/nrg/tl/glssr-eng.html"
+                        ><div class="mrgn-lft-md">
+                          Energy Information Program - Glossary
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- SecNavEnd -->
+          </ul>
         </nav>
-	</div>
-</div>
-<!--
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -978,78 +1335,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

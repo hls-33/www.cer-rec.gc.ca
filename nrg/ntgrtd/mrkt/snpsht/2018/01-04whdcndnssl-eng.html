@@ -1,395 +1,1007 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB - Market Snapshot: Why do Canadians use so much oil?</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Petroleum industry; Petroleum; Demand; Transportation;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>NEB - Market Snapshot: Why do Canadians use so much oil?</title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="Petroleum industry; Petroleum; Demand; Transportation;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: Why do Canadians use so much oil?"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: Why do Canadians use so much oil?"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: Why do Canadians use so much oil?" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: Why do Canadians use so much oil?" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-    </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: Why do Canadians use so much oil?</li>
-</ol>
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>Market Snapshot: Why do Canadians use so much oil?</li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: Why do Canadians use so much oil?
+          </h1>
+          <aside class="col-md-3 module-related pull-right">
+            <section class="panel panel-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Connect/Contact Us</h2>
+              </header>
+              <div class="list-group">
+                <a class="list-group-item" href="/rss/rss-eng.html"
+                  >Energy Information RSS Feed</a
+                >
+                <!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
+                <p class="mrgn-lft-md mrgn-tp-sm">
+                  Please send comments, questions, or suggestions for Market
+                  Snapshot topics to
+                  <a href="mailto:snapshots@cer-rec.gc.ca"
+                    >snapshots@cer-rec.gc.ca</a
+                  >
+                </p>
+              </div>
+            </section>
+          </aside>
+          <p><strong>Release date: 2018-01-24</strong></p>
+          <p>
+            Canada is the 3<sup>rd</sup> largest consumer of oil per person
+            among the world’s most economically advanced countries (the OECD<sup
+              id="fn1-rf"
+              ><a class="fn-lnk" href="#fn1"
+                ><span class="wb-inv">Footnote </span>1</a
+              ></sup
+            >)<sup id="fn2-rf"
+              ><a class="fn-lnk" href="#fn2"
+                ><span class="wb-inv">Footnote </span>2</a
+              ></sup
+            >. This is primarily due to the transportation sector, which
+            accounts for 60% of Canadian oil demand<sup id="fn3-rf"
+              ><a class="fn-lnk" href="#fn3"
+                ><span class="wb-inv">Footnote </span>3</a
+              ></sup
+            >. The relatively sparse population,
+            <a
+              href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310006701"
+              rel="external"
+              >number of vehicles</a
+            >
+            on the road, and the long distances people and goods must be
+            transported to cross the country may explain Canada’s relatively
+            high transportation fuel consumption per capita.
+          </p>
+          <p class="mrgn-bttm-xl">
+            The industrial sector accounts for nearly 30% of Canada’s oil
+            demand. Canada has relatively large
+            <a
+              href="http://mining.ca/sites/default/files/documents/Facts-and-Figures-2016.pdf"
+              rel="external"
+              >mining, oil and gas extraction, and manufacturing sectors</a
+            >, which tend to be oil-intensive. Lastly, the commercial and
+            agricultural sectors combined make up 9% of oil demand while the
+            residential sector is 2%. These sectors use oil-based fuels for
+            <a
+              href="https://www150.statcan.gc.ca/n1/pub/11-526-s/2013002/t002-eng.pdf"
+              rel="external"
+              >heating and electricity</a
+            >, with increased demand during the relatively cold, dark Canadian
+            winters. All of these factors paired with a relatively small
+            population contribute to Canada’s high oil use per person.
+          </p>
 
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- figure START -->
+          <div class="clearfix"></div>
+          <div class="col-md-9 row mrgn-bttm-md">
+            <div id="chart" class="mrgn-tp-md mrgn-lft-md "></div>
+          </div>
+          <div class="clearfix"></div>
+          <script class="code" type="text/javascript">
+            $(document).ready(function() {
+              $.jqplot.config.enablePlugins = true;
 
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
-<h1 id="wb-cont" property="name">Market Snapshot: Why do Canadians use so much oil?</h1>
-<aside class="col-md-3 module-related pull-right">
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Connect/Contact Us</h2>
-</header>
-<div class="list-group">
-<a class="list-group-item" href="/rss/rss-eng.html">Energy Information RSS Feed</a>
-<!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
-<p class="mrgn-lft-md mrgn-tp-sm">Please send comments, questions, or suggestions for Market Snapshot topics to <a href="mailto:snapshots@cer-rec.gc.ca">snapshots@cer-rec.gc.ca</a></p>
-</div>
-</section>
+              var s1 = [
+                ["2000", 40.2658721063488],
+                ["2001", 42.1606930524885],
+                ["2002", 42.5393623578192],
+                ["2003", 45.2582866505768],
+                ["2004", 50.3345375959135],
+                ["2005", 50.8751735969283],
+                ["2006", 47.5904668910813],
+                ["2007", 46.4171185829793],
+                ["2008", 45.7828437531976],
+                ["2009", 42.1117183592047],
+                ["2010", 43.2450621655262],
+                ["2011", 43.228544777919],
+                ["2012", 40.8425851216508],
+                ["2013", 39.2846565812721],
+                ["2014", 37.2710468274497],
+                ["2015", 36.044714398073],
+                ["2016", 36.044714398073]
+              ];
 
-</aside>
-<p><strong>Release date: 2018-01-24</strong></p>
-<p>Canada is the 3<sup>rd</sup> largest consumer of oil per person among the world’s most economically advanced countries (the OECD<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>)<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup>. This is primarily due to the transportation sector, which accounts for 60% of Canadian oil demand<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup>. The relatively sparse population, <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310006701" rel="external">number of vehicles</a> on the road, and the long distances people and goods must be transported to cross the country may explain Canada’s relatively high transportation fuel consumption per capita.</p>
-<p class="mrgn-bttm-xl">The industrial sector accounts for nearly 30% of Canada’s oil demand. Canada has relatively large <a href="http://mining.ca/sites/default/files/documents/Facts-and-Figures-2016.pdf" rel="external">mining, oil and gas extraction, and manufacturing sectors</a>, which tend to be oil-intensive. Lastly, the commercial and agricultural sectors combined make up 9% of oil demand while the residential sector is 2%. These sectors use oil-based fuels for <a href="https://www150.statcan.gc.ca/n1/pub/11-526-s/2013002/t002-eng.pdf" rel="external">heating and electricity</a>, with increased demand during the relatively cold, dark Canadian winters. All of these factors paired with a relatively small population contribute to Canada’s high oil use per person.</p>
+              var s2 = [
+                ["2000", 23.8847957568647],
+                ["2001", 23.8268896045609],
+                ["2002", 23.7421082839105],
+                ["2003", 24.8318916529865],
+                ["2004", 25.5439287388654],
+                ["2005", 26.411116241644],
+                ["2006", 26.2896447261103],
+                ["2007", 27.0110901635396],
+                ["2008", 25.8026455513608],
+                ["2009", 24.783488376595],
+                ["2010", 25.5666545136499],
+                ["2011", 25.8109273040796],
+                ["2012", 26.1198728537927],
+                ["2013", 25.5046113190242],
+                ["2014", 24.3894451342827],
+                ["2015", 24.1548303825448],
+                ["2016", 23.6350005541896]
+              ];
 
-<!-- figure START -->
-<div class="clearfix"></div>
-<div class="col-md-9 row mrgn-bttm-md">
- <div id="chart" class="mrgn-tp-md mrgn-lft-md "></div>
-</div>
-<div class="clearfix"></div>
-<script class="code" type="text/javascript">$(document).ready(function(){
-        $.jqplot.config.enablePlugins = true;
-        
-var s1  = [['2000', 40.2658721063488],	['2001', 42.1606930524885],	['2002', 42.5393623578192],	['2003', 45.2582866505768],	['2004', 50.3345375959135],	['2005', 50.8751735969283],	['2006', 47.5904668910813],	['2007', 46.4171185829793],	['2008', 45.7828437531976],	['2009', 42.1117183592047],	['2010', 43.2450621655262],	['2011', 43.228544777919],	['2012', 40.8425851216508],	['2013', 39.2846565812721],	['2014', 37.2710468274497],	['2015', 36.044714398073],	['2016', 36.044714398073]];
+              var s3 = [
+                ["2000", 25.5547681721858],
+                ["2001", 25.166874756566],
+                ["2002", 25.0773477968409],
+                ["2003", 25.2052052640508],
+                ["2004", 25.9134757868971],
+                ["2005", 25.6932674025732],
+                ["2006", 25.3063550739518],
+                ["2007", 25.0582901923355],
+                ["2008", 23.4672726126851],
+                ["2009", 22.3344063979598],
+                ["2010", 22.6306380913352],
+                ["2011", 22.1193214506756],
+                ["2012", 21.5489042381394],
+                ["2013", 21.8940339787547],
+                ["2014", 21.8837373486713],
+                ["2015", 22.2186106055658],
+                ["2016", 22.2359059842731]
+              ];
 
-var s2  = [['2000', 23.8847957568647],	['2001', 23.8268896045609],	['2002', 23.7421082839105],	['2003', 24.8318916529865],	['2004', 25.5439287388654],	['2005', 26.411116241644],	['2006', 26.2896447261103],	['2007', 27.0110901635396],	['2008', 25.8026455513608],	['2009', 24.783488376595],	['2010', 25.5666545136499],	['2011', 25.8109273040796],	['2012', 26.1198728537927],	['2013', 25.5046113190242],	['2014', 24.3894451342827],	['2015', 24.1548303825448],	['2016', 23.6350005541896]];
+              var s4 = [
+                ["2000", 34.0794384422398],
+                ["2001", 33.6411201717462],
+                ["2002", 33.6116776845859],
+                ["2003", 33.7266032642636],
+                ["2004", 33.2383769770435],
+                ["2005", 33.4601914804226],
+                ["2006", 33.0685253669024],
+                ["2007", 33.7877791113431],
+                ["2008", 32.220414777869],
+                ["2009", 32.6533870244399],
+                ["2010", 33.6704053485908],
+                ["2011", 33.3575254816522],
+                ["2012", 34.1882732919735],
+                ["2013", 34.01217478957],
+                ["2014", 34.1185067877861],
+                ["2015", 35.759232927283],
+                ["2016", 39.8627296242366]
+              ];
 
-var s3  = [['2000', 25.5547681721858],	['2001', 25.166874756566],	['2002', 25.0773477968409],	['2003', 25.2052052640508],	['2004', 25.9134757868971],	['2005', 25.6932674025732],	['2006', 25.3063550739518],	['2007', 25.0582901923355],	['2008', 23.4672726126851],	['2009', 22.3344063979598],	['2010', 22.6306380913352],	['2011', 22.1193214506756],	['2012', 21.5489042381394],	['2013', 21.8940339787547],	['2014', 21.8837373486713],	['2015', 22.2186106055658],	['2016', 22.2359059842731]];
+              var s5 = [
+                ["2000", 14.0467337499639],
+                ["2001", 14.1196956888623],
+                ["2002", 14.1366378601954],
+                ["2003", 14.3343424824098],
+                ["2004", 14.5745391977072],
+                ["2005", 14.6564870559801],
+                ["2006", 14.5728017587074],
+                ["2007", 14.5476643677683],
+                ["2008", 14.1950884773028],
+                ["2009", 13.3371929010885],
+                ["2010", 13.4649086797574],
+                ["2011", 13.1103338286604],
+                ["2012", 12.8973086215685],
+                ["2013", 12.6589034115788],
+                ["2014", 12.4092294694508],
+                ["2015", 12.5697333563727],
+                ["2016", 12.1682635732606]
+              ];
 
-var s4  = [['2000', 34.0794384422398],	['2001', 33.6411201717462],	['2002', 33.6116776845859],	['2003', 33.7266032642636],	['2004', 33.2383769770435],	['2005', 33.4601914804226],	['2006', 33.0685253669024],	['2007', 33.7877791113431],	['2008', 32.220414777869],	['2009', 32.6533870244399],	['2010', 33.6704053485908],	['2011', 33.3575254816522],	['2012', 34.1882732919735],	['2013', 34.01217478957],	['2014', 34.1185067877861],	['2015', 35.759232927283],	['2016', 39.8627296242366]];
-
-var s5  = [['2000', 14.0467337499639],	['2001', 14.1196956888623],	['2002', 14.1366378601954],	['2003', 14.3343424824098],	['2004', 14.5745391977072],	['2005', 14.6564870559801],	['2006', 14.5728017587074],	['2007', 14.5476643677683],	['2008', 14.1950884773028],	['2009', 13.3371929010885],	['2010', 13.4649086797574],	['2011', 13.1103338286604],	['2012', 12.8973086215685],	['2013', 12.6589034115788],	['2014', 12.4092294694508],	['2015', 12.5697333563727],	['2016', 12.1682635732606]];
-
-
-
-
-
-		plot1 = $.jqplot('chart', [s1, s2, s3, s4, s5],  {
-		//,'ff8837','661882','9883a2','2db155','5a5241'
-            // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
-            title:'Top oil consumption per capita among OECD countries, 2000 to 2016*',			
-            width: 900,
-			height: 400,
-			seriesColors: ['#2E2E2E','#FE2E2E', '#C273C2', '#2E9AFE', '#126233'],
-			negativeSeriesColors:['#FF7600','#123eab'],
-			stackSeries: false,
-			animate: !$.jqplot.use_excanvas,
-			axesDefaults: {         labelRenderer: $.jqplot.CanvasAxisLabelRenderer       }, 
-            seriesDefaults:{
-				renderer:$.jqplot.LineRenderer,	
-				shadow: true,
-                showMarker: false,
-				fill:false,
-			pointLabels: { show: false}
-				
-            },
-			series:[
-			{label: 'Luxembourg', lineWidth: 2.5, rendererOptions: {smooth: true}},	
-			{label: 'Canada', lineWidth: 2.5, rendererOptions: {smooth: true}},
-			{label: 'United States', lineWidth: 2.5, rendererOptions: {smooth: true}},
-			{label: 'South Korea', lineWidth: 2.5, rendererOptions: {smooth: true}},
-			{label: 'OECD Average', lineWidth: 2.5, linePattern: 'dashed', rendererOptions: {smooth: true}},
-			],
-			axesDefaults:{useSeriesColor: false},
-				axes: {
-             		xaxis: {
-					renderer:$.jqplot.DateAxisRenderer, //need this renderer for x-axis with dates   
-					rendererOptions: {tickRenderer: $.jqplot.DateAsixRenderer },
-					tickOptions:{formatString:'%Y'}, //different date options here: //http://www.jqplot.com/docs/files/plugins/jqplot-dateAxisRenderer-js.html
-					tickInterval:'1 year', //choose interval - month, year, day
-					//min: '2006',
-					//max: '2016',
-					
-				
+              plot1 = $.jqplot("chart", [s1, s2, s3, s4, s5], {
+                //,'ff8837','661882','9883a2','2db155','5a5241'
+                // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
+                title:
+                  "Top oil consumption per capita among OECD countries, 2000 to 2016*",
+                width: 900,
+                height: 400,
+                seriesColors: [
+                  "#2E2E2E",
+                  "#FE2E2E",
+                  "#C273C2",
+                  "#2E9AFE",
+                  "#126233"
+                ],
+                negativeSeriesColors: ["#FF7600", "#123eab"],
+                stackSeries: false,
+                animate: !$.jqplot.use_excanvas,
+                axesDefaults: {
+                  labelRenderer: $.jqplot.CanvasAxisLabelRenderer
                 },
-				yaxis: {
-					label: "barrels per 1 000 people",
-					labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
-					tickOptions:{formatString:"%'i"},
-					tickInterval: "10",
-					min:0,
-					max:60,
-					showMark:false
-				},
-				y2axis: {
-					label: "C$/barrel",
-					labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
-					tickOptions:{formatString:"%'i"},
-					tickInterval: "20",
-					min:0,
-					max:160,
-					showMark:false
-				}	
-           },
-			
-			legend: {
-				renderer:$.jqplot.EnhancedLegendRenderer,
-				
-				show:true,
-				marginLeft: "100px",
-				rendererOptions:{
-					
-						placement: 'outside',
-						location: 'e',
-						numberRows: 6,
-						
-						}
-			},
-			grid: {
-			drawGridLines: true,        // whether to draw lines across the grid or not.
-			gridLineColor: '#a6a6a6',    // *Color of the grid lines.
-			background: '#f7f8f8',      // CSS color spec for background color of grid.
-			borderColor: '#000000',     // CSS color spec for border around grid.
-			borderWidth: 2.5,           // pixel width of border around grid.
-			shadow: false
-				},
-	
-            highlighter: { show: false, showMarker: false, tooltipOffset: 2 },      
-			cursor: {        show: false      }			
-        });
-    
-        $('#chart').bind('jqplotDataClick', 
-            function (ev, seriesIndex, pointIndex, data) {
-                $('#info1').html('series: '+seriesIndex+', point: '+pointIndex+', data: '+data);
-            }
-        );
-$($("#chart.jqplot-table-legend").get(4)).hide();
-    });</script>
+                seriesDefaults: {
+                  renderer: $.jqplot.LineRenderer,
+                  shadow: true,
+                  showMarker: false,
+                  fill: false,
+                  pointLabels: { show: false }
+                },
+                series: [
+                  {
+                    label: "Luxembourg",
+                    lineWidth: 2.5,
+                    rendererOptions: { smooth: true }
+                  },
+                  {
+                    label: "Canada",
+                    lineWidth: 2.5,
+                    rendererOptions: { smooth: true }
+                  },
+                  {
+                    label: "United States",
+                    lineWidth: 2.5,
+                    rendererOptions: { smooth: true }
+                  },
+                  {
+                    label: "South Korea",
+                    lineWidth: 2.5,
+                    rendererOptions: { smooth: true }
+                  },
+                  {
+                    label: "OECD Average",
+                    lineWidth: 2.5,
+                    linePattern: "dashed",
+                    rendererOptions: { smooth: true }
+                  }
+                ],
+                axesDefaults: { useSeriesColor: false },
+                axes: {
+                  xaxis: {
+                    renderer: $.jqplot.DateAxisRenderer, //need this renderer for x-axis with dates
+                    rendererOptions: {
+                      tickRenderer: $.jqplot.DateAsixRenderer
+                    },
+                    tickOptions: { formatString: "%Y" }, //different date options here: //http://www.jqplot.com/docs/files/plugins/jqplot-dateAxisRenderer-js.html
+                    tickInterval: "1 year" //choose interval - month, year, day
+                    //min: '2006',
+                    //max: '2016',
+                  },
+                  yaxis: {
+                    label: "barrels per 1 000 people",
+                    labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
+                    tickOptions: { formatString: "%'i" },
+                    tickInterval: "10",
+                    min: 0,
+                    max: 60,
+                    showMark: false
+                  },
+                  y2axis: {
+                    label: "C$/barrel",
+                    labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
+                    tickOptions: { formatString: "%'i" },
+                    tickInterval: "20",
+                    min: 0,
+                    max: 160,
+                    showMark: false
+                  }
+                },
 
-	<!-- figure END -->
+                legend: {
+                  renderer: $.jqplot.EnhancedLegendRenderer,
 
-<div class="clearfix"></div>
-<p>*Luxembourg estimated for 2016</p>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> <a href="https://www.eia.gov/beta/international/data/browser/#/?pa=0000001001vg0000000000000000000000000000000000g&c=ruvvvvvfvtvvvv1vvvvvvfvvvvvvfvvvsu20evvvvvvvvvvvvuvg&ct=0&tl_id=5-A&vs=INTL.5-2-AFG-TBPD.A&vo=0&v=H&end=2015">EIA</a>, <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">World Bank</a>, NEB calculations</p>
-<p><strong>Description:</strong> This chart shows the four countries in the OECD with the most barrels of oil consumed per 1&nbsp;000 people. It also shows the average number of oil barrels consumed per capita among all the OECD countries. In 2000, barrels per day of oil consumed per capita were: 40 in Luxembourg; 34 in South Korea; 24 in Canada; and 26 in the United States. In 2000, an average of 14 barrels were consumed per capita among the entire OECD. In 2016, the barrels per day of oil consumed per capita were: 36 in Luxembourg (estimated); 40 in South Korea; 24 in Canada; and 22 in the United States. In 2016, an average of 12 barrels were consumed per capita among the entire OECD.</p>
-</details>
-<div class="clearfix"></div>
-<p class="mrgn-tp-lg">Many factors can contribute to determining a county’s per capita oil consumption<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>. For example, in the U.S., a large transportation sector and <a href="http://apps.who.int/gho/data/node.main.A995" rel="external">high level of vehicle ownership</a> contribute to higher oil consumption<sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Footnote </span>5</a></sup>. South Korea consumes a lot of oil for manufacturing and refining<sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Footnote </span>6</a></sup>. Luxembourg’s transportation sector accounts for <a href="https://www.iea.org/publications/freepublications/publication/Luxembourg2014.pdf" rel="external">88%</a> of total oil consumption especially <a href="https://www.iea.org/publications/freepublications/publication/EnergyEfficiencyHighlights_2017.PDF" rel="external">freight</a><sup id="fn7-rf"><a class="fn-lnk" href="#fn7"><span class="wb-inv">Footnote </span>7</a></sup>. With a relatively small population, this results in high oil consumption per capita.</p>
-<aside class="wb-fnote " role="note">
-<h2 id="fn" class="wb-inv ">Footnote</h2>
-<dl>
-<dt>Footnote 1</dt>
-<dd id="fn1">
-<p>The OECD (Organisation for Economic Co-operation and Development) is an organization of <a href="http://www.oecd.org/about/membersandpartners/" rel="external">35 countries</a>.</p>
-<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 2</dt>
-<dd id="fn2">
-<p>Crude oil is processed in refineries into refined petroleum products such as gasoline, diesel, and jet fuel. What Canadians consume is these final products, very little crude oil is combusted directly in its raw form.</p>
-<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 3</dt>
-<dd id="fn3">
-<p>For more information about Canada’s oil use by sector, see the IEA’s <a href="https://www.iea.org/publications/freepublications/publication/EnergyPoliciesofIEACountriesCanada2015Review.pdf" rel="external">in depth country review</a> [p.&nbsp;131 of 287].</p>
-<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 4</dt>
-<dd id="fn4">
-<p>Consumption includes internal consumption, refinery fuel and loss, and marine bunkering. Also included, where available, is direct combustion of crude oil.</p>
-<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 5</dt>
-<dd id="fn5">
-<p>The transportation sector is the largest final energy consumer in the U.S. [<a href="https://www.iea.org/publications/freepublications/publication/USA_2014.pdf" rel="external">IEA, US report</a> p.&nbsp;154 of 284 and <a href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html" rel="external">IEA Efficiency report</a>, p.&nbsp;8 of 150]. Further information on energy use in the U.S. is available from the IEA’s reports: <a href="https://www.iea.org/publications/freepublications/publication/USA_2014.pdf" rel="external">Energy Policies of IEA Countries: US</a> and <a href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html" rel="external">Energy Efficiency Indicator Highlights</a>.</p>
-<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Return to footnote </span>5<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 6</dt>
-<dd id="fn6">
-<p>South Korea’s manufacturing and transportation sectors are the largest energy consumers [<a href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html" rel="external">IEA Efficiency report</a>, p.&nbsp;87 of 150]. A significant proportion of South Korea’s final energy consumption is from oil. For more information on energy use in South Korea, refer to the IEA’s summary <a href="https://www.iea.org/media/countries/Korea.pdf" rel="external">Korea &ndash; Energy System Overview</a>.</p>
-<p class="fn-rtn"><a href="#fn6-rf"><span class="wb-inv">Return to footnote </span>6<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 7</dt>
-<dd id="fn7">
-<p>Luxembourg’s transportation sector is the largest energy consumer. Its residential sector also uses a high proportion of oil. For more information, refer to the IEA’s summary <a href="https://www.iea.org/media/countries/Luxembourg.pdf" rel="external">Luxembourg &ndash; Energy Systems Overview</a>, <a href="https://www.iea.org/publications/freepublications/publication/Luxembourg2014.pdf" rel="external">Energy Policies of IEA Countries</a>, and <a href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html" rel="external">Energy Efficiency Highlights 2017</a>.</p>
-<p class="fn-rtn"><a href="#fn7-rf"><span class="wb-inv">Return to footnote </span>7<span class="wb-inv"> referrer</span></a></p>
-</dd>
-</dl>
-</aside>
-<!-- Don't touch this! -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+                  show: true,
+                  marginLeft: "100px",
+                  rendererOptions: {
+                    placement: "outside",
+                    location: "e",
+                    numberRows: 6
+                  }
+                },
+                grid: {
+                  drawGridLines: true, // whether to draw lines across the grid or not.
+                  gridLineColor: "#a6a6a6", // *Color of the grid lines.
+                  background: "#f7f8f8", // CSS color spec for background color of grid.
+                  borderColor: "#000000", // CSS color spec for border around grid.
+                  borderWidth: 2.5, // pixel width of border around grid.
+                  shadow: false
+                },
 
-<!-- Additional plugins go here -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script>
+                highlighter: {
+                  show: false,
+                  showMarker: false,
+                  tooltipOffset: 2
+                },
+                cursor: { show: false }
+              });
 
-<!-- End additional plugins --> 
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+              $("#chart").bind("jqplotDataClick", function(
+                ev,
+                seriesIndex,
+                pointIndex,
+                data
+              ) {
+                $("#info1").html(
+                  "series: " +
+                    seriesIndex +
+                    ", point: " +
+                    pointIndex +
+                    ", data: " +
+                    data
+                );
+              });
+              $($("#chart.jqplot-table-legend").get(4)).hide();
+            });
+          </script>
+
+          <!-- figure END -->
+
+          <div class="clearfix"></div>
+          <p>*Luxembourg estimated for 2016</p>
+          <details>
+            <summary>Source and Description</summary>
+            <p>
+              <strong>Source:</strong>
+              <a
+                href="https://www.eia.gov/beta/international/data/browser/#/?pa=0000001001vg0000000000000000000000000000000000g&c=ruvvvvvfvtvvvv1vvvvvvfvvvvvvfvvvsu20evvvvvvvvvvvvuvg&ct=0&tl_id=5-A&vs=INTL.5-2-AFG-TBPD.A&vo=0&v=H&end=2015"
+                >EIA</a
+              >,
+              <a href="https://data.worldbank.org/indicator/SP.POP.TOTL"
+                >World Bank</a
+              >, NEB calculations
+            </p>
+            <p>
+              <strong>Description:</strong> This chart shows the four countries
+              in the OECD with the most barrels of oil consumed per 1&nbsp;000
+              people. It also shows the average number of oil barrels consumed
+              per capita among all the OECD countries. In 2000, barrels per day
+              of oil consumed per capita were: 40 in Luxembourg; 34 in South
+              Korea; 24 in Canada; and 26 in the United States. In 2000, an
+              average of 14 barrels were consumed per capita among the entire
+              OECD. In 2016, the barrels per day of oil consumed per capita
+              were: 36 in Luxembourg (estimated); 40 in South Korea; 24 in
+              Canada; and 22 in the United States. In 2016, an average of 12
+              barrels were consumed per capita among the entire OECD.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <p class="mrgn-tp-lg">
+            Many factors can contribute to determining a county’s per capita oil
+            consumption<sup id="fn4-rf"
+              ><a class="fn-lnk" href="#fn4"
+                ><span class="wb-inv">Footnote </span>4</a
+              ></sup
+            >. For example, in the U.S., a large transportation sector and
+            <a href="http://apps.who.int/gho/data/node.main.A995" rel="external"
+              >high level of vehicle ownership</a
+            >
+            contribute to higher oil consumption<sup id="fn5-rf"
+              ><a class="fn-lnk" href="#fn5"
+                ><span class="wb-inv">Footnote </span>5</a
+              ></sup
+            >. South Korea consumes a lot of oil for manufacturing and
+            refining<sup id="fn6-rf"
+              ><a class="fn-lnk" href="#fn6"
+                ><span class="wb-inv">Footnote </span>6</a
+              ></sup
+            >. Luxembourg’s transportation sector accounts for
+            <a
+              href="https://www.iea.org/publications/freepublications/publication/Luxembourg2014.pdf"
+              rel="external"
+              >88%</a
+            >
+            of total oil consumption especially
+            <a
+              href="https://www.iea.org/publications/freepublications/publication/EnergyEfficiencyHighlights_2017.PDF"
+              rel="external"
+              >freight</a
+            ><sup id="fn7-rf"
+              ><a class="fn-lnk" href="#fn7"
+                ><span class="wb-inv">Footnote </span>7</a
+              ></sup
+            >. With a relatively small population, this results in high oil
+            consumption per capita.
+          </p>
+          <aside class="wb-fnote " role="note">
+            <h2 id="fn" class="wb-inv ">Footnote</h2>
+            <dl>
+              <dt>Footnote 1</dt>
+              <dd id="fn1">
+                <p>
+                  The OECD (Organisation for Economic Co-operation and
+                  Development) is an organization of
+                  <a
+                    href="http://www.oecd.org/about/membersandpartners/"
+                    rel="external"
+                    >35 countries</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn1-rf"
+                    ><span class="wb-inv">Return to footnote </span>1<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 2</dt>
+              <dd id="fn2">
+                <p>
+                  Crude oil is processed in refineries into refined petroleum
+                  products such as gasoline, diesel, and jet fuel. What
+                  Canadians consume is these final products, very little crude
+                  oil is combusted directly in its raw form.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn2-rf"
+                    ><span class="wb-inv">Return to footnote </span>2<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 3</dt>
+              <dd id="fn3">
+                <p>
+                  For more information about Canada’s oil use by sector, see the
+                  IEA’s
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/EnergyPoliciesofIEACountriesCanada2015Review.pdf"
+                    rel="external"
+                    >in depth country review</a
+                  >
+                  [p.&nbsp;131 of 287].
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn3-rf"
+                    ><span class="wb-inv">Return to footnote </span>3<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 4</dt>
+              <dd id="fn4">
+                <p>
+                  Consumption includes internal consumption, refinery fuel and
+                  loss, and marine bunkering. Also included, where available, is
+                  direct combustion of crude oil.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn4-rf"
+                    ><span class="wb-inv">Return to footnote </span>4<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 5</dt>
+              <dd id="fn5">
+                <p>
+                  The transportation sector is the largest final energy consumer
+                  in the U.S. [<a
+                    href="https://www.iea.org/publications/freepublications/publication/USA_2014.pdf"
+                    rel="external"
+                    >IEA, US report</a
+                  >
+                  p.&nbsp;154 of 284 and
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html"
+                    rel="external"
+                    >IEA Efficiency report</a
+                  >, p.&nbsp;8 of 150]. Further information on energy use in the
+                  U.S. is available from the IEA’s reports:
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/USA_2014.pdf"
+                    rel="external"
+                    >Energy Policies of IEA Countries: US</a
+                  >
+                  and
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html"
+                    rel="external"
+                    >Energy Efficiency Indicator Highlights</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn5-rf"
+                    ><span class="wb-inv">Return to footnote </span>5<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 6</dt>
+              <dd id="fn6">
+                <p>
+                  South Korea’s manufacturing and transportation sectors are the
+                  largest energy consumers [<a
+                    href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html"
+                    rel="external"
+                    >IEA Efficiency report</a
+                  >, p.&nbsp;87 of 150]. A significant proportion of South
+                  Korea’s final energy consumption is from oil. For more
+                  information on energy use in South Korea, refer to the IEA’s
+                  summary
+                  <a
+                    href="https://www.iea.org/media/countries/Korea.pdf"
+                    rel="external"
+                    >Korea &ndash; Energy System Overview</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn6-rf"
+                    ><span class="wb-inv">Return to footnote </span>6<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 7</dt>
+              <dd id="fn7">
+                <p>
+                  Luxembourg’s transportation sector is the largest energy
+                  consumer. Its residential sector also uses a high proportion
+                  of oil. For more information, refer to the IEA’s summary
+                  <a
+                    href="https://www.iea.org/media/countries/Luxembourg.pdf"
+                    rel="external"
+                    >Luxembourg &ndash; Energy Systems Overview</a
+                  >,
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/Luxembourg2014.pdf"
+                    rel="external"
+                    >Energy Policies of IEA Countries</a
+                  >, and
+                  <a
+                    href="https://www.iea.org/publications/freepublications/publication/energy-efficiency-indicators-highlights-2017.html"
+                    rel="external"
+                    >Energy Efficiency Highlights 2017</a
+                  >.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn7-rf"
+                    ><span class="wb-inv">Return to footnote </span>7<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+            </dl>
+          </aside>
+          <!-- Don't touch this! -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
+
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
+
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -426,78 +1038,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

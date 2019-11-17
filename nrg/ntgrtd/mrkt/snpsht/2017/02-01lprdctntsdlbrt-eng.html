@@ -1,425 +1,939 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB - Market Snapshot: Canadian oil production outside Alberta showing different trends</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Petroleum industry; Petroleum;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      NEB - Market Snapshot: Canadian oil production outside Alberta showing
+      different trends
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="Petroleum industry; Petroleum;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: Canadian oil production outside Alberta showing different trends"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: Canadian oil production outside Alberta showing different trends"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: Canadian oil production outside Alberta showing different trends" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: Canadian oil production outside Alberta showing different trends" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-    </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: Canadian oil production outside Alberta showing different trends</li>
-</ol>
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>
+                Market Snapshot: Canadian oil production outside Alberta showing
+                different trends
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: Canadian oil production outside Alberta showing
+            different trends
+          </h1>
+          <aside class="col-md-3 module-related pull-right">
+            <section class="panel panel-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Connect/Contact Us</h2>
+              </header>
+              <div class="list-group">
+                <a class="list-group-item" href="/rss/rss-eng.html"
+                  >Energy Information RSS Feed</a
+                >
+                <!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
+                <p class="mrgn-lft-md mrgn-tp-sm">
+                  Please send comments, questions, or suggestions for Market
+                  Snapshot topics to
+                  <a href="mailto:snapshots@cer-rec.gc.ca"
+                    >snapshots@cer-rec.gc.ca</a
+                  >
+                </p>
+              </div>
+            </section>
+          </aside>
+          <p><strong>Release date: 2017-02-01</strong></p>
+          <p>
+            Based on a combination of actual and estimated data for 2016,<sup
+              id="fn1-rf"
+              ><a class="fn-lnk" href="#fn1"
+                ><span class="wb-inv">Footnote </span>1</a
+              ></sup
+            >
+            Canada produced an average of 3&nbsp;847 thousand barrels per
+            day&nbsp;(Mb/d).<sup id="fn2-rf"
+              ><a class="fn-lnk" href="#fn2"
+                ><span class="wb-inv">Footnote </span>2</a
+              ></sup
+            >
+            Roughly 80% (3&nbsp;069&nbsp;Mb/d), was produced in Alberta, while
+            778&nbsp;Mb/d was produced in other provinces and territories. In
+            the two most significant non-Alberta oil producing provinces,
+            Saskatchewan and Newfoundland and Labrador, crude oil production in
+            2016 declined and grew, respectively.<sup id="fn3-rf"
+              ><a class="fn-lnk" href="#fn3"
+                ><span class="wb-inv">Footnote </span>3</a
+              ></sup
+            ><br />
+            <br />
+            <br />
+          </p>
 
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- figure START -->
 
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
-<h1 id="wb-cont" property="name">Market Snapshot: Canadian oil production outside Alberta showing different trends</h1>
-<aside class="col-md-3 module-related pull-right">
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Connect/Contact Us</h2>
-</header>
-<div class="list-group">
-<a class="list-group-item" href="/rss/rss-eng.html">Energy Information RSS Feed</a>
-<!-- a class="list-group-item" href="/nrg/ntgrtd/sbscrb/index-eng.html">Subscribe to Energy Information Updates</a -->
-<p class="mrgn-lft-md mrgn-tp-sm">Please send comments, questions, or suggestions for Market Snapshot topics to <a href="mailto:snapshots@cer-rec.gc.ca">snapshots@cer-rec.gc.ca</a></p>
-</div>
-</section>
+          <div class="col-md-9 row mrgn-bttm-md">
+            <div id="chart8" class="mrgn-tp-md mrgn-lft-md"></div>
+          </div>
+          <div class="clearfix"></div>
 
-</aside>
-<p><strong>Release date: 2017-02-01</strong></p>
-<p>Based on a combination of actual and estimated data for 2016,<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup> Canada produced an average of 3&nbsp;847 thousand barrels per day&nbsp;(Mb/d).<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup> Roughly 80% (3&nbsp;069&nbsp;Mb/d), was produced in Alberta, while 778&nbsp;Mb/d was produced in other provinces and territories. In the two most significant non-Alberta oil producing provinces, Saskatchewan and Newfoundland and Labrador, crude oil production in 2016 declined and grew, respectively.<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup><br>
-<br>
-<br></p>
+          <script class="code" type="text/javascript">
+            $(document).ready(function() {
+              $.jqplot.config.enablePlugins = true;
 
-<!-- figure START -->
+              var s1 = [
+                56.75384,
+                56.50216,
+                53.85952,
+                54.7404,
+                51.34272,
+                41.6952350577896,
+                41.2642548575497,
+                37.7296140791835,
+                35.0330336457969,
+                34.4766696028994,
+                35.7141771797355,
+                37.1144657740251,
+                39.4440536520627,
+                41.179631026729,
+                49.4163603667539,
+                54.3797641213624,
+                61
+              ];
 
-<div class="col-md-9 row mrgn-bttm-md">
-<div id="chart8" class="mrgn-tp-md mrgn-lft-md"></div>
-</div>
-<div class="clearfix"></div>
+              var s2 = [
+                419.55056,
+                428.54812,
+                422.38196,
+                420.80896,
+                425.15044,
+                419.86516,
+                428.98856,
+                428.42228,
+                440.37708,
+                425.59088,
+                423.82912,
+                428.86272,
+                471.01912,
+                485.80532,
+                509.14864,
+                487.013386491626,
+                454
+              ];
 
-<script class="code" type="text/javascript">$(document).ready(function(){
-        $.jqplot.config.enablePlugins = true;
-        
+              var s3 = [
+                10.6964,
+                11.07392,
+                11.19976,
+                10.88516,
+                11.011,
+                13.90532,
+                19.00184,
+                22.21076,
+                23.53208,
+                25.67136,
+                27.81064,
+                40.64632,
+                51.09104,
+                55.49544,
+                45.9316,
+                45.8223554589166,
+                40
+              ];
 
-var s1 = [56.75384,	56.50216,	53.85952,	54.7404,	51.34272,	41.6952350577896,	41.2642548575497,	37.7296140791835,	35.0330336457969,	34.4766696028994,	35.7141771797355,	37.1144657740251,	39.4440536520627,	41.179631026729,	49.4163603667539,	54.3797641213624,	61];
+              var s4 = [
+                144.33848,
+                148.8058,
+                285.9714,
+                336.99952,
+                314.6,
+                304.97324,
+                303.77776,
+                368.58536,
+                343.2286,
+                267.7246,
+                275.9042,
+                265.14488,
+                197.75756,
+                231.98604,
+                216.06728,
+                172.073616,
+                210
+              ];
 
-var s2 = [419.55056,	428.54812,	422.38196,	420.80896,	425.15044,	419.86516,	428.98856,	428.42228,	440.37708,	425.59088,	423.82912,	428.86272,	471.01912,	485.80532,	509.14864,	487.013386491626,	454];
+              var s5 = [
+                35.04644,
+                38.75872,
+                38.3812,
+                34.9206,
+                31.96336,
+                34.10264,
+                32.84424,
+                31.33416,
+                28.9432,
+                24.2242,
+                23.2804,
+                17.303,
+                18.05804,
+                15.66708,
+                14.72328,
+                13.7368392021918,
+                13
+              ];
 
-var s3 = [10.6964,	11.07392,	11.19976,	10.88516,	11.011,	13.90532,	19.00184,	22.21076,	23.53208,	25.67136,	27.81064,	40.64632,	51.09104,	55.49544,	45.9316,	45.8223554589166,	40];
+              var s6 = [
+                666.38572,
+                683.68872,
+                811.79384,
+                858.35464,
+                834.06752,
+                814.54159505779,
+                825.87665485755,
+                888.282174079184,
+                871.113993645797,
+                777.687709602899,
+                786.538537179735,
+                789.071385774025,
+                777.369813652063,
+                830.133511026729,
+                835.287160366754,
+                773.025961274097,
+                778
+              ];
 
-var s4 = [144.33848,	148.8058,	285.9714,	336.99952,	314.6,	304.97324,	303.77776,	368.58536,	343.2286,	267.7246,	275.9042,	265.14488,	197.75756,	231.98604,	216.06728,	172.073616,	210];
+              var ticks = [
+                "2000",
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016*"
+              ];
 
-var s5 = [35.04644,	38.75872,	38.3812,	34.9206,	31.96336,	34.10264,	32.84424,	31.33416,	28.9432,	24.2242,	23.2804,	17.303,	18.05804,	15.66708,	14.72328,	13.7368392021918,	13];
+              //var ticks = ['a', 'b', 'c', 'd'];
 
-var s6 = [666.38572,	683.68872,	811.79384,	858.35464,	834.06752,	814.54159505779,	825.87665485755,	888.282174079184,	871.113993645797,	777.687709602899,	786.538537179735,	789.071385774025,	777.369813652063,	830.133511026729,	835.287160366754,	773.025961274097,	778];
+              plot1 = $.jqplot("chart8", [s1, s2, s3, s4, s5, s6], {
+                //,'ff8837','661882','9883a2','2db155','5a5241'
+                // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
+                title: "Non-Alberta Crude Oil Production",
+                width: 900,
+                height: 400,
+                seriesColors: [
+                  "#1DDEAA",
+                  "#8258FA",
+                  "#F781BE",
+                  "#B40486",
+                  "#0B2161",
+                  "#DBA901",
+                  "#661882",
+                  "#ff9c37",
+                  "#2db155",
+                  "#5b34bo",
+                  "#51d72e",
+                  "#ffe237",
+                  "#d72e7b",
+                  "#2785a0",
+                  "#ffc337"
+                ],
 
-var ticks = ['2000',	'2001',	'2002',	'2003',	'2004',	'2005',	'2006',	'2007',	'2008',	'2009',	'2010',	'2011',	'2012',	'2013',	'2014',	'2015',	'2016*'];
-
-      
-		//var ticks = ['a', 'b', 'c', 'd'];
-        
-       
-		plot1 = $.jqplot('chart8', [s1, s2, s3, s4, s5, s6],  {
-		//,'ff8837','661882','9883a2','2db155','5a5241'
-            // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
-            title:'Non-Alberta Crude Oil Production',			
-            width: 900,
-			height: 400,
-			seriesColors: ['#1DDEAA', '#8258FA','#F781BE','#B40486','#0B2161','#DBA901','#661882','#ff9c37','#2db155','#5b34bo','#51d72e','#ffe237','#d72e7b','#2785a0','#ffc337'],
-
-			 negativeSeriesColors:['#FF7600','#123eab','#00c90d'],
-		//	stackSeries: false,
-			animate: !$.jqplot.use_excanvas,
-			axesDefaults: {         labelRenderer: $.jqplot.CanvasAxisLabelRenderer       }, 
-            seriesDefaults:{
-				smooth: true,
-			//	renderer:$.jqplot.LineRenderer,	
-			//	shadow: true,
-                showMarker: false,
-            //   fill:false,
-			pointLabels: { show: false}
-				
-            },
-			
-            axes: {
-                
-				xaxis: {
-					renderer:$.jqplot.CategoryAxisRenderer, //need this renderer for x-axis with dates          
-							
-					ticks: ticks,
-					min: 40
-				
+                negativeSeriesColors: ["#FF7600", "#123eab", "#00c90d"],
+                //	stackSeries: false,
+                animate: !$.jqplot.use_excanvas,
+                axesDefaults: {
+                  labelRenderer: $.jqplot.CanvasAxisLabelRenderer
                 },
-				
-              
-				yaxis: {
-					label: "Thousand barrels per day",
-					//tickOptions: {formatString: '%.1f'}, // use to set number of decimal for y-axis
-					min: 0,
-					max: 900,
-					tickInterval: 100,
-					tickOptions:{formatString:"%'i"}
-					
-				},
-				y2axis: {
-					label: "US$ per barrel",
-					min: 0,
-					max: 250,
-					tickInterval: 50,
-					tickOptions:{formatString:"%'i"}
-			//		showMark:false
-				},	
-            },
+                seriesDefaults: {
+                  smooth: true,
+                  //	renderer:$.jqplot.LineRenderer,
+                  //	shadow: true,
+                  showMarker: false,
+                  //   fill:false,
+                  pointLabels: { show: false }
+                },
 
-			
-			  series:[ {
-				label: 'B.C',
-				
-				rendererOptions: {
-					smooth: true
-					 
-					}},
-				{label: 'Saskatchewan',   rendererOptions: {smooth: true}},
-				{label: 'Manitoba',   rendererOptions: {smooth: true}},
-				{label: 'Newfoundland',   rendererOptions: {smooth: true}},
-				{label: 'Other Provinces and NWT',   rendererOptions: {smooth: true}},
-				{label: 'Total Non-Alberta Production', linePattern: 'dashed',  rendererOptions: {smooth: true}},
+                axes: {
+                  xaxis: {
+                    renderer: $.jqplot.CategoryAxisRenderer, //need this renderer for x-axis with dates
 
-			
+                    ticks: ticks,
+                    min: 40
+                  },
 
-			
+                  yaxis: {
+                    label: "Thousand barrels per day",
+                    //tickOptions: {formatString: '%.1f'}, // use to set number of decimal for y-axis
+                    min: 0,
+                    max: 900,
+                    tickInterval: 100,
+                    tickOptions: { formatString: "%'i" }
+                  },
+                  y2axis: {
+                    label: "US$ per barrel",
+                    min: 0,
+                    max: 250,
+                    tickInterval: 50,
+                    tickOptions: { formatString: "%'i" }
+                    //		showMark:false
+                  }
+                },
 
-			],
+                series: [
+                  {
+                    label: "B.C",
 
+                    rendererOptions: {
+                      smooth: true
+                    }
+                  },
+                  { label: "Saskatchewan", rendererOptions: { smooth: true } },
+                  { label: "Manitoba", rendererOptions: { smooth: true } },
+                  { label: "Newfoundland", rendererOptions: { smooth: true } },
+                  {
+                    label: "Other Provinces and NWT",
+                    rendererOptions: { smooth: true }
+                  },
+                  {
+                    label: "Total Non-Alberta Production",
+                    linePattern: "dashed",
+                    rendererOptions: { smooth: true }
+                  }
+                ],
 
+                canvasOverlay: {
+                  show: true,
+                  objects: [
+                    {
+                      horizontalLine: {
+                        name: "0 mark",
+                        yaxis: "y2axis",
+                        y: 0,
+                        lineWidth: 2,
+                        color: "rgb(0, 0, 0)",
+                        shadow: false
+                      }
+                    }
+                  ]
+                },
 
+                legend: {
+                  renderer: $.jqplot.EnhancedLegendRenderer,
 
-    canvasOverlay: {
-        show: true,
-        objects: [
-            {horizontalLine: {
-                name: '0 mark',
-				yaxis: 'y2axis',
-                y: 0,
-                lineWidth: 2,
-                color: 'rgb(0, 0, 0)',
-                shadow: false
-            }}
-        ]
-},  
+                  show: true,
+                  marginLeft: "100px",
 
+                  rendererOptions: {
+                    placement: "outside",
+                    location: "e",
+                    numberRows: 6,
+                    numberColumns: 1
+                  }
+                },
+                grid: {
+                  drawGridLines: true, // wether to draw lines across the grid or not.
+                  gridLineColor: "#a6a6a6", // *Color of the grid lines.
+                  background: "#f7f8f8", // CSS color spec for background color of grid.
+                  borderColor: "#232323", // CSS color spec for border around grid.
+                  borderWidth: 2.5, // pixel width of border around grid.
+                  shadow: false
+                },
 
+                highlighter: {
+                  show: false,
+                  showMarker: false,
+                  tooltipOffset: 2
+                },
+                cursor: { show: false }
+              });
 
-			legend: {
-				renderer:$.jqplot.EnhancedLegendRenderer,
-				
-				show:true,
-				marginLeft: "100px",
-				
-				rendererOptions:{
-					
-						placement: 'outside',
-						location: 'e',
-						numberRows: 6,
-						numberColumns: 1
-						
-						}
-			},
-			grid: {
-			drawGridLines: true,        // wether to draw lines across the grid or not.
-			gridLineColor: '#a6a6a6',    // *Color of the grid lines.
-			background: '#f7f8f8',      // CSS color spec for background color of grid.
-			borderColor: '#232323',     // CSS color spec for border around grid.
-			borderWidth: 2.5,           // pixel width of border around grid.
-			shadow: false
-				},
+              $("#chart8").bind("jqplotDataClick", function(
+                ev,
+                seriesIndex,
+                pointIndex,
+                data
+              ) {
+                $("#info1").html(
+                  "series: " +
+                    seriesIndex +
+                    ", point: " +
+                    pointIndex +
+                    ", data: " +
+                    data
+                );
+              });
+            });
+          </script>
+          <!-- figure   END -->
 
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p>
+              <strong>Source:</strong>
+              <a href="/nrg/sttstc/crdlndptrlmprdct/stt/stmtdprdctn-eng.html"
+                >NEB</a
+              >
+            </p>
+            <p>
+              <strong>Description:</strong> This line graph illustrates average
+              annual Canadian oil production from outside Alberta between 2000
+              and 2016. Production from Saskatchewan remained relatively flat
+              around 425&nbsp;Mb/d from 2000 to 2010 before rising and peaking
+              at about 509&nbsp;Mb/d in 2014.
+            </p>
+            <p>
+              Offshore production in Newfoundland and Labrador grew by
+              38&nbsp;Mb/d in 2016 to 210&nbsp;Mb/d while condensate production
+              in Nova Scotia remained flat at 3&nbsp;Mb/d between 2015 and 2016.
+              Over the long term, Newfoundland and Labrador production was very
+              bumpy, ranging between 144&nbsp;Mb/d in 2000 and a peak of
+              369&nbsp;Mb/d in 2007. Manitoba’s production increased from
+              11&nbsp;Mb/d in 2000 to a peak of 55&nbsp;Mb/d in 2013. Production
+              declined to an estimated 40&nbsp;Mb/d in 2016. B.C.’s production
+              declined from 57&nbsp;Mb/d in 2000 to a low of 34&nbsp;Mb/d in
+              2009. Since 2010, B.C.’s production has grown to an estimated
+              61&nbsp;Mb/d in 2016 due to increased condensate production.
+            </p>
+            <p>
+              Production in other provinces (Ontario and Nova Scotia) and the
+              Northwest Territories (NWT) has declined from 35&nbsp;Mb/d in 2000
+              to 13&nbsp;Mb/d in 2016.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <p class="mrgn-tp-lg">
+            In Saskatchewan, oil production was largely flat from 2000 to 2010,
+            and then grew from 429&nbsp;Mb/d in 2011 to just under 510&nbsp;Mb/d
+            in 2014. This increase was largely due to tight oil drilling in the
+            Bakken, Shaunavon, and Viking Formations. Drilling activity fell in
+            2015 and 2016 due primarily to low global oil prices, and production
+            declined to 454&nbsp;Mb/d in 2016.
+          </p>
+          <p>
+            Newfoundland and Labrador production has risen and fallen as old
+            offshore projects naturally declined and new projects were added.
+            Since 2007 it has largely been declining, from 369&nbsp;Mb/d to a
+            low of 172&nbsp;Mb/d in 2015. Production in 2016 is bucking this
+            trend with an estimated increase to 210&nbsp;Mb/d due to higher
+            production at Hibernia.
+          </p>
+          <p>
+            British Columbia’s oil production increased to an estimated
+            61&nbsp;Mb/d in 2016, up 79% from 2009, mainly due to increased
+            condensate production from liquids-rich natural gas produced from
+            the Montney Formation.
+          </p>
+          <p>
+            Manitoba’s oil production rose to over 55&nbsp;Mb/d in 2013, four
+            times higher than in 2005, largely because of tight oil production
+            from the Bakken and Lower Amaranth Formations in southwest Manitoba.
+            Manitoba’s production has since declined due to low oil prices and
+            is estimated to average 40&nbsp;Mb/d in 2016.
+          </p>
+          <p>
+            The remaining provinces and territories collectively contributed
+            about 13&nbsp;Mb/d to Canada’s total production in 2016. Production
+            in the Northwest Territories (centered around Norman Wells) has
+            declined from 25&nbsp;Mb/d in 2000 to 10&nbsp;Mb/d in 2016.
+            Condensate production in Nova Scotia remained flat at 3&nbsp;Mb/d in
+            2016. Ontario still produces a small amount of conventional crude
+            oil in southern Ontario, but production has declined from
+            4&nbsp;Mb/d in 2000 to less than 1&nbsp;Mb/d in 2016.
+          </p>
+          <aside class="wb-fnote" role="note">
+            <h2 id="fn" class="wb-inv">Footnote</h2>
+            <dl>
+              <dt>Footnote 1</dt>
+              <dd id="fn1">
+                <p>
+                  Data for 2016 is estimated for the full year and based on
+                  actual data up to August 2016.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn1-rf"
+                    ><span class="wb-inv">Return to footnote </span>1<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 2</dt>
+              <dd id="fn2">
+                <p>
+                  In the months prior to, and following, the Fort McMurray
+                  wildfire, monthly Canadian production averaged
+                  4.01&nbsp;MMb/d.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn2-rf"
+                    ><span class="wb-inv">Return to footnote </span>2<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 3</dt>
+              <dd id="fn3">
+                <p>
+                  Notable volumes of crude oil are also produced in British
+                  Columbia and Manitoba. Nova Scotia production is condensate
+                  produced at the Point Tupper gas plant from gas produced at
+                  the Sable Offshore Energy Project.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn3-rf"
+                    ><span class="wb-inv">Return to footnote </span>3<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+            </dl>
+          </aside>
 
+          <!-- Don't touch this! -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
 
-	
-            highlighter: { show: false, showMarker: false, tooltipOffset: 2 },      
-			cursor: {        show: false      }			
-        });
-    
-        $('#chart8').bind('jqplotDataClick', 
-            function (ev, seriesIndex, pointIndex, data) {
-                $('#info1').html('series: '+seriesIndex+', point: '+pointIndex+', data: '+data);
-            }
-        );
-    });</script>
-	<!-- figure   END -->
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
 
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
 
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> <a href="/nrg/sttstc/crdlndptrlmprdct/stt/stmtdprdctn-eng.html">NEB</a></p>
-<p><strong>Description:</strong> This line graph illustrates average annual Canadian oil production from outside Alberta between 2000 and 2016. Production from Saskatchewan remained relatively flat around 425&nbsp;Mb/d from 2000 to 2010 before rising and peaking at about 509&nbsp;Mb/d in 2014.</p>
-<p>Offshore production in Newfoundland and Labrador grew by 38&nbsp;Mb/d in 2016 to 210&nbsp;Mb/d while condensate production in Nova Scotia remained flat at 3&nbsp;Mb/d between 2015 and 2016. Over the long term, Newfoundland and Labrador production was very bumpy, ranging between 144&nbsp;Mb/d in 2000 and a peak of 369&nbsp;Mb/d in 2007. Manitoba’s production increased from 11&nbsp;Mb/d in 2000 to a peak of 55&nbsp;Mb/d in 2013. Production declined to an estimated 40&nbsp;Mb/d in 2016. B.C.’s production declined from 57&nbsp;Mb/d in 2000 to a low of 34&nbsp;Mb/d in 2009. Since 2010, B.C.’s production has grown to an estimated 61&nbsp;Mb/d in 2016 due to increased condensate production.</p>
-<p>Production in other provinces (Ontario and Nova Scotia) and the Northwest Territories (NWT) has declined from 35&nbsp;Mb/d in 2000 to 13&nbsp;Mb/d in 2016.</p>
-</details>
-<div class="clearfix"></div>
-<p class="mrgn-tp-lg">In Saskatchewan, oil production was largely flat from 2000 to 2010, and then grew from 429&nbsp;Mb/d in 2011 to just under 510&nbsp;Mb/d in 2014.  This increase was largely due to tight oil drilling in the Bakken, Shaunavon, and Viking Formations. Drilling activity fell in 2015 and 2016 due primarily to low global oil prices, and production declined to 454&nbsp;Mb/d in 2016.</p>
-<p>Newfoundland and Labrador production has risen and fallen as old offshore projects naturally declined and new projects were added. Since 2007 it has largely been declining, from 369&nbsp;Mb/d to a low of 172&nbsp;Mb/d in 2015. Production in 2016 is bucking this trend with an estimated increase to 210&nbsp;Mb/d due to higher production at Hibernia.</p>
-<p>British Columbia’s oil production increased to an estimated 61&nbsp;Mb/d in 2016, up 79% from 2009, mainly due to increased condensate production from liquids-rich natural gas produced from the Montney Formation.</p>
-<p>Manitoba’s oil production rose to over 55&nbsp;Mb/d in 2013, four times higher than in 2005, largely because of tight oil production from the Bakken and Lower Amaranth Formations in southwest Manitoba. Manitoba’s production has since declined due to low oil prices and is estimated to average 40&nbsp;Mb/d in 2016.</p>
-<p>The remaining provinces and territories collectively contributed about 13&nbsp;Mb/d to Canada’s total production in 2016.   Production in the Northwest Territories (centered around Norman Wells) has declined from 25&nbsp;Mb/d in 2000 to 10&nbsp;Mb/d in 2016. Condensate production in Nova Scotia remained flat at 3&nbsp;Mb/d in 2016. Ontario still produces a small amount of conventional crude oil in southern Ontario, but production has declined from 4&nbsp;Mb/d in 2000 to less than 1&nbsp;Mb/d in 2016.</p>
-<aside class="wb-fnote" role="note">
-<h2 id="fn" class="wb-inv">Footnote</h2>
-<dl>
-<dt>Footnote 1</dt>
-<dd id="fn1">
-<p>Data for 2016 is estimated for the full year and based on actual data up to August 2016.</p>
-<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 2</dt>
-<dd id="fn2">
-<p>In the months prior to, and following, the Fort McMurray wildfire, monthly Canadian production averaged 4.01&nbsp;MMb/d.</p>
-<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 3</dt>
-<dd id="fn3">
-<p>Notable volumes of crude oil are also produced in British Columbia and Manitoba. Nova Scotia production is condensate produced at the Point Tupper gas plant from gas produced at the Sable Offshore Energy Project.</p>
-<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
-</dd>
-</dl>
-</aside>
-
-<!-- Don't touch this! -->    
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
-
-<!-- Additional plugins go here -->
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>  
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script>
-<script  class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script>
-<script  class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script>
-<script  class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
-<script  class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script>
-
-<!-- End additional plugins -->  
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -456,78 +970,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

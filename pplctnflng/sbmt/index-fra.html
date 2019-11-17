@@ -1,334 +1,751 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="fr" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="fr" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>REC - Déposer une demande ou un document</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="&Eacute;change &eacute;lectronique d&rsquo;information;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>REC - Déposer une demande ou un document</title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="&Eacute;change &eacute;lectronique d&rsquo;information;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta
+      name="dcterms.title"
+      content="ON&Eacute; - Déposer une demande ou un document"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-10-25" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-10-25" />
+    <meta name="description" content="Déposer une demande ou un document" />
+    <meta
+      name="dcterms.creator"
+      content="Gouvernement du Canada, Office national de l’énergie"
+    />
+    <meta name="dcterms.language" title="ISO639-2" content="fra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="dcterms.title" content="ON&Eacute; - Déposer une demande ou un document" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-10-25" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-10-25" />
-<meta name="description" content="Déposer une demande ou un document" />
-<meta name="dcterms.creator" content="Gouvernement du Canada, Office national de l’énergie" />
-<meta name="dcterms.language" title="ISO639-2" content="fra" />
-<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="Office_national_de_l_energie"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="Office_national_de_l_energie"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info"
+          >Passer à «&#160;À propos de ce site&#160;»</a
+        >
+      </li>
+      <li class="wb-slc visible-md visible-lg">
+        <a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg"
+                    aria-label="Gouvernement du Canada"
+                  ></object>
+                </span>
+                <h2>Sélection de la langue</h2>
+                <ul class="text-right">
+                  <li class="curr">Français&#32;<span>(actuel)</span></li>
+                  <li>
+                    <a
+                      lang="en"
+                      hreflang="en"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >English</a
+                    >
+                  </li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Recherche et menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Recherche et menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Recherche et menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <a href="/index-fra.html"
+                ><span>Régie de l’énergie du Canada</span></a
+              >
+            </div>
 
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a>
-	</li><li class="wb-slc visible-md visible-lg">
-<a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
-</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">	
-			<div class="clearfix"></div>
-			<div class="container">
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg" aria-label="Gouvernement du Canada"></object>
-						</span>					
-					    <h2>Sélection de la langue</h2>
-						<ul class="text-right">						
-<li class="curr">Français&#32;<span>(actuel)</span></li>
-<li><a lang="en" hreflang="en" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">English</a></li>
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-<h2>Recherche et menus</h2>
-<ul class="pnl-btn list-inline text-right">
-<li><a href="#mb-pnl" title="Recherche et menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Recherche et menus</span></span></span></a></li>
-</ul>
-<div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div id="wb-sttl" class="col-md-8 mrgn-tp-md"><a href="/index-fra.html"><span>Régie de l’énergie du Canada</span></a></div>
-	
-<section id="wb-srch" class="col-md-4 visible-md visible-lg">
-<h2>Recherche</h2>
-<form class="form-inline" role="search" method="get" action="https://recherche-search.gc.ca/rGs/s_r">
-<div class="form-group">
-	<label for="wb-srch-q">Search website</label>
-	<input type="hidden" name="st" value="s" data-role="none">
-	<input type="hidden" name="num" value="10" data-role="none">
-	<input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-	<input type="hidden" name="st1rt" value="0" data-role="none">
-	<input type="hidden" name="langs" value="fra" data-role="none">
-	<input type="hidden" name="cdn" value="reccer" data-role="none">
-	<input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-</div>
-<button type="submit" id="wb-srch-sub" class="btn btn-default">Recherche</button>
-</form>
-</section>
-</div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-<div class="container nvbar">
-<h2>Menu des sujets</h2>
-<div class="row">
-<ul class="list-inline menu">
-<li><a href="/sftnvrnmnt/index-fra.html">Sécurité et environnement</a></li>
-<li><a href="/prtcptn/index-fra.html">Participation et questions foncières</a></li>
-<li><a href="/pplctnflng/index-fra.html">Demandes et dépôts</a></li>
-<li><a href="/nrg/index-fra.html">Information sur l’énergie</a></li>
-<li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
-<li><a href="/bts/index-fra.html">À propos de nous</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<nav role="navigation" id="wb-bc" property="breadcrumb">
-<h2>Vous êtes ici :</h2>
-<div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href="/index-fra.html">Accueil</a></li>
-<li><a href="/pplctnflng/index-fra.html">Demandes et dépôts</a></li>
-<li>Déposer une demande ou un document</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
-
-<!-- InstanceBeginEditable name="center" -->
-	
-<h1 id="wb-cont" property="name">Déposer une demande ou un document</h1>
-<div class="row"> 
-	<div class="col-md-4 pull-right ">
-<aside>
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Liens connexes</h2>
-</header>
-
-<div class="list-group">
-<a class="list-group-item" href="/bts/ctrg/index-fra.html">Lois et règlements</a>	
-<a class="list-group-item" href="/bts/ctrg/lstctrg-fra.html#REC" rel="external"><div class="mrgn-lft-md"><em>Loi sur la Régie canadienne de l’énergie</em></div></a>
-<a class="list-group-item" href="https://laws-lois.justice.gc.ca/fra/lois/N-7/index.html" rel="external"><div class="mrgn-lft-md"><em>Loi sur l’Office national de l’énergie</em></div></a>
-<a class="list-group-item" href="https://laws-lois.justice.gc.ca/fra/reglements/DORS-99-294/index.html" rel="external"><div class="mrgn-lft-lg"><em>Règlement de l’Office national de l’énergie sur les pipelines terrestres</em></div></a>
-<a class="list-group-item" href="https://laws-lois.justice.gc.ca/fra/lois/O-7/index.html" rel="external"><div class="mrgn-lft-md"><em>Loi sur les opérations pétrolières au Canada</em></div></a>
-<a class="list-group-item" href="https://laws-lois.justice.gc.ca/fra/lois/C-8.5/index.html" rel="external"><div class="mrgn-lft-md"><em>Loi fédérale sur les hydrocarbures</em> <span class="small ">(art. 28 et 35)</span></div></a> 
-<a class="list-group-item" href="/bts/ctrg/gnnb/flngmnl/index-fra.html"><em>Guide de dépôt</em></a>
-<a class="list-group-item" href="/bts/ctrg/gnnb/flngmnl/fmch2-fra.html#s2_1"><div class="mrgn-lft-md">Diagramme explicatif</div>
-</a> 
-<a class="list-group-item" href="/bts/ctrg/gncr/2019flngntrm/index-fra.html"><div class="mrgn-lft-md">Lignes directrices provisoires pour le dépôt de documents et du Guide de mobilisation précoce</div></a>
-<a class="list-group-item" href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/index-fra.html"><em>Guide de dépôt - Électricité</em></a>
-<a class="list-group-item" href="/pplctnflng/rgltrdcmnt/guide-fra.pdf" title="Guide du dépôt électronique à l’intention des déposants">Guide du dépôt électronique à l’intention des déposants [PDF&nbsp;1435&nbsp;ko]</a>
-<a class="list-group-item" href="/pplctnflng/rgltrdcmnt/mglctrncflng-fra.pdf" title="Directives sur le dépôt électronique">Directives sur le d&eacute;p&ocirc;t &eacute;lectronique [PDF&nbsp;121&nbsp;ko]</a>
-<a class="list-group-item" href="/bts/whwr/pplnrgltncnd-fra.html">La réglementation des pipelines au Canada</a>
-</div>
-</section>
-</aside>
-
-<aside>
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Liens vers les documents préalables à la demande</h2>
-</header>
-<div class="list-group">
-<a href="/bts/ctrg/gnnb/prpplctnprjctdscr-fra.html" class="list-group-item">Description de projet préalable à la demande</a>
-<a href="/bts/ctrg/gnnb/prpplctnmtng/index-fra.html" class="list-group-item">Rencontres prédemande</a>
-</div>
-</section>
-</aside>
-
-<aside>
-<section class="panel panel-primary">
-<header class="panel-heading">
-<h2 class="panel-title">Contactez-nous</h2>
-</header>
-<div class="panel-body">
-<p>Si vous avez des questions ou avez besoin d’aide pour déposer vos documents, veuillez <a href="/cntcts/index-fra.html">communiquer avec la Régie</a>.</p>
-</div>
-</section>
-</aside>  
-</div>
-	<div class="col-md-8">
-	  <div class="row wb-eqht">
-		<div class="col-md-12 mrgn-bttm-sm text-center">
-		  <div class="well well-sm">
-			<p>Si vous êtes un promoteur (et non un intervenant) devant déposer des documents par voie électronique, veuillez choisir parmi les options suivantes :</p>
-			<div class="row">
-			  <div class="col-md-6">
-				<div class=" text-center">
-				  <p><a class="btn btn-primary full-width mrgn-bttm-0 text-center" href="/pplctnflng/sbmt/nbpr-fra.html" title="autorisations relatives à l’importation ou à l’exportation, à la construction, au démantèlement ou à la modification d’installations, aux droits et tarifs et au respect des conditions"><strong>Dépôt en vertu <br />de la <em>Loi</em><sup>1</sup>/
-du RPT<sup>2</sup></strong></a><br>
-					<span class="small">(exportation/importation, installations, droits et tarifs, etc.)</span></p>
-				</div>
-			  </div>
-			  <div class="col-md-6">
-				<div class=" text-center">
-				  <p><a class="btn btn-primary full-width mrgn-bttm-0 text-center" href="/pplctnflng/sbmt/cgcpr-fra.html" title="autorisations d’activités dans le Nord ou d’activités extracôtières et autres documents"><strong>Dépôt en vertu de<br /> la LOPC<sup>3</sup>/de la LFH<sup>4</sup></strong></a><br>
-					<span class="small line-height-small">(activités dans le Nord/extracôtières, etc.)<br />
-					</span></p>
-				</div>
-			  </div>
-			</div>
-			<div class=" text-center"></div>
-		  </div>
-		</div>
-		<div class="col-md-12 mrgn-bttm-sm text-center">
-		  <div class="well well-sm">
-			<p>Si vous voulez présenter une demande de participation, avez été accepté comme participant à une audience ou souhaitez déposer des documents pour une audience, veuillez choisir parmi les options suivantes :</p>
-			<div class="row">
-				<div class="col-md-6">
-				  <div class=" text-center">
-					<p><a class="btn btn-primary full-width mrgn-bttm-0 text-center" href="/pplctnflng/sbmt/pplprtcpt-fra.html" title="audiences auxquelles il est possible de participer"><strong>Demande de<br />participation<sup>&nbsp;</sup></strong></a><br />
-					  <span class="small">Si vous avez des questions ou avez besoin d’aide pour déposer vos documents, veuillez communiquer avec un conseiller en processus en composant sans frais le 1-800-899-1265.</span></p>
-				  </div>
-				</div>
-				<div class="col-md-6">
-				  <div class=" text-center">
-					<p><a class="btn btn-primary full-width text-center" href="https://akppaz3.cer-rec.gc.ca/Chsr/Accueil/Sélecteur?GAURI=https://akppaz3.neb-one.gc.ca/Participation/Accueil/Sommaire" rel="external" title="Pour le dépôt de documents d’audience par les intervenants et auteurs de lettre de commentaires approuvés"><strong>Dépôt de<br>documents pour<br>une audience</strong></a><br />
-					  <span class="small line-height-small">Si vous êtes participant à une audience, vous devez utiliser le portail de participation.</span></p>
-				  </div>
-				</div>
-			</div>
-		  </div>
-		</div>
-		<div class="col-md-12 mrgn-bttm-sm">
-		  <div class="well well-sm">
-			<p>Si vous êtes un groupe autochtone ou un tiers (propriétaire foncier, municipalité ou autre partie touchée), veuillez choisir parmi les options suivantes :</p>
-			<table class="table table-bordered" id="s1">
-			  <tbody>
-				<tr>
-				  <td width="50%"><strong>Lettres de commentaires</strong></td>
-				  <td class="small"><a href="/efile/ElectronicDocumentSubmission.aspx?Language=French">Dépôt électronique (Dépôt de documents électroniques)</a></td>
-				</tr>
-				<tr>
-				  <td><strong>Plainte</strong></td>
-				  <td class="small"><a href="/prtcptn/lndwnrgd/lndwnrgdch11-fra.html">Orientation</a> <br />
-					<a href="/prtcptn/frm/cmplnt-fra.pdf">Formulaire de demande [PDF 223 ko]</a> <br />
-					Déposer <a href="/cntcts/index-fra.html">par la poste ou par télécopieur</a>.
-				  </td>
-				</tr>
-				<tr>
-				  <td><strong>Demande d’audience sur l’indemnisation  (Art. 327(1))</strong></td>
-					<td class="small"><a href="../../prtcptn/nfrmtn/lndmttrdvsrsrvc/lndrltdcmpnstn-fra.html">Orientation</a><br />
-					<a href="frm/cmpnstndspthrngpplctn-fra.pdf">Formulaire de demande [PDF 534 ko]</a> <br />
-					<a href="/efile/ElectronicDocumentSubmission.aspx">Dépôt électronique (Dépôt de documents électroniques)</a></td>
-				</tr>
-				<tr>
-				  <td><strong>Demande aux termes de l’article 335 </strong>
-					<ul>
-					  <li>Remuement du sol, construction d’installations et franchissement à proximité de pipelines</li>
-					  <li>Répartition des coûts</li>
-					</ul></td>
-				  <td class="small">Orientation<br />
-					  <a href="/sftnvrnmnt/dmgprvntn/cndctngctvtsnrppln/index-fra.html">Formulaire de demande</a><br />
-					Déposer <a href="/cntcts/index-fra.html">par la poste ou par télécopieur</a>. <br /></td>
-				</tr>					  
-                    <tr>
-                      <td>Connaissances autochtones confidentielles</td>
-                      <td class="small">
-					  <a href="/pplctnflng/sbmt/cnfdntlndgnsknwldg-fra.html">Orientation</a></td>
-                    </tr>
-			  </tbody>
-			</table>
-		  </div>
-		</div>
-	  </div>
-	<p>Si vous voulez déposer des documents de nature délicate, consultez la page sure les <a href="/pplctnflng/sbmt/nhncdscrt-fra.html">Documents de nature délicate</a>.</p>
-<br>	
-<p class="small">
-1. <em>Loi sur la Régie canadienne de de l’énergie</em>
-</p>
-<p class="small">
-2. <em>Règlement de l'Office national de l'énergie sur les pipelines terrestres</em></p>
-<p class="small">
-3. <em>Loi sur les opérations pétrolières au Canada</em></p>
-<p class="small">
-4. <em>Loi fédérale sur les hydrocarbures</em></p>
-  </div>
-	</div>
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date de modification&#160;:&#32;</dt>
-<dd><time property="dateModified">2019-10-25</time></dd>
-</dl>
-</main>
-<nav class="col-md-3 col-md-pull-9 visible-md visible-lg" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
-    <h2>Section menu</h2>
-        <ul class="list-group menu list-unstyled"> <li>
-            <h3><a href="/pplctnflng/index-fra.html">Demandes et dépôts</a></h3>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item wb-navcurr" href="/pplctnflng/sbmt/index-fra.html">Déposer une demande ou un document</a>                        <ul class="list-group menu list-unstyled expanded">
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="https://apps.cer-rec.gc.ca/REGDOCS/Accueil/Index/">Consulter les documents de réglementation</a>                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/pplctnflng/mjrpp/index-fra.html">Demandes et projets d’envergure</a>                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="https://apps.cer-rec.gc.ca/REGDOCS/Recherche/DécisionsRécentes/?p=4">Décisions récentes</a>                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/pplctnflng/crt/index-fra.html">Contestations judiciaires</a>                    </ul>
-                </li>
-                <!-- SecNavEnd -->
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Recherche</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://recherche-search.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="fra"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button type="submit" id="wb-srch-sub" class="btn btn-default">
+                  Recherche
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Menu des sujets</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-fra.html"
+                  >Sécurité et environnement</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-fra.html"
+                  >Participation et questions foncières</a
+                >
+              </li>
+              <li>
+                <a href="/pplctnflng/index-fra.html">Demandes et dépôts</a>
+              </li>
+              <li>
+                <a href="/nrg/index-fra.html">Information sur l’énergie</a>
+              </li>
+              <li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
+              <li><a href="/bts/index-fra.html">À propos de nous</a></li>
             </ul>
+          </div>
+        </div>
+      </nav>
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+        <h2>Vous êtes ici :</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-fra.html">Accueil</a></li>
+              <li>
+                <a href="/pplctnflng/index-fra.html">Demandes et dépôts</a>
+              </li>
+              <li>Déposer une demande ou un document</li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <main
+          role="main"
+          property="mainContentOfPage"
+          class="col-md-9 col-md-push-3"
+        >
+          <!-- InstanceBeginEditable name="center" -->
+
+          <h1 id="wb-cont" property="name">
+            Déposer une demande ou un document
+          </h1>
+          <div class="row">
+            <div class="col-md-4 pull-right ">
+              <aside>
+                <section class="panel panel-primary">
+                  <header class="panel-heading">
+                    <h2 class="panel-title">Liens connexes</h2>
+                  </header>
+
+                  <div class="list-group">
+                    <a class="list-group-item" href="/bts/ctrg/index-fra.html"
+                      >Lois et règlements</a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/bts/ctrg/lstctrg-fra.html#REC"
+                      rel="external"
+                      ><div class="mrgn-lft-md">
+                        <em>Loi sur la Régie canadienne de l’énergie</em>
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="https://laws-lois.justice.gc.ca/fra/lois/N-7/index.html"
+                      rel="external"
+                      ><div class="mrgn-lft-md">
+                        <em>Loi sur l’Office national de l’énergie</em>
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="https://laws-lois.justice.gc.ca/fra/reglements/DORS-99-294/index.html"
+                      rel="external"
+                      ><div class="mrgn-lft-lg">
+                        <em
+                          >Règlement de l’Office national de l’énergie sur les
+                          pipelines terrestres</em
+                        >
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="https://laws-lois.justice.gc.ca/fra/lois/O-7/index.html"
+                      rel="external"
+                      ><div class="mrgn-lft-md">
+                        <em>Loi sur les opérations pétrolières au Canada</em>
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="https://laws-lois.justice.gc.ca/fra/lois/C-8.5/index.html"
+                      rel="external"
+                      ><div class="mrgn-lft-md">
+                        <em>Loi fédérale sur les hydrocarbures</em>
+                        <span class="small ">(art. 28 et 35)</span>
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/bts/ctrg/gnnb/flngmnl/index-fra.html"
+                      ><em>Guide de dépôt</em></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/bts/ctrg/gnnb/flngmnl/fmch2-fra.html#s2_1"
+                      ><div class="mrgn-lft-md">Diagramme explicatif</div>
+                    </a>
+                    <a
+                      class="list-group-item"
+                      href="/bts/ctrg/gncr/2019flngntrm/index-fra.html"
+                      ><div class="mrgn-lft-md">
+                        Lignes directrices provisoires pour le dépôt de
+                        documents et du Guide de mobilisation précoce
+                      </div></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/index-fra.html"
+                      ><em>Guide de dépôt - Électricité</em></a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/pplctnflng/rgltrdcmnt/guide-fra.pdf"
+                      title="Guide du dépôt électronique à l’intention des déposants"
+                      >Guide du dépôt électronique à l’intention des déposants
+                      [PDF&nbsp;1435&nbsp;ko]</a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/pplctnflng/rgltrdcmnt/mglctrncflng-fra.pdf"
+                      title="Directives sur le dépôt électronique"
+                      >Directives sur le d&eacute;p&ocirc;t &eacute;lectronique
+                      [PDF&nbsp;121&nbsp;ko]</a
+                    >
+                    <a
+                      class="list-group-item"
+                      href="/bts/whwr/pplnrgltncnd-fra.html"
+                      >La réglementation des pipelines au Canada</a
+                    >
+                  </div>
+                </section>
+              </aside>
+
+              <aside>
+                <section class="panel panel-primary">
+                  <header class="panel-heading">
+                    <h2 class="panel-title">
+                      Liens vers les documents préalables à la demande
+                    </h2>
+                  </header>
+                  <div class="list-group">
+                    <a
+                      href="/bts/ctrg/gnnb/prpplctnprjctdscr-fra.html"
+                      class="list-group-item"
+                      >Description de projet préalable à la demande</a
+                    >
+                    <a
+                      href="/bts/ctrg/gnnb/prpplctnmtng/index-fra.html"
+                      class="list-group-item"
+                      >Rencontres prédemande</a
+                    >
+                  </div>
+                </section>
+              </aside>
+
+              <aside>
+                <section class="panel panel-primary">
+                  <header class="panel-heading">
+                    <h2 class="panel-title">Contactez-nous</h2>
+                  </header>
+                  <div class="panel-body">
+                    <p>
+                      Si vous avez des questions ou avez besoin d’aide pour
+                      déposer vos documents, veuillez
+                      <a href="/cntcts/index-fra.html"
+                        >communiquer avec la Régie</a
+                      >.
+                    </p>
+                  </div>
+                </section>
+              </aside>
+            </div>
+            <div class="col-md-8">
+              <div class="row wb-eqht">
+                <div class="col-md-12 mrgn-bttm-sm text-center">
+                  <div class="well well-sm">
+                    <p>
+                      Si vous êtes un promoteur (et non un intervenant) devant
+                      déposer des documents par voie électronique, veuillez
+                      choisir parmi les options suivantes :
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class=" text-center">
+                          <p>
+                            <a
+                              class="btn btn-primary full-width mrgn-bttm-0 text-center"
+                              href="/pplctnflng/sbmt/nbpr-fra.html"
+                              title="autorisations relatives à l’importation ou à l’exportation, à la construction, au démantèlement ou à la modification d’installations, aux droits et tarifs et au respect des conditions"
+                              ><strong
+                                >Dépôt en vertu <br />de la <em>Loi</em
+                                ><sup>1</sup>/ du RPT<sup>2</sup></strong
+                              ></a
+                            ><br />
+                            <span class="small"
+                              >(exportation/importation, installations, droits
+                              et tarifs, etc.)</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class=" text-center">
+                          <p>
+                            <a
+                              class="btn btn-primary full-width mrgn-bttm-0 text-center"
+                              href="/pplctnflng/sbmt/cgcpr-fra.html"
+                              title="autorisations d’activités dans le Nord ou d’activités extracôtières et autres documents"
+                              ><strong
+                                >Dépôt en vertu de<br />
+                                la LOPC<sup>3</sup>/de la LFH<sup
+                                  >4</sup
+                                ></strong
+                              ></a
+                            ><br />
+                            <span class="small line-height-small"
+                              >(activités dans le Nord/extracôtières, etc.)<br />
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" text-center"></div>
+                  </div>
+                </div>
+                <div class="col-md-12 mrgn-bttm-sm text-center">
+                  <div class="well well-sm">
+                    <p>
+                      Si vous voulez présenter une demande de participation,
+                      avez été accepté comme participant à une audience ou
+                      souhaitez déposer des documents pour une audience,
+                      veuillez choisir parmi les options suivantes :
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class=" text-center">
+                          <p>
+                            <a
+                              class="btn btn-primary full-width mrgn-bttm-0 text-center"
+                              href="/pplctnflng/sbmt/pplprtcpt-fra.html"
+                              title="audiences auxquelles il est possible de participer"
+                              ><strong
+                                >Demande de<br />participation<sup
+                                  >&nbsp;</sup
+                                ></strong
+                              ></a
+                            ><br />
+                            <span class="small"
+                              >Si vous avez des questions ou avez besoin d’aide
+                              pour déposer vos documents, veuillez communiquer
+                              avec un conseiller en processus en composant sans
+                              frais le 1-800-899-1265.</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class=" text-center">
+                          <p>
+                            <a
+                              class="btn btn-primary full-width text-center"
+                              href="https://akppaz3.cer-rec.gc.ca/Chsr/Accueil/Sélecteur?GAURI=https://akppaz3.neb-one.gc.ca/Participation/Accueil/Sommaire"
+                              rel="external"
+                              title="Pour le dépôt de documents d’audience par les intervenants et auteurs de lettre de commentaires approuvés"
+                              ><strong
+                                >Dépôt de<br />documents pour<br />une
+                                audience</strong
+                              ></a
+                            ><br />
+                            <span class="small line-height-small"
+                              >Si vous êtes participant à une audience, vous
+                              devez utiliser le portail de participation.</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mrgn-bttm-sm">
+                  <div class="well well-sm">
+                    <p>
+                      Si vous êtes un groupe autochtone ou un tiers
+                      (propriétaire foncier, municipalité ou autre partie
+                      touchée), veuillez choisir parmi les options suivantes :
+                    </p>
+                    <table class="table table-bordered" id="s1">
+                      <tbody>
+                        <tr>
+                          <td width="50%">
+                            <strong>Lettres de commentaires</strong>
+                          </td>
+                          <td class="small">
+                            <a
+                              href="/efile/ElectronicDocumentSubmission.aspx?Language=French"
+                              >Dépôt électronique (Dépôt de documents
+                              électroniques)</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><strong>Plainte</strong></td>
+                          <td class="small">
+                            <a href="/prtcptn/lndwnrgd/lndwnrgdch11-fra.html"
+                              >Orientation</a
+                            >
+                            <br />
+                            <a href="/prtcptn/frm/cmplnt-fra.pdf"
+                              >Formulaire de demande [PDF 223 ko]</a
+                            >
+                            <br />
+                            Déposer
+                            <a href="/cntcts/index-fra.html"
+                              >par la poste ou par télécopieur</a
+                            >.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong
+                              >Demande d’audience sur l’indemnisation (Art.
+                              327(1))</strong
+                            >
+                          </td>
+                          <td class="small">
+                            <a
+                              href="../../prtcptn/nfrmtn/lndmttrdvsrsrvc/lndrltdcmpnstn-fra.html"
+                              >Orientation</a
+                            ><br />
+                            <a href="frm/cmpnstndspthrngpplctn-fra.pdf"
+                              >Formulaire de demande [PDF 534 ko]</a
+                            >
+                            <br />
+                            <a href="/efile/ElectronicDocumentSubmission.aspx"
+                              >Dépôt électronique (Dépôt de documents
+                              électroniques)</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong
+                              >Demande aux termes de l’article 335
+                            </strong>
+                            <ul>
+                              <li>
+                                Remuement du sol, construction d’installations
+                                et franchissement à proximité de pipelines
+                              </li>
+                              <li>Répartition des coûts</li>
+                            </ul>
+                          </td>
+                          <td class="small">
+                            Orientation<br />
+                            <a
+                              href="/sftnvrnmnt/dmgprvntn/cndctngctvtsnrppln/index-fra.html"
+                              >Formulaire de demande</a
+                            ><br />
+                            Déposer
+                            <a href="/cntcts/index-fra.html"
+                              >par la poste ou par télécopieur</a
+                            >. <br />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Connaissances autochtones confidentielles</td>
+                          <td class="small">
+                            <a
+                              href="/pplctnflng/sbmt/cnfdntlndgnsknwldg-fra.html"
+                              >Orientation</a
+                            >
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Si vous voulez déposer des documents de nature délicate,
+                consultez la page sure les
+                <a href="/pplctnflng/sbmt/nhncdscrt-fra.html"
+                  >Documents de nature délicate</a
+                >.
+              </p>
+              <br />
+              <p class="small">
+                1. <em>Loi sur la Régie canadienne de de l’énergie</em>
+              </p>
+              <p class="small">
+                2.
+                <em
+                  >Règlement de l'Office national de l'énergie sur les pipelines
+                  terrestres</em
+                >
+              </p>
+              <p class="small">
+                3. <em>Loi sur les opérations pétrolières au Canada</em>
+              </p>
+              <p class="small">
+                4. <em>Loi fédérale sur les hydrocarbures</em>
+              </p>
+            </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date de modification&#160;:&#32;</dt>
+            <dd><time property="dateModified">2019-10-25</time></dd>
+          </dl>
+        </main>
+        <nav
+          class="col-md-3 col-md-pull-9 visible-md visible-lg"
+          typeof="SiteNavigationElement"
+          id="wb-sec"
+          role="navigation"
+        >
+          <h2>Section menu</h2>
+          <ul class="list-group menu list-unstyled">
+            <li>
+              <h3>
+                <a href="/pplctnflng/index-fra.html">Demandes et dépôts</a>
+              </h3>
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a
+                    class="list-group-item wb-navcurr"
+                    href="/pplctnflng/sbmt/index-fra.html"
+                    >Déposer une demande ou un document</a
+                  >
+                  <ul class="list-group menu list-unstyled expanded"></ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a
+                    class="list-group-item"
+                    href="https://apps.cer-rec.gc.ca/REGDOCS/Accueil/Index/"
+                    >Consulter les documents de réglementation</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a
+                    class="list-group-item"
+                    href="/pplctnflng/mjrpp/index-fra.html"
+                    >Demandes et projets d’envergure</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a
+                    class="list-group-item"
+                    href="https://apps.cer-rec.gc.ca/REGDOCS/Recherche/DécisionsRécentes/?p=4"
+                    >Décisions récentes</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a
+                    class="list-group-item"
+                    href="/pplctnflng/crt/index-fra.html"
+                    >Contestations judiciaires</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- SecNavEnd -->
+          </ul>
         </nav>
-	</div>
-</div>
-<!--
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -365,74 +782,135 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-<div class="container">
-<nav role="navigation">
-<h2>&Agrave; propos de ce site</h2>
-<ul id="gc-tctr" class="list-inline">
-<li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
-<li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
-</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
-						<li><a href="/bts/pblctn/index-fra.html">Publications et rapports</a></li>
-						<li><a href="/bts/ctrg/index-fra.html">Lois et r&egrave;glements</a></li>	
-						<li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a></li>
-						<li><a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a></li>
-						<li><a href="/bts/nws/spch/index-fra.html">Discours et allocutions</a></li>
-						<li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-fra.html">Fils RSS</a></li>
-						<li><a href="https://twitter.com/REC_CER">Twitter</a></li>
-						<li><a href="https://www.facebook.com/facebook.com/REC.CER/">Facebook</a></li> 
-						<li><a href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-</nav>
-</div>
-<div id="gc-info">
-<div class="container">
-<nav role="navigation">
-<h2>Pied de page du gouvernement du Canada</h2>
-<ul class="list-inline">
-<li><a href="http://canadiensensante.gc.ca"><span>Sant&eacute;</span></a></li>
-<li><a href="http://voyage.gc.ca"><span>Voyage</span></a></li>
-<li><a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"><span>Service Canada</span></a></li>
-<li><a href="http://www.guichetemplois.gc.ca"><span>Emplois</span></a></li>
-<li><a href="http://plandaction.gc.ca/fr"><span>&Eacute;conomie</span></a></li>
-<li><a href="http://www.canada.ca/fr/index.html"><span>Canada.ca</span></a></li>
-<li id="canada-ca"><a href="http://www.canada.ca/fr/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-</ul>
-</nav>
-</div>
-</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>&Agrave; propos de ce site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
+            <li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-fra.html"
+                    >Publications et rapports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-fra.html"
+                    >Lois et r&egrave;glements</a
+                  >
+                </li>
+                <li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/spch/index-fra.html"
+                    >Discours et allocutions</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3>
+                <a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a>
+              </h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-fra.html">Fils RSS</a></li>
+                <li><a href="https://twitter.com/REC_CER">Twitter</a></li>
+                <li>
+                  <a href="https://www.facebook.com/facebook.com/REC.CER/"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Pied de page du gouvernement du Canada</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://canadiensensante.gc.ca"
+                  ><span>Sant&eacute;</span></a
+                >
+              </li>
+              <li>
+                <a href="http://voyage.gc.ca"><span>Voyage</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.guichetemplois.gc.ca"
+                  ><span>Emplois</span></a
+                >
+              </li>
+              <li>
+                <a href="http://plandaction.gc.ca/fr"
+                  ><span>&Eacute;conomie</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

@@ -1,434 +1,1198 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="fr" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="fr" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>ONÉ - Guide de dépôt - Électricité - Chapitre 4 - Description et aspects techniques du projet</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="L&eacute;gislation; R&eacute;glementation;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      ONÉ - Guide de dépôt - Électricité - Chapitre 4 - Description et aspects
+      techniques du projet
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="L&eacute;gislation; R&eacute;glementation;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta
+      name="dcterms.title"
+      content="ON&Eacute; - Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta
+      name="description"
+      content="Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Gouvernement du Canada, Office national de l’énergie"
+    />
+    <meta name="dcterms.language" title="ISO639-2" content="fra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="dcterms.title" content="ON&Eacute; - Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="description" content="Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet" />
-<meta name="dcterms.creator" content="Gouvernement du Canada, Office national de l’énergie" />
-<meta name="dcterms.language" title="ISO639-2" content="fra" />
-<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="Office_national_de_l_energie"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="Office_national_de_l_energie"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info"
+          >Passer à «&#160;À propos de ce site&#160;»</a
+        >
+      </li>
+      <li class="wb-slc visible-md visible-lg">
+        <a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg"
+                    aria-label="Gouvernement du Canada"
+                  ></object>
+                </span>
+                <h2>Sélection de la langue</h2>
+                <ul class="text-right">
+                  <li class="curr">Français&#32;<span>(actuel)</span></li>
+                  <li>
+                    <a
+                      lang="en"
+                      hreflang="en"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >English</a
+                    >
+                  </li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Recherche et menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Recherche et menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Recherche et menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <a href="/index-fra.html"
+                ><span>Régie de l’énergie du Canada</span></a
+              >
+            </div>
 
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a>
-	</li><li class="wb-slc visible-md visible-lg">
-<a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
-</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">	
-			<div class="clearfix"></div>
-			<div class="container">
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg" aria-label="Gouvernement du Canada"></object>
-						</span>					
-					    <h2>Sélection de la langue</h2>
-						<ul class="text-right">						
-<li class="curr">Français&#32;<span>(actuel)</span></li>
-<li><a lang="en" hreflang="en" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">English</a></li>
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-<h2>Recherche et menus</h2>
-<ul class="pnl-btn list-inline text-right">
-<li><a href="#mb-pnl" title="Recherche et menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Recherche et menus</span></span></span></a></li>
-</ul>
-<div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div id="wb-sttl" class="col-md-8 mrgn-tp-md"><a href="/index-fra.html"><span>Régie de l’énergie du Canada</span></a></div>
-	
-<section id="wb-srch" class="col-md-4 visible-md visible-lg">
-<h2>Recherche</h2>
-<form class="form-inline" role="search" method="get" action="https://recherche-search.gc.ca/rGs/s_r">
-<div class="form-group">
-	<label for="wb-srch-q">Search website</label>
-	<input type="hidden" name="st" value="s" data-role="none">
-	<input type="hidden" name="num" value="10" data-role="none">
-	<input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-	<input type="hidden" name="st1rt" value="0" data-role="none">
-	<input type="hidden" name="langs" value="fra" data-role="none">
-	<input type="hidden" name="cdn" value="reccer" data-role="none">
-	<input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-</div>
-<button type="submit" id="wb-srch-sub" class="btn btn-default">Recherche</button>
-</form>
-</section>
-</div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-<div class="container nvbar">
-<h2>Menu des sujets</h2>
-<div class="row">
-<ul class="list-inline menu">
-<li><a href="/sftnvrnmnt/index-fra.html">Sécurité et environnement</a></li>
-<li><a href="/prtcptn/index-fra.html">Participation et questions foncières</a></li>
-<li><a href="/pplctnflng/index-fra.html">Demandes et dépôts</a></li>
-<li><a href="/nrg/index-fra.html">Information sur l’énergie</a></li>
-<li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
-<li><a href="/bts/index-fra.html">À propos de nous</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<nav role="navigation" id="wb-bc" property="breadcrumb">
-<h2>Vous êtes ici :</h2>
-<div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href="/index-fra.html">Accueil</a></li>
-<li><a href="/bts/index-fra.html">À propos de nous</a></li>
-<li><a href="/bts/ctrg/index-fra.html">Lois et règlements</a></li>
-<li><a href="/bts/ctrg/gnnb/index-fra.html">Règlements, notes d’orientation et documents connexes en vertu de la Loi sur l’Office national de l’énergie</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/index-fra.html">Électricité – Demandes visant une ligne de transport</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrct/lctrctflngmnl/index-fra.html">Guide de dépôt Électricité</a></li>
-<li>Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
-
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>Le mercredi 28 août, l’Office national de l’énergie est devenu la Régie de l’énergie du Canada. Pour de plus amples renseignements, consultez la page d’information sur la mise en œuvre de la Loi sur <a href="/bts/cr/index-fra.html">la Régie canadienne de l’énergie</a> </small></p>
-</div>
-
-<h1 id="wb-cont" property="name">Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute; &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du projet</h1>
-<p><strong><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/index-fra.html#toc">Table des matières</a></strong></p>
-<p>Le présent chapitre précise les renseignements que le demandeur doit déposer auprès de l&rsquo;Office en ce qui concerne la description du projet de&nbsp;LIT, notamment tous les éléments constitutifs du projet, les activités liées au projet et les activités connexes, ainsi que leur emplacement et le calendrier d&rsquo;exécution du projet.</p>
-<ul>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_1">4.1 Emplacement du projet</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2">4.2 &Eacute;l&eacute;ments constitutifs du projet et activit&eacute;s li&eacute;es au projet</a>
-<ul>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2_1">4.2.1 D&eacute;tails sur la conception technique</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2_2">4.2.2 Principes de conception technique</a></li>
-</ul>
-</li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_3">4.3 Incidences sur le r&eacute;seau de production-transport d'&eacute;lectricit&eacute;</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_4">4.4 Autres autorisations requises et calendrier d’exécution du projet</a></li>
-<li><a href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_5">4.5 Solutions de rechange</a></li>
-</ul>
-<h2 id="s4_1">4.1 Emplacement du projet</h2>
-<h3 class="list-unstyled">But</h3>
-<p>La demande comprend une description complète de l&rsquo;emplacement du projet et des éléments constitutifs du projet.</p>
-<h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
-<p>Fournir une description des éléments suivants, y compris des cartes et des échelles appropriées&nbsp;:</p>
-<ul>
-<li>les points d&rsquo;arrivée et le point de traversée à la frontière internationale;</li>
-<li>le tracé, les emplacements des installations et toute installation auxiliaire projetée;</li>
-<li>les caractéristiques d&rsquo;utilisation des terres que franchira la LIT;</li>
-<li>les contraintes qui influent sur le tracé privilégié ou l&rsquo;emplacement des installations ou des éléments constitutifs du projet;</li>
-<li>la ligne située à l&rsquo;étranger;</li>
-<li>l&rsquo;emplacement des éléments constitutifs du projet et des activités connexes.</li>
-</ul>
-<p>Indiquer la largeur de l&rsquo;emprise proposée et les raisons qui la justifient.</p>
-<h3 class="list-unstyled">Orientation</h3>
-<p>Parmi les contraintes qui influent sur le tracé privilégié ou l&rsquo;emplacement des installations ou des éléments constitutifs du projet, il faut noter les facteurs environnementaux, socioéconomiques ou liés à l&rsquo;utilisation des terres ou des ressources naturelles, y compris les régimes fonciers en vigueur, de façon générale, les usages actuels des terres, les plans de zonage et d&rsquo;utilisation des terres, les résidences et localités les plus proches, les caractéristiques physiques particulières ou importantes</p>
-<p>En ce qui concerne certains renseignements, des schémas unifilaires ou des plans de situation pourraient convenir davantage.</p>
-<p>S&rsquo;ils ont accès au système de positionnement global&nbsp;(GPS), les demandeurs devraient indiquer les emplacements clés du projet au moyen de cartes produites avec ce système, particulièrement pour ce qui concerne les points d&rsquo;arrivée, le point de traversée à la frontière internationale et les principaux points de localisation du tracé de la&nbsp;LIT.</p>
-<h2 id="s4_2">4.2 &Eacute;l&eacute;ments constitutifs du projet et activit&eacute;s li&eacute;es au projet</h2>
-<h3 id="s4_2_1" class="list-unstyled">4.2.1 D&eacute;tails sur la conception technique</h3>
-<h4>But</h4>
-<p>La demande comprend une description de la conception physique, des détails de l&rsquo;exploitation et des activités menées pendant tout le cycle de vie des installations visées par le projet proposé et comprend assez de détails pour&nbsp;:</p>
-<ul>
-<li>cerner les caractéristiques techniques du projet et les processus qui permettront l&rsquo;exploitation sécuritaire, sûre et fiable des installations proposées;</li>
-<li>cerner les interactions potentielles du projet avec l&rsquo;environnement;</li>
-<li>cerner les caractéristiques techniques du projet et les pratiques qui atténueront les effets négatifs sur l&rsquo;environnement naturel et socioéconomique.</li>
-</ul>
-<h4>Exigences de d&eacute;p&ocirc;t</h4>
-<p>La demande doit cerner et décrire tous les éléments constitutifs du projet, les activités liées au projet et les activités connexes (p. ex., les conducteurs, les éléments constitutifs des sous-stations, les chemins d&rsquo;accès, notamment les ponts temporaires ou permanents,  les baraquements de chantier, les aires de travail temporaires, etc.), y compris, sans s&rsquo;y limiter&nbsp;:</p>
-<ul>
-<li>la tension,</li>
-<li>le nombre et la taille des conducteurs,</li>
-<li>une description des tours ou autres structures de soutien physique de la ligne internationale d&rsquo;énergie électrique,</li>
-<li>un schéma unifilaire montrant toutes les installations qui constituent la&nbsp;LIT.</li>
-</ul>
-<p>La demande doit comporter une description du mode d&rsquo;exécution du projet.</p>
-<p>Le demandeur doit fournir une description des installations devant être construites par des tiers et qui sont nécessaires à la réalisation des installations proposées, même si elles sont temporaires.</p>
-<p>Le demandeur doit préciser les autres permis, licences ou autorisations à obtenir avant qu&rsquo;une partie ou l&rsquo;ensemble du projet puissent être mis en chantier.</p>
-<h4>Orientation</h4>
-<p>Les installations réglementées par l&rsquo;Office doivent être sûres et sécuritaires. Il faut aussi qu&rsquo;elles soient construites et exploitées de manière à respecter les droits des personnes touchées. En général, les renseignements précisés plus haut sont requis de manière que l&rsquo;Office puisse s&rsquo;assurer que la conception électrique et l&rsquo;exploitation du projet, s&rsquo;il devait se concrétiser, répondront à ces critères.</p>
-<p>La description de projet doit&nbsp;:</p>
-<ul>
-<li>exposer en quoi il consiste, y compris inclure les éléments suivants&nbsp;:
-<ul>
-<li>une liste complète et une description exhaustive des éléments constitutifs du projet, des activités liées au projet et des activités connexes (c.-à-d. les éléments ou activités qui sont nécessaires pour la mise en chantier du projet, comme des aires de travail temporaires, des voies d&rsquo;accès, notamment des ponts temporaires ou permanents, etc.);</li>
-<li>une description des ouvrages que l&rsquo;on envisage de remplacer ou d&rsquo;agrandir, et des activités anticipées, durant la durée de vie du projet;</li>
-<li>des dessins préliminaires s&rsquo;ils sont disponibles.</li>
-</ul>
-</li>
-<li>décrire le mode d&rsquo;exécution du projet, y compris inclure les éléments suivants&nbsp;:
-<ul>
-<li>une description exhaustive du mode d&rsquo;exécution des activités liées au projet (déboisement, pieds des pylônes, montage des pylônes, déroulage, franchissements des cours d&rsquo;eau, inspection, programmes de surveillance, essais, etc.) durant les étapes de construction et d&rsquo;exploitation;</li>
-<li>le nombre de travailleurs projeté (c.-à-d. le nombre de jours-personnes et les compétences requises pour exécuter les activités de construction et d&rsquo;exploitation).</li>
-</ul>
-</li>
-</ul>
-<p>Les exigences stipulées supposent généralement qu&rsquo;il s&rsquo;agit d&rsquo;un projet pour lequel les travaux de construction sont prévus hors terre. Si les travaux de construction envisagés sont souterrains, en tout ou en partie, d&rsquo;autres renseignements doivent être fournis au besoin en remplacement, p.&nbsp;ex., des détails au sujet des tranchées ou des canalisations, et d&rsquo;autres données sur la construction, plutôt que des renseignements sur les pylônes.</p>
-<p>Le schéma unifilaire regroupant toutes les installations qui forment la ligne internationale de transport d&rsquo;électricité doit inclure de l&rsquo;information détaillée sur les raccordements prévus de la ligne aux sous-stations sur le territoire canadien. Il devra illustrer clairement les éléments des sous-stations faisant partie de la ligne et ceux intégrés au réseau énergétique canadien d&rsquo;accueil. Les éléments ainsi illustrés doivent comprendre les pièces d&rsquo;équipements et les structures du type barres omnibus, transformateurs, coupe-circuits, interrupteurs, coupures anti-refoulement, composantes de compensation réactive, relais de protection, compteurs, etc.</p>
-<h3 id="s4_2_2" class="list-unstyled">4.2.2 Principes de conception technique</h3>
-<h4>But</h4>
-<p>La demande comprend une description des normes, codes et règlements s&rsquo;appliquant aux aspects techniques du projet, ainsi que des détails techniques sur des conditions de conception particulières, de façon assez détaillée pour démontrer que les installations proposées seront sûres, sécuritaires et fiables.</p>
-<h4>Exigences de d&eacute;p&ocirc;t</h4>
-<ol>
-<li>La demande doit inclure la liste complète et détaillée des principaux codes et normes, y compris l&rsquo;édition et la date de publication, qui seront appliqués dans la conception et le choix des matériaux pour chacun des éléments des installations projetées, le tout assujetti aux dispositions suivantes&nbsp;:
-<ul>
-<li>s&rsquo;il y a plusieurs normes et codes parmi lesquels choisir, exposer brièvement la raison pour laquelle la norme ou le code évoqué est considéré comme étant celui qui convient le mieux;</li>
-<li>s&rsquo;il n&rsquo;y a pas de normes ou codes reconnus par l&rsquo;industrie, exposer brièvement la raison pour laquelle les mesures envisagées seraient prises en ce qui a trait à la conception touchée et aux matériaux choisis.</li>
-</ul>
-</li>
-<li>La demande doit clairement préciser que le demandeur s&rsquo;engage à exécuter le projet conformément à tous les manuels de conception et d&rsquo;exploitation applicables de la société et que les manuels en question sont conformes aux codes et normes pour le projet. L&rsquo;Office attend de tous les demandeurs qu&rsquo;ils conservent la plus récente version des manuels aux fins de vérification par lui, et en déposer un exemplaire sur demande.</li>
-</ol>
-<h4>Orientation</h4>
-<ol>
-<li>Les renseignements précisés plus haut sont souhaitables de manière que l&rsquo;Office puisse s&rsquo;assurer que la conception électrique et l&rsquo;exploitation du projet, s&rsquo;il devait se concrétiser, seraient sûres et sécuritaires, et perçues comme telles. À cette fin, la demande doit montrer que le projet ne dérogerait pas aux pratiques actuelles généralement reconnues par l&rsquo;industrie, pas plus qu&rsquo;aux marches à suivre pour des installations semblables construites et exploitées dans des circonstances et des conditions similaires ailleurs, de préférence au Canada.</li>
-<li>En l&rsquo;absence de codes ou de normes clairement applicables et reconnus par l&rsquo;industrie, le recours à de saines pratiques d&rsquo;ingénierie est de rigueur. Cependant, dans la mesure du possible, un plan d&rsquo;action découlant du respect de ce principe devrait directement mener à des codes, normes ou principes techniques bien établis.</li>
-</ol>
-<h2 id="s4_3">4.3 Incidences sur le r&eacute;seau de production-transport d'&eacute;lectricit&eacute;</h2>
-<h3 class="list-unstyled">But</h3>
-<p>La demande renferme suffisamment de renseignements pour déterminer et justifier les effets du projet proposé sur l&rsquo;exploitation sans danger, la sûreté et la fiabilité du réseau énergétique existant et envisagé auquel il serait intégré.</p>
-<h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
-<p>La demande doit pr&eacute;ciser&nbsp;:</p>
-<ul>
-<li>les capacités totales de transfert de puissance à des fins d&rsquo;exportation ou d&rsquo;importation, avec et sans la ligne internationale de transport d&rsquo;électricité, du réseau de production-transport canadien local auquel sera relié le projet envisagé, ainsi que du réseau de production-transport à l&rsquo;extérieur du Canada auquel sera reliée la ligne internationale de transport d&rsquo;électricité, en précisant les critères d&rsquo;établissement de telles capacités;</li>
-<li>la capacité de transfert de puissance de la ligne internationale de transport d&rsquo;électricité dans le contexte d&rsquo;un transport soutenu en fonction de conditions hivernales et estivales, ainsi que les critères d&rsquo;établissement de la capacité de transfert de puissance indiquée;</li>
-<li>une description des normes de fiabilité auxquelles la&nbsp;LIT sera soumise pendant son exploitation;</li>
-<li>une copie de&nbsp;:
-<ul class="list-unstyled"><li>(i) chaque convention d&rsquo;interconnexion se rapportant à la construction de la ligne internationale,</li>
-<li>(ii) toute autre entente liant le demandeur et le propriétaire ou l&rsquo;exploitant de la ligne située à l&rsquo;étranger et portant sur la construction et l&rsquo;exploitation de la ligne internationale et de la ligne située à l&rsquo;étranger;</li>
-</ul>
-</li>
-<li>la confirmation de la conformité aux normes applicables de fiabilité de la North American Reliability Corporation, s&rsquo;il y a lieu.</li>
-</ul>
-<h3 class="list-unstyled">Orientation</h3>
-<ol>
-<li>Les demandeurs sont invités à prendre connaissance de l&rsquo;ordonnance générale visant les normes de fiabilité de l&rsquo;électricité (annexe&nbsp;I) pour savoir quelles sont les attentes de l&rsquo;Office à l&rsquo;égard des normes de fiabilité.</li>
-<li>Les renseignements précisés plus haut sont requis de manière à s&rsquo;assurer que le projet, son calendrier, sa conception et son exploitation, si un tel projet devait se concrétiser, n&rsquo;iraient pas à l&rsquo;encontre du droit d&rsquo;autrui à s&rsquo;attendre à un service électrique sûr et fiable de la part du réseau, dans sa forme existante et tel qu&rsquo;envisagé. Ils devraient en outre aider à s&rsquo;assurer que le projet, s&rsquo;il devait être construit, ne compromettrait pas ni ne mettrait en péril la sécurité physique du réseau énergétique. À cette fin, la demande doit montrer que le projet dispose ou disposera de toutes les autorisations requises de la part des gouvernements des provinces et des autres autorités compétentes.</li>
-<li>Si le projet est considéré comme faisant partie du réseau de production-transport d&rsquo;électricité, la demande devrait fournir les détails pertinents de l&rsquo;examen de la ligne internationale de transport d&rsquo;électricité effectué, les études et les recommandations formulées par les différents organismes chargés de la réglementation en matière de fiabilité du réseau électrique, comme les conseils régionaux sur la fiabilité de la&nbsp;NERC. Ces renseignements pourraient consister en des copies des documents pertinents, comme les rapports d&rsquo;étude produits par les organisations en question à l&rsquo;égard du&nbsp;projet.</li>
-<li>L&rsquo;Office s&rsquo;attend à ce que les demandeurs se conforment aux versions les plus à jour des normes de fiabilité, celles en cours d&rsquo;élaboration par les autorités compétentes, par exemple, celles reconnues par une province, pendant la conception, la construction et l&rsquo;exploitation des installations proposées. Les demandeurs devraient confirmer cet engagement auprès de l&rsquo;Office.</li>
-</ol>
-<h2 id="s4_4">4.4 Autres autorisations requises et calendrier d&rsquo;exécution du projet</h2>
-<h3 class="list-unstyled">But</h3>
-<p>La demande comporte des renseignements sur les autres autorisations et processus réglementaires ainsi que sur le calendrier d&rsquo;exécution du projet.</p>
-<h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
-<p>Fournir&nbsp;:</p>
-<ul>
-<li>une description des autorisations des autorités provinciales qui sont exigées pour la ligne de transport d&rsquo;électricité située au Canada, notamment ce qui suit&nbsp;:
-<ul>
-<li>une description du processus d&rsquo;examen pour chaque autorisation des autorités provinciales, y compris une description du processus de consultation publique;</li>
-<li>une indication de l&rsquo;état d&rsquo;avancement des démarches entreprises et un calendrier précisant quand les examens toujours en cours seront terminés;</li>
-<li>une copie des autorisations déjà accordées par les autorités provinciales compétentes;</li>
-</ul>
-</li>
-<li>une description des autorisations qui doivent encore être obtenues des autorités compétentes concernant la ligne située à l&rsquo;étranger;</li>
-<li>le nom de l&rsquo;organisme de réglementation provincial désigné, dans le cas d&rsquo;une demande de permis;</li>
-<li>un calendrier précisant les dates projetées pour l&rsquo;obtention de chaque autorisation susmentionnée ainsi que pour la mise en chantier et la fin des travaux de construction de la ligne internationale et de la ligne située à l&rsquo;étranger;</li>
-<li>la date prévue de la mise en service.</li>
-</ul>
-<h3 class="list-unstyled">Orientation</h3>
-<p>L&rsquo;Office exige des renseignements sur l&rsquo;état d&rsquo;avancement des démarches entreprises pour obtenir toutes les approbations ou autorisations nécessaires, au Canada et à l&rsquo;étranger. Ces renseignements visent à lui fournir une assurance raisonnable qu&rsquo;aucune question devant d&rsquo;autres organismes de réglementation risque d&rsquo;empêcher ou de retarder la construction ou l&rsquo;utilisation des installations visées par la demande. Le demandeur peut aussi présenter des mises à jour sur l&rsquo;état d&rsquo;avancement des démarches après avoir déposé sa demande. Pour éviter le plus possible les chevauchements réglementaires, l&rsquo;Office prendra en considération les autorisations accordées par d&rsquo;autres organismes qui sont jointes à la demande. Les demandeurs ont donc avantage à lui transmettre toutes les approbations du genre dès le début du processus afin de rendre celui-ci plus efficace.</p>
-<p>Les demandeurs sont libres de choisir le moment auquel ils présenteront leurs demandes d&rsquo;autorisation aux autorités provinciales et à lui-même, mais ils doivent savoir que le processus de l&rsquo;Office se déroule plus rondement une fois que l&rsquo;examen des autorités provinciales correspondantes a été mené à terme. Si le demandeur choisit de présenter sa demande à l&rsquo;Office avant ou en même temps que celle à l&rsquo;autorité provinciale, il est particulièrement important de fournir un tracé du projet aussi détaillé que possible et que le processus de consultation du public concernant le tracé soit le plus avancé possible. Si la planification ou les consultations du demandeur concernant le projet ne sont pas assez avancées, le processus d&rsquo;examen de l&rsquo;Office pourrait prendre plus de temps.</p>
-<p>En ce qui a trait aux demandes de permis, l&rsquo;article&nbsp;58.17 de la Loi sur l&rsquo;Office national de l&rsquo;énergie exige du demandeur qu&rsquo;il précise de quelle autorité régulatrice provinciale la supervision de la&nbsp;LIT proposée relèvera. Il s&rsquo;agit d&rsquo;une exigence importante pour éviter qu&rsquo;il y ait des failles dans la réglementation au sujet de la compétence des autorités responsables de la&nbsp;LIT et que celle-ci soit finalement transférée à la province. Les promoteurs sont invités à faire preuve de prudence sur ce plan et à clarifier toute question avant de présenter leur demande à l&rsquo;Office.</p>
-<p>En ce qui a trait au calendrier d&rsquo;exécution du projet, il doit&nbsp;:</p>
-<ul>
-<li>détailler toutes les principales activités liées à la construction, en sous-activités;</li>
-<li>préciser les contraintes d&rsquo;ordre temporel ou les créneaux favorables;</li>
-<li>indiquer comment des changements de dates d&rsquo;échéance risquent de nuire au reste du calendrier et, en fin de compte, au projet.</li>
-</ul>
-<p>Le demandeur doit également préciser le moment prévu de la désaffectation et de la cessation d&rsquo;exploitation du projet.</p>
-<p>Pour ce qui concerne les certificats faisant suite à une décision, le demandeur doit également fournir un calendrier des activités d&rsquo;exploitation, dont les inspections, les réparations ou l&rsquo;entretien.</p>
-<h2 id="s4_5">4.5 Solutions de rechange</h2>
-<h3 class="list-unstyled">But</h3>
-<p>La demande doit comporter une description des solutions de rechange envisagées et les raisons qui ont incité à opter pour les options choisies.</p>
-<h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
-<ol>
-<li>Décrire les solutions de rechange étudiées et exposer les raisons qui ont incité à opter pour le projet demandé plutôt que pour les autres solutions de rechange possibles.</li>
-<li>Décrire et justifier le choix du tracé et du site proposés, en incluant une comparaison des solutions de rechange sur la base des critères de sélection retenus.</li>
-<li>S&rsquo;il y a lieu, décrire les autres méthodes de conception et de construction envisagées et exposer les raisons qui ont incité à opter pour les méthodes choisies.</li>
-</ol>
-<h3 class="list-unstyled">Orientation</h3>
-<h4>Solutions de rechange &eacute;tudi&eacute;es</h4>
-<p>Les solutions de rechange sont des moyens différents sur le plan fonctionnel de répondre au besoin du projet et d&rsquo;atteindre ses fins, ou d&rsquo;autres moyens réalisables sur les plans technique, économique, social et environnemental pour mener à bien le projet. Cela pourrait inclure ce qui suit&nbsp;:</p>
-<ul>
-<li>une autre stratégie d&rsquo;interconnexion possible;</li>
-<li>un autre tracé ou un autre emplacement possible;</li>
-<li>une autre solution de conception possible des installations;</li>
-<li>d&rsquo;autres méthodes de construction, de mise en œuvre et d&rsquo;atténuation.</li>
-</ul>
-<h4>Critères de sélection des solutions de rechange</h4>
-<p>Les demandeurs devraient faire la synthèse des diverses solutions de rechange concernant le projet, le tracé, la conception et la construction et les comparer au moyen de critères qui justifient le bien-fondé de l&rsquo;option proposée et démontrent pourquoi il s&rsquo;agit de la meilleure option et comment elle a été choisie.</p>
-<p>Lors de la comparaison des solutions de rechange pour le projet, le tracé, la conception ou la construction, il y a lieu de décrire en détail les critères ci-après qui s&rsquo;appliquent&nbsp;:</p>
-<ul>
-<li>la conception technique;</li>
-<li>la faisabilité économique ou les coûts;</li>
-<li>l&rsquo;incidence sur la fiabilité et la sûreté du réseau électrique hôte existant;</li>
-<li>les préoccupations du public;</li>
-<li>les contraintes d&rsquo;ordre environnemental et socioéconomique, les avantages ou les effets potentiels;</li>
-<li>les préoccupations régionales relativement aux effets cumulatifs.</li>
-</ul>
-<p>Le niveau de détail fourni doit être en phase avec la portée du projet et les répercussions potentielles sur la stabilité et la fiabilité du réseau électrique hôte, sur des tiers et sur l&rsquo;environnement.</p>
-
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date de modification&#160;:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-<nav class="col-md-3 col-md-pull-9 visible-md visible-lg" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
-    <h2>Section menu</h2>
-        <ul class="list-group menu list-unstyled"> <li>
-            <h3><a href="/bts/index-fra.html">À propos de nous</a></h3>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/bts/whwr/index-fra.html">Nos employés</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/bts/whwr/rspnsblt/index-fra.html"><div class="mrgn-lft-md">Responsabilités</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/whwr/rgnztnndstrctr/index-fra.html"><div class="mrgn-lft-md">Organisation et structure</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/whwr/gvrnnc/index-fra.html"><div class="mrgn-lft-md">Gouvernance</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/whwr/rhstry-fra.html"><div class="mrgn-lft-md">Contexte historique</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/bts/ctrg/index-fra.html">Lois et règlements</a>                        <ul class="list-group menu list-unstyled expanded">
-                            <li>
-                                <a class="list-group-item" href="/bts/ctrg/lstctrg-fra.html"><div class="mrgn-lft-md">Liste des lois et règlements</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/ctrg/frp/index-fra.html"><div class="mrgn-lft-md">Plan prospectif de la réglementation</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/ctrg/rgltstck/index-fra.html"><div class="mrgn-lft-md">Plan d’examen de l’inventaire des règlements</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/bts/pblctn/index-fra.html">Publications et rapports</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/bts/nws/index-fra.html">Nouvelles (Salle des médias)</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/spch/index-fra.html"><div class="mrgn-lft-md">Discours et allocutions</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/fs/index-fra.html"><div class="mrgn-lft-md">Fiches de renseignements</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/fqs/index-fra.html"><div class="mrgn-lft-md">Questions et réponses</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/nr/index-fra.html"><div class="mrgn-lft-md">Communiqués</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/rgltrsnpshts/index-fra.html"><div class="mrgn-lft-md">Aperçu de l’Office</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/mdccrdttn/index-fra.html"><div class="mrgn-lft-md">Accréditation de médias et lignes directrices</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/nws/whtnw/index-fra.html"><div class="mrgn-lft-md">Quoi de neuf? – Archives</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/bts/crr/index-fra.html">Carrières</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/bts/crr/crrpprtnts-fra.html"><div class="mrgn-lft-md">Occasions de carrière</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/crr/hwdppl-fra.html"><div class="mrgn-lft-md">Comment postuler un emploi?</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/bts/crr/stdnthrng-fra.html"><div class="mrgn-lft-md">Emplois étudiants</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                </ul>
-                            </li>
-                        </ul>
-                    </ul>
-                </li>
-                <!-- SecNavEnd -->
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Recherche</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://recherche-search.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="fra"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button type="submit" id="wb-srch-sub" class="btn btn-default">
+                  Recherche
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Menu des sujets</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-fra.html"
+                  >Sécurité et environnement</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-fra.html"
+                  >Participation et questions foncières</a
+                >
+              </li>
+              <li>
+                <a href="/pplctnflng/index-fra.html">Demandes et dépôts</a>
+              </li>
+              <li>
+                <a href="/nrg/index-fra.html">Information sur l’énergie</a>
+              </li>
+              <li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
+              <li><a href="/bts/index-fra.html">À propos de nous</a></li>
             </ul>
+          </div>
+        </div>
+      </nav>
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+        <h2>Vous êtes ici :</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-fra.html">Accueil</a></li>
+              <li><a href="/bts/index-fra.html">À propos de nous</a></li>
+              <li><a href="/bts/ctrg/index-fra.html">Lois et règlements</a></li>
+              <li>
+                <a href="/bts/ctrg/gnnb/index-fra.html"
+                  >Règlements, notes d’orientation et documents connexes en
+                  vertu de la Loi sur l’Office national de l’énergie</a
+                >
+              </li>
+              <li>
+                <a href="/bts/ctrg/gnnb/lctrctpwrlns/index-fra.html"
+                  >Électricité – Demandes visant une ligne de transport</a
+                >
+              </li>
+              <li>
+                <a href="/bts/ctrg/gnnb/lctrct/lctrctflngmnl/index-fra.html"
+                  >Guide de dépôt Électricité</a
+                >
+              </li>
+              <li>
+                Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute;
+                &ndash; Chapitre&nbsp;4 &ndash; Description et aspects
+                techniques du projet
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <main
+          role="main"
+          property="mainContentOfPage"
+          class="col-md-9 col-md-push-3"
+        >
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >Le mercredi 28 août, l’Office national de l’énergie est devenu
+                la Régie de l’énergie du Canada. Pour de plus amples
+                renseignements, consultez la page d’information sur la mise en
+                œuvre de la Loi sur
+                <a href="/bts/cr/index-fra.html"
+                  >la Régie canadienne de l’énergie</a
+                >
+              </small>
+            </p>
+          </div>
+
+          <h1 id="wb-cont" property="name">
+            Guide de d&eacute;p&ocirc;t &ndash; &Eacute;lectricit&eacute;
+            &ndash; Chapitre&nbsp;4 &ndash; Description et aspects techniques du
+            projet
+          </h1>
+          <p>
+            <strong
+              ><a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/index-fra.html#toc"
+                >Table des matières</a
+              ></strong
+            >
+          </p>
+          <p>
+            Le présent chapitre précise les renseignements que le demandeur doit
+            déposer auprès de l&rsquo;Office en ce qui concerne la description
+            du projet de&nbsp;LIT, notamment tous les éléments constitutifs du
+            projet, les activités liées au projet et les activités connexes,
+            ainsi que leur emplacement et le calendrier d&rsquo;exécution du
+            projet.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_1"
+                >4.1 Emplacement du projet</a
+              >
+            </li>
+            <li>
+              <a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2"
+                >4.2 &Eacute;l&eacute;ments constitutifs du projet et
+                activit&eacute;s li&eacute;es au projet</a
+              >
+              <ul>
+                <li>
+                  <a
+                    href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2_1"
+                    >4.2.1 D&eacute;tails sur la conception technique</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_2_2"
+                    >4.2.2 Principes de conception technique</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_3"
+                >4.3 Incidences sur le r&eacute;seau de production-transport
+                d'&eacute;lectricit&eacute;</a
+              >
+            </li>
+            <li>
+              <a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_4"
+                >4.4 Autres autorisations requises et calendrier d’exécution du
+                projet</a
+              >
+            </li>
+            <li>
+              <a
+                href="/bts/ctrg/gnnb/lctrctpwrlns/lctrctflngmnl/lfmch4-fra.html#s4_5"
+                >4.5 Solutions de rechange</a
+              >
+            </li>
+          </ul>
+          <h2 id="s4_1">4.1 Emplacement du projet</h2>
+          <h3 class="list-unstyled">But</h3>
+          <p>
+            La demande comprend une description complète de l&rsquo;emplacement
+            du projet et des éléments constitutifs du projet.
+          </p>
+          <h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
+          <p>
+            Fournir une description des éléments suivants, y compris des cartes
+            et des échelles appropriées&nbsp;:
+          </p>
+          <ul>
+            <li>
+              les points d&rsquo;arrivée et le point de traversée à la frontière
+              internationale;
+            </li>
+            <li>
+              le tracé, les emplacements des installations et toute installation
+              auxiliaire projetée;
+            </li>
+            <li>
+              les caractéristiques d&rsquo;utilisation des terres que franchira
+              la LIT;
+            </li>
+            <li>
+              les contraintes qui influent sur le tracé privilégié ou
+              l&rsquo;emplacement des installations ou des éléments constitutifs
+              du projet;
+            </li>
+            <li>la ligne située à l&rsquo;étranger;</li>
+            <li>
+              l&rsquo;emplacement des éléments constitutifs du projet et des
+              activités connexes.
+            </li>
+          </ul>
+          <p>
+            Indiquer la largeur de l&rsquo;emprise proposée et les raisons qui
+            la justifient.
+          </p>
+          <h3 class="list-unstyled">Orientation</h3>
+          <p>
+            Parmi les contraintes qui influent sur le tracé privilégié ou
+            l&rsquo;emplacement des installations ou des éléments constitutifs
+            du projet, il faut noter les facteurs environnementaux,
+            socioéconomiques ou liés à l&rsquo;utilisation des terres ou des
+            ressources naturelles, y compris les régimes fonciers en vigueur, de
+            façon générale, les usages actuels des terres, les plans de zonage
+            et d&rsquo;utilisation des terres, les résidences et localités les
+            plus proches, les caractéristiques physiques particulières ou
+            importantes
+          </p>
+          <p>
+            En ce qui concerne certains renseignements, des schémas unifilaires
+            ou des plans de situation pourraient convenir davantage.
+          </p>
+          <p>
+            S&rsquo;ils ont accès au système de positionnement
+            global&nbsp;(GPS), les demandeurs devraient indiquer les
+            emplacements clés du projet au moyen de cartes produites avec ce
+            système, particulièrement pour ce qui concerne les points
+            d&rsquo;arrivée, le point de traversée à la frontière internationale
+            et les principaux points de localisation du tracé de la&nbsp;LIT.
+          </p>
+          <h2 id="s4_2">
+            4.2 &Eacute;l&eacute;ments constitutifs du projet et
+            activit&eacute;s li&eacute;es au projet
+          </h2>
+          <h3 id="s4_2_1" class="list-unstyled">
+            4.2.1 D&eacute;tails sur la conception technique
+          </h3>
+          <h4>But</h4>
+          <p>
+            La demande comprend une description de la conception physique, des
+            détails de l&rsquo;exploitation et des activités menées pendant tout
+            le cycle de vie des installations visées par le projet proposé et
+            comprend assez de détails pour&nbsp;:
+          </p>
+          <ul>
+            <li>
+              cerner les caractéristiques techniques du projet et les processus
+              qui permettront l&rsquo;exploitation sécuritaire, sûre et fiable
+              des installations proposées;
+            </li>
+            <li>
+              cerner les interactions potentielles du projet avec
+              l&rsquo;environnement;
+            </li>
+            <li>
+              cerner les caractéristiques techniques du projet et les pratiques
+              qui atténueront les effets négatifs sur l&rsquo;environnement
+              naturel et socioéconomique.
+            </li>
+          </ul>
+          <h4>Exigences de d&eacute;p&ocirc;t</h4>
+          <p>
+            La demande doit cerner et décrire tous les éléments constitutifs du
+            projet, les activités liées au projet et les activités connexes (p.
+            ex., les conducteurs, les éléments constitutifs des sous-stations,
+            les chemins d&rsquo;accès, notamment les ponts temporaires ou
+            permanents,  les baraquements de chantier, les aires de travail
+            temporaires, etc.), y compris, sans s&rsquo;y limiter&nbsp;:
+          </p>
+          <ul>
+            <li>la tension,</li>
+            <li>le nombre et la taille des conducteurs,</li>
+            <li>
+              une description des tours ou autres structures de soutien physique
+              de la ligne internationale d&rsquo;énergie électrique,
+            </li>
+            <li>
+              un schéma unifilaire montrant toutes les installations qui
+              constituent la&nbsp;LIT.
+            </li>
+          </ul>
+          <p>
+            La demande doit comporter une description du mode d&rsquo;exécution
+            du projet.
+          </p>
+          <p>
+            Le demandeur doit fournir une description des installations devant
+            être construites par des tiers et qui sont nécessaires à la
+            réalisation des installations proposées, même si elles sont
+            temporaires.
+          </p>
+          <p>
+            Le demandeur doit préciser les autres permis, licences ou
+            autorisations à obtenir avant qu&rsquo;une partie ou
+            l&rsquo;ensemble du projet puissent être mis en chantier.
+          </p>
+          <h4>Orientation</h4>
+          <p>
+            Les installations réglementées par l&rsquo;Office doivent être sûres
+            et sécuritaires. Il faut aussi qu&rsquo;elles soient construites et
+            exploitées de manière à respecter les droits des personnes touchées.
+            En général, les renseignements précisés plus haut sont requis de
+            manière que l&rsquo;Office puisse s&rsquo;assurer que la conception
+            électrique et l&rsquo;exploitation du projet, s&rsquo;il devait se
+            concrétiser, répondront à ces critères.
+          </p>
+          <p>La description de projet doit&nbsp;:</p>
+          <ul>
+            <li>
+              exposer en quoi il consiste, y compris inclure les éléments
+              suivants&nbsp;:
+              <ul>
+                <li>
+                  une liste complète et une description exhaustive des éléments
+                  constitutifs du projet, des activités liées au projet et des
+                  activités connexes (c.-à-d. les éléments ou activités qui sont
+                  nécessaires pour la mise en chantier du projet, comme des
+                  aires de travail temporaires, des voies d&rsquo;accès,
+                  notamment des ponts temporaires ou permanents, etc.);
+                </li>
+                <li>
+                  une description des ouvrages que l&rsquo;on envisage de
+                  remplacer ou d&rsquo;agrandir, et des activités anticipées,
+                  durant la durée de vie du projet;
+                </li>
+                <li>des dessins préliminaires s&rsquo;ils sont disponibles.</li>
+              </ul>
+            </li>
+            <li>
+              décrire le mode d&rsquo;exécution du projet, y compris inclure les
+              éléments suivants&nbsp;:
+              <ul>
+                <li>
+                  une description exhaustive du mode d&rsquo;exécution des
+                  activités liées au projet (déboisement, pieds des pylônes,
+                  montage des pylônes, déroulage, franchissements des cours
+                  d&rsquo;eau, inspection, programmes de surveillance, essais,
+                  etc.) durant les étapes de construction et
+                  d&rsquo;exploitation;
+                </li>
+                <li>
+                  le nombre de travailleurs projeté (c.-à-d. le nombre de
+                  jours-personnes et les compétences requises pour exécuter les
+                  activités de construction et d&rsquo;exploitation).
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            Les exigences stipulées supposent généralement qu&rsquo;il
+            s&rsquo;agit d&rsquo;un projet pour lequel les travaux de
+            construction sont prévus hors terre. Si les travaux de construction
+            envisagés sont souterrains, en tout ou en partie, d&rsquo;autres
+            renseignements doivent être fournis au besoin en remplacement,
+            p.&nbsp;ex., des détails au sujet des tranchées ou des
+            canalisations, et d&rsquo;autres données sur la construction, plutôt
+            que des renseignements sur les pylônes.
+          </p>
+          <p>
+            Le schéma unifilaire regroupant toutes les installations qui forment
+            la ligne internationale de transport d&rsquo;électricité doit
+            inclure de l&rsquo;information détaillée sur les raccordements
+            prévus de la ligne aux sous-stations sur le territoire canadien. Il
+            devra illustrer clairement les éléments des sous-stations faisant
+            partie de la ligne et ceux intégrés au réseau énergétique canadien
+            d&rsquo;accueil. Les éléments ainsi illustrés doivent comprendre les
+            pièces d&rsquo;équipements et les structures du type barres omnibus,
+            transformateurs, coupe-circuits, interrupteurs, coupures
+            anti-refoulement, composantes de compensation réactive, relais de
+            protection, compteurs, etc.
+          </p>
+          <h3 id="s4_2_2" class="list-unstyled">
+            4.2.2 Principes de conception technique
+          </h3>
+          <h4>But</h4>
+          <p>
+            La demande comprend une description des normes, codes et règlements
+            s&rsquo;appliquant aux aspects techniques du projet, ainsi que des
+            détails techniques sur des conditions de conception particulières,
+            de façon assez détaillée pour démontrer que les installations
+            proposées seront sûres, sécuritaires et fiables.
+          </p>
+          <h4>Exigences de d&eacute;p&ocirc;t</h4>
+          <ol>
+            <li>
+              La demande doit inclure la liste complète et détaillée des
+              principaux codes et normes, y compris l&rsquo;édition et la date
+              de publication, qui seront appliqués dans la conception et le
+              choix des matériaux pour chacun des éléments des installations
+              projetées, le tout assujetti aux dispositions suivantes&nbsp;:
+              <ul>
+                <li>
+                  s&rsquo;il y a plusieurs normes et codes parmi lesquels
+                  choisir, exposer brièvement la raison pour laquelle la norme
+                  ou le code évoqué est considéré comme étant celui qui convient
+                  le mieux;
+                </li>
+                <li>
+                  s&rsquo;il n&rsquo;y a pas de normes ou codes reconnus par
+                  l&rsquo;industrie, exposer brièvement la raison pour laquelle
+                  les mesures envisagées seraient prises en ce qui a trait à la
+                  conception touchée et aux matériaux choisis.
+                </li>
+              </ul>
+            </li>
+            <li>
+              La demande doit clairement préciser que le demandeur
+              s&rsquo;engage à exécuter le projet conformément à tous les
+              manuels de conception et d&rsquo;exploitation applicables de la
+              société et que les manuels en question sont conformes aux codes et
+              normes pour le projet. L&rsquo;Office attend de tous les
+              demandeurs qu&rsquo;ils conservent la plus récente version des
+              manuels aux fins de vérification par lui, et en déposer un
+              exemplaire sur demande.
+            </li>
+          </ol>
+          <h4>Orientation</h4>
+          <ol>
+            <li>
+              Les renseignements précisés plus haut sont souhaitables de manière
+              que l&rsquo;Office puisse s&rsquo;assurer que la conception
+              électrique et l&rsquo;exploitation du projet, s&rsquo;il devait se
+              concrétiser, seraient sûres et sécuritaires, et perçues comme
+              telles. À cette fin, la demande doit montrer que le projet ne
+              dérogerait pas aux pratiques actuelles généralement reconnues par
+              l&rsquo;industrie, pas plus qu&rsquo;aux marches à suivre pour des
+              installations semblables construites et exploitées dans des
+              circonstances et des conditions similaires ailleurs, de préférence
+              au Canada.
+            </li>
+            <li>
+              En l&rsquo;absence de codes ou de normes clairement applicables et
+              reconnus par l&rsquo;industrie, le recours à de saines pratiques
+              d&rsquo;ingénierie est de rigueur. Cependant, dans la mesure du
+              possible, un plan d&rsquo;action découlant du respect de ce
+              principe devrait directement mener à des codes, normes ou
+              principes techniques bien établis.
+            </li>
+          </ol>
+          <h2 id="s4_3">
+            4.3 Incidences sur le r&eacute;seau de production-transport
+            d'&eacute;lectricit&eacute;
+          </h2>
+          <h3 class="list-unstyled">But</h3>
+          <p>
+            La demande renferme suffisamment de renseignements pour déterminer
+            et justifier les effets du projet proposé sur l&rsquo;exploitation
+            sans danger, la sûreté et la fiabilité du réseau énergétique
+            existant et envisagé auquel il serait intégré.
+          </p>
+          <h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
+          <p>La demande doit pr&eacute;ciser&nbsp;:</p>
+          <ul>
+            <li>
+              les capacités totales de transfert de puissance à des fins
+              d&rsquo;exportation ou d&rsquo;importation, avec et sans la ligne
+              internationale de transport d&rsquo;électricité, du réseau de
+              production-transport canadien local auquel sera relié le projet
+              envisagé, ainsi que du réseau de production-transport à
+              l&rsquo;extérieur du Canada auquel sera reliée la ligne
+              internationale de transport d&rsquo;électricité, en précisant les
+              critères d&rsquo;établissement de telles capacités;
+            </li>
+            <li>
+              la capacité de transfert de puissance de la ligne internationale
+              de transport d&rsquo;électricité dans le contexte d&rsquo;un
+              transport soutenu en fonction de conditions hivernales et
+              estivales, ainsi que les critères d&rsquo;établissement de la
+              capacité de transfert de puissance indiquée;
+            </li>
+            <li>
+              une description des normes de fiabilité auxquelles la&nbsp;LIT
+              sera soumise pendant son exploitation;
+            </li>
+            <li>
+              une copie de&nbsp;:
+              <ul class="list-unstyled">
+                <li>
+                  (i) chaque convention d&rsquo;interconnexion se rapportant à
+                  la construction de la ligne internationale,
+                </li>
+                <li>
+                  (ii) toute autre entente liant le demandeur et le propriétaire
+                  ou l&rsquo;exploitant de la ligne située à l&rsquo;étranger et
+                  portant sur la construction et l&rsquo;exploitation de la
+                  ligne internationale et de la ligne située à l&rsquo;étranger;
+                </li>
+              </ul>
+            </li>
+            <li>
+              la confirmation de la conformité aux normes applicables de
+              fiabilité de la North American Reliability Corporation, s&rsquo;il
+              y a lieu.
+            </li>
+          </ul>
+          <h3 class="list-unstyled">Orientation</h3>
+          <ol>
+            <li>
+              Les demandeurs sont invités à prendre connaissance de
+              l&rsquo;ordonnance générale visant les normes de fiabilité de
+              l&rsquo;électricité (annexe&nbsp;I) pour savoir quelles sont les
+              attentes de l&rsquo;Office à l&rsquo;égard des normes de
+              fiabilité.
+            </li>
+            <li>
+              Les renseignements précisés plus haut sont requis de manière à
+              s&rsquo;assurer que le projet, son calendrier, sa conception et
+              son exploitation, si un tel projet devait se concrétiser,
+              n&rsquo;iraient pas à l&rsquo;encontre du droit d&rsquo;autrui à
+              s&rsquo;attendre à un service électrique sûr et fiable de la part
+              du réseau, dans sa forme existante et tel qu&rsquo;envisagé. Ils
+              devraient en outre aider à s&rsquo;assurer que le projet,
+              s&rsquo;il devait être construit, ne compromettrait pas ni ne
+              mettrait en péril la sécurité physique du réseau énergétique. À
+              cette fin, la demande doit montrer que le projet dispose ou
+              disposera de toutes les autorisations requises de la part des
+              gouvernements des provinces et des autres autorités compétentes.
+            </li>
+            <li>
+              Si le projet est considéré comme faisant partie du réseau de
+              production-transport d&rsquo;électricité, la demande devrait
+              fournir les détails pertinents de l&rsquo;examen de la ligne
+              internationale de transport d&rsquo;électricité effectué, les
+              études et les recommandations formulées par les différents
+              organismes chargés de la réglementation en matière de fiabilité du
+              réseau électrique, comme les conseils régionaux sur la fiabilité
+              de la&nbsp;NERC. Ces renseignements pourraient consister en des
+              copies des documents pertinents, comme les rapports d&rsquo;étude
+              produits par les organisations en question à l&rsquo;égard
+              du&nbsp;projet.
+            </li>
+            <li>
+              L&rsquo;Office s&rsquo;attend à ce que les demandeurs se
+              conforment aux versions les plus à jour des normes de fiabilité,
+              celles en cours d&rsquo;élaboration par les autorités compétentes,
+              par exemple, celles reconnues par une province, pendant la
+              conception, la construction et l&rsquo;exploitation des
+              installations proposées. Les demandeurs devraient confirmer cet
+              engagement auprès de l&rsquo;Office.
+            </li>
+          </ol>
+          <h2 id="s4_4">
+            4.4 Autres autorisations requises et calendrier d&rsquo;exécution du
+            projet
+          </h2>
+          <h3 class="list-unstyled">But</h3>
+          <p>
+            La demande comporte des renseignements sur les autres autorisations
+            et processus réglementaires ainsi que sur le calendrier
+            d&rsquo;exécution du projet.
+          </p>
+          <h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
+          <p>Fournir&nbsp;:</p>
+          <ul>
+            <li>
+              une description des autorisations des autorités provinciales qui
+              sont exigées pour la ligne de transport d&rsquo;électricité située
+              au Canada, notamment ce qui suit&nbsp;:
+              <ul>
+                <li>
+                  une description du processus d&rsquo;examen pour chaque
+                  autorisation des autorités provinciales, y compris une
+                  description du processus de consultation publique;
+                </li>
+                <li>
+                  une indication de l&rsquo;état d&rsquo;avancement des
+                  démarches entreprises et un calendrier précisant quand les
+                  examens toujours en cours seront terminés;
+                </li>
+                <li>
+                  une copie des autorisations déjà accordées par les autorités
+                  provinciales compétentes;
+                </li>
+              </ul>
+            </li>
+            <li>
+              une description des autorisations qui doivent encore être obtenues
+              des autorités compétentes concernant la ligne située à
+              l&rsquo;étranger;
+            </li>
+            <li>
+              le nom de l&rsquo;organisme de réglementation provincial désigné,
+              dans le cas d&rsquo;une demande de permis;
+            </li>
+            <li>
+              un calendrier précisant les dates projetées pour l&rsquo;obtention
+              de chaque autorisation susmentionnée ainsi que pour la mise en
+              chantier et la fin des travaux de construction de la ligne
+              internationale et de la ligne située à l&rsquo;étranger;
+            </li>
+            <li>la date prévue de la mise en service.</li>
+          </ul>
+          <h3 class="list-unstyled">Orientation</h3>
+          <p>
+            L&rsquo;Office exige des renseignements sur l&rsquo;état
+            d&rsquo;avancement des démarches entreprises pour obtenir toutes les
+            approbations ou autorisations nécessaires, au Canada et à
+            l&rsquo;étranger. Ces renseignements visent à lui fournir une
+            assurance raisonnable qu&rsquo;aucune question devant d&rsquo;autres
+            organismes de réglementation risque d&rsquo;empêcher ou de retarder
+            la construction ou l&rsquo;utilisation des installations visées par
+            la demande. Le demandeur peut aussi présenter des mises à jour sur
+            l&rsquo;état d&rsquo;avancement des démarches après avoir déposé sa
+            demande. Pour éviter le plus possible les chevauchements
+            réglementaires, l&rsquo;Office prendra en considération les
+            autorisations accordées par d&rsquo;autres organismes qui sont
+            jointes à la demande. Les demandeurs ont donc avantage à lui
+            transmettre toutes les approbations du genre dès le début du
+            processus afin de rendre celui-ci plus efficace.
+          </p>
+          <p>
+            Les demandeurs sont libres de choisir le moment auquel ils
+            présenteront leurs demandes d&rsquo;autorisation aux autorités
+            provinciales et à lui-même, mais ils doivent savoir que le processus
+            de l&rsquo;Office se déroule plus rondement une fois que
+            l&rsquo;examen des autorités provinciales correspondantes a été mené
+            à terme. Si le demandeur choisit de présenter sa demande à
+            l&rsquo;Office avant ou en même temps que celle à l&rsquo;autorité
+            provinciale, il est particulièrement important de fournir un tracé
+            du projet aussi détaillé que possible et que le processus de
+            consultation du public concernant le tracé soit le plus avancé
+            possible. Si la planification ou les consultations du demandeur
+            concernant le projet ne sont pas assez avancées, le processus
+            d&rsquo;examen de l&rsquo;Office pourrait prendre plus de temps.
+          </p>
+          <p>
+            En ce qui a trait aux demandes de permis, l&rsquo;article&nbsp;58.17
+            de la Loi sur l&rsquo;Office national de l&rsquo;énergie exige du
+            demandeur qu&rsquo;il précise de quelle autorité régulatrice
+            provinciale la supervision de la&nbsp;LIT proposée relèvera. Il
+            s&rsquo;agit d&rsquo;une exigence importante pour éviter qu&rsquo;il
+            y ait des failles dans la réglementation au sujet de la compétence
+            des autorités responsables de la&nbsp;LIT et que celle-ci soit
+            finalement transférée à la province. Les promoteurs sont invités à
+            faire preuve de prudence sur ce plan et à clarifier toute question
+            avant de présenter leur demande à l&rsquo;Office.
+          </p>
+          <p>
+            En ce qui a trait au calendrier d&rsquo;exécution du projet, il
+            doit&nbsp;:
+          </p>
+          <ul>
+            <li>
+              détailler toutes les principales activités liées à la
+              construction, en sous-activités;
+            </li>
+            <li>
+              préciser les contraintes d&rsquo;ordre temporel ou les créneaux
+              favorables;
+            </li>
+            <li>
+              indiquer comment des changements de dates d&rsquo;échéance
+              risquent de nuire au reste du calendrier et, en fin de compte, au
+              projet.
+            </li>
+          </ul>
+          <p>
+            Le demandeur doit également préciser le moment prévu de la
+            désaffectation et de la cessation d&rsquo;exploitation du projet.
+          </p>
+          <p>
+            Pour ce qui concerne les certificats faisant suite à une décision,
+            le demandeur doit également fournir un calendrier des activités
+            d&rsquo;exploitation, dont les inspections, les réparations ou
+            l&rsquo;entretien.
+          </p>
+          <h2 id="s4_5">4.5 Solutions de rechange</h2>
+          <h3 class="list-unstyled">But</h3>
+          <p>
+            La demande doit comporter une description des solutions de rechange
+            envisagées et les raisons qui ont incité à opter pour les options
+            choisies.
+          </p>
+          <h3 class="list-unstyled">Exigences de d&eacute;p&ocirc;t</h3>
+          <ol>
+            <li>
+              Décrire les solutions de rechange étudiées et exposer les raisons
+              qui ont incité à opter pour le projet demandé plutôt que pour les
+              autres solutions de rechange possibles.
+            </li>
+            <li>
+              Décrire et justifier le choix du tracé et du site proposés, en
+              incluant une comparaison des solutions de rechange sur la base des
+              critères de sélection retenus.
+            </li>
+            <li>
+              S&rsquo;il y a lieu, décrire les autres méthodes de conception et
+              de construction envisagées et exposer les raisons qui ont incité à
+              opter pour les méthodes choisies.
+            </li>
+          </ol>
+          <h3 class="list-unstyled">Orientation</h3>
+          <h4>Solutions de rechange &eacute;tudi&eacute;es</h4>
+          <p>
+            Les solutions de rechange sont des moyens différents sur le plan
+            fonctionnel de répondre au besoin du projet et d&rsquo;atteindre ses
+            fins, ou d&rsquo;autres moyens réalisables sur les plans technique,
+            économique, social et environnemental pour mener à bien le projet.
+            Cela pourrait inclure ce qui suit&nbsp;:
+          </p>
+          <ul>
+            <li>une autre stratégie d&rsquo;interconnexion possible;</li>
+            <li>un autre tracé ou un autre emplacement possible;</li>
+            <li>
+              une autre solution de conception possible des installations;
+            </li>
+            <li>
+              d&rsquo;autres méthodes de construction, de mise en œuvre et
+              d&rsquo;atténuation.
+            </li>
+          </ul>
+          <h4>Critères de sélection des solutions de rechange</h4>
+          <p>
+            Les demandeurs devraient faire la synthèse des diverses solutions de
+            rechange concernant le projet, le tracé, la conception et la
+            construction et les comparer au moyen de critères qui justifient le
+            bien-fondé de l&rsquo;option proposée et démontrent pourquoi il
+            s&rsquo;agit de la meilleure option et comment elle a été choisie.
+          </p>
+          <p>
+            Lors de la comparaison des solutions de rechange pour le projet, le
+            tracé, la conception ou la construction, il y a lieu de décrire en
+            détail les critères ci-après qui s&rsquo;appliquent&nbsp;:
+          </p>
+          <ul>
+            <li>la conception technique;</li>
+            <li>la faisabilité économique ou les coûts;</li>
+            <li>
+              l&rsquo;incidence sur la fiabilité et la sûreté du réseau
+              électrique hôte existant;
+            </li>
+            <li>les préoccupations du public;</li>
+            <li>
+              les contraintes d&rsquo;ordre environnemental et socioéconomique,
+              les avantages ou les effets potentiels;
+            </li>
+            <li>
+              les préoccupations régionales relativement aux effets cumulatifs.
+            </li>
+          </ul>
+          <p>
+            Le niveau de détail fourni doit être en phase avec la portée du
+            projet et les répercussions potentielles sur la stabilité et la
+            fiabilité du réseau électrique hôte, sur des tiers et sur
+            l&rsquo;environnement.
+          </p>
+
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date de modification&#160;:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+        <nav
+          class="col-md-3 col-md-pull-9 visible-md visible-lg"
+          typeof="SiteNavigationElement"
+          id="wb-sec"
+          role="navigation"
+        >
+          <h2>Section menu</h2>
+          <ul class="list-group menu list-unstyled">
+            <li>
+              <h3><a href="/bts/index-fra.html">À propos de nous</a></h3>
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/bts/whwr/index-fra.html"
+                    >Nos employés</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/whwr/rspnsblt/index-fra.html"
+                        ><div class="mrgn-lft-md">Responsabilités</div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv"></ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/whwr/rgnztnndstrctr/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Organisation et structure
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/whwr/gvrnnc/index-fra.html"
+                        ><div class="mrgn-lft-md">Gouvernance</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/whwr/rhstry-fra.html"
+                        ><div class="mrgn-lft-md">Contexte historique</div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/bts/ctrg/index-fra.html"
+                    >Lois et règlements</a
+                  >
+                  <ul class="list-group menu list-unstyled expanded">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/ctrg/lstctrg-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Liste des lois et règlements
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/ctrg/frp/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Plan prospectif de la réglementation
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/ctrg/rgltstck/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Plan d’examen de l’inventaire des règlements
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/bts/pblctn/index-fra.html"
+                    >Publications et rapports</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv"></ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/bts/nws/index-fra.html"
+                    >Nouvelles (Salle des médias)</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/spch/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Discours et allocutions
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/fs/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Fiches de renseignements
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/fqs/index-fra.html"
+                        ><div class="mrgn-lft-md">Questions et réponses</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/nr/index-fra.html"
+                        ><div class="mrgn-lft-md">Communiqués</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/rgltrsnpshts/index-fra.html"
+                        ><div class="mrgn-lft-md">Aperçu de l’Office</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/mdccrdttn/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Accréditation de médias et lignes directrices
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/nws/whtnw/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Quoi de neuf? – Archives
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/bts/crr/index-fra.html"
+                    >Carrières</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/crr/crrpprtnts-fra.html"
+                        ><div class="mrgn-lft-md">Occasions de carrière</div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv"></ul>
+                    </li>
+                    <li>
+                      <a class="list-group-item" href="/bts/crr/hwdppl-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Comment postuler un emploi?
+                        </div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv"></ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/bts/crr/stdnthrng-fra.html"
+                        ><div class="mrgn-lft-md">Emplois étudiants</div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv"></ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- SecNavEnd -->
+          </ul>
         </nav>
-	</div>
-</div>
-<!--
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -465,74 +1229,135 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-<div class="container">
-<nav role="navigation">
-<h2>&Agrave; propos de ce site</h2>
-<ul id="gc-tctr" class="list-inline">
-<li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
-<li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
-</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
-						<li><a href="/bts/pblctn/index-fra.html">Publications et rapports</a></li>
-						<li><a href="/bts/ctrg/index-fra.html">Lois et r&egrave;glements</a></li>	
-						<li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a></li>
-						<li><a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a></li>
-						<li><a href="/bts/nws/spch/index-fra.html">Discours et allocutions</a></li>
-						<li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-fra.html">Fils RSS</a></li>
-						<li><a href="https://twitter.com/REC_CER">Twitter</a></li>
-						<li><a href="https://www.facebook.com/facebook.com/REC.CER/">Facebook</a></li> 
-						<li><a href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-</nav>
-</div>
-<div id="gc-info">
-<div class="container">
-<nav role="navigation">
-<h2>Pied de page du gouvernement du Canada</h2>
-<ul class="list-inline">
-<li><a href="http://canadiensensante.gc.ca"><span>Sant&eacute;</span></a></li>
-<li><a href="http://voyage.gc.ca"><span>Voyage</span></a></li>
-<li><a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"><span>Service Canada</span></a></li>
-<li><a href="http://www.guichetemplois.gc.ca"><span>Emplois</span></a></li>
-<li><a href="http://plandaction.gc.ca/fr"><span>&Eacute;conomie</span></a></li>
-<li><a href="http://www.canada.ca/fr/index.html"><span>Canada.ca</span></a></li>
-<li id="canada-ca"><a href="http://www.canada.ca/fr/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-</ul>
-</nav>
-</div>
-</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>&Agrave; propos de ce site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
+            <li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-fra.html"
+                    >Publications et rapports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-fra.html"
+                    >Lois et r&egrave;glements</a
+                  >
+                </li>
+                <li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/spch/index-fra.html"
+                    >Discours et allocutions</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3>
+                <a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a>
+              </h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-fra.html">Fils RSS</a></li>
+                <li><a href="https://twitter.com/REC_CER">Twitter</a></li>
+                <li>
+                  <a href="https://www.facebook.com/facebook.com/REC.CER/"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Pied de page du gouvernement du Canada</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://canadiensensante.gc.ca"
+                  ><span>Sant&eacute;</span></a
+                >
+              </li>
+              <li>
+                <a href="http://voyage.gc.ca"><span>Voyage</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.guichetemplois.gc.ca"
+                  ><span>Emplois</span></a
+                >
+              </li>
+              <li>
+                <a href="http://plandaction.gc.ca/fr"
+                  ><span>&Eacute;conomie</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

@@ -1,939 +1,1314 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="fr" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="fr" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-2col-fra.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>REC - Exportations de pétrole brut canadien par chemin de fer - Données mensuelles</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Statistiques; Industrie p&eacute;troli&egrave;re; P&eacute;trole; Importation;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      REC - Exportations de pétrole brut canadien par chemin de fer - Données
+      mensuelles
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta
+      name="dcterms.subject"
+      title="scheme"
+      content="Statistiques; Industrie p&eacute;troli&egrave;re; P&eacute;trole; Importation;"
+    />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta
+      name="dcterms.title"
+      content="ON&Eacute; - Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-10-21" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-10-21" />
+    <meta
+      name="description"
+      content="Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Gouvernement du Canada, Office national de l’énergie"
+    />
+    <meta name="dcterms.language" title="ISO639-2" content="fra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="dcterms.title" content="ON&Eacute; - Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-10-21" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-10-21" />
-<meta name="description" content="Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles" />
-<meta name="dcterms.creator" content="Gouvernement du Canada, Office national de l’énergie" />
-<meta name="dcterms.language" title="ISO639-2" content="fra" />
-<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="Office_national_de_l_energie"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="Office_national_de_l_energie"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info"
+          >Passer à «&#160;À propos de ce site&#160;»</a
+        >
+      </li>
+      <li class="wb-slc visible-md visible-lg">
+        <a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg"
+                    aria-label="Gouvernement du Canada"
+                  ></object>
+                </span>
+                <h2>Sélection de la langue</h2>
+                <ul class="text-right">
+                  <li class="curr">Français&#32;<span>(actuel)</span></li>
+                  <li>
+                    <a
+                      lang="en"
+                      hreflang="en"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >English</a
+                    >
+                  </li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Recherche et menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Recherche et menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Recherche et menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <a href="/index-fra.html"
+                ><span>Régie de l’énergie du Canada</span></a
+              >
+            </div>
 
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Passer à «&#160;À propos de ce site&#160;»</a>
-	</li><li class="wb-slc visible-md visible-lg">
-<a class="wb-sl" href="#wb-sec">Passer au menu de la section</a>
-</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">	
-			<div class="clearfix"></div>
-			<div class="container">
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-fr.svg" aria-label="Gouvernement du Canada"></object>
-						</span>					
-					    <h2>Sélection de la langue</h2>
-						<ul class="text-right">						
-<li class="curr">Français&#32;<span>(actuel)</span></li>
-<li><a lang="en" hreflang="en" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">English</a></li> 
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-<h2>Recherche et menus</h2>
-<ul class="pnl-btn list-inline text-right">
-<li><a href="#mb-pnl" title="Recherche et menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Recherche et menus</span></span></span></a></li>
-</ul>
-<div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div id="wb-sttl" class="col-md-8 mrgn-tp-md"><a href="/index-fra.html"><span>Régie de l’énergie du Canada</span></a></div>
-	
-<section id="wb-srch" class="col-md-4 visible-md visible-lg">
-<h2>Recherche</h2>
-<form class="form-inline" role="search" method="get" action="https://recherche-search.gc.ca/rGs/s_r">
-<div class="form-group">
-	<label for="wb-srch-q">Search website</label>
-	<input type="hidden" name="st" value="s" data-role="none">
-	<input type="hidden" name="num" value="10" data-role="none">
-	<input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-	<input type="hidden" name="st1rt" value="0" data-role="none">
-	<input type="hidden" name="langs" value="fra" data-role="none">
-	<input type="hidden" name="cdn" value="reccer" data-role="none">
-	<input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
-</div>
-<button type="submit" id="wb-srch-sub" class="btn btn-default">Recherche</button>
-</form>
-</section>
-</div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-<div class="container nvbar">
-<h2>Menu des sujets</h2>
-<div class="row">
-<ul class="list-inline menu">
-<li><a href="/sftnvrnmnt/index-fra.html">Sécurité et environnement</a></li>
-<li><a href="/prtcptn/index-fra.html">Participation et questions foncières</a></li>
-<li><a href="/pplctnflng/index-fra.html">Demandes et dépôts</a></li>
-<li><a href="/nrg/index-fra.html">Information sur l’énergie</a></li>
-<li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
-<li><a href="/bts/index-fra.html">À propos de nous</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<nav role="navigation" id="wb-bc" property="breadcrumb">
-<h2>Vous êtes ici :</h2>
-<div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href="/index-fra.html">Accueil</a></li>
-<li><a href="/nrg/index-fra.html">Information sur l’énergie</a></li>
-<li><a href="/nrg/sttstc/index-fra.html">Statistiques et analyse</a></li>
-<li><a href="/nrg/sttstc/crdlndptrlmprdct/index-fra.html">Pétrole brut et produits pétroliers</a></li>
-<li>Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
-<!-- InstanceBeginEditable name="center" -->
-<h1 id="wb-cont" property="name">Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles</h1>
-<div class="well mrgn-tp-md ">
-<p>Ces données ne visent que les exportations canadiennes, sans aucune ventilation provinciale ou domestique. Ces statistiques sont fournies sous forme de tableur EXCEL et mises à jour chaque mois. Pour des raisons de confidentialité, aucune donnée antérieure à 2012 n’est disponible. Pour prendre connaissance des nouvelles données dès qu’elles sont publiées, demandez à recevoir nos <a href="/rss/rss-fra.html">fils RSS</a>.</p>
-</div>
-<p>Pour obtenir plus de renseignements, communiquer avec <a href="mailto:request.demande@cer-rec.gc.ca">request.demande@cer-rec.gc.ca</a>.</p>
-<p><a href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.xls" title="Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles [EXCEL]">Exportations
- de pétrole brut canadien par chemin de fer &ndash; Données mensuelles (mise à jour
-le 18&nbsp;octobre 2019) [EXCEL&nbsp;856&nbsp;ko]</a></p>
-<table class="table table-bordered">
-<caption>Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles</caption>
-<thead>
-<tr>
-<th height="97" class="text-center active" scope="col">Année</th>
-<th scope="col" class="text-center active">Mois</th>
-<th scope="col" class="text-center active">Volume <br>
-(m&sup3;)</th>
-<th scope="col" class="text-center active">Volume
-(m&sup3; par jour)</th>
-<th scope="col" class="text-center active">Volume<br>
-(b)</th>
-<th scope="col" class="text-center active"><br>
-Volume<br>
-(b par jour)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th rowspan="7" class="text-center active">2019</th>
-
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">1,527,846</td>
-<td class="text-right">49,285</td>
-<td class="text-right">9,614,514</td>
-<td class="text-right">310,146</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">1,543,301</td>
-<td class="text-right">49,784</td>
-<td class="text-right">9,711,773</td>
-<td class="text-right">313,283</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right"> 1,366,792 </td>
-<td class="text-right"> 45,560 </td>
-<td class="text-right"> 8,601,027 </td>
-<td class="text-right"> 286,701 </td>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">1,404,616</td>
-<td class="text-right">45,310</td>
-<td class="text-right">8,839,047</td>
-<td class="text-right">285,131</td>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">1,107,419</td>
-<td class="text-right">36,914</td>
-<td class="text-right">6,968,829</td>
-<td class="text-right">232,294</td>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">829,985</td>
-<td class="text-right">26,774</td>
-<td class="text-right">5,222,975</td>
-<td class="text-right">168,483</td>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">544,138</td>
-<td class="text-right">19,434</td>
-<td class="text-right">3,424,185</td>
-<td class="text-right">122,292</td>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">1,603,480</td>
-<td class="text-right">51,725</td>
-<td class="text-right">10,090,472</td>
-<td class="text-right">325,499</td>
-<tr>
-<th rowspan="12" class="text-center active">2018</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">1,742,842</td>
-<td class="text-right">56,221</td>
-<td class="text-right">10,967,456</td>
-<td class="text-right">353,789</td>
-</tr>
-<tr>	
-<td><strong>novembre</strong></td>
-<td class="text-right">1,575,177</td>
-<td class="text-right">52,506</td>
-<td class="text-right">9,912,361</td>
-<td class="text-right">330,412</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">1,661,418</td>
-<td class="text-right">53,594</td>
-<td class="text-right">10,455,066</td>
-<td class="text-right">337,260</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">1,296,306</td>
-<td class="text-right">43,210</td>
-<td class="text-right">8,157,468</td>
-<td class="text-right">271,916</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">1,135,114</td>
-<td class="text-right">36,617</td>
-<td class="text-right">7,143,109</td>
-<td class="text-right">230,423</td>
-</tr>	
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">1,018,990</td>
-<td class="text-right">32,871</td>
-<td class="text-right">6,412,358</td>
-<td class="text-right">206,850</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">966,224</td>
-<td class="text-right">32,207</td>
-<td class="text-right">6,080,312</td>
-<td class="text-right">202,677</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">979,134</td>
-<td class="text-right">31,585</td>
-<td class="text-right">6,161,548</td>
-<td class="text-right">198,760</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">903,743</td>
-<td class="text-right">30,125</td>
-<td class="text-right">5,687,127</td>
-<td class="text-right">189,571</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">840,522</td>
-<td class="text-right">27,114</td>
-<td class="text-right">5,289,282</td>
-<td class="text-right">170,622</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">596,565</td>
-<td class="text-right">21,306</td>
-<td class="text-right">3,754,096</td>
-<td class="text-right">134,075</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">717,684</td>
-<td class="text-right">23,151</td>
-<td class="text-right">4,516,283</td>
-<td class="text-right">145,687</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2017</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">748,489</td>
-<td class="text-right">24,145</td>
-<td class="text-right">4,710,133</td>
-<td class="text-right">151,940</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">707,046</td>
-<td class="text-right">23,568</td>
-<td class="text-right">4,449,337</td>
-<td class="text-right">148,311</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">675,768</td>
-<td class="text-right">21,799</td>
-<td class="text-right">4,252,509</td>
-<td class="text-right">137,178</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">639,449</td>
-<td class="text-right">21,315</td>
-<td class="text-right">4,023,963</td>
-<td class="text-right">134,132</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">590,833</td>
-<td class="text-right">19,059</td>
-<td class="text-right">3,718,026</td>
-<td class="text-right">119,936</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">455,925</td>
-<td class="text-right">14,707</td>
-<td class="text-right">2,869,071</td>
-<td class="text-right">92,551</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">522,049</td>
-<td class="text-right">17,402</td>
-<td class="text-right">3,285,182</td>
-<td class="text-right">109,506</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">644,920</td>
-<td class="text-right">20,804</td>
-<td class="text-right">4,058,391</td>
-<td class="text-right">130,916</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">714,633</td>
-<td class="text-right">23,821</td>
-<td class="text-right">4,497,084</td>
-<td class="text-right">149,903</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">766,789</td>
-<td class="text-right">24,735</td>
-<td class="text-right">4,825,292</td>
-<td class="text-right">155,655</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">590,415</td>
-<td class="text-right">21,086</td>
-<td class="text-right">3,715,400</td>
-<td class="text-right">132,693</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">590,534</td>
-<td class="text-right">19,049</td>
-<td class="text-right">3,716,146</td>
-<td class="text-right">119,876</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2016</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">627,434</td>
-<td class="text-right">20,240</td>
-<td class="text-right">3,948,352</td>
-<td class="text-right">127,366</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">572,235</td>
-<td class="text-right">19,074</td>
-<td class="text-right">3,600,992</td>
-<td class="text-right">120,033</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">505,205</td>
-<td class="text-right">16,297</td>
-<td class="text-right">3,179,183</td>
-<td class="text-right">102,554</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">330,335</td>
-<td class="text-right">11,011</td>
-<td class="text-right">2,078,748</td>
-<td class="text-right">69,292</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">324,495</td>
-<td class="text-right">10,468</td>
-<td class="text-right">2,041,999</td>
-<td class="text-right">65,871</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">261,529</td>
-<td class="text-right">8,436</td>
-<td class="text-right">1,645,766</td>
-<td class="text-right">53,089</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">205,970</td>
-<td class="text-right">6,866</td>
-<td class="text-right">1,296,137</td>
-<td class="text-right">43,205</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">350,179</td>
-<td class="text-right">11,296</td>
-<td class="text-right">2,203,629</td>
-<td class="text-right">71,085</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">517,689</td>
-<td class="text-right">17,256</td>
-<td class="text-right">3,257,744</td>
-<td class="text-right">108,591</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">501,999</td>
-<td class="text-right">16,194</td>
-<td class="text-right">3,159,005</td>
-<td class="text-right">101,903</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">440,680</td>
-<td class="text-right">15,196</td>
-<td class="text-right">2,773,133</td>
-<td class="text-right">95,625</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">473,239</td>
-<td class="text-right">15,266</td>
-<td class="text-right">2,978,023</td>
-<td class="text-right">96,065</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2015</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">525,645</td>
-<td class="text-right">16,956</td>
-<td class="text-right">3,307,811</td>
-<td class="text-right">106,704</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">487,773</td>
-<td class="text-right">16,259</td>
-<td class="text-right">3,069,483</td>
-<td class="text-right">102,316</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">821,728</td>
-<td class="text-right">26,507</td>
-<td class="text-right">5,171,018</td>
-<td class="text-right">166,807</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">763,584</td>
-<td class="text-right">25,453</td>
-<td class="text-right">4,805,128</td>
-<td class="text-right">160,171</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">526,399</td>
-<td class="text-right">16,981</td>
-<td class="text-right">3,312,554</td>
-<td class="text-right">106,857</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">409,055</td>
-<td class="text-right">13,195</td>
-<td class="text-right">2,574,123</td>
-<td class="text-right">83,036</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">382,950</td>
-<td class="text-right">12,765</td>
-<td class="text-right">2,409,850</td>
-<td class="text-right">80,328</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">405,088</td>
-<td class="text-right">13,067</td>
-<td class="text-right">2,549,160</td>
-<td class="text-right">82,231</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">420,967</td>
-<td class="text-right">14,032</td>
-<td class="text-right">2,649,088</td>
-<td class="text-right">88,303</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">580,246</td>
-<td class="text-right">18,718</td>
-<td class="text-right">3,651,407</td>
-<td class="text-right">117,787</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">469,322</td>
-<td class="text-right">16,762</td>
-<td class="text-right">2,953,378</td>
-<td class="text-right">105,478</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">663,166</td>
-<td class="text-right">21,392</td>
-<td class="text-right">4,173,206</td>
-<td class="text-right">134,620</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2014</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">865,312</td>
-<td class="text-right">27,913</td>
-<td class="text-right">5,445,285</td>
-<td class="text-right">175,654</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">719,672</td>
-<td class="text-right">23,989</td>
-<td class="text-right">4,528,791</td>
-<td class="text-right">150,960</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">732,721</td>
-<td class="text-right">23,636</td>
-<td class="text-right">4,610,906</td>
-<td class="text-right">148,739</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">853,297</td>
-<td class="text-right">28,443</td>
-<td class="text-right">5,369,675</td>
-<td class="text-right">178,989</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">765,107</td>
-<td class="text-right">24,681</td>
-<td class="text-right">4,814,711</td>
-<td class="text-right">155,313</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">808,440</td>
-<td class="text-right">26,079</td>
-<td class="text-right">5,087,396</td>
-<td class="text-right">164,110</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">696,292</td>
-<td class="text-right">23,210</td>
-<td class="text-right">4,381,664</td>
-<td class="text-right">146,055</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">776,525</td>
-<td class="text-right">25,049</td>
-<td class="text-right">4,886,564</td>
-<td class="text-right">157,631</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">757,772</td>
-<td class="text-right">25,259</td>
-<td class="text-right">4,768,548</td>
-<td class="text-right">158,952</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">850,706</td>
-<td class="text-right">27,442</td>
-<td class="text-right">5,353,369</td>
-<td class="text-right">172,689</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">725,916</td>
-<td class="text-right">25,926</td>
-<td class="text-right">4,568,086</td>
-<td class="text-right">163,146</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">784,705</td>
-<td class="text-right">25,313</td>
-<td class="text-right">4,938,035</td>
-<td class="text-right">159,291</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2013</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">804,981</td>
-<td class="text-right">25,967</td>
-<td class="text-right">5,065,627</td>
-<td class="text-right">163,407</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">694,877</td>
-<td class="text-right">23,163</td>
-<td class="text-right">4,372,759</td>
-<td class="text-right">145,759</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">641,470</td>
-<td class="text-right">20,693</td>
-<td class="text-right">4,036,679</td>
-<td class="text-right">130,215</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">558,076</td>
-<td class="text-right">18,603</td>
-<td class="text-right">3,511,891</td>
-<td class="text-right">117,063</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">559,111</td>
-<td class="text-right">18,036</td>
-<td class="text-right">3,518,405</td>
-<td class="text-right">113,497</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">661,131</td>
-<td class="text-right">21,327</td>
-<td class="text-right">4,160,406</td>
-<td class="text-right">134,207</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">663,648</td>
-<td class="text-right">22,122</td>
-<td class="text-right">4,176,244</td>
-<td class="text-right">139,208</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">647,734</td>
-<td class="text-right">20,895</td>
-<td class="text-right">4,076,100</td>
-<td class="text-right">131,487</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">597,611</td>
-<td class="text-right">19,920</td>
-<td class="text-right">3,760,680</td>
-<td class="text-right">125,356</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">565,162</td>
-<td class="text-right">18,231</td>
-<td class="text-right">3,556,486</td>
-<td class="text-right">114,725</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">443,069</td>
-<td class="text-right">15,824</td>
-<td class="text-right">2,788,168</td>
-<td class="text-right">99,577</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">484,595</td>
-<td class="text-right">15,632</td>
-<td class="text-right">3,049,485</td>
-<td class="text-right">98,370</td>
-</tr>
-<tr>
-<th rowspan="12" class="text-center active">2012</th>
-<td><strong>décembre</strong></td>
-<td class="text-right">614,912</td>
-<td class="text-right">19,836</td>
-<td class="text-right">3,869,555</td>
-<td class="text-right">124,824</td>
-</tr>
-<tr>
-<td><strong>novembre</strong></td>
-<td class="text-right">262,269</td>
-<td class="text-right">8,742</td>
-<td class="text-right">1,650,423</td>
-<td class="text-right">55,014</td>
-</tr>
-<tr>
-<td><strong>octobre</strong></td>
-<td class="text-right">288,932</td>
-<td class="text-right">9,320</td>
-<td class="text-right">1,818,210</td>
-<td class="text-right">58,652</td>
-</tr>
-<tr>
-<td><strong>septembre</strong></td>
-<td class="text-right">323,331</td>
-<td class="text-right">10,778</td>
-<td class="text-right">2,034,677</td>
-<td class="text-right">67,823</td>
-</tr>
-<tr>
-<td><strong>août</strong></td>
-<td class="text-right">265,902</td>
-<td class="text-right">8,577</td>
-<td class="text-right">1,673,283</td>
-<td class="text-right">53,977</td>
-</tr>
-<tr>
-<td><strong>juillet</strong></td>
-<td class="text-right">247,848</td>
-<td class="text-right">7,995</td>
-<td class="text-right">1,559,671</td>
-<td class="text-right">50,312</td>
-</tr>
-<tr>
-<td><strong>juin</strong></td>
-<td class="text-right">160,936</td>
-<td class="text-right">5,365</td>
-<td class="text-right">1,012,750</td>
-<td class="text-right">33,758</td>
-</tr>
-<tr>
-<td><strong>mai</strong></td>
-<td class="text-right">164,510</td>
-<td class="text-right">5,307</td>
-<td class="text-right">1,035,239</td>
-<td class="text-right">33,395</td>
-</tr>
-<tr>
-<td><strong>avril</strong></td>
-<td class="text-right">135,952</td>
-<td class="text-right">4,532</td>
-<td class="text-right">855,524</td>
-<td class="text-right">28,517</td>
-</tr>
-<tr>
-<td><strong>mars</strong></td>
-<td class="text-right">104,986</td>
-<td class="text-right">3,387</td>
-<td class="text-right">660,660</td>
-<td class="text-right">21,312</td>
-</tr>
-<tr>
-<td><strong>février</strong></td>
-<td class="text-right">79,915</td>
-<td class="text-right">2,756</td>
-<td class="text-right">502,897</td>
-<td class="text-right">17,341</td>
-</tr>
-<tr>
-<td><strong>janvier</strong></td>
-<td class="text-right">46,185</td>
-<td class="text-right">1,490</td>
-<td class="text-right">290,635</td>
-<td class="text-right">9,375</td>
-</tr>
-</tbody>
-</table>
-c 
-<div class="clearfix"></div>
-<p>m&sup3; = mètre cube<br>
-b = baril</p>
-<p>Remarques<br>
-Le tableau représente les exporations de pétrole brut canadien selon le moyen de transport au moment de franchir la frontière.<br>
-D'autres types de transport peuvent être empruntés avant ou après.<br>
-Le pétrole brut comprend le pétrole brut canadien ou l'équivalent. Il n'inclut pas les exportations de produits pétroliers raffinés canadiens.</p>
-<p>Ces chiffres d'exportation sont représentatifs des calculs estimatifs les plus justes que la Régie puisse faire à partir des rapports mensuels d'exportation.<br>
-Pour autant que l'on sache, toutes les données indiquées sont exactes et fiables.<br>
-If faut savoir que le traitement des rapports mensuels se fait en continu; par conséquent, les volumes d'exportation peuvent changer.</p>
-<p>Pour des raisons de confidentialité, les chiffres d'exportation plus haut ne sont disponibles que dans leur ensemble.</p>
-<p>Pour plus de renseignements, veuillez communiquer avec&nbsp;: L’équipe de l’offre énergétique<br>
-Intégration de l’information sur l’énergie et analyse, Régie de l'énergie du Canada<br>
-Courriel&nbsp;: <a href="mailto:cts-ssp@neb-one.gc.ca">cts-ssp@cer-rec.gc.ca</a><br> 
-Courriel&nbsp;: <a href="mailto:request.demande@neb-one.gc.ca">request.demande@cer-rec.gc.ca</a></p>
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-	<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-fra.html">
-					<strong>Merci d’avoir consulté le site Web de l’Office national de l’énergie<br />
-Pour nous aider à rendre votre expérience en ligne encore plus satisfaisante, nous vous serions reconnaissants de bien vouloir répondre à ce bref sondage. Nous vous remercions de votre rétroaction!</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section>
-<!-- InstanceEndEditable -->
-
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date de modification&#160;:&#32;</dt>
-<dd><time property="dateModified">2019-10-21</time></dd>
-</dl>
-</main>
-<nav class="col-md-3 col-md-pull-9 visible-md visible-lg" typeof="SiteNavigationElement" id="wb-sec" role="navigation">
-    <h2>Section menu</h2>
-        <ul class="list-group menu list-unstyled"> <li>
-            <h3><a href="/nrg/index-fra.html">Information sur l’énergie</a></h3>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/sttstc/index-fra.html">Statistiques et analyse</a>                        <ul class="list-group menu list-unstyled expanded">
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/crdlndptrlmprdct/index-fra.html"><div class="mrgn-lft-md">Pétrole brut et produits pétroliers</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/lctrct/index-fra.html"><div class="mrgn-lft-md">Électricité (y compris renouvelable)</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/ntrlgs/index-fra.html"><div class="mrgn-lft-md">Gaz naturel</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/sttstc/ntrlgslqds/index-fra.html"><div class="mrgn-lft-md">Liquides de gaz naturel</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/ntgrtd/index-fra.html">Analyse intégrée des marchés énergétiques</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/ftr/index-fra.html"><div class="mrgn-lft-md">Avenir énergétique du Canada</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                    <li><a class="list-group-item" href="https://apps2.cer-rec.gc.ca/dvs/?page=landingPage&language=fr"><div class="mrgn-lft-lg">Explorer l’avenir énergétique du Canada</div></a></li>
-		                    <li class="wb-invisible"><a href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.html"></a></li>
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/mrkt/index-fra.html"><div class="mrgn-lft-md">Les marchés de l’énergie</div></a>
-		                <ul class="list-group menu list-unstyled wb-inv">
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/snpsht/index-fra.html"><div class="mrgn-lft-lg">Aperçu du marché</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/nrgsstmprfls/index-fra.html"><div class="mrgn-lft-lg">Profils énergétiques des provinces et territoires</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/prcstrdrtcl/index-fra.html"><div class="mrgn-lft-lg">Mise à jour - Prix des produits de base et volume des échanges commerciaux</div></a></li>
-		                    <li><a class="list-group-item" href="/nrg/ntgrtd/mrkt/dnmc/index-fra.html"><div class="mrgn-lft-lg">Dynamique du marché</div></a></li>
-		                    <li class="wb-invisible"><a href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.html"></a></li>
-		                </ul>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/ntgrtd/pplnprtl/index-fra.html"><div class="mrgn-lft-md">Portail du réseau pipelinier du Canada</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                   <ul class="list-group menu list-unstyled">
-                       <li><a class="list-group-item" href="/nrg/tl/index-fra.html">Outils</a>                        <ul class="list-group menu list-unstyled wb-inv">
-                            <li>
-                                <a class="list-group-item" href="/nrg/tl/nrgcmmdt/index-fra.html"><div class="mrgn-lft-md">Indicateurs de produits énergétiques</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="https://apps.cer-rec.gc.ca/Conversion/calculator-calculatrice.aspx?GoCTemplateCulture=fr-CA"><div class="mrgn-lft-md">Calculatrice de conversion pour les unités d’énergie</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="https://apps.cer-rec.gc.ca/Conversion/conversion-tables.aspx?GoCTemplateCulture=fr-CA"><div class="mrgn-lft-md">Tables de conversion d’unités d’énergie</div></a>
-                            </li>
-                            <li>
-                                <a class="list-group-item" href="/nrg/tl/glssr-fra.html"><div class="mrgn-lft-md">Programme d’information sur l’énergie – Glossaire</div></a>
-                            </li>
-                        </ul>
-                    </ul>
-                </li>
-                <!-- SecNavEnd -->
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Recherche</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://recherche-search.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="fra"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button type="submit" id="wb-srch-sub" class="btn btn-default">
+                  Recherche
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-fr.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Menu des sujets</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-fra.html"
+                  >Sécurité et environnement</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-fra.html"
+                  >Participation et questions foncières</a
+                >
+              </li>
+              <li>
+                <a href="/pplctnflng/index-fra.html">Demandes et dépôts</a>
+              </li>
+              <li>
+                <a href="/nrg/index-fra.html">Information sur l’énergie</a>
+              </li>
+              <li><a href="/nrth/index-fra.html">Nord/En Mer</a></li>
+              <li><a href="/bts/index-fra.html">À propos de nous</a></li>
             </ul>
+          </div>
+        </div>
+      </nav>
+      <nav role="navigation" id="wb-bc" property="breadcrumb">
+        <h2>Vous êtes ici :</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-fra.html">Accueil</a></li>
+              <li>
+                <a href="/nrg/index-fra.html">Information sur l’énergie</a>
+              </li>
+              <li>
+                <a href="/nrg/sttstc/index-fra.html">Statistiques et analyse</a>
+              </li>
+              <li>
+                <a href="/nrg/sttstc/crdlndptrlmprdct/index-fra.html"
+                  >Pétrole brut et produits pétroliers</a
+                >
+              </li>
+              <li>
+                Exportations de pétrole brut canadien par chemin de fer &ndash;
+                Données mensuelles
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <main
+          role="main"
+          property="mainContentOfPage"
+          class="col-md-9 col-md-push-3"
+        >
+          <!-- InstanceBeginEditable name="center" -->
+          <h1 id="wb-cont" property="name">
+            Exportations de pétrole brut canadien par chemin de fer &ndash;
+            Données mensuelles
+          </h1>
+          <div class="well mrgn-tp-md ">
+            <p>
+              Ces données ne visent que les exportations canadiennes, sans
+              aucune ventilation provinciale ou domestique. Ces statistiques
+              sont fournies sous forme de tableur EXCEL et mises à jour chaque
+              mois. Pour des raisons de confidentialité, aucune donnée
+              antérieure à 2012 n’est disponible. Pour prendre connaissance des
+              nouvelles données dès qu’elles sont publiées, demandez à recevoir
+              nos <a href="/rss/rss-fra.html">fils RSS</a>.
+            </p>
+          </div>
+          <p>
+            Pour obtenir plus de renseignements, communiquer avec
+            <a href="mailto:request.demande@cer-rec.gc.ca"
+              >request.demande@cer-rec.gc.ca</a
+            >.
+          </p>
+          <p>
+            <a
+              href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.xls"
+              title="Exportations de pétrole brut canadien par chemin de fer &ndash; Données mensuelles [EXCEL]"
+              >Exportations de pétrole brut canadien par chemin de fer &ndash;
+              Données mensuelles (mise à jour le 18&nbsp;octobre 2019)
+              [EXCEL&nbsp;856&nbsp;ko]</a
+            >
+          </p>
+          <table class="table table-bordered">
+            <caption>
+              Exportations de pétrole brut canadien par chemin de fer &ndash;
+              Données mensuelles
+            </caption>
+            <thead>
+              <tr>
+                <th height="97" class="text-center active" scope="col">
+                  Année
+                </th>
+                <th scope="col" class="text-center active">Mois</th>
+                <th scope="col" class="text-center active">
+                  Volume <br />
+                  (m&sup3;)
+                </th>
+                <th scope="col" class="text-center active">
+                  Volume (m&sup3; par jour)
+                </th>
+                <th scope="col" class="text-center active">
+                  Volume<br />
+                  (b)
+                </th>
+                <th scope="col" class="text-center active">
+                  <br />
+                  Volume<br />
+                  (b par jour)
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="7" class="text-center active">2019</th>
+              </tr>
+
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">1,527,846</td>
+                <td class="text-right">49,285</td>
+                <td class="text-right">9,614,514</td>
+                <td class="text-right">310,146</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">1,543,301</td>
+                <td class="text-right">49,784</td>
+                <td class="text-right">9,711,773</td>
+                <td class="text-right">313,283</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">1,366,792</td>
+                <td class="text-right">45,560</td>
+                <td class="text-right">8,601,027</td>
+                <td class="text-right">286,701</td>
+              </tr>
+
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">1,404,616</td>
+                <td class="text-right">45,310</td>
+                <td class="text-right">8,839,047</td>
+                <td class="text-right">285,131</td>
+              </tr>
+
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">1,107,419</td>
+                <td class="text-right">36,914</td>
+                <td class="text-right">6,968,829</td>
+                <td class="text-right">232,294</td>
+              </tr>
+
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">829,985</td>
+                <td class="text-right">26,774</td>
+                <td class="text-right">5,222,975</td>
+                <td class="text-right">168,483</td>
+              </tr>
+
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">544,138</td>
+                <td class="text-right">19,434</td>
+                <td class="text-right">3,424,185</td>
+                <td class="text-right">122,292</td>
+              </tr>
+
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">1,603,480</td>
+                <td class="text-right">51,725</td>
+                <td class="text-right">10,090,472</td>
+                <td class="text-right">325,499</td>
+              </tr>
+
+              <tr>
+                <th rowspan="12" class="text-center active">2018</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">1,742,842</td>
+                <td class="text-right">56,221</td>
+                <td class="text-right">10,967,456</td>
+                <td class="text-right">353,789</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">1,575,177</td>
+                <td class="text-right">52,506</td>
+                <td class="text-right">9,912,361</td>
+                <td class="text-right">330,412</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">1,661,418</td>
+                <td class="text-right">53,594</td>
+                <td class="text-right">10,455,066</td>
+                <td class="text-right">337,260</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">1,296,306</td>
+                <td class="text-right">43,210</td>
+                <td class="text-right">8,157,468</td>
+                <td class="text-right">271,916</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">1,135,114</td>
+                <td class="text-right">36,617</td>
+                <td class="text-right">7,143,109</td>
+                <td class="text-right">230,423</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">1,018,990</td>
+                <td class="text-right">32,871</td>
+                <td class="text-right">6,412,358</td>
+                <td class="text-right">206,850</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">966,224</td>
+                <td class="text-right">32,207</td>
+                <td class="text-right">6,080,312</td>
+                <td class="text-right">202,677</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">979,134</td>
+                <td class="text-right">31,585</td>
+                <td class="text-right">6,161,548</td>
+                <td class="text-right">198,760</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">903,743</td>
+                <td class="text-right">30,125</td>
+                <td class="text-right">5,687,127</td>
+                <td class="text-right">189,571</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">840,522</td>
+                <td class="text-right">27,114</td>
+                <td class="text-right">5,289,282</td>
+                <td class="text-right">170,622</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">596,565</td>
+                <td class="text-right">21,306</td>
+                <td class="text-right">3,754,096</td>
+                <td class="text-right">134,075</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">717,684</td>
+                <td class="text-right">23,151</td>
+                <td class="text-right">4,516,283</td>
+                <td class="text-right">145,687</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2017</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">748,489</td>
+                <td class="text-right">24,145</td>
+                <td class="text-right">4,710,133</td>
+                <td class="text-right">151,940</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">707,046</td>
+                <td class="text-right">23,568</td>
+                <td class="text-right">4,449,337</td>
+                <td class="text-right">148,311</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">675,768</td>
+                <td class="text-right">21,799</td>
+                <td class="text-right">4,252,509</td>
+                <td class="text-right">137,178</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">639,449</td>
+                <td class="text-right">21,315</td>
+                <td class="text-right">4,023,963</td>
+                <td class="text-right">134,132</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">590,833</td>
+                <td class="text-right">19,059</td>
+                <td class="text-right">3,718,026</td>
+                <td class="text-right">119,936</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">455,925</td>
+                <td class="text-right">14,707</td>
+                <td class="text-right">2,869,071</td>
+                <td class="text-right">92,551</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">522,049</td>
+                <td class="text-right">17,402</td>
+                <td class="text-right">3,285,182</td>
+                <td class="text-right">109,506</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">644,920</td>
+                <td class="text-right">20,804</td>
+                <td class="text-right">4,058,391</td>
+                <td class="text-right">130,916</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">714,633</td>
+                <td class="text-right">23,821</td>
+                <td class="text-right">4,497,084</td>
+                <td class="text-right">149,903</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">766,789</td>
+                <td class="text-right">24,735</td>
+                <td class="text-right">4,825,292</td>
+                <td class="text-right">155,655</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">590,415</td>
+                <td class="text-right">21,086</td>
+                <td class="text-right">3,715,400</td>
+                <td class="text-right">132,693</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">590,534</td>
+                <td class="text-right">19,049</td>
+                <td class="text-right">3,716,146</td>
+                <td class="text-right">119,876</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2016</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">627,434</td>
+                <td class="text-right">20,240</td>
+                <td class="text-right">3,948,352</td>
+                <td class="text-right">127,366</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">572,235</td>
+                <td class="text-right">19,074</td>
+                <td class="text-right">3,600,992</td>
+                <td class="text-right">120,033</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">505,205</td>
+                <td class="text-right">16,297</td>
+                <td class="text-right">3,179,183</td>
+                <td class="text-right">102,554</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">330,335</td>
+                <td class="text-right">11,011</td>
+                <td class="text-right">2,078,748</td>
+                <td class="text-right">69,292</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">324,495</td>
+                <td class="text-right">10,468</td>
+                <td class="text-right">2,041,999</td>
+                <td class="text-right">65,871</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">261,529</td>
+                <td class="text-right">8,436</td>
+                <td class="text-right">1,645,766</td>
+                <td class="text-right">53,089</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">205,970</td>
+                <td class="text-right">6,866</td>
+                <td class="text-right">1,296,137</td>
+                <td class="text-right">43,205</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">350,179</td>
+                <td class="text-right">11,296</td>
+                <td class="text-right">2,203,629</td>
+                <td class="text-right">71,085</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">517,689</td>
+                <td class="text-right">17,256</td>
+                <td class="text-right">3,257,744</td>
+                <td class="text-right">108,591</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">501,999</td>
+                <td class="text-right">16,194</td>
+                <td class="text-right">3,159,005</td>
+                <td class="text-right">101,903</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">440,680</td>
+                <td class="text-right">15,196</td>
+                <td class="text-right">2,773,133</td>
+                <td class="text-right">95,625</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">473,239</td>
+                <td class="text-right">15,266</td>
+                <td class="text-right">2,978,023</td>
+                <td class="text-right">96,065</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2015</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">525,645</td>
+                <td class="text-right">16,956</td>
+                <td class="text-right">3,307,811</td>
+                <td class="text-right">106,704</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">487,773</td>
+                <td class="text-right">16,259</td>
+                <td class="text-right">3,069,483</td>
+                <td class="text-right">102,316</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">821,728</td>
+                <td class="text-right">26,507</td>
+                <td class="text-right">5,171,018</td>
+                <td class="text-right">166,807</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">763,584</td>
+                <td class="text-right">25,453</td>
+                <td class="text-right">4,805,128</td>
+                <td class="text-right">160,171</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">526,399</td>
+                <td class="text-right">16,981</td>
+                <td class="text-right">3,312,554</td>
+                <td class="text-right">106,857</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">409,055</td>
+                <td class="text-right">13,195</td>
+                <td class="text-right">2,574,123</td>
+                <td class="text-right">83,036</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">382,950</td>
+                <td class="text-right">12,765</td>
+                <td class="text-right">2,409,850</td>
+                <td class="text-right">80,328</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">405,088</td>
+                <td class="text-right">13,067</td>
+                <td class="text-right">2,549,160</td>
+                <td class="text-right">82,231</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">420,967</td>
+                <td class="text-right">14,032</td>
+                <td class="text-right">2,649,088</td>
+                <td class="text-right">88,303</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">580,246</td>
+                <td class="text-right">18,718</td>
+                <td class="text-right">3,651,407</td>
+                <td class="text-right">117,787</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">469,322</td>
+                <td class="text-right">16,762</td>
+                <td class="text-right">2,953,378</td>
+                <td class="text-right">105,478</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">663,166</td>
+                <td class="text-right">21,392</td>
+                <td class="text-right">4,173,206</td>
+                <td class="text-right">134,620</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2014</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">865,312</td>
+                <td class="text-right">27,913</td>
+                <td class="text-right">5,445,285</td>
+                <td class="text-right">175,654</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">719,672</td>
+                <td class="text-right">23,989</td>
+                <td class="text-right">4,528,791</td>
+                <td class="text-right">150,960</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">732,721</td>
+                <td class="text-right">23,636</td>
+                <td class="text-right">4,610,906</td>
+                <td class="text-right">148,739</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">853,297</td>
+                <td class="text-right">28,443</td>
+                <td class="text-right">5,369,675</td>
+                <td class="text-right">178,989</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">765,107</td>
+                <td class="text-right">24,681</td>
+                <td class="text-right">4,814,711</td>
+                <td class="text-right">155,313</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">808,440</td>
+                <td class="text-right">26,079</td>
+                <td class="text-right">5,087,396</td>
+                <td class="text-right">164,110</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">696,292</td>
+                <td class="text-right">23,210</td>
+                <td class="text-right">4,381,664</td>
+                <td class="text-right">146,055</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">776,525</td>
+                <td class="text-right">25,049</td>
+                <td class="text-right">4,886,564</td>
+                <td class="text-right">157,631</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">757,772</td>
+                <td class="text-right">25,259</td>
+                <td class="text-right">4,768,548</td>
+                <td class="text-right">158,952</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">850,706</td>
+                <td class="text-right">27,442</td>
+                <td class="text-right">5,353,369</td>
+                <td class="text-right">172,689</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">725,916</td>
+                <td class="text-right">25,926</td>
+                <td class="text-right">4,568,086</td>
+                <td class="text-right">163,146</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">784,705</td>
+                <td class="text-right">25,313</td>
+                <td class="text-right">4,938,035</td>
+                <td class="text-right">159,291</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2013</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">804,981</td>
+                <td class="text-right">25,967</td>
+                <td class="text-right">5,065,627</td>
+                <td class="text-right">163,407</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">694,877</td>
+                <td class="text-right">23,163</td>
+                <td class="text-right">4,372,759</td>
+                <td class="text-right">145,759</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">641,470</td>
+                <td class="text-right">20,693</td>
+                <td class="text-right">4,036,679</td>
+                <td class="text-right">130,215</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">558,076</td>
+                <td class="text-right">18,603</td>
+                <td class="text-right">3,511,891</td>
+                <td class="text-right">117,063</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">559,111</td>
+                <td class="text-right">18,036</td>
+                <td class="text-right">3,518,405</td>
+                <td class="text-right">113,497</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">661,131</td>
+                <td class="text-right">21,327</td>
+                <td class="text-right">4,160,406</td>
+                <td class="text-right">134,207</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">663,648</td>
+                <td class="text-right">22,122</td>
+                <td class="text-right">4,176,244</td>
+                <td class="text-right">139,208</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">647,734</td>
+                <td class="text-right">20,895</td>
+                <td class="text-right">4,076,100</td>
+                <td class="text-right">131,487</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">597,611</td>
+                <td class="text-right">19,920</td>
+                <td class="text-right">3,760,680</td>
+                <td class="text-right">125,356</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">565,162</td>
+                <td class="text-right">18,231</td>
+                <td class="text-right">3,556,486</td>
+                <td class="text-right">114,725</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">443,069</td>
+                <td class="text-right">15,824</td>
+                <td class="text-right">2,788,168</td>
+                <td class="text-right">99,577</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">484,595</td>
+                <td class="text-right">15,632</td>
+                <td class="text-right">3,049,485</td>
+                <td class="text-right">98,370</td>
+              </tr>
+              <tr>
+                <th rowspan="12" class="text-center active">2012</th>
+                <td><strong>décembre</strong></td>
+                <td class="text-right">614,912</td>
+                <td class="text-right">19,836</td>
+                <td class="text-right">3,869,555</td>
+                <td class="text-right">124,824</td>
+              </tr>
+              <tr>
+                <td><strong>novembre</strong></td>
+                <td class="text-right">262,269</td>
+                <td class="text-right">8,742</td>
+                <td class="text-right">1,650,423</td>
+                <td class="text-right">55,014</td>
+              </tr>
+              <tr>
+                <td><strong>octobre</strong></td>
+                <td class="text-right">288,932</td>
+                <td class="text-right">9,320</td>
+                <td class="text-right">1,818,210</td>
+                <td class="text-right">58,652</td>
+              </tr>
+              <tr>
+                <td><strong>septembre</strong></td>
+                <td class="text-right">323,331</td>
+                <td class="text-right">10,778</td>
+                <td class="text-right">2,034,677</td>
+                <td class="text-right">67,823</td>
+              </tr>
+              <tr>
+                <td><strong>août</strong></td>
+                <td class="text-right">265,902</td>
+                <td class="text-right">8,577</td>
+                <td class="text-right">1,673,283</td>
+                <td class="text-right">53,977</td>
+              </tr>
+              <tr>
+                <td><strong>juillet</strong></td>
+                <td class="text-right">247,848</td>
+                <td class="text-right">7,995</td>
+                <td class="text-right">1,559,671</td>
+                <td class="text-right">50,312</td>
+              </tr>
+              <tr>
+                <td><strong>juin</strong></td>
+                <td class="text-right">160,936</td>
+                <td class="text-right">5,365</td>
+                <td class="text-right">1,012,750</td>
+                <td class="text-right">33,758</td>
+              </tr>
+              <tr>
+                <td><strong>mai</strong></td>
+                <td class="text-right">164,510</td>
+                <td class="text-right">5,307</td>
+                <td class="text-right">1,035,239</td>
+                <td class="text-right">33,395</td>
+              </tr>
+              <tr>
+                <td><strong>avril</strong></td>
+                <td class="text-right">135,952</td>
+                <td class="text-right">4,532</td>
+                <td class="text-right">855,524</td>
+                <td class="text-right">28,517</td>
+              </tr>
+              <tr>
+                <td><strong>mars</strong></td>
+                <td class="text-right">104,986</td>
+                <td class="text-right">3,387</td>
+                <td class="text-right">660,660</td>
+                <td class="text-right">21,312</td>
+              </tr>
+              <tr>
+                <td><strong>février</strong></td>
+                <td class="text-right">79,915</td>
+                <td class="text-right">2,756</td>
+                <td class="text-right">502,897</td>
+                <td class="text-right">17,341</td>
+              </tr>
+              <tr>
+                <td><strong>janvier</strong></td>
+                <td class="text-right">46,185</td>
+                <td class="text-right">1,490</td>
+                <td class="text-right">290,635</td>
+                <td class="text-right">9,375</td>
+              </tr>
+            </tbody>
+          </table>
+          c
+          <div class="clearfix"></div>
+          <p>
+            m&sup3; = mètre cube<br />
+            b = baril
+          </p>
+          <p>
+            Remarques<br />
+            Le tableau représente les exporations de pétrole brut canadien selon
+            le moyen de transport au moment de franchir la frontière.<br />
+            D'autres types de transport peuvent être empruntés avant ou
+            après.<br />
+            Le pétrole brut comprend le pétrole brut canadien ou l'équivalent.
+            Il n'inclut pas les exportations de produits pétroliers raffinés
+            canadiens.
+          </p>
+          <p>
+            Ces chiffres d'exportation sont représentatifs des calculs
+            estimatifs les plus justes que la Régie puisse faire à partir des
+            rapports mensuels d'exportation.<br />
+            Pour autant que l'on sache, toutes les données indiquées sont
+            exactes et fiables.<br />
+            If faut savoir que le traitement des rapports mensuels se fait en
+            continu; par conséquent, les volumes d'exportation peuvent changer.
+          </p>
+          <p>
+            Pour des raisons de confidentialité, les chiffres d'exportation plus
+            haut ne sont disponibles que dans leur ensemble.
+          </p>
+          <p>
+            Pour plus de renseignements, veuillez communiquer avec&nbsp;:
+            L’équipe de l’offre énergétique<br />
+            Intégration de l’information sur l’énergie et analyse, Régie de
+            l'énergie du Canada<br />
+            Courriel&nbsp;:
+            <a href="mailto:cts-ssp@neb-one.gc.ca">cts-ssp@cer-rec.gc.ca</a
+            ><br />
+            Courriel&nbsp;:
+            <a href="mailto:request.demande@neb-one.gc.ca"
+              >request.demande@cer-rec.gc.ca</a
+            >
+          </p>
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-fra.html">
+                  <strong
+                    >Merci d’avoir consulté le site Web de l’Office national de
+                    l’énergie<br />
+                    Pour nous aider à rendre votre expérience en ligne encore
+                    plus satisfaisante, nous vous serions reconnaissants de bien
+                    vouloir répondre à ce bref sondage. Nous vous remercions de
+                    votre rétroaction!</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date de modification&#160;:&#32;</dt>
+            <dd><time property="dateModified">2019-10-21</time></dd>
+          </dl>
+        </main>
+        <nav
+          class="col-md-3 col-md-pull-9 visible-md visible-lg"
+          typeof="SiteNavigationElement"
+          id="wb-sec"
+          role="navigation"
+        >
+          <h2>Section menu</h2>
+          <ul class="list-group menu list-unstyled">
+            <li>
+              <h3>
+                <a href="/nrg/index-fra.html">Information sur l’énergie</a>
+              </h3>
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/sttstc/index-fra.html"
+                    >Statistiques et analyse</a
+                  >
+                  <ul class="list-group menu list-unstyled expanded">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/crdlndptrlmprdct/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Pétrole brut et produits pétroliers
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/lctrct/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Électricité (y compris renouvelable)
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/ntrlgs/index-fra.html"
+                        ><div class="mrgn-lft-md">Gaz naturel</div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/sttstc/ntrlgslqds/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Liquides de gaz naturel
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/ntgrtd/index-fra.html"
+                    >Analyse intégrée des marchés énergétiques</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/ftr/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Avenir énergétique du Canada
+                        </div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv">
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="https://apps2.cer-rec.gc.ca/dvs/?page=landingPage&language=fr"
+                            ><div class="mrgn-lft-lg">
+                              Explorer l’avenir énergétique du Canada
+                            </div></a
+                          >
+                        </li>
+                        <li class="wb-invisible">
+                          <a
+                            href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.html"
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/mrkt/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Les marchés de l’énergie
+                        </div></a
+                      >
+                      <ul class="list-group menu list-unstyled wb-inv">
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/snpsht/index-fra.html"
+                            ><div class="mrgn-lft-lg">Aperçu du marché</div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/nrgsstmprfls/index-fra.html"
+                            ><div class="mrgn-lft-lg">
+                              Profils énergétiques des provinces et territoires
+                            </div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/prcstrdrtcl/index-fra.html"
+                            ><div class="mrgn-lft-lg">
+                              Mise à jour - Prix des produits de base et volume
+                              des échanges commerciaux
+                            </div></a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="list-group-item"
+                            href="/nrg/ntgrtd/mrkt/dnmc/index-fra.html"
+                            ><div class="mrgn-lft-lg">
+                              Dynamique du marché
+                            </div></a
+                          >
+                        </li>
+                        <li class="wb-invisible">
+                          <a
+                            href="/nrg/sttstc/crdlndptrlmprdct/stt/cndncrdlxprtsrl-fra.html"
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/ntgrtd/pplnprtl/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Portail du réseau pipelinier du Canada
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="list-group menu list-unstyled">
+                <li>
+                  <a class="list-group-item" href="/nrg/tl/index-fra.html"
+                    >Outils</a
+                  >
+                  <ul class="list-group menu list-unstyled wb-inv">
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="/nrg/tl/nrgcmmdt/index-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Indicateurs de produits énergétiques
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="https://apps.cer-rec.gc.ca/Conversion/calculator-calculatrice.aspx?GoCTemplateCulture=fr-CA"
+                        ><div class="mrgn-lft-md">
+                          Calculatrice de conversion pour les unités d’énergie
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="list-group-item"
+                        href="https://apps.cer-rec.gc.ca/Conversion/conversion-tables.aspx?GoCTemplateCulture=fr-CA"
+                        ><div class="mrgn-lft-md">
+                          Tables de conversion d’unités d’énergie
+                        </div></a
+                      >
+                    </li>
+                    <li>
+                      <a class="list-group-item" href="/nrg/tl/glssr-fra.html"
+                        ><div class="mrgn-lft-md">
+                          Programme d’information sur l’énergie – Glossaire
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- SecNavEnd -->
+          </ul>
         </nav>
-	</div>
-</div>
-<!--
+      </div>
+    </div>
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -970,74 +1345,135 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-<div class="container">
-<nav role="navigation">
-<h2>&Agrave; propos de ce site</h2>
-<ul id="gc-tctr" class="list-inline">
-<li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
-<li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
-</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
-						<li><a href="/bts/pblctn/index-fra.html">Publications et rapports</a></li>
-						<li><a href="/bts/ctrg/index-fra.html">Lois et r&egrave;glements</a></li>	
-						<li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a></li>
-						<li><a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a></li>
-						<li><a href="/bts/nws/spch/index-fra.html">Discours et allocutions</a></li>
-						<li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-fra.html">Fils RSS</a></li>
-						<li><a href="https://twitter.com/REC_CER">Twitter</a></li>
-						<li><a href="https://www.facebook.com/facebook.com/REC.CER/">Facebook</a></li> 
-						<li><a href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-</nav>
-</div>
-<div id="gc-info">
-<div class="container">
-<nav role="navigation">
-<h2>Pied de page du gouvernement du Canada</h2>
-<ul class="list-inline">
-<li><a href="http://canadiensensante.gc.ca"><span>Sant&eacute;</span></a></li>
-<li><a href="http://voyage.gc.ca"><span>Voyage</span></a></li>
-<li><a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"><span>Service Canada</span></a></li>
-<li><a href="http://www.guichetemplois.gc.ca"><span>Emplois</span></a></li>
-<li><a href="http://plandaction.gc.ca/fr"><span>&Eacute;conomie</span></a></li>
-<li><a href="http://www.canada.ca/fr/index.html"><span>Canada.ca</span></a></li>
-<li id="canada-ca"><a href="http://www.canada.ca/fr/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-</ul>
-</nav>
-</div>
-</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>&Agrave; propos de ce site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li><a rel="license" href="/glbl/mprtntntc-fra.html">Avis</a></li>
+            <li><a href="/trnsprnc/index-fra.html">Transparence</a></li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-fra.html">&Agrave; propos de nous</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-fra.html">Nos employés</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-fra.html"
+                    >Publications et rapports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-fra.html"
+                    >Lois et r&egrave;glements</a
+                  >
+                </li>
+                <li><a href="/bts/crr/index-fra.html">Carri&egrave;res</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-fra.html">Nouvelles</a></h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/bts/nws/whtnw/index-fra.html">Quoi de neuf</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/nr/index-fra.html">Communiqu&eacute;s</a>
+                </li>
+                <li>
+                  <a href="/bts/nws/spch/index-fra.html"
+                    >Discours et allocutions</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-fra.html">Vid&eacute;os</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-fra.html">Contactez-nous</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3>
+                <a href="/glbl/mprtntntc-fra.html#s7">Restez branch&eacute;s</a>
+              </h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-fra.html">Fils RSS</a></li>
+                <li><a href="https://twitter.com/REC_CER">Twitter</a></li>
+                <li>
+                  <a href="https://www.facebook.com/facebook.com/REC.CER/"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCOP77SKPty083fa4UsUyEXQ"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Pied de page du gouvernement du Canada</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://canadiensensante.gc.ca"
+                  ><span>Sant&eacute;</span></a
+                >
+              </li>
+              <li>
+                <a href="http://voyage.gc.ca"><span>Voyage</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/fra/accueil.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.guichetemplois.gc.ca"
+                  ><span>Emplois</span></a
+                >
+              </li>
+              <li>
+                <a href="http://plandaction.gc.ca/fr"
+                  ><span>&Eacute;conomie</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/fr/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>

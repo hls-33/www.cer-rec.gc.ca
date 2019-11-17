@@ -1,350 +1,1205 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<html class="no-js" lang="en" dir="ltr">
+  <!-- InstanceBegin template="/Templates/wet4-gcwu-1col-eng.dwt" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
 
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>NEB – Market Snapshot: Levelized costs of driving EVs and conventional vehicles</title>
-<!-- InstanceEndEditable -->
-<!-- Meta data -->
-<!-- InstanceBeginEditable name="head" -->
-<meta name="dcterms.subject" title="scheme" content="Electricity; Oil;">
-<!-- Meta data-->
-<!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+      NEB – Market Snapshot: Levelized costs of driving EVs and conventional
+      vehicles
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-- Meta data -->
+    <!-- InstanceBeginEditable name="head" -->
+    <meta name="dcterms.subject" title="scheme" content="Electricity; Oil;" />
+    <!-- Meta data-->
+    <!-- InstanceEndEditable -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Market Snapshot: Levelized costs of driving EVs and conventional vehicles"
+    />
+    <meta
+      name="dcterms.title"
+      content="NEB – Market Snapshot: Levelized costs of driving EVs and conventional vehicles"
+    />
+    <meta
+      name="dcterms.creator"
+      content="Government of Canada, National Energy Board"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <!--[if gte IE 9 | !IE]><!-->
+    <link
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css"
+    />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <link
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico"
+        rel="shortcut icon"
+      />
+      <link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css"
+      />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css"
+    /></noscript>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Market Snapshot: Levelized costs of driving EVs and conventional vehicles" />
-<meta name="dcterms.title" content="NEB – Market Snapshot: Levelized costs of driving EVs and conventional vehicles" />
-<meta name="dcterms.creator" content="Government of Canada, National Energy Board" />
-<meta name="dcterms.issued" title="W3CDTF" content="2019-08-15" />
-<meta name="dcterms.modified" title="W3CDTF" content="2019-08-28" />
-<meta name="dcterms.language" title="ISO639-2" content="eng" /><!--[if gte IE 9 | !IE ]><!-->
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/theme.min.css">
-<link rel="stylesheet" href="/Templates/wet4-gcwu/includes/css/gcwu.custom.css">
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<link href="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/Templates/wet4-gcwu/theme-gcwu-fegc/css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew.min.js"></script>
-<![endif]-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<noscript><link rel="stylesheet" href="/Templates/wet4-gcwu/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- CustomScriptsCSSStart -->
+    <!-- InstanceBeginEditable name="customscriptcss" -->
+    <!--[if lt IE 9
+      ]><script
+        language="javascript"
+        type="text/javascript"
+        src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"
+      ></script
+    ><![endif]-->
+    <link
+      class="include"
+      rel="stylesheet"
+      type="text/css"
+      href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css"
+    />
+    <script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!-- CustomScriptsCSSEnd -->
+    <!-- Google Analytics UA Tag removed -->
+  </head>
 
-<!-- CustomScriptsCSSStart -->
-<!-- InstanceBeginEditable name="customscriptcss" -->
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/excanvas.min.js"></script><![endif]-->
-<link class="include" rel="stylesheet" type="text/css" href="/nrg/ntgrtd/mrkt/includes/css/jquery.jqplot.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shCoreDefault.min.css" />
-<link type="text/css" rel="stylesheet" href="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/styles/shThemejqPlot.min.css" />
-<script src="/nrg/ntgrtd/mrkt/includes/scripts/jquery1-9-1.min.js"></script>
-<!-- InstanceEndEditable -->
-<!-- CustomScriptsCSSEnd -->
-<!-- Google Analytics UA Tag removed --> 
-</head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <span typeof="Organization"
+      ><meta property="legalName" content="National_Energy_Board"
+    /></span>
+    <!-- Google Tag Manager -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M96XHH");
+    </script>
+    <!-- End Google Tag Manager -->
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+    <header role="banner">
+      <div id="wb-bnr">
+        <div id="wb-bar">
+          <div class="clearfix"></div>
+          <div class="container">
+            <div class="row">
+              <section id="wb-lng" class="visible-md visible-lg">
+                <span style="margin-top: 5px; position: absolute">
+                  <object
+                    id="gcwu-sig"
+                    width="256px"
+                    height="24px"
+                    type="image/svg+xml"
+                    tabindex="-1"
+                    role="img"
+                    data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg"
+                    aria-label="Government of Canada"
+                  ></object>
+                </span>
+                <h2>Language selection</h2>
+                <ul class="text-right">
+                  <li>
+                    <a
+                      lang="fr"
+                      hreflang="fr"
+                      href="/Templates/wet4-gcwu/includes/scripts/lngg.asp"
+                      >Français</a
+                    >
+                  </li>
+                  <li class="curr">English&#32;<span>(current)</span></li>
+                </ul>
+              </section>
+              <section
+                class="wb-mb-links col-xs-12 visible-sm visible-xs"
+                id="wb-glb-mn"
+              >
+                <h2>Search and menus</h2>
+                <ul class="pnl-btn list-inline text-right">
+                  <li>
+                    <a
+                      href="#mb-pnl"
+                      title="Search and menus"
+                      aria-controls="mb-pnl"
+                      class="overlay-lnk btn btn-sm btn-default"
+                      role="button"
+                      ><span class="glyphicon glyphicon-search"
+                        ><span class="glyphicon glyphicon-th-list"
+                          ><span class="wb-inv">Search and menus</span></span
+                        ></span
+                      ></a
+                    >
+                  </li>
+                </ul>
+                <div id="mb-pnl"></div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="wb-sttl" class="col-md-8 mrgn-tp-md">
+              <span
+                ><a href="/index-eng.html"> Canada Energy Regulator </a>
+              </span>
+            </div>
 
-<body vocab="http://schema.org/" typeof="WebPage">
-<span typeof="Organization"><meta property="legalName" content="National_Energy_Board"></span>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M96XHH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M96XHH');</script>
-<!-- End Google Tag Manager -->
-<ul id="wb-tphp">
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-	</li>
-	<li class="wb-slc visible-sm visible-md visible-lg">
-		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-	</li></ul>
-<header role="banner">
-	<div id="wb-bnr">
-		<div id="wb-bar">
-			<div class="clearfix"></div>
-			<div class="container">
-				
-				<div class="row">
-					<section id="wb-lng" class="visible-md visible-lg">
-						<span style="margin-top: 5px; position: absolute">
-						<object id="gcwu-sig" width="256px" height="24px" type="image/svg+xml" tabindex="-1" role="img" data="/Templates/wet4-gcwu/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
-						</span>
-						<h2>Language selection</h2>
-						<ul class="text-right">				
-						
-<li><a lang="fr" hreflang="fr" href="/Templates/wet4-gcwu/includes/scripts/lngg.asp">Français</a></li>
-<li class="curr">English&#32;<span>(current)</span></li>  
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
- <h2>Search and menus</h2>
- <ul class="pnl-btn list-inline text-right">
-  <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
- </ul>
- <div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
-  <div id="wb-sttl" class="col-md-8 mrgn-tp-md"> <span><a href="/index-eng.html"> Canada Energy Regulator </a> </span> </div>
-  
-  <section id="wb-srch" class="col-md-4 visible-md visible-lg">
-   <h2>Search</h2>
-   <form class="form-inline" role="search" method="get" action="https://search-recherche.gc.ca/rGs/s_r">
-    <div class="form-group">
-     <label for="wb-srch-q">Search website</label>
-     <input type="hidden" name="st" value="s" data-role="none">
-     <input type="hidden" name="num" value="10" data-role="none">
-     <input type="hidden" name="s5bm3ts21rch" value="x" data-role="none">
-     <input type="hidden" name="st1rt" value="0" data-role="none">
-     <input type="hidden" name="langs" value="eng" data-role="none">
-     <input type="hidden" name="cdn" value="reccer" data-role="none">
-     <input class="form-control" type="search" maxlength="150" size="27" value="" name="q">
+            <section id="wb-srch" class="col-md-4 visible-md visible-lg">
+              <h2>Search</h2>
+              <form
+                class="form-inline"
+                role="search"
+                method="get"
+                action="https://search-recherche.gc.ca/rGs/s_r"
+              >
+                <div class="form-group">
+                  <label for="wb-srch-q">Search website</label>
+                  <input type="hidden" name="st" value="s" data-role="none" />
+                  <input type="hidden" name="num" value="10" data-role="none" />
+                  <input
+                    type="hidden"
+                    name="s5bm3ts21rch"
+                    value="x"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="st1rt"
+                    value="0"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="langs"
+                    value="eng"
+                    data-role="none"
+                  />
+                  <input
+                    type="hidden"
+                    name="cdn"
+                    value="reccer"
+                    data-role="none"
+                  />
+                  <input
+                    class="form-control"
+                    type="search"
+                    maxlength="150"
+                    size="27"
+                    value=""
+                    name="q"
+                  />
+                </div>
+                <button id="wb-srch-sub" class="btn btn-default" type="submit">
+                  Search
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu visible-md visible-lg"
+        typeof="SiteNavigationElement"
+      >
+        <div class="container nvbar">
+          <h2>Site menu</h2>
+          <div class="row">
+            <ul class="list-inline menu">
+              <li>
+                <a href="/sftnvrnmnt/index-eng.html"
+                  >Safety &amp; Environment</a
+                >
+              </li>
+              <li>
+                <a href="/prtcptn/index-eng.html">Participation &amp; Lands</a>
+              </li>
+              <li>
+                <a href="/pplctnflng/index-eng.html"
+                  >Applications &amp; Filings</a
+                >
+              </li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
+              <li><a href="/bts/index-eng.html">About Us</a></li>
+              <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav id="wb-bc" property="breadcrumb" role="navigation">
+        <h2>You are here:</h2>
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="/index-eng.html">Home</a></li>
+              <li><a href="/nrg/index-eng.html">Energy Information</a></li>
+              <li>
+                <a href="/nrg/ntgrtd/index-eng.html"
+                  >Integrated Energy Analysis</a
+                >
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a>
+              </li>
+              <li>
+                <a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html"
+                  >Market Snapshots</a
+                >
+              </li>
+              <li>
+                Market Snapshot: Levelized costs of driving EVs and conventional
+                vehicles
+              </li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="header" class="container">
+      <div class="row">
+        <main role="main" property="mainContentOfPage" class="col-md-12">
+          <!-- InstanceBeginEditable name="center" -->
+          <div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
+            <p>
+              <small
+                >On Wednesday, Aug. 28, the National Energy Board (NEB) became
+                the Canada Energy Regulator (CER). For further information
+                please visit our
+                <a href="/bts/cr/index-eng.html"
+                  >Implementing the Canadian Energy Regulator Act information
+                  page</a
+                ></small
+              >
+            </p>
+          </div>
+          <h1 id="wb-cont" property="name">
+            Market Snapshot: Levelized costs of driving EVs and conventional
+            vehicles
+          </h1>
+          <p><strong>Release date: 2019-06-05</strong></p>
+          <h2>Introduction</h2>
+          <p>
+            In 2018 almost 44&nbsp;000 electric vehicles (EVs) were sold in
+            Canada; this is a large increase from the
+            <a href="https://canadaevsales.com/" rel="external"
+              >2&nbsp;000 sold in 2012</a
+            >. In the future, electric vehicle adoption presents a key
+            uncertainty for understanding how energy systems will evolve. Many
+            factors will influence future EV sales including cost, government
+            policy, consumer preferences, advances in technology, and charging
+            infrastructure.
+          </p>
+          <p>
+            Currently, EVs are more expensive to buy than conventional vehicles
+            with an internal combustion engine (ICE).<sup id="fn1-rf"
+              ><a class="fn-lnk" href="#fn1"
+                ><span class="wb-inv">Footnote </span>1</a
+              ></sup
+            >
+            However, EVs are more energy efficient than ICE vehicles, which
+            could lead to cost savings when driving. Figure&nbsp;1 compares
+            prices and fuel efficiency for some of the most popular models of
+            EVs and ICE vehicles. Hybrid vehicles, which have both internal
+            combustion engines and electric motors, have not been included in
+            this analysis.
+          </p>
+          <p class="mrgn-bttm-xl">
+            EVs have maintenance costs that are about 70% below comparable ICE
+            vehicles.<sup id="fn2-rf"
+              ><a class="fn-lnk" href="#fn2"
+                ><span class="wb-inv">Footnote </span>2</a
+              ></sup
+            >
+            This is partly because EVs have fewer moving parts in their
+            drivetrains and do not need oil changes. EVs also use
+            <a
+              href="https://auto.howstuffworks.com/auto-parts/brakes/brake-types/regenerative-braking.htm"
+              rel="external"
+              >regenerative braking</a
+            >, which converts motion to electricity to slow a car down and helps
+            brakes last longer.
+          </p>
+          <h3>
+            Figure&nbsp;1: Comparison of Costs between Selected EV and ICE
+            Vehicles
+          </h3>
+          <!-- figure START -->
+          <div
+            class="tableauPlaceholder"
+            id="viz1558722842236"
+            style="position: relative"
+          >
+            <noscript
+              ><a href=""
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1&#47;1_rss.png"
+                  style="border: none"/></a></noscript
+            ><object class="tableauViz" style="display:none;"
+              ><param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+              <param name="embed_code_version" value="3"/>
+              <param name="site_root" value=""/><param
+                name="name"
+                value="ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1"/><param
+                name="tabs"
+                value="no"/><param name="toolbar" value="yes"/><param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1&#47;1.png"/>
+              <param name="animate_transition" value="yes"/><param
+                name="display_static_image"
+                value="yes"/><param name="display_spinner" value="yes"/><param
+                name="display_overlay"
+                value="yes"/><param name="display_count" value="yes"/><param
+                name="filter"
+                value="publish=yes"
+            /></object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1558722842236");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1000px";
+            vizElement.style.height = "427px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+          <!-- figure  6 END -->
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> Manufacturer Websites</p>
+            <p>
+              <strong>Description:</strong> This chart shows the difference in
+              both purchase prices and fuel efficiency for some popular
+              passenger vehicles in Canada. Purchase prices for EVs are
+              currently much higher than those of comparable ICE vehicles, but
+              are much more energy efficient. Fuel efficiency comparisons
+              between EVs and ICE vehicles are done using liters equivalent per
+              100&nbsp;km (Le/100km), which converts electricity into an equal
+              amount of gasoline based on energy content.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <p class="mrgn-tp-lg">
+            Figure&nbsp;2 shows the future purchase costs of EVs and ICE cars
+            and trucks<sup id="fn3-rf"
+              ><a class="fn-lnk" href="#fn3"
+                ><span class="wb-inv">Footnote </span>3</a
+              ></sup
+            >, as assumed in the Reference Case and Technology Case from the
+            NEB’s
+            <a href="/nrg/ntgrtd/ftr/2018/index-eng.html"
+              >Canada’s Energy Future 2018</a
+            >
+            (EF2018) report. Sales of electric vehicles reach over
+            <a href="/nrg/ntgrtd/mrkt/snpsht/2018/09-03shrtrcksls-eng.html"
+              >60% of new vehicles sold</a
+            >
+            by 2040 in the EF2018 Technology Case<sup id="fn4-rf"
+              ><a class="fn-lnk" href="#fn4"
+                ><span class="wb-inv">Footnote </span>4</a
+              ></sup
+            >, while the Reference Case<sup id="fn5-rf"
+              ><a class="fn-lnk" href="#fn5"
+                ><span class="wb-inv">Footnote </span>5</a
+              ></sup
+            >
+            sees slower growth. Meanwhile, in both cases, EVs will continue to
+            be more expensive to purchase than comparable ICE vehicles until
+            2040. In both projections, however, the prices of ICE vehicles
+            slightly climb while the prices of EVs fall. EV prices fall more in
+            the Technology Case than in the Reference Case, because the
+            Technology Case expects faster adoption of EVs and technology that
+            improves more quickly.
+          </p>
+          <h3>
+            Figure&nbsp;2: Projected Purchase Costs of EVs and ICE Vehicles in
+            2020, 2030, and 2040
+          </h3>
+          <!-- figure START -->
+          <div
+            class="tableauPlaceholder"
+            id="viz1558723159010"
+            style="position: relative"
+          >
+            <noscript
+              ><a href=""
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2&#47;1_rss.png"
+                  style="border: none"/></a></noscript
+            ><object class="tableauViz" style="display:none;"
+              ><param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+              <param name="embed_code_version" value="3"/>
+              <param name="site_root" value=""/><param
+                name="name"
+                value="ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2"/><param
+                name="tabs"
+                value="no"/><param name="toolbar" value="yes"/><param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2&#47;1.png"/>
+              <param name="animate_transition" value="yes"/><param
+                name="display_static_image"
+                value="yes"/><param name="display_spinner" value="yes"/><param
+                name="display_overlay"
+                value="yes"/><param name="display_count" value="yes"/><param
+                name="filter"
+                value="publish=yes"
+            /></object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1558723159010");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1050px";
+            vizElement.style.height = "827px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+          <!-- figure  6 END -->
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> The projected vehicle prices from
+              EF2018’s Reference Case and Technology Case are shown in the graph
+              for 2020, 2030, and 2040. While the prices of ICE cars and trucks
+              are generally lower than their EV equivalents, the graph shows
+              that in both cases, the price of ICE vehicles slightly climbs over
+              the projection, while the price of EVs falls. The size of this
+              decrease is larger in the Technology Case.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h2>
+            Levelized cost of driving is a way to compare EVs and ICE vehicles
+          </h2>
+          <p class="mrgn-tp-lg">
+            <a
+              href="https://www.nrel.gov/docs/fy18osti/70485.pdf"
+              rel="external"
+              >Levelized cost of driving</a
+            >
+            (LCOD) calculates how much it costs to drive a vehicle per kilometer
+            over the vehicle’s life. LCOD is used to compare vehicles with
+            different purchase, fuel, and maintenance costs and lifespans. Thus,
+            LCODs are a useful way to compare EVs to ICE vehicles<sup
+              id="fn6-rf"
+              ><a class="fn-lnk" href="#fn6"
+                ><span class="wb-inv">Footnote </span>6</a
+              ></sup
+            >.
+          </p>
+          <p>
+            Figure&nbsp;3 shows LCODs for vehicles purchased in the years 2020,
+            2030, and 2040 as calculated from EF2018 cost data. In 2020, EV cars
+            have a lower LCOD than ICE cars in most provinces in both the
+            Reference Case and the Technology Case. By 2030, EV cars have a
+            lower LCOD than ICE cars in all provinces in both cases.
+          </p>
+          <p>
+            In most provinces, except Ontario, Northwest Territories, and
+            Nunavut, EV trucks have a lower LCOD than ICE trucks in both cases.
+            In 2040, EV cars and EV trucks have a lower LCOD in all provinces
+            and in both cases. Because of abundant hydroelectricity in Canada,
+            <a
+              href="http://www.hydroquebec.com/residential/customer-space/rates/comparison-electricity-prices.html"
+              rel="external"
+              >electricity prices are low in regions such as Quebec and British
+              Columbia</a
+            >, which lowers the LCOD of EVs. Meanwhile, in the Technology Case,
+            carbon prices are much higher than in the Reference Case. This makes
+            gasoline more expensive and contributes to the advantage that EVs
+            have over ICE vehicles.
+          </p>
+          <p>
+            Additionally, as shown in Figure&nbsp;3, the purchase cost of an EV
+            in Canada makes up around 82% of the LCOD in 2020 in the Reference
+            Case, while it only contributes to 61% of an ICE vehicle’s LCOD.
+            Fuel costs, on the other hand, make up about 9% of the LCOD of an EV
+            car in 2020 in the Reference Case, while they contribute 29% of the
+            LCOD of an ICE car, with maintenance costs making up about the last
+            10%.
+          </p>
+          <h3>
+            Figure&nbsp;3: Projected LCOD Comparisons for EVs and ICE Vehicles
+            in 2020, 2030, and 2040
+          </h3>
+          <!-- figure START -->
+          <div
+            class="tableauPlaceholder"
+            id="viz1558726884856"
+            style="position: relative"
+          >
+            <noscript
+              ><a href=""
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected&#47;1_rss.png"
+                  style="border: none"/></a></noscript
+            ><object class="tableauViz" style="display:none;"
+              ><param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+              <param name="embed_code_version" value="3"/>
+              <param name="site_root" value=""/><param
+                name="name"
+                value="ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected"/><param
+                name="tabs"
+                value="no"/><param name="toolbar" value="yes"/><param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected&#47;1.png"/>
+              <param name="animate_transition" value="yes"/><param
+                name="display_static_image"
+                value="yes"/><param name="display_spinner" value="yes"/><param
+                name="display_overlay"
+                value="yes"/><param name="display_count" value="yes"/><param
+                name="filter"
+                value="publish=yes"
+            /></object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1558726884856");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1000px";
+            vizElement.style.height = "777px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+          <!-- figure  6 END -->
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> The chart shows estimated LCODs by
+              year, vehicle type, region, and EF2018 Case. In 2020, EV cars in
+              most provinces have a lower LCOD than ICE cars. By 2030, EV cars
+              in all provinces have a lower LCOD. In most provinces, except
+              those with the most expensive electricity, EV trucks have a lower
+              LCOD. In 2040, EV cars and trucks in all provinces have a lower
+              LCOD.
+            </p>
+            <p>
+              For example, the Reference Case Canadian LCOD is $0.33/km for an
+              EV car, $0.34 for an ICE car, $0.44 for an EV truck and $0.42 for
+              an ICE truck in 2020. However by 2040, the LCOD of an EV car drops
+              to $0.29/km, and to $0.33 for a comparable ICE car. In the same
+              year the LCOD for an EV truck reaches $0.37/km and $0.41 for an
+              ICE truck.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h2>
+            Key takeaways from this analysis include that EV cars have lower
+            LCODs than ICE cars in the near future
+          </h2>
+          <p>Some key takeaways on projected LCOD comparisons are:</p>
+          <ul>
+            <li>
+              Both purchase cost and fuel efficiency are important. For example
+              in 2020, the price of an EV truck is about C$&nbsp;13&nbsp;500
+              more than a comparable ICE truck, but after fuel cost savings are
+              taken into account, the LCODs become much more comparable
+              (although there are significant variations between regions).
+            </li>
+            <li>
+              Further cost reductions in the price of EVs are important in both
+              the Reference and Technology Cases, and help LCODs of EVs become
+              comparable to those of ICE vehicles. These cost assumptions cause
+              EVs to gain parity in many regions by 2020, and in almost all of
+              them by 2030, and 2040 for both cases.
+            </li>
+            <li>
+              EV cars have lower LCODs than ICE cars in the near future, while
+              this is further off for larger vehicles.
+            </li>
+            <li>
+              It is important to remember that vehicles are purchased for many
+              reasons beyond purchase price, operating costs, and maintenance
+              costs. A good example of this can be found by comparing the LCOD
+              of ICE cars and ICE trucks. The LCODs of ICE trucks are much
+              higher than that of ICE cars, yet
+              <a href="/nrg/ntgrtd/mrkt/snpsht/2016/01-02nwvhclsl-eng.html"
+                >trucks dominate vehicle sales</a
+              >
+              in Canada.
+            </li>
+          </ul>
+          <h2>
+            Levelized cost of driving is very sensitive to changes in assumed
+            costs
+          </h2>
+          <p>
+            LCOD can vary significantly when costs are changed. For example, the
+            LCOD for both EVs and ICE vehicles decrease if distance driven
+            increases to 20&nbsp;000&nbsp;km/year from 15&nbsp;000&nbsp;km/year,
+            because more kilometers spread out vehicle purchase costs. However,
+            EV LCOD falls more than for ICE LCOD because fuel costs are cheaper
+            for EVs. Meanwhile, if a vehicle is driven only
+            10&nbsp;000&nbsp;km/year, then LCOD will increase for both types of
+            vehicles, but more so for EVs since their fuel savings matter less.
+            Also, various discount rates reflect the interest that could be
+            earned by investing the money rather than spending it and puts
+            different values on future expenses. A lower discount rate would
+            make EVs relatively more attractive. The chart below shows the
+            results of these changes.
+          </p>
+          <h3>Figure&nbsp;4: LCOD Sensitivity Analysis</h3>
+          <!-- figure START -->
+          <div
+            class="tableauPlaceholder"
+            id="viz1558725999445"
+            style="position: relative"
+          >
+            <noscript
+              ><a href=""
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;LC&#47;LCODSensitivityAnalysis&#47;Dashboard2&#47;1_rss.png"
+                  style="border: none"/></a></noscript
+            ><object class="tableauViz" style="display:none;"
+              ><param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+              <param name="embed_code_version" value="3"/>
+              <param name="site_root" value=""/><param
+                name="name"
+                value="LCODSensitivityAnalysis&#47;Dashboard2"/><param
+                name="tabs"
+                value="no"/><param name="toolbar" value="yes"/><param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;LC&#47;LCODSensitivityAnalysis&#47;Dashboard2&#47;1.png"/>
+              <param name="animate_transition" value="yes"/><param
+                name="display_static_image"
+                value="yes"/><param name="display_spinner" value="yes"/><param
+                name="display_overlay"
+                value="yes"/><param name="display_count" value="yes"/><param
+                name="filter"
+                value="publish=yes"
+            /></object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1558725999445");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "1000px";
+            vizElement.style.height = "827px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+          <!-- figure  6 END -->
+          <div class="clearfix"></div>
+          <details>
+            <summary>Source and Description</summary>
+            <p><strong>Source:</strong> NEB</p>
+            <p>
+              <strong>Description:</strong> This chart shows how changes to
+              distance driven per year and the discount rate used can affect the
+              LCOD. When a vehicle is driven more km every year, the LCOD
+              decreases since the purchase cost is spread out over more km. If a
+              higher discount rate is used, less value is put on future fuel and
+              maintenance costs also resulting in a lower LCOD. The reverse is
+              also true for both of the above statements.
+            </p>
+          </details>
+          <div class="clearfix"></div>
+          <h2>Conclusion</h2>
+          <ul>
+            <li>
+              Falling LCOD for EVs based on EF2018 data shows why it is not
+              surprising that EV sales in Canada have been rising. Some
+              provinces currently offer subsidies, making EVs more attractive.
+            </li>
+            <li>
+              Currently, EVs have an advantage in fuel and maintenance costs. If
+              technology continues to improve, purchase costs could fall to the
+              point where they are comparable or even lower than that of
+              equivalent ICE vehicles. This would result in an LCOD that
+              strongly favors EVs.
+            </li>
+            <li>
+              LCOD is greatly affected by a number factors including electricity
+              price, vehicle purchase price, discount rate, and kilometers
+              driven per year. This makes buying an EV in a province with lower
+              electricity costs cheaper for consumers.
+            </li>
+            <li>
+              It is important to remember that LCOD relies on a few assumptions
+              and does not capture all the reasons why people buy or do not buy
+              EVs. It does, however, provide a useful tool for making basic
+              economic decisions. This can be weighed against other issues such
+              as vehicle range, charging availability, and personal preference.
+            </li>
+          </ul>
+          <div class="wb-tabs">
+            <div class="tabpanels">
+              <details id="details-panel1">
+                <summary
+                  ><strong>Appendix: LCOD Calculation Methods</strong></summary
+                >
+                <p>
+                  Fuel costs used can be found in the
+                  <a
+                    href="https://apps.cer-rec.gc.ca/ftrppndc/dflt.aspx?GoCTemplateCulture=en-CA"
+                    >Data Appendices</a
+                  >
+                  section of Canada’s Energy Future 2018. Vehicle costs can be
+                  found in the
+                  <a href="/nrg/ntgrtd/ftr/2018/fgrs-eng.xlsx"
+                    >Figure Data spreadsheet</a
+                  >
+                  on the sheet 4.11 from the same report. Maintenance costs for
+                  EV cars are based on
+                  <a
+                    href="https://www.sciencedirect.com/science/article/pii/S030626191731526X"
+                    rel="external"
+                    >Palmer et al (2018)</a
+                  >, where costs for trucks are assumed to be 1.5&nbsp;times
+                  more expensive. Vehicle fuel efficiencies are based on the
+                  <a
+                    href="https://www.nrcan.gc.ca/energy/efficiency/11938"
+                    rel="external"
+                    >fuel consumption rating by model year guide</a
+                  >
+                  for 2019 models with annual improvement rates in efficiency of
+                  1% applied to ICE vehicles and 2% for electric vehicle. Other
+                  assumptions include a 6% discount rate, 15&nbsp;000&nbsp;km
+                  driven annually, and a 15&nbsp;year vehicle life, after which
+                  the vehicle is valued at $C 0. Initially 80% of the vehicle is
+                  financed at a rate of 8%. Equal payments are made monthly for
+                  5&nbsp;years until the loan is paid off. The discount rate and
+                  vehicle life are the same as those used in the NREL study,
+                  while the distance traveled per year is similar but has been
+                  rounded to 5&nbsp;000&nbsp;km increments.
+                </p>
+                <p>
+                  The following equations are used to calculate LCOD (as adopted
+                  from
+                  <a
+                    href="https://www.nrel.gov/docs/fy18osti/70485.pdf"
+                    rel="external"
+                    >Electrification Futures Study: End-Use Elctric Technology
+                    Cost and Performance Projections through 2050</a
+                  >):
+                </p>
+                <!-- figure START -->
+                <img
+                  src="/nrg/ntgrtd/mrkt/snpsht/2019/mg/ms06-01-fg01-eng.png"
+                  alt="formula 1"
+                  class="img-responsive"
+                />
+                <!-- figure  END -->
+                <p>Where:</p>
+                <ul>
+                  <li>CC = Capital cost of the vehicle</li>
+                  <li>M = The annual maintenance cost of the vehicle</li>
+                  <li>Km/yr = The km driven per year by the vehicle</li>
+                  <li>
+                    $C/Unit = Cost of one unit of fuel in C$/L of gasoline or
+                    C$/kW.h of electricity
+                  </li>
+                  <li>
+                    Eff = Fuel efficiency of the vehicle in liters or kW.h per
+                    km
+                  </li>
+                  <li>
+                    CRF = Capital Recovery Factor, which is from the following
+                    equation
+                  </li>
+                </ul>
+                <!-- figure START -->
+                <img
+                  src="/nrg/ntgrtd/mrkt/snpsht/2019/mg/ms06-01-fg02-eng.png"
+                  alt="formula 2"
+                  class="img-responsive"
+                />
+                <!-- figure  END -->
+                <p>Where:</p>
+                <ul>
+                  <li>r = Discount rate</li>
+                  <li>t = Life of the vehicle in years</li>
+                </ul>
+              </details>
+              <details id="details-panel2" open="open">
+                <summary><strong>References</strong></summary>
+                <p>
+                  Gibson, R. (2018, April&nbsp;30). Why electric vehicles have
+                  lower maintenance costs. Retrieved from
+                  <a
+                    href="https://www.fleetcarma.com/electric-vehicles-lower-maintenance-costs/"
+                    rel="external"
+                    >Fleetcarma</a
+                  >.
+                </p>
+                <p>
+                  International Energy Agency. (2018). Global EV Outlook 2018.
+                  Retrieved from
+                  <a href="https://www.iea.org/gevo2018/" rel="external"
+                    >International Energy Agency</a
+                  >.
+                </p>
+                <p>
+                  Jadun, P., McMillan, C., Steinberg, D., Muratori, M.,
+                  Vimmerstedt, L., & Mai, T. (2017). Electrification Futures
+                  Study: End-Use Electric Technology Cost and Performance
+                  Projections through 2050. Retrieved from
+                  <a
+                    href="https://www.nrel.gov/docs/fy18osti/70485.pdf"
+                    rel="external"
+                    >National Renewable Energy Laboratory</a
+                  >.
+                </p>
+                <p>
+                  Lampton, C. (n.d.). How Regenerative Braking Works. Retrieved
+                  from
+                  <a
+                    href="https://auto.howstuffworks.com/auto-parts/brakes/brake-types/regenerative-braking.htm"
+                    rel="external"
+                    >HowStuffWorks</a
+                  >.
+                </p>
+                <p>
+                  National Energy Board. (2018). Canada’s Energy Future 2018:
+                  Energy Supply and Demand Projections to 2040. Retrieved from
+                  <a href="/nrg/ntgrtd/ftr/2018/index-eng.html"
+                    >National Energy Board</a
+                  >.
+                </p>
+                <p>
+                  Natural Resources Canada. (2019). MY2019 Fuel Consumption
+                  Ratings.
+                </p>
+                <p>
+                  Office of Energy Efficency and Renewable Energy. (2019).
+                  Electric Vehicles: Tax Credits and Other Incentives. Retrieved
+                  from
+                  <a
+                    href="https://www.energy.gov/eere/electricvehicles/electric-vehicles-tax-credits-and-other-incentives"
+                    rel="external"
+                    >ENERGY.GOV</a
+                  >.
+                </p>
+                <p>
+                  Office of the Premier. (2018, November 20). Provincial
+                  government puts B.C. on path to 100% zero-emission vehicle
+                  sales by 2040. Retrieved from
+                  <a
+                    href="https://news.gov.bc.ca/releases/2018PREM0082-002226"
+                    rel="external"
+                    >BC Gov News</a
+                  >.
+                </p>
+                <p>
+                  Palmer, K., Tate, J. E., Wadub, Z., & Nellthrop, J. (2018).
+                  Total cost of ownership and market share for hybrid and
+                  electric vehicles in the UK, US and Japan. Applied Energy,
+                  108-119.
+                </p>
+              </details>
+            </div>
+          </div>
+          <aside class="wb-fnote " role="note">
+            <h2 id="fn" class="wb-inv ">Footnote</h2>
+            <dl>
+              <dt>Footnote 1</dt>
+              <dd id="fn1">
+                <p>
+                  More information on the emissions intensity of EVs is
+                  available here:
+                  <a
+                    href="/nrg/ntgrtd/mrkt/snpsht/2018/09-01-1hwrnrgprjctsfnncd-eng.html"
+                    >How much CO<sub>2</sub> do electric vehicles, hybrids and
+                    gasoline vehicles emit?</a
+                  >
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn1-rf"
+                    ><span class="wb-inv">Return to footnote </span>1<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 2</dt>
+              <dd id="fn2">
+                <p>
+                  Palmer, K., Tate, J. E., Wadub, Z., & Nellthrop, J. (2018).
+                  Total cost of ownership and market share for hybrid and
+                  electric vehicles in the UK, US and Japan. Applied Energy,
+                  108-119.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn2-rf"
+                    ><span class="wb-inv">Return to footnote </span>2<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 3</dt>
+              <dd id="fn3">
+                <p>
+                  "Cars” includes smaller vehicles such as sedans, coupes, and
+                  hatchbacks while the classification of “truck” includes
+                  pickups, sports utility vehicles, and minivans among others.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn3-rf"
+                    ><span class="wb-inv">Return to footnote </span>3<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 4</dt>
+              <dd id="fn4">
+                <p>
+                  The EF2018 Technology Case projects Canadian energy supply and
+                  demand based on assumptions about stronger long-term carbon
+                  policy, faster uptake of technology such as electric vehicles,
+                  and lower costs of renewables.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn4-rf"
+                    ><span class="wb-inv">Return to footnote </span>4<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 5</dt>
+              <dd id="fn5">
+                <p>
+                  The EF2018 Reference Case is based on a current economic
+                  outlook, a moderate view of energy prices and improving
+                  technology, and announced and sufficiently detailed climate
+                  and energy policies at the time of analysis.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn5-rf"
+                    ><span class="wb-inv">Return to footnote </span>5<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+              <dt>Footnote 6</dt>
+              <dd id="fn6">
+                <p>
+                  LCODs do not always account for factors such as government
+                  rebates for EVs, insurance rates, consumer preferences, and
+                  infrastructure costs. The LCOD of a vehicle is sensitive to
+                  the assumptions that are made and changes in these can lead to
+                  different results. Differences of only a few cents may seem
+                  small, but if a vehicle is driven 15&nbsp;000&nbsp;km/yr for
+                  15&nbsp;years, a one cent difference in LCOD will result in a
+                  total cost difference of C$&nbsp;2&nbsp;250. It is also
+                  important to note that the batteries in EVs tend to work less
+                  efficiently in colder climates, which results in shorter range
+                  per charge. This factor has not been included in the study,
+                  but may be very important to consumers who live in cold areas
+                  of Canada.
+                </p>
+                <p class="fn-rtn">
+                  <a href="#fn6-rf"
+                    ><span class="wb-inv">Return to footnote </span>6<span
+                      class="wb-inv"
+                    >
+                      referrer</span
+                    ></a
+                  >
+                </p>
+              </dd>
+            </dl>
+          </aside>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"
+          ></script>
+          <script
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"
+          ></script>
+          <!-- Additional plugins go here -->
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"
+          ></script>
+          <script
+            class="include"
+            type="text/javascript"
+            src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"
+          ></script>
+          <!-- End additional plugins -->
+          <section
+            id="top-bar"
+            class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary"
+          >
+            <div class="bg-primary">
+              <p class="text-center brdr-0 bg-primary">
+                <a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
+                  <strong
+                    >Thank you for visiting our website.<br />We welcome your
+                    feedback to let us know how we can improve your
+                    experience</strong
+                  >
+                </a>
+              </p>
+            </div>
+          </section>
+          <section class="wb-inview show-none bar-demo" data-inview="top-bar">
+            <h3 class="no-gutter"></h3>
+
+            <div class="text-center"><p>&nbsp;</p></div>
+          </section>
+          <!-- InstanceEndEditable -->
+          <div class="clearfix"></div>
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2019-08-28</time></dd>
+          </dl>
+        </main>
+      </div>
     </div>
-    <button id="wb-srch-sub" class="btn btn-default" type="submit">Search</button>
-   </form>
-  </section>
- </div>
-</div>
-</div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="/Templates/wet4-gcwu/includes/menu/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
- <div class="container nvbar">
-  <h2>Site menu</h2>
-  <div class="row">
-   <ul class="list-inline menu">
-    <li><a href="/sftnvrnmnt/index-eng.html">Safety &amp; Environment</a></li>
-    <li><a href="/prtcptn/index-eng.html">Participation &amp; Lands</a></li>
-    <li><a href="/pplctnflng/index-eng.html">Applications &amp; Filings</a></li>
-    <li><a href="/nrg/index-eng.html">Energy Information</a></li>
-    <li><a href="/nrth/index-eng.html">North/Offshore</a></li>
-    <li><a href="/bts/index-eng.html">About Us</a></li>
-    <li><a href="/rsrccntr/index-eng.html">Resource Centre</a></li>
-   </ul>
-  </div>
- </div>
-</nav>
-<nav id="wb-bc" property="breadcrumb" role="navigation">
-<h2>You are here:</h2>
-<div class="container">
-<div class="row">
-<ol class="breadcrumb">
-<li><a href="/index-eng.html">Home</a></li>
-<li><a href="/nrg/index-eng.html">Energy Information</a></li>
-<li><a href="/nrg/ntgrtd/index-eng.html">Integrated Energy Analysis</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/index-eng.html">Energy Markets</a></li>
-<li><a href="/nrg/ntgrtd/mrkt/snpsht/index-eng.html">Market Snapshots</a></li>
-<li>Market Snapshot: Levelized costs of driving EVs and conventional vehicles</li>
-</ol>
-
-</div>
-</div>
-</nav>
-</header>
-<div id="header" class="container">
-<div class="row">
-<main role="main" property="mainContentOfPage" class="col-md-12">
-
-<!-- InstanceBeginEditable name="center" -->
-<div class="alert alert-info mrgn-tp-md mrgn-bttm-0">
-	<p><small>On Wednesday, Aug. 28, the National Energy Board (NEB) became the Canada Energy Regulator (CER). For further information please visit our <a href="/bts/cr/index-eng.html">Implementing the Canadian Energy Regulator Act information page</a></small></p>
-</div>
-<h1 id="wb-cont" property="name">Market Snapshot: Levelized costs of driving EVs and conventional vehicles</h1>
-<p><strong>Release date: 2019-06-05</strong></p>
-<h2>Introduction</h2>
-<p>In 2018 almost 44&nbsp;000 electric vehicles (EVs) were sold in Canada; this is a large increase from the <a href="https://canadaevsales.com/" rel="external">2&nbsp;000 sold in 2012</a>. In the future, electric vehicle adoption presents a key uncertainty for understanding how energy systems will evolve. Many factors will influence future EV sales including cost, government policy, consumer preferences, advances in technology, and charging infrastructure.</p>
-<p>Currently, EVs are more expensive to buy than conventional vehicles with an internal combustion engine (ICE).<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup> However, EVs are more energy efficient than ICE vehicles, which could lead to cost savings when driving. Figure&nbsp;1 compares prices and fuel efficiency for some of the most popular models of EVs and ICE vehicles. Hybrid vehicles, which have both internal combustion engines and electric motors, have not been included in this analysis.</p>
-<p class="mrgn-bttm-xl">EVs have maintenance costs that are about 70% below comparable ICE vehicles.<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup> This is partly because EVs have fewer moving parts in their drivetrains and do not need oil changes. EVs also use <a href="https://auto.howstuffworks.com/auto-parts/brakes/brake-types/regenerative-braking.htm" rel="external">regenerative braking</a>, which converts motion to electricity to slow a car down and helps brakes last longer.</p>
-<h3>Figure&nbsp;1: Comparison of Costs between Selected EV and ICE Vehicles</h3>
-<!-- figure START -->
-<div class='tableauPlaceholder' id='viz1558722842236' style='position: relative'><noscript><a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparisonofCostsbetweenSelectedEVandICEVehicles&#47;Figure1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1558722842236');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<!-- figure  6 END -->
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> Manufacturer Websites</p>
-<p><strong>Description:</strong> This chart shows the difference in both purchase prices and fuel efficiency for some popular passenger vehicles in Canada. Purchase prices for EVs are currently much higher than those of comparable ICE vehicles, but are much more energy efficient. Fuel efficiency comparisons between EVs and ICE vehicles are done using liters equivalent per 100&nbsp;km (Le/100km), which converts electricity into an equal amount of gasoline based on energy content.</p>
-</details>
-<div class="clearfix"></div>
-<p class="mrgn-tp-lg">Figure&nbsp;2 shows the future purchase costs of EVs and ICE cars and trucks<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup>, as assumed in the Reference Case and Technology Case from the NEB’s <a href="/nrg/ntgrtd/ftr/2018/index-eng.html">Canada’s Energy Future 2018</a> (EF2018) report. Sales of electric vehicles reach over <a href="/nrg/ntgrtd/mrkt/snpsht/2018/09-03shrtrcksls-eng.html">60% of new vehicles sold</a> by 2040 in the EF2018 Technology Case<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Footnote </span>4</a></sup>, while the Reference Case<sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Footnote </span>5</a></sup> sees slower growth. Meanwhile, in both cases, EVs will continue to be more expensive to purchase than comparable ICE vehicles until 2040. In both projections, however, the prices of ICE vehicles slightly climb while the prices of EVs fall. EV prices fall more in the Technology Case than in the Reference Case, because the Technology Case expects faster adoption of EVs and technology that improves more quickly.</p>
-<h3>Figure&nbsp;2: Projected Purchase Costs of EVs and ICE Vehicles in 2020, 2030, and 2040</h3>
-<!-- figure START -->
-<div class='tableauPlaceholder' id='viz1558723159010' style='position: relative'><noscript><a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedPurchaseCostsofEVsandICEVehiclesin20202030and2040&#47;Figure2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1558723159010');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1050px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<!-- figure  6 END -->
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> The projected vehicle prices from EF2018’s Reference Case and Technology Case are shown in the graph for 2020, 2030, and 2040. While the prices of ICE cars and trucks are generally lower than their EV equivalents, the graph shows that in both cases, the price of ICE vehicles slightly climbs over the projection, while the price of EVs falls. The size of this decrease is larger in the Technology Case.</p>
-</details>
-<div class="clearfix"></div>
-<h2>Levelized cost of driving is a way to compare EVs and ICE vehicles</h2>
-<p class="mrgn-tp-lg"><a href="https://www.nrel.gov/docs/fy18osti/70485.pdf" rel="external">Levelized cost of driving</a> (LCOD) calculates how much it costs to drive a vehicle per kilometer over the vehicle’s life. LCOD is used to compare vehicles with different purchase, fuel, and maintenance costs and lifespans. Thus, LCODs are a useful way to compare EVs to ICE vehicles<sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Footnote </span>6</a></sup>.</p>
-<p>Figure&nbsp;3 shows LCODs for vehicles purchased in the years 2020, 2030, and 2040 as calculated from EF2018 cost data. In 2020, EV cars have a lower LCOD than ICE cars in most provinces in both the Reference Case and the Technology Case. By 2030, EV cars have a lower LCOD than ICE cars in all provinces in both cases.</p>
-<p>In most provinces, except Ontario, Northwest Territories, and Nunavut, EV trucks have a lower LCOD than ICE trucks in both cases. In 2040, EV cars and EV trucks have a lower LCOD in all provinces and in both cases. Because of abundant hydroelectricity in Canada, <a href="http://www.hydroquebec.com/residential/customer-space/rates/comparison-electricity-prices.html" rel="external">electricity prices are low in regions such as Quebec and British Columbia</a>, which lowers the LCOD of EVs. Meanwhile, in the Technology Case, carbon prices are much higher than in the Reference Case. This makes gasoline more expensive and contributes to the advantage that EVs have over ICE vehicles.</p>
-<p>Additionally, as shown in Figure&nbsp;3, the purchase cost of an EV in Canada makes up around 82% of the LCOD in 2020 in the Reference Case, while it only contributes to 61% of an ICE vehicle’s LCOD. Fuel costs, on the other hand, make up about 9% of the LCOD of an EV car in 2020 in the Reference Case, while they contribute 29% of the LCOD of an ICE car, with maintenance costs making up about the last 10%.</p>
-<h3>Figure&nbsp;3: Projected LCOD Comparisons for EVs and ICE Vehicles in 2020, 2030, and 2040</h3>
-<!-- figure START -->
-<div class='tableauPlaceholder' id='viz1558726884856' style='position: relative'><noscript><a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectedLCODComparisonsforEVsandICEVehiclesin20202030and2040_&#47;AllSelected&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1558726884856');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='777px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<!-- figure  6 END -->
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> The chart shows estimated LCODs by year, vehicle type, region, and EF2018 Case. In 2020, EV cars in most provinces have a lower LCOD than ICE cars. By 2030, EV cars in all provinces have a lower LCOD. In most provinces, except those with the most expensive electricity, EV trucks have a lower LCOD. In 2040, EV cars and trucks in all provinces have a lower LCOD.</p>
-<p>For example, the Reference Case Canadian LCOD is $0.33/km for an EV car, $0.34 for an ICE car, $0.44 for an EV truck and $0.42 for an ICE truck in 2020. However by 2040, the LCOD of an EV car drops to $0.29/km, and to $0.33 for a comparable ICE car. In the same year the LCOD for an EV truck reaches $0.37/km and $0.41 for an ICE truck.</p>
-</details>
-<div class="clearfix"></div>
-<h2>Key takeaways from this analysis include that EV cars have lower LCODs than ICE cars in the near future</h2>
-<p>Some key takeaways on projected LCOD comparisons are:</p>
-<ul><li>Both purchase cost and fuel efficiency are important. For example in 2020, the price of an EV truck is about C$&nbsp;13&nbsp;500 more than a comparable ICE truck, but after fuel cost savings are taken into account, the LCODs become much more comparable (although there are significant variations between regions).</li>
-<li>Further cost reductions in the price of EVs are important in both the Reference and Technology Cases, and help LCODs of EVs become comparable to those of ICE vehicles. These cost assumptions cause EVs to gain parity in many regions by 2020, and in almost all of them by 2030, and 2040 for both cases.</li>
-<li>EV cars have lower LCODs than ICE cars in the near future, while this is further off for larger vehicles.</li>
-<li>It is important to remember that vehicles are purchased for many reasons beyond purchase price, operating costs, and maintenance costs. A good example of this can be found by comparing the LCOD of ICE cars and ICE trucks. The LCODs of ICE trucks are much higher than that of ICE cars, yet <a href="/nrg/ntgrtd/mrkt/snpsht/2016/01-02nwvhclsl-eng.html">trucks dominate vehicle sales</a> in Canada.</li></ul>
-<h2>Levelized cost of driving is very sensitive to changes in assumed costs</h2>
-<p>LCOD can vary significantly when costs are changed. For example, the LCOD for both EVs and ICE vehicles decrease if distance driven increases to 20&nbsp;000&nbsp;km/year from 15&nbsp;000&nbsp;km/year, because more kilometers spread out vehicle purchase costs. However, EV LCOD falls more than for ICE LCOD because fuel costs are cheaper for EVs. Meanwhile, if a vehicle is driven only 10&nbsp;000&nbsp;km/year, then LCOD will increase for both types of vehicles, but more so for EVs since their fuel savings matter less. Also, various discount rates reflect the interest that could be earned by investing the money rather than spending it and puts different values on future expenses. A lower discount rate would make EVs relatively more attractive. The chart below shows the results of these changes.</p>
-<h3>Figure&nbsp;4: LCOD Sensitivity Analysis</h3>
-<!-- figure START -->
-<div class='tableauPlaceholder' id='viz1558725999445' style='position: relative'><noscript><a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;LC&#47;LCODSensitivityAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LCODSensitivityAnalysis&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;LC&#47;LCODSensitivityAnalysis&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1558725999445');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<!-- figure  6 END -->
-<div class="clearfix"></div>
-<details>
-<summary>Source and Description</summary>
-<p><strong>Source:</strong> NEB</p>
-<p><strong>Description:</strong> This chart shows how changes to distance driven per year and the discount rate used can affect the LCOD. When a vehicle is driven more km every year, the LCOD decreases since the purchase cost is spread out over more km. If a higher discount rate is used, less value is put on future fuel and maintenance costs also resulting in a lower LCOD. The reverse is also true for both of the above statements.</p>
-</details>
-<div class="clearfix"></div>
-<h2>Conclusion</h2>
-<ul><li>Falling LCOD for EVs based on EF2018 data shows why it is not surprising that EV sales in Canada have been rising. Some provinces currently offer subsidies, making EVs more attractive.</li>
-<li>Currently, EVs have an advantage in fuel and maintenance costs. If technology continues to improve, purchase costs could fall to the point where they are comparable or even lower than that of equivalent ICE vehicles. This would result in an LCOD that strongly favors EVs.</li>
-<li>LCOD is greatly affected by a number factors including electricity price, vehicle purchase price, discount rate, and kilometers driven per year. This makes buying an EV in a province with lower electricity costs cheaper for consumers.</li>
-<li>It is important to remember that LCOD relies on a few assumptions and does not capture all the reasons why people buy or do not buy EVs. It does, however, provide a useful tool for making basic economic decisions. This can be weighed against other issues such as vehicle range, charging availability, and personal preference.</li></ul>
-<div class="wb-tabs">
-<div class="tabpanels">
-<details id="details-panel1">
-<summary><strong>Appendix: LCOD Calculation Methods</strong></summary>
-<p>Fuel costs used can be found in the <a href="https://apps.cer-rec.gc.ca/ftrppndc/dflt.aspx?GoCTemplateCulture=en-CA">Data Appendices</a> section of Canada’s Energy Future 2018. Vehicle costs can be found in the <a href="/nrg/ntgrtd/ftr/2018/fgrs-eng.xlsx">Figure Data spreadsheet</a> on the sheet 4.11 from the same report. Maintenance costs for EV cars are based on <a href="https://www.sciencedirect.com/science/article/pii/S030626191731526X" rel="external">Palmer et al (2018)</a>, where costs for trucks are assumed to be 1.5&nbsp;times more expensive. Vehicle fuel efficiencies are based on the <a href="https://www.nrcan.gc.ca/energy/efficiency/11938" rel="external">fuel consumption rating by model year guide</a> for 2019 models with annual improvement rates in efficiency of 1% applied to ICE vehicles and 2% for electric vehicle. Other assumptions include a 6% discount rate, 15&nbsp;000&nbsp;km driven annually, and a 15&nbsp;year vehicle life, after which the vehicle is valued at $C 0. Initially 80% of the vehicle is financed at a rate of 8%. Equal payments are made monthly for 5&nbsp;years until the loan is paid off. The discount rate and vehicle life are the same as those used in the NREL study, while the distance traveled per year is similar but has been rounded to 5&nbsp;000&nbsp;km increments.</p>
-<p>The following equations are used to calculate LCOD (as adopted from <a href="https://www.nrel.gov/docs/fy18osti/70485.pdf" rel="external">Electrification Futures Study: End-Use Elctric Technology Cost and Performance Projections through 2050</a>):</p>
-<!-- figure START -->
-<img src="/nrg/ntgrtd/mrkt/snpsht/2019/mg/ms06-01-fg01-eng.png" alt="formula 1" class="img-responsive">
-<!-- figure  END -->
-<p>Where:</p>
-<ul><li>CC = Capital cost of the vehicle</li>
-<li>M = The annual maintenance cost of the vehicle</li>
-<li>Km/yr = The km driven per year by the vehicle</li>
-<li>$C/Unit = Cost of one unit of fuel in C$/L of gasoline or C$/kW.h of electricity</li>
-<li>Eff = Fuel efficiency of the vehicle in liters or kW.h per km</li>
-<li>CRF = Capital Recovery Factor, which is from the following equation</li></ul>
-<!-- figure START -->
-<img src="/nrg/ntgrtd/mrkt/snpsht/2019/mg/ms06-01-fg02-eng.png" alt="formula 2" class="img-responsive">
-<!-- figure  END -->
-<p>Where:</p>
-<ul><li>r = Discount rate</li>
-<li>t = Life of the vehicle in years</li></ul>
-</details>
-<details id="details-panel2" open="open">
-<summary><strong>References</strong></summary>
-<p>Gibson, R. (2018, April&nbsp;30). Why electric vehicles have lower maintenance costs. Retrieved from <a href="https://www.fleetcarma.com/electric-vehicles-lower-maintenance-costs/" rel="external">Fleetcarma</a>.</p>
-<p>International Energy Agency. (2018). Global EV Outlook 2018. Retrieved from <a href="https://www.iea.org/gevo2018/" rel="external">International Energy Agency</a>.</p>
-<p>Jadun, P., McMillan, C., Steinberg, D., Muratori, M., Vimmerstedt, L., & Mai, T. (2017). Electrification Futures Study: End-Use Electric Technology Cost and Performance Projections through 2050. Retrieved from <a href="https://www.nrel.gov/docs/fy18osti/70485.pdf" rel="external">National Renewable Energy Laboratory</a>.</p>
-<p>Lampton, C. (n.d.). How Regenerative Braking Works. Retrieved from <a href="https://auto.howstuffworks.com/auto-parts/brakes/brake-types/regenerative-braking.htm" rel="external">HowStuffWorks</a>.</p>
-<p>National Energy Board. (2018). Canada’s Energy Future 2018: Energy Supply and Demand Projections to 2040. Retrieved from <a href="/nrg/ntgrtd/ftr/2018/index-eng.html">National Energy Board</a>.</p>
-<p>Natural Resources Canada. (2019). MY2019 Fuel Consumption Ratings.</p>
-<p>Office of Energy Efficency and Renewable Energy. (2019). Electric Vehicles: Tax Credits and Other Incentives. Retrieved from <a href="https://www.energy.gov/eere/electricvehicles/electric-vehicles-tax-credits-and-other-incentives" rel="external">ENERGY.GOV</a>.</p>
-<p>Office of the Premier. (2018, November 20). Provincial government puts B.C. on path to 100% zero-emission vehicle sales by 2040. Retrieved from <a href="https://news.gov.bc.ca/releases/2018PREM0082-002226" rel="external">BC Gov News</a>.</p>
-<p>Palmer, K., Tate, J. E., Wadub, Z., & Nellthrop, J. (2018). Total cost of ownership and market share for hybrid and electric vehicles in the UK, US and Japan. Applied Energy, 108-119.</p>
-</details>
-</div>
-</div>
-<aside class="wb-fnote " role="note">
-<h2 id="fn" class="wb-inv ">Footnote</h2>
-<dl>
-<dt>Footnote 1</dt>
-<dd id="fn1">
-<p>More information on the emissions intensity of EVs is available here: <a href="/nrg/ntgrtd/mrkt/snpsht/2018/09-01-1hwrnrgprjctsfnncd-eng.html">How much CO<sub>2</sub> do electric vehicles, hybrids and gasoline vehicles emit?</a></p>
-<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 2</dt>
-<dd id="fn2">
-<p>Palmer, K., Tate, J. E., Wadub, Z., & Nellthrop, J. (2018). Total cost of ownership and market share for hybrid and electric vehicles in the UK, US and Japan. Applied Energy, 108-119.</p>
-<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Return to footnote </span>2<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 3</dt>
-<dd id="fn3">
-<p>"Cars” includes smaller vehicles such as sedans, coupes, and hatchbacks while the classification of “truck” includes pickups, sports utility vehicles, and minivans among others.</p>
-<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Return to footnote </span>3<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 4</dt>
-<dd id="fn4">
-<p>The EF2018 Technology Case projects Canadian energy supply and demand based on assumptions about stronger long-term carbon policy, faster uptake of technology such as electric vehicles, and lower costs of renewables.</p>
-<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Return to footnote </span>4<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 5</dt>
-<dd id="fn5">
-<p>The EF2018 Reference Case is based on a current economic outlook, a moderate view of energy prices and improving technology, and announced and sufficiently detailed climate and energy policies at the time of analysis.</p>
-<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Return to footnote </span>5<span class="wb-inv"> referrer</span></a></p>
-</dd>
-<dt>Footnote 6</dt>
-<dd id="fn6">
-<p>LCODs do not always account for factors such as government rebates for EVs, insurance rates, consumer preferences, and infrastructure costs. The LCOD of a vehicle is sensitive to the assumptions that are made and changes in these can lead to different results. Differences of only a few cents may seem small, but if a vehicle is driven 15&nbsp;000&nbsp;km/yr for 15&nbsp;years, a one cent difference in LCOD will result in a total cost difference of C$&nbsp;2&nbsp;250. It is also important to note that the batteries in EVs tend to work less efficiently in colder climates, which results in shorter range per charge. This factor has not been included in the study, but may be very important to consumers who live in cold areas of Canada.</p>
-<p class="fn-rtn"><a href="#fn6-rf"><span class="wb-inv">Return to footnote </span>6<span class="wb-inv"> referrer</span></a></p>
-</dd>
-</dl>
-</aside>
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/scripts/jquery.jqplot.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shCore.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushJScript.min.js"></script> 
-<script type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/syntaxhighlighter/scripts/shBrushXml.min.js"></script> 
-<!-- Additional plugins go here --> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.barRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pieRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.categoryAxisRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.pointLabels.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasTextRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.dateAxisRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.highlighter.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.cursor.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.enhancedLegendRenderer.min.js"></script> 
-<script class="include" type="text/javascript" src="/nrg/ntgrtd/mrkt/includes/plugins/jqplot.canvasOverlay.min.js"></script> 
-<!-- End additional plugins --> 
-<section id="top-bar" class="pop wb-overlay modal-content overlay-def wb-bar-b bg-primary">
-	<div class="bg-primary">
-			<p class="text-center brdr-0 bg-primary">
-				<a class="bg-primary" target="_blank" href="/bts/srvy-eng.html">
-					<strong>Thank you for visiting our website.<br>We welcome your feedback to let us know how we can improve your experience</strong>
-				</a>
-			</p>
-	</div>
-</section>
-<section class="wb-inview show-none bar-demo" data-inview="top-bar">
-	<h3 class="no-gutter"></h3>
-	
-<div class="text-center"><p>&nbsp;</p>
-</div>
-</section> 
-<!-- InstanceEndEditable -->
-<div class="clearfix"></div>
-<dl id="wb-dtmd">
-<dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2019-08-28</time></dd>
-</dl>
-</main>
-	</div>
-</div>
-<!--
+    <!--
 <script type="text/javascript">
 $( document ).one( "wb-ready.wb", function() {
 	if( sessionStorage.hits ) {
@@ -381,78 +1236,122 @@ $( document ).one( "wb-ready.wb", function() {
 </section>
 -->
 
-<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-	<div class="container">
-		<nav role="navigation">
-			<h2>About this site</h2>
-			<ul id="gc-tctr" class="list-inline">
-				<li class="gcwu-tc">
-					<a href="/glbl/mprtntntc-eng.html" rel="license">Terms and conditions</a>
-				</li>
-				<li class="gcwu-tr">
-					<a href="/trnsprnc/index-eng.html">Transparency</a>
-				</li>
-			</ul>
-			<div class="row">
-				<section class="col-sm-3">
-					<h3><a href="/bts/index-eng.html">About us</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/whwr/index-eng.html">Our People</a></li>
-						<li><a href="/bts/pblctn/index-eng.html">Publications and Reports</a></li>
-						<li><a href="/bts/ctrg/index-eng.html">Acts and Regulations</a></li>	
-						<li><a href="/bts/crr/index-eng.html">Careers</a></li>
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/bts/nws/index-eng.html">News</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
-						<li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
-						<li><a href="/bts/nws/spch/index-eng.html">Speeches and Presentations</a></li>
-						<li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>                  
-					</ul>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
-					<address>
-					</address>
-				</section>
-				<section class="col-sm-3">
-					<h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
-					<ul class="list-unstyled">
-						<li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
-						<li><a href="https://twitter.com/CER_REC">Twitter</a></li>
-						<li><a href="https://www.facebook.com/CER.REC">Facebook</a></li> 
-						<li><a href="http://www.youtube.com/nationalenergyboard">YouTube</a></li>                  
-					</ul>
-				</section>
-			</div>
-		</nav>
-	</div>
-	<div id="gc-info">
-		<div class="container">
-			<nav role="navigation">
-				<h2>Government of Canada footer</h2>
-				<ul class="list-inline">
-					<li><a href="http://healthycanadians.gc.ca"><span>Health</span></a></li>
-					<li><a href="http://travel.gc.ca"><span>Travel</span></a></li>
-					<li><a href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span></a></li>
-					<li><a href="http://www.jobbank.gc.ca"><span>Jobs</span></a></li>
-					<li><a href="http://actionplan.gc.ca/en"><span>Economy</span></a></li>
-					<li><a href="http://www.canada.ca/en/index.html"><span>Canada.ca</span></a></li>
-					<li id="canada-ca"><a href="http://www.canada.ca/en/index.html"><img src="/Templates/wet4-gcwu/assets/wmms.png" width="143" height="34" alt="Canada.ca"/></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</footer><!--[if gte IE 9 | !IE ]><!-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
-<script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
-<!--<![endif]-->
-<!--[if lt IE 9]>
-<script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
-
-<![endif]-->
-<script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
-</body>
-<!-- InstanceEnd --></html>
+    <footer
+      role="contentinfo"
+      id="wb-info"
+      class="visible-sm visible-md visible-lg wb-navcurr"
+    >
+      <div class="container">
+        <nav role="navigation">
+          <h2>About this site</h2>
+          <ul id="gc-tctr" class="list-inline">
+            <li class="gcwu-tc">
+              <a href="/glbl/mprtntntc-eng.html" rel="license"
+                >Terms and conditions</a
+              >
+            </li>
+            <li class="gcwu-tr">
+              <a href="/trnsprnc/index-eng.html">Transparency</a>
+            </li>
+          </ul>
+          <div class="row">
+            <section class="col-sm-3">
+              <h3><a href="/bts/index-eng.html">About us</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/whwr/index-eng.html">Our People</a></li>
+                <li>
+                  <a href="/bts/pblctn/index-eng.html"
+                    >Publications and Reports</a
+                  >
+                </li>
+                <li>
+                  <a href="/bts/ctrg/index-eng.html">Acts and Regulations</a>
+                </li>
+                <li><a href="/bts/crr/index-eng.html">Careers</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/bts/nws/index-eng.html">News</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/bts/nws/whtnw/index-eng.html">What's New</a></li>
+                <li><a href="/bts/nws/nr/index-eng.html">News Releases</a></li>
+                <li>
+                  <a href="/bts/nws/spch/index-eng.html"
+                    >Speeches and Presentations</a
+                  >
+                </li>
+                <li><a href="/bts/nws/vds/index-eng.html">Videos</a></li>
+              </ul>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/cntcts/index-eng.html">Contact us</a></h3>
+              <address></address>
+            </section>
+            <section class="col-sm-3">
+              <h3><a href="/glbl/mprtntntc-eng.html#s7">Stay connected</a></h3>
+              <ul class="list-unstyled">
+                <li><a href="/rss/rss-eng.html">RSS Feeds</a></li>
+                <li><a href="https://twitter.com/CER_REC">Twitter</a></li>
+                <li><a href="https://www.facebook.com/CER.REC">Facebook</a></li>
+                <li>
+                  <a href="http://www.youtube.com/nationalenergyboard"
+                    >YouTube</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div id="gc-info">
+        <div class="container">
+          <nav role="navigation">
+            <h2>Government of Canada footer</h2>
+            <ul class="list-inline">
+              <li>
+                <a href="http://healthycanadians.gc.ca"><span>Health</span></a>
+              </li>
+              <li>
+                <a href="http://travel.gc.ca"><span>Travel</span></a>
+              </li>
+              <li>
+                <a href="http://www.servicecanada.gc.ca/eng/home.shtml"
+                  ><span>Service Canada</span></a
+                >
+              </li>
+              <li>
+                <a href="http://www.jobbank.gc.ca"><span>Jobs</span></a>
+              </li>
+              <li>
+                <a href="http://actionplan.gc.ca/en"><span>Economy</span></a>
+              </li>
+              <li>
+                <a href="http://www.canada.ca/en/index.html"
+                  ><span>Canada.ca</span></a
+                >
+              </li>
+              <li id="canada-ca">
+                <a href="http://www.canada.ca/en/index.html"
+                  ><img
+                    src="/Templates/wet4-gcwu/assets/wmms.png"
+                    width="143"
+                    height="34"
+                    alt="Canada.ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!--[if gte IE 9 | !IE]><!-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script> This was moved to wet-scripts.html -->
+    <script src="/Templates/wet4-gcwu/wet-boew/js/wet-boew.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Templates/wet4-gcwu/wet-boew/js/ie8-wet-boew2.min.js"></script>
+    <![endif]-->
+    <script src="/Templates/wet4-gcwu/theme-gcwu-fegc/js/theme.min.js"></script>
+  </body>
+  <!-- InstanceEnd -->
+</html>
